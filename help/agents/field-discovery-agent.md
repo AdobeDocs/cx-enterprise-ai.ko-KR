@@ -31,7 +31,7 @@ Field Discovery Agent를 사용하려면 다음을 수행해야 합니다.
 - 올바른 조직 및 샌드박스
 - 쿼리할 스키마 및 데이터 세트에 대한 액세스
 
-XDM 스키마 및 세그먼테이션 또는 데이터 워크플로우에서 필드를 사용하는 방법에 대한 기본 지식이 결과를 보다 효과적으로 해석하는 데 도움이 됩니다. 자세한 내용은 [XDM 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [스키마 편집기 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui)를 참조하십시오.
+XDM 스키마 및 세그먼테이션 또는 데이터 워크플로우에서 필드를 사용하는 방법에 대한 기본 지식이 결과를 보다 효과적으로 해석하는 데 도움이 됩니다. 자세한 내용은 [XDM 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [스키마 편집기 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/create-schema-ui)를 참조하십시오.
 
 AI Assistant 액세스를 활성화하고 필요한 권한을 부여하는 방법에 대한 지침은 [Agent Orchestrator 액세스 가이드](./agent-orchestrator.md#access)를 참조하십시오.
 
@@ -207,7 +207,7 @@ Field Discovery Agent는 Experience Platform 환경의 스키마 및 메타데�
 - 가능한 경우 필드 설명을 추가합니다.
 - 스키마 전용 정의로 두지 않고 필드를 활성 데이터 세트와 연결합니다.
 
-스키마 편집기의 필드 표시 이름 및 설명 편집에 대한 지침은 [UI에서 스키마 만들기 및 편집](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas)을 참조하십시오.
+스키마 편집기의 필드 표시 이름 및 설명 편집에 대한 지침은 [UI에서 스키마 만들기 및 편집](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas)을 참조하십시오.
 
 스키마 편집 액세스 권한이 없고 결과가 일관되게 좋지 않은 경우 Experience Platform 관리자 또는 데이터 엔지니어링 팀에 문의하여 작업 중인 스키마에 대한 필드 메타데이터를 검토하십시오.
 

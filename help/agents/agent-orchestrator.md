@@ -41,7 +41,7 @@ Agent Orchestrator은 AI Assistant 대화 인터페이스, 의사 결정 및 계
 
 ### AI 어시스턴트 대화형 인터페이스 {#ai-assistant}
 
-AI Assistant는 활성화된 Experience Cloud 애플리케이션을 사용하는 전문가가 GenAI 및 Agentic AI 기능을 활용할 수 있는 지능적인 자연어 대화 경험입니다. 이 기능의 범위는 고객이 라이선스를 부여한 Experience Cloud 애플리케이션에 따라 다릅니다. 액세스 잠금을 해제하려면 [AI 길잡이 액세스 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)를 읽어 보십시오.
+AI Assistant는 활성화된 Experience Cloud 애플리케이션을 사용하는 전문가가 GenAI 및 Agentic AI 기능을 활용할 수 있는 지능적인 자연어 대화 경험입니다. 이 기능의 범위는 고객이 라이선스를 부여한 Experience Cloud 애플리케이션에 따라 다릅니다. 액세스 잠금을 해제하려면 [AI 길잡이 액세스 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access)를 읽어 보십시오.
 
 자세한 내용은 [AI 어시스턴트 UI 안내서](../ai-assistant/ai-assistant-ui.md)를 참조하십시오.
 
@@ -79,9 +79,9 @@ Agent Orchestrator 에코시스템에는 다음 에이전트가 포함됩니다.
 
 모든 사용자는 AI Assistant 및 관련 Experience Platform 에이전트에 액세스할 수 있습니다.
 
-* **Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)을 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다.
+* **Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다.
 
-* **Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다.
+* **Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다.
 
 >[!NOTE]
 >
