@@ -1,0 +1,41 @@
+---
+audience: user
+user-guide-title: Adobe CX Enterprise의 AI Assistant
+user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Platform 및 Real-Time Customer Data Platform을 통해 워크플로를 가속화하는 방법을 알아봅니다.
+description: Experience Cloud의 AI 어시스턴트에 대해 알아봅니다. Experience Cloud의 AI를 활용하여 제품 지식을 향상시키고 운영에 대한 인사이트를 얻습니다.
+solution: Experience Cloud
+role: Admin,User,Developer,Leader
+source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 53%
+
+---
+
+
+# CX Enterprise의 AI {#experience-cloud-ai}
+
+- [Experience Cloud 애플리케이션의 AI](home.md)
+- AI 어시스턴트 {#ai-assistant}
+   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
+   - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
+   - [개인 정보 보호](./ai-assistant/privacy.md)
+   - [법적 면책 조항](./ai-assistant/legal-disclaimer.md)
+- 에이전트 {#agents}
+   - [Agent Orchestrator](./agents/agent-orchestrator.md)
+   - [Audience 에이전트](./agents/audience.md)
+   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+   - [실험 에이전트](./agents/agent-experiment.md)
+   - [필드 검색 에이전트](./agents/field-discovery-agent.md)
+   - [Journey Agent](./agents/ajo-agent.md)
+   - [제품 지원 에이전트](./agents/product-support.md)
+   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+   - [알림 에이전트](./agents/notifications.md)
+   - [에이전트 평가판](./agents/trial.md)
+   - [데이터 유효성 검사](./agents/data-validation.md)
+   - 데이터 엔지니어링 {#data-engineering}
+      - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
+- MCP {#mcp}
+   - [Real-Time CDP Mcp](./mcp/rtcdp-mcp.md)
+- 동료 {#coworker}
+   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)

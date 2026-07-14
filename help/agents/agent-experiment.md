@@ -1,0 +1,135 @@
+---
+title: Experimentation Agent
+description: Experimentation Agent 사용 방법 알아보기
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+workflow-type: tm+mt
+source-wordcount: 555
+ht-degree: 4%
+
+---
+
+# Experimentation Agent
+
+<!--
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+-->
+
+>[!AVAILABILITY]
+>
+>Experimentation Agent은 Journey Optimizer Experimentation Accelerator의 유료 라이선스를 구입한 모든 고객이 사용할 수 있으며 Adobe Target 또는 Adobe Journey Optimizer과 원활하게 통합됩니다.
+>
+>[Journey Optimizer Experimentation Accelerator에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/overview)
+
+## 개요
+
+**Experimentation Agent**&#x200B;은(는) 웹 사이트, 이메일, 푸시 메시지 및 애플리케이션에서 디지털 실험을 실행하고 관리할 수 있는 방법을 현대화한 AI 기반 도구입니다. Adobe Experience Platform AI 플랫폼과 실험 도구를 기반으로 구축된 **Experimentation Agent**&#x200B;은(는) 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여 무엇이 작동했는지, 무엇이 작동하지 않았는지, 다음 실험이 필요한 위치를 강조 표시할 수 있도록 해줍니다.
+
+Experimentation Agent 기능을 완전히 사용하려면 다음 권한을 따르십시오.
+
+* **실험 보기**: 이 권한을 사용하면 Experimentation Agent을 사용하여 AI Assistant에서 직접 실험에 대한 인사이트를 볼 수 있습니다.
+
+* **실험 메타데이터 관리**: 이 권한을 사용하면 Experimentation Agent을 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
+
+➡️ [Journey Optimizer Experimentation Accelerator 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+
+Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공합니다.
+
+* **성능**: 실험에서 발생한 내용에 대한 명확한 보기
+
+* **인사이트**: 결과가 발생한 이유에 대한 설명
+
+* **기회**: 수행할 다음 작업에 대한 지침
+
+![Experimentation Agent용 샘플](./images/experiment/experiment-agent.png)
+
+## 사용 사례
+
+Experimentation Agent은 결과를 분석하고, 콘텐츠를 해석하고, 다음 단계를 제안하여 실험 워크플로의 각 단계를 향상시킵니다.
+
+이 기능은 다음 5가지 주요 기능으로 그룹화할 수 있습니다.
+
+* **실험 요약**
+
+  이해 당사자를 위한 실험 결과에 대한 명확하고 비기술적 개요를 제공하십시오.
+
+* **콘텐츠 분석**
+
+  특정 치료가 다른 치료보다 뛰어난 이유를 이해하기 위해 메시지 또는 창의적인 치료 요소를 검사합니다.
+
+* **특성 식별**
+
+  테마, 색조, 형식 등의 주요 특성별로 처리를 분류하고 이러한 특성을 전환 결과에 연결합니다.
+
+* **추천 생성**
+
+  이전 실험의 통찰력을 기반으로 새로운 치료 또는 테스트 조정을 제안합니다.
+
+* **기회**
+
+  더 넓은 영역 또는 실험의 새로운 각도를 식별하여 활용되지 않은 잠재력을 찾아냅니다.
+
+## 범위 내 및 범위 외 기능
+
+### **범위 내**
+
+현재 지원되는 기능은 다음과 같습니다.
+
+* 성능
+* 인사이트
+* 기회
+
+### **범위 외**
+
+현재 다음 기능은 지원되지 않습니다.
+
+* 실험 만들기 또는 편집
+* 사용 사례 보고를 위해 여러 지표 사용
+
+## 샘플 프롬프트
+
+다음은 Experimentation Agent을 시작하는 데 도움이 되는 프롬프트 샘플 목록입니다.
+
+### 일반 질문
+
+| 프롬프트 |
+|-|
+| 어떤 실험이 실행되고 있습니까? |
+| `<campaign name>`에 대해 실행 중인 실험은 무엇입니까? |
+| 지난 달에 시작된 실험은 무엇입니까? |
+| 지난 1년 동안 얼마나 많은 실험이 종료되었습니까? |
+| 현재 일시 중지/중지/기타 실험 |
+| 최근 테스트에서 나타나는 일반적인 패턴은 무엇입니까? |
+| 지난 분기의 평균 실험 기간은 얼마입니까? |
+
+### 성능 관련 질문
+
+| 프롬프트 |
+|-|
+| 내 `<experiment name>`의 경우 어떤 치료가 선행됩니까? |
+| `<experiment name>`의 상승도는 얼마입니까? |
+| 통계적으로 유의미한 결과를 얻은 실험은 무엇입니까? |
+| 전환율이 가장 높았던 실험은 무엇입니까? |
+
+### Insights 질문
+
+| 프롬프트 |
+|-|
+| `<experiment name>` 테스트란? ? |
+| `<experiment name>`에서 무엇을 배웠습니까? |
+| A치료비가 왜 이겼는지 말해 줄 수 있나요? |
+| 우수성이 검증된 변형의 트렌드는 무엇입니까? |
+| 최근 테스트에서 나타나는 일반적인 패턴은 무엇입니까? |
+| `<experiment name>`에서 예기치 않은 오류가 발생했습니까? |
+
+### 영업 기회 질문
+
+| 프롬프트 |
+|-|
+| 이 실험 후에 다음에 무엇을 하기를 추천합니까? |
+| `<experiment name>`을(를) 개선할 방법이 있습니까? |
+| `<experiment name>` 이후 더 명확해진 영업 기회는 무엇입니까? |
+| `<experiment name>`에서 가설을 증명하기 위해 다음으로 테스트할 수 있는 것은 무엇입니까? |
+| 구현해야 하는 추가 사용 사례는 무엇입니까? |
