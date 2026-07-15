@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 # 제품 지원 에이전트
 
 <!--
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
+TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ%2D%2D%2DMdK7JzOKF4EzJra3mZjNhpwZ-o
 -->
 
 제품 지원 에이전트는 Adobe Experience Platform 기능 및 애플리케이션에 사용할 수 있는 AI Assistant의 셀프서비스 디버깅 및 문제 해결 기능입니다.
