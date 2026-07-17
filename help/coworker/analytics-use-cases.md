@@ -2,10 +2,10 @@
 title: Coworker를 사용하여 Customer Journey Analytics 데이터 분석 수행
 description: Coworker를 사용하여 Customer Journey Analytics 데이터 분석을 수행하는 방법에 대해 알아봅니다.
 hold: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 5%
+source-wordcount: '1865'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 >
 >이 문서에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있을 때 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/releases/latest)를 참조하십시오.
 
-Adobe CX Enterprise Coworker Chat 은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. 동료 채팅은 Customer Journey Analytics 데이터 보기에서 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.
+Adobe CX Enterprise Coworker Chat 은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. Coworker Chat은 Customer Journey Analytics 데이터 보기에서 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.
 
-분석을 시작하기 전에 CX 엔터프라이즈 계정에 로그인하여 동료 채팅에 액세스한 다음 Customer Journey Analytics MCP 서버가 연결되어 있는지 확인하십시오.
+분석을 시작하기 전에 CX Enterprise 계정에 로그인하여 Coworker Chat에 액세스한 다음 Customer Journey Analytics MCP 서버가 연결되어 있는지 확인합니다.
 
 ## 동료 채팅 액세스
 
@@ -25,29 +25,25 @@ Adobe CX Enterprise Coworker Chat 은 이전에 Analysis Workspace에서만 가�
 
 1. Adobe ID 자격 증명을 사용하여 [Adobe CX Enterprise](https://experience.adobe.com)에 로그인합니다.
 
-1. 그럼 뭐?
+1. CX 엔터프라이즈 제품 선택기에서 [!UICONTROL **Coworker**]&#x200B;을(를) 선택합니다. <!--not sure what this step should say-->
 
-## Customer Journey Analytics MCP 서버 연결
+1. Coworker에서 Coworker가 Customer Journey Analytics에 연결되어 있는지 확인합니다.
 
-1. 동료에서 왼쪽 레일에 있는 MCP 아이콘을 선택합니다.
+   1. 왼쪽 레일에서 MCP 아이콘을 선택한 다음 연결된 MCP 서버 목록에서 [!UICONTROL **cja-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오.
 
-   ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](images/data-validation-aa-cja/coworker-mcp.png)
+      ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. 연결된 MCP 서버 목록에서 [!UICONTROL **cja-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오.
-
-   ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. (조건부) [!UICONTROL **cja-mcp**]&#x200B;이(가) 아직 연결되지 않은 경우 [!UICONTROL **MCP 서버 추가**]&#x200B;를 선택하고 [!UICONTROL **서버 이름**] 필드에 cja를 지정한 다음 표시될 때 선택한 다음 [!UICONTROL **서버 추가**]&#x200B;를 선택합니다.
+   1. (조건부) [!UICONTROL **cja-mcp**]&#x200B;이(가) 아직 연결되지 않은 경우 [!UICONTROL **MCP 서버 추가**]&#x200B;를 선택하고 [!UICONTROL **서버 이름**] 필드에 cja를 지정한 다음 표시될 때 선택한 다음 [!UICONTROL **서버 추가**]&#x200B;를 선택합니다.
 
 ## 올바른 데이터 보기에 연결
-
-<!--I did this. Do users need to?-->
 
 데이터 보기는 데이터를 해석하는 방법을 결정하는 Customer Journey Analytics의 컨테이너입니다.
 
 Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있으며 각 데이터 보기에는 Coworker에서 데이터를 분석할 때 사용할 수 있는 다양한 차원과 지표가 포함되어 있습니다.
 
-답변할 질문 유형을 동료에게 알려 주고 해당 정보를 제공하는 데 가장 적합한 액세스 권한을 가진 데이터 보기를 질문합니다.
+### 사용할 데이터 보기 결정
+
+답변할 질문 유형을 동료에게 알려 주고 해당 정보를 제공하는 데 가장 적합한 액세스 권한을 가진 데이터 보기를 질문합니다. [데이터 보기를 메모리의 기본 설정으로 설정](#add-a-data-view-preference-in-memory)할 수도 있습니다.
 
 **사용자:**
 
@@ -80,6 +76,16 @@ Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있
 이 채팅 세션에서 향후 질문에 답변할 수 있도록 `Customer lifecycle` 데이터 보기를 사용합니다.
 
 >[!ENDSHADEBOX]
+
+### 메모리에 데이터 보기 환경 설정 추가
+
+동료 채팅에는 모든 채팅에 적용되는 정보에 액세스할 수 있는 메모리 기능이 포함되어 있습니다. 선호하는 데이터 보기를 동료의 메모리에 환경 설정으로 추가하는 것이 좋습니다.
+
+1. 동료 채팅의 왼쪽 탐색 메뉴에서 메모리 아이콘을 선택합니다.
+
+1. 메모리 페이지의 저장된 환경 설정 섹션에서 Coworker Chat이 채팅에 사용할 데이터 보기를 하나 이상 지정합니다.
+
+   ![왼쪽 레일의 메모리 섹션](images/data-validation-aa-cja/coworker-memory.png)
 
 ## 사용 사례: 고객이 드롭오프하는 위치 찾기
 
