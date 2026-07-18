@@ -1,41 +1,55 @@
 ---
 audience: user
-user-guide-title: Adobe CX Enterprise의 AI Assistant
+user-guide-title: Adobe Experience Cloud의 AI 지원
 user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Platform 및 Real-Time Customer Data Platform을 통해 워크플로를 가속화하는 방법을 알아봅니다.
 description: Experience Cloud의 AI 어시스턴트에 대해 알아봅니다. Experience Cloud의 AI를 활용하여 제품 지식을 향상시키고 운영에 대한 인사이트를 얻습니다.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 53%
+source-wordcount: '182'
+ht-degree: 34%
 
 ---
 
 
-# CX Enterprise의 AI {#experience-cloud-ai}
+# Experience Cloud의 AI {#experience-cloud-ai}
 
 - [Experience Cloud 애플리케이션의 AI](home.md)
 - AI 어시스턴트 {#ai-assistant}
-   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
-   - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
-   - [개인 정보 보호](./ai-assistant/privacy.md)
-   - [법적 면책 조항](./ai-assistant/legal-disclaimer.md)
+  - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
+  - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
+  - [개인 정보 보호](./ai-assistant/privacy.md)
+  - [법적 면책 조항](./ai-assistant/legal-disclaimer.md)
 - 에이전트 {#agents}
-   - [Agent Orchestrator](./agents/agent-orchestrator.md)
-   - [Audience 에이전트](./agents/audience.md)
-   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
-   - [실험 에이전트](./agents/agent-experiment.md)
-   - [필드 검색 에이전트](./agents/field-discovery-agent.md)
-   - [Journey Agent](./agents/ajo-agent.md)
-   - [제품 지원 에이전트](./agents/product-support.md)
-   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
-   - [알림 에이전트](./agents/notifications.md)
-   - [에이전트 평가판](./agents/trial.md)
-   - [데이터 유효성 검사](./agents/data-validation.md)
-   - 데이터 엔지니어링 {#data-engineering}
-      - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
+  - [Agent Orchestrator](./agents/agent-orchestrator.md)
+  - [Audience 에이전트](./agents/audience.md)
+  - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [실험 에이전트](./agents/agent-experiment.md)
+  - [필드 검색 에이전트](./agents/field-discovery-agent.md)
+  - [Journey Agent](./agents/ajo-agent.md)
+  - [제품 지원 에이전트](./agents/product-support.md)
+  - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+  - [알림 에이전트](./agents/notifications.md)
+  - [CX Enterprise Coworker 평가판](./agents/trial.md)
+  - [데이터 유효성 검사](./agents/data-validation.md)
+  - 데이터 엔지니어링 {#data-engineering}
+    - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-   - [Real-Time CDP Mcp](./mcp/rtcdp-mcp.md)
+  - [Adobe CX Coworker 게이트웨이](./mcp/overview.md)
+  - {hide-from-toc}[Real-Time CDP MCP 베타](./mcp/beta/rtcdp-mcp.md)
+  - 시작하기 {#mcp-get-started}
+    - [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md)
+    - [CX Coworker Gateway 설치](./mcp/install.md)
+    - [CX Coworker 게이트웨이의 세션 컨텍스트 툴](./mcp/context-tools.md)
+  - 제품 도구 {#mcp-product-tools}
+    - [Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
+    - [Experience Platform 도구](./mcp/aep-mcp.md)
+    - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
+    - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
+    - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 동료 {#coworker}
-   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[AA에서 CJA으로의 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
+  - {hide-from-toc}[전환 감소 분석](./coworker/analytics-use-cases.md)
