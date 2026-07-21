@@ -2,7 +2,7 @@
 title: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사
 description: Analytics 관리자가 CX Enterprise Coworker 데이터 유효성 검사 기술을 사용하여 업그레이드 중에 Adobe Analytics 및 Customer Journey Analytics 데이터를 비교하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
 
 CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터의 유효성을 검사할 수 있는 유효성 검사 기술이 포함되어 있습니다. 데이터 유효성 검사는 단일 대화 내에서 완료됩니다.
 
@@ -89,10 +89,10 @@ CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analytics으
 
    | 점수 | 등급 | 의미 |
    |---------|----------|----------|
-   | 97%-100% | ![녹색 사각형](./images/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 훌륭함] | 모든 속성은 고도로 정렬되어 있습니다. 필요한 작업이 없습니다. |
-   | 90%-96% | ![노란색 원](./images/data-validation-aa-cja/good-circle.svg) [!UICONTROL 양호] | 약간의 간격이 있습니다. 트렌드를 모니터링하고 감소 여부를 조사합니다. |
-   | 75%-89% | ![주황색 원](./images/data-validation-aa-cja/review-circle.svg) [!UICONTROL 검토] | 의미 있는 격차가 존재합니다. Customer Journey Analytics 데이터에 의존하기 전에 근본 원인을 조사합니다. |
-   | 75% 미만 | ![빨간색 원](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 부족] | 심각한 오정렬. Customer Journey Analytics 데이터를 사용하기 전에 즉각적인 조치를 취하십시오. |
+   | 97%-100% | ![녹색 사각형](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 훌륭함] | 모든 속성은 고도로 정렬되어 있습니다. 필요한 작업이 없습니다. |
+   | 90%-96% | ![노란색 원](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 양호] | 약간의 간격이 있습니다. 트렌드를 모니터링하고 감소 여부를 조사합니다. |
+   | 75%-89% | ![주황색 원](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL 검토] | 의미 있는 격차가 존재합니다. Customer Journey Analytics 데이터에 의존하기 전에 근본 원인을 조사합니다. |
+   | 75% 미만 | ![빨간색 원](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 부족] | 심각한 오정렬. Customer Journey Analytics 데이터를 사용하기 전에 즉각적인 조치를 취하십시오. |
 
 1. 분석 결과 하나를 한 문장으로 요약한 짧은 콜아웃 상자를 2~4개 보려면 [!UICONTROL **주요 인사이트**] 탭을 선택하십시오. 설명선은 심각도별로 색상 코딩되므로 가장 중요한 결과를 먼저 발견할 수 있습니다.
 
@@ -102,23 +102,23 @@ CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analytics으
 
    지표의 경우 일별 트렌드를 비교하는 선 차트입니다.
 
-   ![꺾은선형 차트를 표시하는 일별 트렌드 탭](./images/data-validation-aa-cja/trend-line.png)
+   ![꺾은선형 차트를 표시하는 일별 트렌드 탭](./assets/data-validation-aa-cja/trend-line.png)
 
    차원의 경우 상위 값을 비교하는 막대 차트입니다.
 
-   ![가로 막대형 차트를 표시하는 일별 트렌드 탭](./images/data-validation-aa-cja/trend-bar.png)
+   ![가로 막대형 차트를 표시하는 일별 트렌드 탭](./assets/data-validation-aa-cja/trend-bar.png)
 
 1. (조건부) 단일 차원 비교 또는 단일 지표 비교를 수행할 때 [!UICONTROL **날짜 세부 정보**] 탭에서 행 수준 세부 정보를 볼 수 있습니다. 이 표에는 비교된 각 지표 또는 차원 값에 대한 날짜, Adobe Analytics 값, Customer Journey Analytics 값, 차이 백분율 및 상태 배지가 나열되어 있습니다.
 
-   ![변량 백분율 및 상태 배지 테이블을 표시하는 날짜 세부 정보 탭](./images/data-validation-aa-cja/date-detail.png)
+   ![변량 백분율 및 상태 배지 테이블을 표시하는 날짜 세부 정보 탭](./assets/data-validation-aa-cja/date-detail.png)
 
    차이 및 상태 열에는 다음 배율이 사용됩니다.
 
    | 분산 | 상태 | 의미 |
    |---------|----------|----------|
-   | 3% 미만 | ![녹색 확인 표시](./images/data-validation-aa-cja/pass-check.svg) [!UICONTROL 통과] | 데이터가 잘 정렬되어 있습니다. 필요한 작업이 없습니다. |
-   | 3%-10% | ![노란색 경고 삼각형](./images/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 플래그] | 차이를 모니터링하고 지속되거나 악화되는지 조사합니다. |
-   | 10% 이상 | ![빨간색 원](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 중요] | 즉시 조사하라 이는 일반적으로 스키마, 수집 또는 매핑 문제를 가리킵니다. |
+   | 3% 미만 | ![녹색 확인 표시](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 통과] | 데이터가 잘 정렬되어 있습니다. 필요한 작업이 없습니다. |
+   | 3%-10% | ![노란색 경고 삼각형](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 플래그] | 차이를 모니터링하고 지속되거나 악화되는지 조사합니다. |
+   | 10% 이상 | ![빨간색 원](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 중요] | 즉시 조사하라 이는 일반적으로 스키마, 수집 또는 매핑 문제를 가리킵니다. |
 
 1. (조건부) 전체 보고서 세트 및 데이터 보기 감사를 실행할 때 [!UICONTROL **일별 트렌드**] 및 [!UICONTROL **일별 세부 정보**] 탭은 합격, 플래그 지정 및 중요 카운트를 표시하는 스코어카드와 함께 가장 일치하는 상위 5개 지표 및 가장 일치하는 상위 5개 지표 및 차원을 나열하는 별도의 테이블로 바뀝니다.
 
@@ -142,5 +142,5 @@ CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analytics으
 
 1. (선택 사항) [확인할 데이터 선택](#choose-the-data-to-validate)에 설명된 대로 다른 지표를 분석하거나 다른 차원을 분석하거나 최대 40개의 지표와 20개의 차원으로 구성된 다른 보고서를 실행하여 분석을 계속합니다. 회사, 보고서 세트 및 데이터 보기 선택 사항이 대화 전체에서 수행되도록 설정 프로세스를 반복할 필요는 없습니다.
 
-1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다. Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.
+1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다. Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.
 

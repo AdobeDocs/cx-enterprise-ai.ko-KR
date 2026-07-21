@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Adobe Marketing Agent for Microsoft 365 Copilot을 사용하는 방법을 알아봅니다.
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 - [!DNL Microsoft 365]&#x200B;([!DNL Microsoft Teams] 또는 [!DNL Microsoft Copilot Chat] 포함).
 - Experience Platform 및 Real-Time CDP, Adobe Journey Optimizer 및/또는 Customer Journey Analytics 중 하나 이상.
 - Experience Platform Agent Orchestrator 및 에이전트에 대한 권한.
-- 사용하는 솔루션 및 데이터에 대한 조직의 Adobe Experience Cloud 계정(로그인 및 제품 권한)에 액세스합니다. Adobe 액세스 권한이 없는 경우 Adobe 관리자에게 문의하십시오.
+- 사용하는 솔루션 및 데이터에 대한 조직의 Adobe CX 엔터프라이즈 계정(로그인 및 제품 권한)에 액세스합니다. Adobe 액세스 권한이 없는 경우 Adobe 관리자에게 문의하십시오.
 
 ## 조직에 대해 에이전트 활성화 {#enable-the-agent-for-your-organization}
 
@@ -67,45 +67,45 @@ ht-degree: 0%
 
 조직에서 에이전트를 활성화한 후([조직에 대해 에이전트 활성화](#enable-the-agent-for-your-organization) 참조), 선택한 응용 프로그램에서 [!DNL Microsoft 365 Copilot]&#x200B;(으)로 이동한 후 왼쪽 탐색 모드를 사용하여 **[!DNL All Agents]**&#x200B;을(를) 선택합니다.
 
-![Microsoft 365 Copilot이 모든 에이전트를 선택하고 탐색을 남겼습니다.](../agents/images/ama/all-agents.png)
+![Microsoft 365 Copilot이 모든 에이전트를 선택하고 탐색을 남겼습니다.](../agents/assets/ama/all-agents.png)
 
 [!DNL Adobe Marketing Agent]에 대한 카드를 찾거나 검색 창을 사용하여 에이전트를 수동으로 찾습니다. 에이전트가 있으면 카드를 선택합니다.
 
-![에이전트 갤러리의 Adobe Marketing Agent 카드 또는 검색 결과.](../agents/images/ama/select-ama.png)
+![에이전트 갤러리의 Adobe Marketing Agent 카드 또는 검색 결과.](../agents/assets/ama/select-ama.png)
 
 팝업 창에서 에이전트에 대해 자세히 알아보십시오. 준비가 되면 **[!DNL Add]**&#x200B;을(를) 선택합니다.
 
-![[추가] 버튼이 강조 표시된 Adobe Marketing Agent 세부 정보 팝업.](../agents/images/ama/add-ama.png)
+![[추가] 버튼이 강조 표시된 Adobe Marketing Agent 세부 정보 팝업.](../agents/assets/ama/add-ama.png)
 
 [!DNL Microsoft 365 Copilot] 대시보드는 이제 기본 페이지에서 [!DNL Adobe Marketing Agent] 브랜딩으로 업데이트됩니다.
 
-![기본 대시보드에 Adobe Marketing Agent을 표시하는 Microsoft 365 Copilot 홈 페이지입니다.](../agents/images/ama/home.png)
+![기본 대시보드에 Adobe Marketing Agent을 표시하는 Microsoft 365 Copilot 홈 페이지입니다.](../agents/assets/ama/home.png)
 
 ### 로그인 및 컨텍스트 설정
 
 그런 다음 에이전트에 로그인하라는 메시지를 표시하고 계정을 인증하는 데 필요한 다음 단계를 수행합니다. 이 단계에서는 에이전트가 반환하는 숫자 코드를 복사한 다음 Adobe 조직에 로그인해야 합니다. 로그인을 완료할 수 없거나 조직의 Adobe 솔루션에 대한 액세스 권한이 부족한 경우 **Adobe 관리자**&#x200B;에게 문의하십시오.
 
-![Adobe 로그인 단계에서 복사할 숫자 코드와 Adobe 조직에 인증하는 지침을 보여 줍니다.](../agents/images/ama/sign-in.png)
+![Adobe 로그인 단계에서 복사할 숫자 코드와 Adobe 조직에 인증하는 지침을 보여 줍니다.](../agents/assets/ama/sign-in.png)
 
 성공하면 컨텍스트 설정기를 사용하여 쿼리에 사용할 문서 소스, 샌드박스 및 데이터 보기를 설정합니다.
 
-![쿼리에 대한 문서 원본, 샌드박스 및 데이터 보기를 선택하는 컨텍스트 설정자 UI입니다.](../agents/images/ama/context.png)
+![쿼리에 대한 문서 원본, 샌드박스 및 데이터 보기를 선택하는 컨텍스트 설정자 UI입니다.](../agents/assets/ama/context.png)
 
 ### 에이전트를 사용하여 운영 인사이트 검색
 
 로그인하고 나면 기본 페이지에 제공된 프롬프트를 사용하여 시작할 수 있습니다. 마케팅 대상 분석, 캠페인 성과 검토 및 캠페인 여정 모니터링으로 분기할 수 있는 시작 프롬프트를 활용할 수도 있습니다. 예를 들어 **[!DNL Review campaign performance]**&#x200B;을(를) 선택한 다음 **[!DNL Analyze engagement - Show web visitors for top 10 products last week]**&#x200B;을(를) 선택합니다.
 
-![Starter가 캠페인 성과 검토 및 참여 분석 옵션을 포함하여 에이전트 홈 페이지에 메시지를 표시합니다.](../agents/images/ama/starter-guide.png)
+![Starter가 캠페인 성과 검토 및 참여 분석 옵션을 포함하여 에이전트 홈 페이지에 메시지를 표시합니다.](../agents/assets/ama/starter-guide.png)
 
 잠시 동안 에이전트가 계산하고 에이전트가 시각화된 데이터 표현으로 응답합니다. 표시된 막대 차트를 사용하거나 **[!DNL View data]**&#x200B;을(를) 선택하여 테이블의 데이터를 볼 수 있습니다.
 
-![최상위 제품 및 데이터 보기 옵션에 대한 웹 방문자를 시각화하는 막대 차트의 에이전트 응답입니다.](../agents/images/ama/response.png)
+![최상위 제품 및 데이터 보기 옵션에 대한 웹 방문자를 시각화하는 막대 차트의 에이전트 응답입니다.](../agents/assets/ama/response.png)
 
-![데이터 보기를 선택한 후 동일한 인사이트가 데이터 테이블로 표시됩니다.](../agents/images/ama/tables.png)
+![데이터 보기를 선택한 후 동일한 인사이트가 데이터 테이블로 표시됩니다.](../agents/assets/ama/tables.png)
 
 에이전트가 권장하는 후속 질문을 선택하여 추가로 조사할 수 있습니다. 또는 다른 시작 프롬프트를 피벗하여 시도하거나, 에이전트가 참조한 정보 소스를 확인하거나, 피드백 메커니즘을 사용하여 피드백을 제공할 수 있습니다.
 
-![추가 조사를 위해 에이전트의 응답 아래에 제안된 추가 질문입니다.](../agents/images/ama/follow-up.png)
+![추가 조사를 위해 에이전트의 응답 아래에 제안된 추가 질문입니다.](../agents/assets/ama/follow-up.png)
 
 AI Assistant UI 기능에 대한 자세한 내용은 [AI Assistant 사용](../ai-assistant/ai-assistant-ui.md)에 대한 안내서를 참조하십시오.
 
@@ -125,7 +125,7 @@ Adobe Marketing Agent은 Experience Platform 및 [!DNL Microsoft 365]에 적용�
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent은 제출된 프롬프트에 따라 다양한 Adobe 에이전트 및 작업을 호출합니다. 호출되는 이 기본 Adobe 에이전트는 [Adobe Experience Platform 에이전트 작업 및 AI 크레딧 사용량](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/ai-credit-consumption) 페이지에 표시된 대로 AI 크레딧을 사용합니다.
+>Adobe Marketing Agent은 제출된 프롬프트에 따라 다양한 Adobe 에이전트 및 작업을 호출합니다. 호출되는 이 기본 Adobe 에이전트는 [Adobe Experience Platform 에이전트 작업 및 AI 크레딧 사용량](../overview/ai-credit-consumption.md) 페이지에 표시된 대로 AI 크레딧을 사용합니다.
 
 ## 부록
 

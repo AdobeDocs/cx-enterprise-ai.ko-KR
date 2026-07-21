@@ -2,24 +2,13 @@
 title: Adobe Experience Platform Agent Orchestrator
 description: Adobe Experience Platform Agent Orchestrator에 대해 알아봅니다.
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 966
-ht-degree: 20%
+source-wordcount: 956
+ht-degree: 19%
 
 ---
 
@@ -37,11 +26,11 @@ Agent Orchestrator에 대해 알아보려면 이 문서를 참조하십시오.
 
 Agent Orchestrator은 AI Assistant 대화 인터페이스, 의사 결정 및 계획을 위한 추론 엔진, 전문 Adobe Experience Platform 에이전트 및 관련 정보에 대한 액세스를 제공하는 기술 자료 등 여러 주요 구성 요소로 구성됩니다.
 
-![Agent Orchestrator의 마케팅 아키텍처입니다.](./images/agent-orchestrator/agentic-architecture.png)
+![Agent Orchestrator의 마케팅 아키텍처입니다.](./assets/agent-orchestrator/agentic-architecture.png)
 
 ### AI 어시스턴트 대화형 인터페이스 {#ai-assistant}
 
-AI Assistant는 활성화된 Experience Cloud 애플리케이션을 사용하는 전문가가 GenAI 및 Agentic AI 기능을 활용할 수 있는 지능적인 자연어 대화 경험입니다. 이 기능의 범위는 고객이 라이선스를 부여한 Experience Cloud 애플리케이션에 따라 다릅니다. 액세스 잠금을 해제하려면 [AI 길잡이 액세스 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access)를 읽어 보십시오.
+AI Assistant는 CX 엔터프라이즈 애플리케이션을 사용하는 전문가가 GenAI 및 Agentic AI 기능을 활용할 수 있는 지능적인 자연어 대화 환경이며, 그 범위는 고객이 라이센스를 구입한 CX 엔터프라이즈 애플리케이션에 따라 다릅니다. 액세스 잠금을 해제하려면 [AI 길잡이 액세스 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)를 읽어 보십시오.
 
 자세한 내용은 [AI 어시스턴트 UI 안내서](../ai-assistant/ai-assistant-ui.md)를 참조하십시오.
 
@@ -51,7 +40,7 @@ AI Assistant는 활성화된 Experience Cloud 애플리케이션을 사용하는
 
 ### Adobe Experience Platform 에이전트 {#agents}
 
-Adobe Experience Platform 에이전트는 고객 경험 도메인에서 공통 작업을 제공하는 데 숙련된 AI 에이전트의 특별히 빌드된 그룹입니다. 다음은 현재 Experience Cloud 애플리케이션에서 사용할 수 있는 Adobe Experience Platform 에이전트 목록입니다.
+Adobe Experience Platform 에이전트는 고객 경험 도메인에서 공통 작업을 제공하는 데 숙련된 AI 에이전트의 특별히 빌드된 그룹입니다. 다음은 현재 CX 엔터프라이즈 애플리케이션에서 사용할 수 있는 Adobe Experience Platform 에이전트 목록입니다.
 
 | 에이전트 | 세부 사항 | 지원되는 애플리케이션 |
 | --- | --- | --- |
@@ -61,7 +50,7 @@ Adobe Experience Platform 에이전트는 고객 경험 도메인에서 공통 �
 | [Journey Agent](./ajo-agent.md) | Journey Agent을 사용하면 Adobe Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 만들고, 분석하고, 최적화할 수 있습니다. Journey Agent을 사용하면 여정을 신속하게 구축하고, 일정 또는 대상 충돌을 감지하고 해결하고, 성과 및 중단점을 분석하고, 향후 캠페인을 위해 복제할 최고 성능의 여정을 식별할 수 있습니다. 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다. | Adobe Journey Optimizer |
 | [제품 지원 에이전트](product-support.md) | 제품 지원 에이전트는 워크플로우를 종료하지 않고 Adobe Experience Platform 기능 및 응용 프로그램의 문제를 해결하는 데 도움이 되는 셀프서비스 디버깅 및 문제 해결 기능입니다. 지원 관리자는 AI Assistant 상호 작용의 컨텍스트가 있는 고객 지원 티켓을 생성할 수 있으며 AI Assistant를 통해 티켓 업데이트를 확인할 수 있습니다. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-Experience Cloud 애플리케이션의 에이전트 가용성에 대한 자세한 내용은 Experience Cloud의 [Agentic AI 설명서](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/agentic-ai)를 참조하십시오.
+CX 엔터프라이즈 애플리케이션에서 에이전트의 가용성에 대한 자세한 내용은 [CX 엔터프라이즈 문서의 Agentic AI](../overview/agentic-ai.md)를 참조하십시오.
 
 ### 기술 자료 {#knowledge-base}
 
@@ -79,9 +68,9 @@ Agent Orchestrator 에코시스템에는 다음 에이전트가 포함됩니다.
 
 모든 사용자는 AI Assistant 및 관련 Experience Platform 에이전트에 액세스할 수 있습니다.
 
-* **Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다.
+* **Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)을 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다.
 
-* **Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다.
+* **Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다.
 
 >[!NOTE]
 >

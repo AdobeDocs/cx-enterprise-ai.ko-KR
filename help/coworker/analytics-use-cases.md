@@ -2,7 +2,7 @@
 title: Coworker를 사용하여 Customer Journey Analytics 데이터 분석 수행
 description: Coworker를 사용하여 Customer Journey Analytics 데이터 분석을 수행하는 방법에 대해 알아봅니다.
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Adobe CX Enterprise Coworker Chat 은 이전에 Analysis Workspace에서만 가�
 
    1. 왼쪽 레일에서 MCP 아이콘을 선택한 다음 연결된 MCP 서버 목록에서 [!UICONTROL **cja-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오.
 
-      ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. (조건부) [!UICONTROL **cja-mcp**]&#x200B;이(가) 아직 연결되지 않은 경우 [!UICONTROL **MCP 서버 추가**]&#x200B;를 선택하고 [!UICONTROL **서버 이름**] 필드에 cja를 지정한 다음 표시될 때 선택한 다음 [!UICONTROL **서버 추가**]&#x200B;를 선택합니다.
 
@@ -85,7 +85,7 @@ Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있
 
 1. 메모리 페이지의 저장된 환경 설정 섹션에서 Coworker Chat이 채팅에 사용할 데이터 보기를 하나 이상 지정합니다.
 
-   ![왼쪽 레일의 메모리 섹션](images/data-validation-aa-cja/coworker-memory.png)
+   ![왼쪽 레일의 메모리 섹션](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## 사용 사례: 고객이 드롭오프하는 위치 찾기
 
@@ -125,7 +125,7 @@ Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있
 
 >[!BEGINSHADEBOX]
 
-![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](images/data-validation-aa-cja/coworker-funnel-response.png)
+![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 funnel 질문입니다. 전환 funnel을 실행하여 구매 경로에서 드롭오프가 발생하는 위치를 확인할 수 있습니다.
 
@@ -176,7 +176,7 @@ funnel 질문입니다. 전환 funnel을 실행하여 구매 경로에서 드롭
 
 >[!BEGINSHADEBOX]
 
-![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 사용자 지정 **마케팅 채널** 차원이 있습니다. 이를 통해 funnel을 가져온 다음 채널별 전환율을 계산하고 각 채널이 누출되는 위치를 식별하겠습니다.
 
@@ -227,7 +227,7 @@ funnel 질문입니다. 전환 funnel을 실행하여 구매 경로에서 드롭
 
 >[!BEGINSHADEBOX]
 
-![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **찾음: 모바일 체크 아웃이 끊어졌습니다**
 

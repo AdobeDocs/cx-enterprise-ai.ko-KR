@@ -1,18 +1,10 @@
 ---
 title: Experimentation Agent
 description: Experimentation Agent 사용 방법 알아보기
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
@@ -41,7 +33,7 @@ Experimentation Agent 기능을 완전히 사용하려면 다음 권한을 따�
 
 * **실험 메타데이터 관리**: 이 권한을 사용하면 Experimentation Agent을 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
 
-➡️ [Journey Optimizer Experimentation Accelerator 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Journey Optimizer Experimentation Accelerator 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공합니다.
 
@@ -51,7 +43,7 @@ Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공
 
 * **기회**: 수행할 다음 작업에 대한 지침
 
-![Experimentation Agent용 샘플](./images/experiment/experiment-agent.png)
+![Experimentation Agent용 샘플](./assets/experiment/experiment-agent.png)
 
 ## 사용 사례
 
