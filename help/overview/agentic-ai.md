@@ -10,7 +10,8 @@ role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
 source-git-commit: 1da893e900542a62e836250d9b38464016734740
 workflow-type: tm+mt
 source-wordcount: 1149
