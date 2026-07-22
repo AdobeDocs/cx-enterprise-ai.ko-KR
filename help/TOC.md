@@ -5,8 +5,7 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-dummy: true
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 22%
@@ -55,7 +54,7 @@ ht-degree: 22%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 동료 {#coworker}
   - [동료 캠페인](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
   - [동료 채팅](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
