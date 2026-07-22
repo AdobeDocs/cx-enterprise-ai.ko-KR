@@ -4,10 +4,10 @@ description: 세그먼테이션, 쿼리 및 데이터 워크플로우에 대한 
 keywords: 필드 검색, XDM, AI Assistant, Experience Platform 에이전트, 엔티티 연결, 필드 권장 사항, 대상 만들기, 세그멘테이션
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 0%
+source-wordcount: '3367'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Field Discovery Agent는 각 쿼리에 대한 구조화된 결과 세트를 반�
 - **[!UICONTROL 관련성]** — 필드에 지정된 관련성 레이블(**[!UICONTROL 높은 관련성]**, **[!UICONTROL 보통 관련성]** 또는 **[!UICONTROL 관련]**)
 - **[!UICONTROL 사용 컨텍스트]** - 데이터 에코시스템에서 필드가 표시되는 위치를 보여 주는 링크입니다. 필드가 사용되는 위치를 보여 주는 사이드 패널을 열려면 **[!UICONTROL 대상]**, **[!UICONTROL 데이터 세트]**, **[!UICONTROL 대상]** 또는 **[!UICONTROL 스키마]**&#x200B;을 선택하십시오.
 
-![AI Assistant에서 확인된 필드 패널로서, 관련성 레이블 및 사용 컨텍스트 링크가 있는 후보 필드 행을 표시합니다.](./images/field-discovery/fields-identified-panel-in-chat.png)
+![AI Assistant에서 확인된 필드 패널로서, 관련성 레이블 및 사용 컨텍스트 링크가 있는 후보 필드 행을 표시합니다.](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 **[!UICONTROL 설명된 결과]** 섹션은 **[!UICONTROL 식별된 필드]** 테이블 아래에 표시되며 각 결과에 대한 설명 및 지원 세부 정보를 포함하여 추가적인 필드 수준 컨텍스트를 제공합니다. AI Assistant 인터페이스 탐색에 대한 지침은 [AI Assistant UI 안내서](../ai-assistant/ai-assistant-ui.md)를 참조하십시오.
 
@@ -118,7 +118,7 @@ Field Discovery Agent를 사용하려면
 3. **[!UICONTROL 식별된 필드]** 패널에서 등급 결과를 검토합니다. 각 행에는 **[!UICONTROL 필드 이름]** 열의 관련성 레이블과 XDM 필드 경로가 포함되어 있습니다.
 4. 필드가 사용되는 위치를 보여 주는 사이드 패널을 열려면 **[!UICONTROL 사용 컨텍스트]** 열에서 **[!UICONTROL 대상]**, **[!UICONTROL 데이터 세트]**, **[!UICONTROL 대상]** 또는 **[!UICONTROL 스키마]**&#x200B;을 선택하십시오. 추가 필드 수준 컨텍스트를 보려면 결과 표 아래의 **[!UICONTROL 설명한 결과]** 섹션을 참조하십시오.
 
-   ![AI Assistant의 사이드 패널에서 대상, 데이터 세트, 대상 및 스키마 연결을 포함하여 선택한 필드에 대한 사용 컨텍스트를 보여 줍니다.](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![AI Assistant의 사이드 패널에서 대상, 데이터 세트, 대상 및 스키마 연결을 포함하여 선택한 필드에 대한 사용 컨텍스트를 보여 줍니다.](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. 사용 사례에 따라 세그먼트 빌더, 쿼리 서비스 또는 데이터 수집 워크플로우와 같은 다운스트림 도구에서 **[!UICONTROL 필드 이름]** 경로를 사용하십시오. Field Discovery Agent는 필드 참조를 제공하지만 다른 도구에는 삽입하지 않습니다.
 
@@ -138,7 +138,9 @@ AI Assistant 인터페이스에 대한 지침은 [AI Assistant UI 안내서](../
 
 특정 데이터 개념이나 특성을 설명하면 Field Discovery Agent는 의미상 설명과 일치하는 필드의 등급 목록을 반환합니다.
 
-> &quot;고객의 홈 주 또는 지역을 나타내는 필드는 무엇입니까?&quot;&quot;구매 트랜잭션 날짜와 관련된 필드를 찾습니다.&quot;&quot;이메일 마케팅 동의에 대한 정보가 포함된 필드는 무엇입니까?&quot;
+> &quot;고객의 홈 주 또는 지역을 나타내는 필드는 무엇입니까?&quot;
+> &quot;구매 트랜잭션 날짜와 관련된 필드를 찾습니다.&quot;
+> &quot;이메일 마케팅 동의에 대한 정보가 포함된 필드는 무엇입니까?&quot;
 
 응답에는 **[!UICONTROL 식별된 필드]** 패널에서 관련 레이블 및 XDM 경로가 있는 후보 필드가 나열됩니다. 레이블이 **[!UICONTROL 관련성이 높음]**(으)로 지정된 필드가 명시된 개념과 가장 일치합니다. 상위 결과에 **[!UICONTROL 높은 관련성]**&#x200B;이 아닌 **[!UICONTROL 보통 관련성]** 또는 **[!UICONTROL 관련성]** 레이블이 지정되면 보다 구체적인 용어나 필드 수준 컨텍스트를 사용하여 쿼리를 구체화하십시오.
 
@@ -146,7 +148,9 @@ AI Assistant 인터페이스에 대한 지침은 [AI Assistant UI 안내서](../
 
 워크플로우 목표 또는 사용 사례(예: 세그먼트 작성, 데이터 세트 온보딩 또는 쿼리 준비)를 설명할 때 Field Discovery Agent는 관련성을 기준으로 우선 순위가 지정된 해당 목표에 정렬된 필드를 권장합니다.
 
-> &quot;고부가가치 고객들을 위한 대상을 만들고 싶습니다. 어떤 필드를 사용해야 합니까?&quot;&quot;구매 성향 모델링을 위한 필드 추천&quot;&quot;소매 거래 데이터 세트를 온보딩할 때 포함해야 하는 필드는 무엇입니까?&quot;
+> &quot;고부가가치 고객들을 위한 대상을 만들고 싶습니다. 어떤 필드를 사용해야 합니까?&quot;
+> &quot;구매 성향 모델링을 위한 필드 추천&quot;
+> &quot;소매 거래 데이터 세트를 온보딩할 때 포함해야 하는 필드는 무엇입니까?&quot;
 
 응답은 관련성 컨텍스트가 있는 필드의 우선 순위 목록을 반환합니다. 각 권장 필드에 대한 사용 컨텍스트를 검토하여 현재 환경에서 사용 중인지 확인하십시오.
 
@@ -154,7 +158,9 @@ AI Assistant 인터페이스에 대한 지침은 [AI Assistant UI 안내서](../
 
 이름이나 경로별로 특정 필드에 대해 물으면 필드 검색 에이전트는 샘플 값, 스키마 위치 및 데이터 세트, 대상 및 대상 간 사용을 포함하여 해당 필드에 대한 자세한 컨텍스트를 반환합니다.
 
-> &quot;`person.name.lastName` 필드에 대한 자세한 내용을 알려주세요.&quot;&quot;`homeAddress.stateProvince`에 대한 샘플 값은 무엇입니까?&quot;&quot;내 데이터 세트 및 대상에서 `commerce.purchases.value` 필드가 사용되는 위치는 어디입니까?&quot;
+> &quot;`person.name.lastName` 필드에 대한 자세한 내용을 알려주세요.&quot;
+> &quot;`homeAddress.stateProvince`에 대한 샘플 값은 무엇입니까?&quot;
+> &quot;필드 `commerce.purchases.value`은(는) 내 데이터 세트와 대상에서 어디에 사용됩니까?&quot;
 
 응답은 필드의 샘플 값, 스키마 위치, 연결된 데이터 세트 및 필드가 나타나는 대상이나 대상을 반환합니다. 이 컨텍스트를 검토하여 필드에 사용자가 기대하는 데이터가 포함되어 있는지 확인합니다.
 
@@ -235,19 +241,31 @@ Field Discovery Agent는 Experience Platform 환경의 스키마 및 메타데�
 
 필요한 데이터 개념을 알고 있지만 어느 필드에 데이터 개념이 들어 있는지 모르는 경우 이 프롬프트를 사용합니다.
 
-> &quot;고객의 주 또는 지역을 포함하는 필드는 무엇입니까?&quot;&quot;이메일 구독 상태와 관련된 필드를 찾으십시오.&quot;&quot;고객의 첫 구매 날짜가 포함된 필드는 무엇입니까?&quot;&quot;고객 라이프타임 값을 나타내는 필드를 식별합니다.&quot;&quot;내 프로필 스키마의 필드 중 충성도 프로그램 멤버십과 관련된 필드는 무엇입니까?&quot;
+> &quot;고객의 주 또는 지역을 포함하는 필드는 무엇입니까?&quot;
+> &quot;전자 메일 구독 상태와 관련된 필드를 찾습니다.&quot;
+> &quot;고객의 첫 구매 날짜가 포함된 필드는 무엇입니까?&quot;
+> &quot;고객 라이프타임 값을 나타내는 필드를 식별합니다.&quot;
+> &quot;충성도 프로그램 멤버십과 관련된 내 프로필 스키마의 필드는 무엇입니까?&quot;
 
 ### 권장 사항 프롬프트
 
 워크플로우를 시작하고 특정 목표에 포함할 필드에 대한 지침이 필요할 때 이러한 프롬프트를 사용합니다.
 
-> &quot;재참여 대상자를 만드는 데 어떤 필드를 사용해야 합니까?&quot;&quot;90일 동안 구매하지 않은 고객을 타겟팅하는 대상을 위한 필드를 추천합니다.&quot;&quot;이탈 위험을 모델링하는 데 가장 유용한 필드는 무엇입니까?&quot;&quot;지리적 세분화를 만들 때 포함해야 하는 필드를 제안합니다.&quot;&quot;저는 구매 성향 모델을 만들고 있습니다. 어떤 필드로 시작해야 합니까?&quot;
+> &quot;재참여 대상자를 만드는 데 어떤 필드를 사용해야 합니까?&quot;
+> &quot;90일 동안 구매하지 않은 고객을 타겟팅하는 대상을 위한 필드를 추천합니다.&quot;
+> &quot;이탈 위험을 모델링하는 데 가장 유용한 필드는 무엇입니까?&quot;
+> &quot;지리적 세분화를 만들 때 포함해야 하는 필드를 제안합니다.&quot;
+> &quot;구매 성향 모델을 만들고 있습니다. 어떤 필드로 시작해야 합니까?&quot;
 
 ### 데이터 보강 프롬프트
 
 후보 필드가 있고 세그먼트, 쿼리 또는 매핑에서 사용하기 전에 이를 확인하려는 경우 이 프롬프트를 사용합니다.
 
-> &quot;`homeAddress.stateProvince`에 대해 자세히 알려주세요.&quot;&quot;`commerce.purchases.value`에 대한 샘플 값을 표시합니다.&quot;&quot;내 데이터 세트와 대상 전체에서 `person.name.lastName`이(가) 사용되는 위치는 어디입니까?&quot;&quot;`web.webPageDetails.URL` 필드가 포함된 데이터 세트는 무엇입니까?&quot;&quot;`segmentMembership`이(가) 활성 대상에 매핑되어 있습니까?&quot;
+> &quot;`homeAddress.stateProvince`에 대해 자세히 알려주세요.&quot;
+> &quot;`commerce.purchases.value`의 샘플 값을 표시합니다.&quot;
+> &quot;내 데이터 세트와 대상 전체에서 `person.name.lastName`이(가) 사용되는 위치는 어디입니까?&quot;
+> &quot;필드 `web.webPageDetails.URL`을(를) 포함하는 데이터 세트는 무엇입니까?&quot;
+> &quot;활성 대상에 `segmentMembership`이(가) 매핑되어 있습니까?&quot;
 
 ## 문제 해결 {#troubleshooting}
 

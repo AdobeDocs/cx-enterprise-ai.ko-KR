@@ -7,13 +7,13 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 usetq: true
 product: experience cloud
-landing-page-name: AI
+landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/cx-enteprise-ai.ko-KR
 index: true
-source-git-commit: cf8957128e796bdbf35d80e3fb91d1ca9c1b430c
+source-git-commit: 8d36f8f50724c9b36a98bf1b226fa47a60351393
 workflow-type: tm+mt
 source-wordcount: 70
 ht-degree: 91%

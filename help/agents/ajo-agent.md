@@ -29,7 +29,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 3361
 ht-degree: 11%
@@ -297,7 +297,7 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 >
 >**세그먼트 관리**: 권한을 부여하면 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
 
-![AJO 에이전트용 샘플](./images/ajo-agent/ajo-agent-sample.png)
+![AJO 에이전트용 샘플](./assets/ajo-agent/ajo-agent-sample.png)
 
 ## 사용 사례
 

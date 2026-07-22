@@ -11,7 +11,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 2162
 ht-degree: 3%
@@ -31,14 +31,14 @@ AI Assistant(기존) 및 AI Assistant(차세대) 비교는 다음 표를 참조�
 | 사용자 경험 | AI Assistant(기존)는 오른쪽 레일 패널에서만 사용할 수 있습니다. | AI Assistant(Next-Gen)는 오른쪽 레일 패널과 몰입형 전체 화면 경험 모두에서 사용할 수 있습니다. |
 | 기능 범위 | 제품 지식과 운영 통찰력 모두에 AI Assistant(기존)를 사용할 수 있습니다. | 제품 지식, 운영 통찰력은 물론 고급 에이전트 기술 및 여러 단계의 작업 실행에 AI Assistant(차세대)를 사용할 수 있습니다. |
 | 플랫폼 아키텍처 | AI Assistant(기존)는 Agent Orchestrator 스택에 빌드되지 않습니다. | AI Assistant(Next-Gen)는 [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator)을 통해 작동하며, 여러 기능에 대한 확장성 및 고급 조정을 지원합니다. |
-| 애플리케이션 범위 | AI Assistant(기존)는 애플리케이션별 구현입니다. | 모든 Adobe Experience Cloud 애플리케이션에서 통합 AI Assistant 경험을 위해 AI Assistant(Next-Gen)를 사용할 수 있습니다. |
+| 애플리케이션 범위 | AI Assistant(기존)는 애플리케이션별 구현입니다. | 모든 Adobe CX 엔터프라이즈 애플리케이션에서 통합 AI Assistant 환경을 구축하려면 AI Assistant(Next-Gen)를 사용할 수 있습니다. |
 | 액세스 및 권한 모델 | 개별 제품 경계에 맞게 조정된 애플리케이션 범위 액세스 모델. | 모든 사용자는 AI Assistant(차세대) 및 관련 Experience Platform 에이전트에 액세스할 수 있습니다. **참고**: <ul><li>**Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을(를) 통해 AI Assistant(Next-Gen)에 액세스할 수 있는 권한을 부여해야 합니다.</li><li>**Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control?lang=en)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다. |
 
 AI Assistant는 Adobe Experience Platform 기반 애플리케이션에서 생산성을 높이고 작업을 재정의할 수 있는 지능형 대화식 생성 AI 도구입니다. AI Assistant를 사용하여 Adobe Experience Platform 에이전트 및 기타 AI 기능에 액세스할 수 있습니다.
 
 AI Assistant를 사용하는 방법을 알려면 이 안내서를 참조하십시오.
 
-![AI Assistant 홈 인터페이스를 전체 화면으로 표시합니다.](./images/ai-assistant/blank-home.png)
+![AI Assistant 홈 인터페이스를 전체 화면으로 표시합니다.](./assets/ai-assistant/blank-home.png)
 
 >[!SLIDE](agent-orchestrator-ui)
 
@@ -46,19 +46,19 @@ AI Assistant를 사용하는 방법을 알려면 이 안내서를 참조하십�
 
 AI Assistant에 액세스하는 방법에는 여러 가지가 있습니다.
 
-Experience Cloud 홈 인터페이스의 왼쪽 탐색에서 **[!UICONTROL AI Assistant]**&#x200B;을(를) 선택하여 AI Assistant의 전체 화면 보기를 시작합니다.
+CX 엔터프라이즈 홈 인터페이스의 왼쪽 탐색 메뉴에서 **[!UICONTROL AI Assistant]**&#x200B;를 선택하여 AI Assistant의 전체 화면 보기를 시작합니다.
 
 +++보려면 선택
 
-![왼쪽 탐색에서 AI Assistant 아이콘이 선택된 Experience Cloud 홈입니다.](./images/ai-assistant/from-experience-cloud.png)
+![왼쪽 탐색에서 AI Assistant 아이콘이 선택된 CX Enterprise 홈입니다.](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-Experience Platform, Adobe Journey Optimizer 및 Customer Journey Analytics과 같은 Experience Cloud 애플리케이션의 홈 페이지에서 AI Assistant를 시작할 수도 있습니다. 제품 홈 페이지로 이동한 다음 상단 헤더에서 **AI Assistant 아이콘**&#x200B;을 선택하여 오른쪽 레일에서 AI Assistant 채팅 패널을 시작합니다.
+Experience Platform, Adobe Journey Optimizer 및 Customer Journey Analytics과 같은 CX 엔터프라이즈 애플리케이션의 홈페이지에서 AI Assistant를 시작할 수도 있습니다. 제품 홈 페이지로 이동한 다음 상단 헤더에서 **AI Assistant 아이콘**&#x200B;을 선택하여 오른쪽 레일에서 AI Assistant 채팅 패널을 시작합니다.
 
 +++보려면 선택
 
-![왼쪽 탐색에서 AI Assistant 아이콘을 선택한 제품 홈입니다.](./images/ai-assistant/from-product.png)
+![왼쪽 탐색에서 AI Assistant 아이콘을 선택한 제품 홈입니다.](./assets/ai-assistant/from-product.png)
 
 +++
 
@@ -76,7 +76,7 @@ AI Assistant 인터페이스에는 사용자가 효과적으로 상호 작용하
 4. **컨텍스트 설정**: - 컨텍스트 설정 아이콘을 선택하여 AI Assistant에 대한 정보 소스를 구성합니다. 이 도구를 사용하여 AI Assistant가 쿼리에 응답하기 위해 참조하는 애플리케이션, 샌드박스 및 데이터 보기를 구성할 수 있습니다. 자세한 내용은 [컨텍스트 설정](#context-setting)에 대한 섹션을 참조하십시오.
 5. **검색**: - 시작하는 데 사용할 수 있는 샘플 쿼리를 보려면 **[!UICONTROL 학습]**, **[!UICONTROL 분석]** 및 **[!UICONTROL 최적화]**&#x200B;를 선택하십시오. 자세한 내용은 [검색 기능 프롬프트](#discoverability-prompts)의 섹션을 참조하십시오.
 
-![전체 화면에 있는 AI 길잡이](./images/ai-assistant/ui-home.png)
+![전체 화면에 있는 AI 길잡이](./assets/ai-assistant/ui-home.png)
 
 ### 레일 보기
 
@@ -90,7 +90,7 @@ AI Assistant 인터페이스에는 사용자가 효과적으로 상호 작용하
 1. **데이터 및 개체 자동 완성**: 데이터 및 개체 제안 및 자동 완성을 사용하려면 더하기 아이콘을 선택하십시오. 선택한 경우 팝업 창을 사용하여 제안된 엔티티를 선택할 수 있습니다. 자세한 내용은 [데이터 및 개체 자동 완성](#autocomplete)에 대한 섹션을 참조하십시오.
 1. **컨텍스트 설정**: 컨텍스트 설정 아이콘을 선택하여 AI Assistant에 대한 정보 소스를 구성합니다. 이 도구를 사용하여 AI Assistant가 쿼리에 응답하기 위해 참조하는 애플리케이션, 샌드박스 및 데이터 보기를 구성할 수 있습니다. 자세한 내용은 [컨텍스트 설정](#context-setting)에 대한 섹션을 참조하십시오.
 
-![레일 보기의 AI 도우미](./images/ai-assistant/rail-mode.png)
+![레일 보기의 AI 도우미](./assets/ai-assistant/rail-mode.png)
 
 ## AI Assistant UI 안내서
 
@@ -108,19 +108,19 @@ AI Assistant의 검색 기능을 사용하여 AI Assistant가 지원하는 엔�
 
 검색 프롬프트를 사용하여 제품 지식을 향상시키려면 **[!UICONTROL 학습]**&#x200B;을 선택한 다음 나타나는 드롭다운 창에서 프롬프트를 선택하십시오.
 
-![전체 화면 보기에서 검색 프롬프트를 선택합니다.](./images/ai-assistant/inputs/discover.png)
+![전체 화면 보기에서 검색 프롬프트를 선택합니다.](./assets/ai-assistant/inputs/discover.png)
 
 >[!TAB 레일 보기에서 검색 사용]
 
 레일 보기에서 **[!UICONTROL 검색]**&#x200B;을 선택하여 AI Assistant를 사용하여 채팅을 시작하고 채우는 데 사용할 수 있는 광범위한 검색 프롬프트 목록에 액세스합니다.
 
-![레일 보기의 검색 패널입니다.](./images/ai-assistant/inputs/discover-rail.png)
+![레일 보기의 검색 패널입니다.](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
 입력 상자를 채울 프롬프트를 선택합니다. 여기에서 특정 사용 사례에 맞게 프롬프트를 편집할 수 있습니다. 준비가 되면 오른쪽에 있는 전송 아이콘을 선택하여 쿼리를 제출합니다.
 
-![입력란에 검색 프롬프트가 있습니다.](./images/ai-assistant/inputs/question-input.png)
+![입력란에 검색 프롬프트가 있습니다.](./assets/ai-assistant/inputs/question-input.png)
 
 ## 응답과 상호 작용
 
@@ -130,23 +130,23 @@ AI Assistant의 검색 기능을 사용하여 AI Assistant가 지원하는 엔�
 
 기본 추론 프로세스를 더 잘 이해하려면 **[!UICONTROL 추론 완료]**&#x200B;를 선택하세요.
 
-![AI 도우미 응답입니다.](./images/ai-assistant/inputs/answer.png)
+![AI 도우미 응답입니다.](./assets/ai-assistant/inputs/answer.png)
 
 *[!UICONTROL 추론 완료]* 창이 확장되어 요청 요약과 응답을 만든 방법에 대한 세부 정보가 표시됩니다.
 
-![AI Assistant 응답의 확장된 추론 패널입니다.](./images/ai-assistant/inputs/reasoning-complete.png)
+![AI Assistant 응답의 확장된 추론 패널입니다.](./assets/ai-assistant/inputs/reasoning-complete.png)
 
 ### 관련 제안 사용
 
 그런 다음 응답 맨 아래로 이동하여 **[!UICONTROL 관련 제안]**&#x200B;을(를) 선택하여 초기 쿼리와 관련된 프롬프트 목록을 받습니다. 이러한 프롬프트를 사용하여 AI Assistant와 대화를 계속할 수 있습니다.
 
-![AI Assistant의 관련 제안 창](./images/ai-assistant/inputs/related-suggestions.png)
+![AI Assistant의 관련 제안 창](./assets/ai-assistant/inputs/related-suggestions.png)
 
 ### 소스 보기
 
 AI Assistant의 응답을 확인하려면 **[!UICONTROL 소스]**&#x200B;를 선택하여 AI Assistant가 응답을 계산할 때 참조한 정보 소스 목록을 확인합니다.
 
-![AI 관리자가 참조하는 원본 목록입니다.](./images/ai-assistant/inputs/sources.png)
+![AI 관리자가 참조하는 원본 목록입니다.](./assets/ai-assistant/inputs/sources.png)
 
 ### 피드백 제공
 
@@ -154,7 +154,7 @@ AI Assistant의 응답을 확인하려면 **[!UICONTROL 소스]**&#x200B;를 선
 
 피드백을 제공하려면 AI Assistant의 응답을 받은 후 엄지 손가락을 위로 또는 아래로 선택한 다음 제공된 텍스트 상자에 피드백을 입력합니다.
 
-![AI Assistant의 엄지손가락 위로 및 엄지손가락 아래로 아이콘](./images/ai-assistant/inputs/feedback.png)
+![AI Assistant의 엄지손가락 위로 및 엄지손가락 아래로 아이콘](./assets/ai-assistant/inputs/feedback.png)
 
 >[!BEGINTABS]
 
@@ -164,11 +164,11 @@ AI Assistant의 응답을 확인하려면 **[!UICONTROL 소스]**&#x200B;를 선
 
 +++보려면 선택
 
-![엄지손가락 위로 피드백 창](./images/ai-assistant/inputs/thumbs-up.png)
+![엄지손가락 위로 피드백 창](./assets/ai-assistant/inputs/thumbs-up.png)
 
 **[!UICONTROL 자세한 피드백]**&#x200B;을 선택하여 피드백을 자세히 알아볼 수도 있습니다. 완료되면 **[!UICONTROL 제출]**&#x200B;을 선택하세요.
 
-![엄지손가락을 들어 올릴 수 있는 자세한 피드백 창](./images/ai-assistant/inputs/thumbs-up-detailed.png)
+![엄지손가락을 들어 올릴 수 있는 자세한 피드백 창](./assets/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
@@ -178,11 +178,11 @@ AI Assistant의 응답을 확인하려면 **[!UICONTROL 소스]**&#x200B;를 선
 
 +++보려면 선택
 
-![엄지 손가락 아래로 피드백 창](./images/ai-assistant/inputs/thumbs-down.png)
+![엄지 손가락 아래로 피드백 창](./assets/ai-assistant/inputs/thumbs-down.png)
 
 마찬가지로 **[!UICONTROL 자세한 피드백]**&#x200B;을 선택하여 피드백을 자세히 설명할 수도 있습니다. 완료되면 **[!UICONTROL 제출]**&#x200B;을 선택하세요.
 
-![엄지손가락을 아래로 내리는 자세한 피드백 창](./images/ai-assistant/inputs/thumbs-down-detailed.png)
+![엄지손가락을 아래로 내리는 자세한 피드백 창](./assets/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
@@ -192,59 +192,59 @@ AI Assistant의 응답을 확인하려면 **[!UICONTROL 소스]**&#x200B;를 선
 
 AI Assistant 응답에 이미지가 포함된 경우 경로 아이콘을 선택하여 분할 보기 모드를 실행할 수 있습니다. 이렇게 하면 오른쪽에 표시된 컨텍스트 이미지를 통해 AI Assistant의 전체 응답을 읽을 수 있습니다.
 
-![AI Assistant의 분할 보기 모드](./images/ai-assistant/inputs/split-view.png)
+![AI Assistant의 분할 보기 모드](./assets/ai-assistant/inputs/split-view.png)
 
 ### 대화
 
 *[!UICONTROL 모든 대화]* 패널을 사용하여 AI Assistant와의 대화를 재설정하고 다시 방문할 수 있습니다. *[!UICONTROL 모든 대화]* 창을 보려면 **[!UICONTROL 대화]** 아이콘을 선택하십시오.
 
-![AI Assistant의 대화 창](./images/ai-assistant/conversations/select-conversations.png)
+![AI Assistant의 대화 창](./assets/ai-assistant/conversations/select-conversations.png)
 
 이전 대화를 다시 방문하려면 제공된 목록에서 대화 주제를 선택합니다.
 
-![AI Assistant에 기록된 이전 대화 목록입니다.](./images/ai-assistant/conversations/revisit-conversation.png)
+![AI Assistant에 기록된 이전 대화 목록입니다.](./assets/ai-assistant/conversations/revisit-conversation.png)
 
 새 대화를 시작하려면 **[!UICONTROL 새 대화]**&#x200B;를 선택하세요.
 
-![새 대화 옵션을 선택했습니다.](./images/ai-assistant/conversations/new-conversation.png)
+![새 대화 옵션을 선택했습니다.](./assets/ai-assistant/conversations/new-conversation.png)
 
 ### 컨텍스트 설정 {#context-setting}
 
 AI Assistant의 컨텍스트 설정 기능을 사용하여 AI Assistant가 쿼리에 응답하기 위해 참조하는 **application**, **sandbox**, **dataview**&#x200B;를 구성합니다. 컨텍스트 설정에 액세스하려면 입력란에서 **[!UICONTROL 컨텍스트 설정]** 아이콘을 선택하십시오.
 
-![컨텍스트 설정 아이콘을 선택했습니다.](./images/ai-assistant/inputs/context-selection.png)
+![컨텍스트 설정 아이콘을 선택했습니다.](./assets/ai-assistant/inputs/context-selection.png)
 
 *[!UICONTROL 다음에서 응답...]* 팝업 창이 나타납니다. 이 창을 사용하여 사용할 정보 원본을 구성한 다음 **[!UICONTROL 컨텍스트 설정]**&#x200B;을 선택합니다.
 
 | 정보 소스 | 설명 | 예시 |
 | --- | --- | --- |
-| 앱 | 쿼리와 관련된 Experience Cloud 애플리케이션. | Experience Platform, Journey Optimizer, Customer Journey Analytics 등 |
+| 앱 | 쿼리와 관련된 CX 엔터프라이즈 애플리케이션입니다. | Experience Platform, Journey Optimizer, Customer Journey Analytics 등 |
 | 샌드박스 | 쿼리와 관련된 데이터 세트 또는 정보가 포함된 샌드박스. | 프로덕션(VA7), 개발 |
 | 데이터 보기 | Customer Journey Analytics에서 AI Assistant를 사용할 때 데이터 보기 설정은 Data Insights Agent이 다음을 이해하는 데 도움이 됩니다. <ul><li>쿼리할 데이터 세트</li><li>사용 가능한 데이터 구성 요소</li><li>데이터에 대한 응답을 구성하는 방법</li><li>Analysis Workspace에서 만들 시각화</li></ul> | |
 
-![정보 원본을 구성할 수 있는 &quot;응답 원본&quot; 패널입니다.](./images/ai-assistant/inputs/answer-from.png)
+![정보 원본을 구성할 수 있는 &quot;응답 원본&quot; 패널입니다.](./assets/ai-assistant/inputs/answer-from.png)
 
 ### 데이터 및 개체 자동 완성
 
 자동 완성 기능을 사용하여 샌드박스에 있는 데이터 객체 목록을 수신할 수 있습니다. 자동 완성을 사용하려면 쿼리에 더하기 아이콘(+)을 입력합니다. 또는 텍스트 입력 상자 하단에 있는 더하기 아이콘(+)을 선택할 수도 있습니다. 샌드박스의 권장 데이터 개체 목록이 표시된 창이 나타납니다.
 
-![데이터 및 개체 자동 완성 단추가 선택되었습니다.](./images/ai-assistant/autocomplete/autocomplete.png)
+![데이터 및 개체 자동 완성 단추가 선택되었습니다.](./assets/ai-assistant/autocomplete/autocomplete.png)
 
 ### 응답 확인
 
 AI 어시스턴트에서 응답을 확인하는 방법은 여러 가지가 있습니다. **[!UICONTROL 개체에 일치하는 검색어]**&#x200B;을(를) 선택하여 조직의 특정 개체에 일치하는 검색어 요약을 확인합니다.
 
-![쿼리 용어가 응답과 일치합니다.](./images/ai-assistant/autocomplete/query-terms.png)
+![쿼리 용어가 응답과 일치합니다.](./assets/ai-assistant/autocomplete/query-terms.png)
 
 **[!UICONTROL 결과를 얻은 방법]**&#x200B;을 선택하여 AI Assistant가 어떻게 해답을 얻었는지에 대한 자세한 단계별 설명을 확인합니다. 또한 질문에 답변하기 위해 실행된 SQL 쿼리를 볼 수도 있습니다. 이 쿼리는 읽기 전용이며 쿼리 서비스에서 사용할 수 없습니다.
 
-![AI Assistant의 SQL 확인 도구입니다.](./images/ai-assistant/autocomplete/verifications.png)
+![AI Assistant의 SQL 확인 도구입니다.](./assets/ai-assistant/autocomplete/verifications.png)
 
 ### 데이터 시각화 구성
 
 AI Assistant의 데이터 시각화 기능을 사용하여 데이터를 더 잘 이해할 수 있습니다. 쿼리에 사용할 그래프 유형을 지정할 수도 있습니다. 예를 들어, **&quot;지난 달(막대)의 제품 이름별 이익 표시&quot;**&#x200B;라는 쿼리를 제출하여 제품 이름별로 구성된 지난 달의 이익 막대 그래프를 받습니다.
 
-![AI 길잡이에 막대 그래프가 표시됨](./images/ai-assistant/visualization/graph.png)
+![AI 길잡이에 막대 그래프가 표시됨](./assets/ai-assistant/visualization/graph.png)
 
 그런 다음 **[!UICONTROL 속성]**&#x200B;을 선택하여 그래프 유형을 변경하고 X축과 Y축에 대한 값을 구성합니다.
 
@@ -256,24 +256,24 @@ AI Assistant는 데이터 시각화에 대해 여러 그래프 유형을 지원�
 
 선 그래프를 보려면 **[!UICONTROL 속성]**&#x200B;을 선택한 다음 **[!UICONTROL 선]**&#x200B;을 선택하십시오.
 
-![AI Assistant의 선 그래프입니다.](./images/ai-assistant/visualization/line.png)
+![AI Assistant의 선 그래프입니다.](./assets/ai-assistant/visualization/line.png)
 
 >[!TAB 영역]
 
 영역 그래프를 보려면 **[!UICONTROL 속성]**&#x200B;을 선택한 다음 **[!UICONTROL 영역]**&#x200B;을 선택하십시오.
 
-![AI Assistant의 영역 그래프입니다.](./images/ai-assistant/visualization/area.png)
+![AI Assistant의 영역 그래프입니다.](./assets/ai-assistant/visualization/area.png)
 
 >[!TAB 분산]
 
 분산 그래프를 보려면 **[!UICONTROL 속성]**&#x200B;을 선택한 다음 **[!UICONTROL 분산]**&#x200B;을 선택하십시오.
 
-![AI Assistant의 분산 그래프입니다.](./images/ai-assistant/visualization/scatter.png)
+![AI Assistant의 분산 그래프입니다.](./assets/ai-assistant/visualization/scatter.png)
 
 >[!TAB 도넛]
 
 도넛 그래프를 보려면 **[!UICONTROL 속성]**&#x200B;을 선택한 다음 **[!UICONTROL 도넛]**&#x200B;을 선택하십시오.
 
-![AI Assistant의 도넛 그래프](./images/ai-assistant/visualization/donut.png)
+![AI Assistant의 도넛 그래프](./assets/ai-assistant/visualization/donut.png)
 
 >[!ENDTABS]
