@@ -2,23 +2,13 @@
 title: CX 엔터프라이즈 애플리케이션의 AI
 description: CX 엔터프라이즈 애플리케이션이 생성 AI(GenAI), AI Assistant, Agentic AI, CX Enterprise Coworker 및 MCP 도구를 사용하는 방법을 알아봅니다.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8daade8bb7d0259cd18fe7c8f957955dd97b2a0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 2%
+source-wordcount: 881
+ht-degree: 3%
 
 ---
 
@@ -60,14 +50,17 @@ ht-degree: 2%
 
 ## CX Enterprise Coworker
 
-CX Enterprise Coworker는 AI Assistant의 에이전트 우선 제품입니다. 한 번에 한 질문씩 대답하는 대신 목표를 자연어로 설명하면 Coworker가 작업을 계획하고, Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 검증하고, 완료된 작업을 사용자의 승인을 위해 반환합니다. 동료는 다음과 같습니다.
+CX Enterprise Coworker는 고객 경험 및 마케팅 워크플로우를 자동화하는 에이전트 중심의 AI Assistant로 일상적인 실행 대신 비즈니스 목표에 집중할 수 있도록 지원합니다. 한 번에 한 질문씩 대답하는 대신 목표를 자연어로 설명하면 Coworker가 작업을 계획하고, Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 검증하고, 완료된 작업을 사용자의 승인을 위해 반환합니다. 동료는 다음과 같습니다.
 
-- **공동 작업자 채팅**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX 엔터프라이즈 애플리케이션에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
-- **공동 작업자 캠페인**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다.
+- **[공동 작업자 채팅](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX 엔터프라이즈 애플리케이션에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
+- **[공동 작업자 캠페인](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: 작은 민첩한 팀이 신속하게 캠페인을 시작할 수 있도록 기본 제공 템플릿, 모범 사례 및 안내 메시지를 사용하여 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다.
+- **공동 작업자 프로젝트**(준비 중): 엔드 투 엔드 고객 경험 오케스트레이션 워크플로우를 자동화하고, 팀이 작업, 승인 및 실행을 조정하여 전략에서 게재를 통한 결과를 도출하는 데 도움이 되는 통합 작업 영역입니다. 프로젝트 설명서가 곧 제공됩니다.
 
 적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다. 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [CX Enterprise Coworker 평가판](./agents/trial.md)을 읽어 보십시오.
 
-동료 채팅을 실제로 보려면 [플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)을 살펴보거나 [CJA 마이그레이션 데이터에 대한 AA 유효성 검사](./coworker/data-validation-aa-cja.md) 및 [전환 분석](./coworker/analytics-chat.md)과 같은 실제 사용 사례를 읽어 보십시오.
+동료 채팅을 실제로 보려면 [플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)을 살펴보거나 [CJA 마이그레이션 데이터에 대한 AA 유효성 검사](./coworker/data-validation-aa-cja.md) 및 [CJA 데이터 분석](./coworker/analytics-chat.md)과 같은 실제 사용 사례를 읽어 보십시오.
+
+동료 채팅, 캠페인 및 프로젝트에 대한 전체 제품 설명서는 [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home)를 참조하십시오.
 
 ## MCP
 
