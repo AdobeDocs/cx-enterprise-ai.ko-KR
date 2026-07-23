@@ -5,8 +5,7 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-dummy: true
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 22%
