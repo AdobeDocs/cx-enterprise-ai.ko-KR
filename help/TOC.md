@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 동료 {#coworker}
   - [동료 홈](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
