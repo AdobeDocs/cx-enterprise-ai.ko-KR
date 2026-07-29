@@ -5,10 +5,10 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 8648fc2b3c36c2e017ba122a46931cdc14b04160
+source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 28%
+source-wordcount: '227'
+ht-degree: 27%
 
 ---
 
@@ -59,4 +59,5 @@ ht-degree: 28%
   - [동료 도움말](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[AA에서 CJA으로의 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
-
+  - [CJA 데이터 분석](./coworker/analytics-chat.md)
+  - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
