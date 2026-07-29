@@ -2,23 +2,13 @@
 title: CX 엔터프라이즈 애플리케이션의 AI
 description: CX 엔터프라이즈 애플리케이션이 생성 AI(GenAI), AI Assistant, Agentic AI, CX Enterprise Coworker 및 MCP 도구를 사용하는 방법을 알아봅니다.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 3%
+source-wordcount: 872
+ht-degree: 2%
 
 ---
 
@@ -70,7 +60,7 @@ CX Enterprise Coworker는 고객 경험 및 마케팅 워크플로우를 자동�
 
 동료 채팅을 실제로 보려면 [플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)을 살펴보거나 [CJA 마이그레이션 데이터에 대한 AA 유효성 검사](./coworker/data-validation-aa-cja.md) 및 [CJA 데이터 분석](./coworker/analytics-chat.md)과 같은 실제 사용 사례를 읽어 보십시오.
 
-동료 채팅, 캠페인 및 프로젝트에 대한 전체 제품 설명서는 [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home)를 참조하십시오.
+동료 채팅, 캠페인 및 프로젝트에 대한 전체 제품 설명서는 [Adobe CX Enterprise Coworker](./coworker/overview.md)를 참조하십시오.
 
 ## MCP
 
@@ -99,3 +89,4 @@ AI Assistant 또는 동료 경험을 통해 최대의 가치를 얻으려면 다
 ## 법적 고려 사항
 
 AI Assistant는 현재 영어 응답만 지원하며 언어 모델이 가끔 실수를 할 수 있습니다. 제공된 정보를 항상 확인하고 각 응답에 포함된 추론 단계를 사용하여 생성 방법을 이해합니다. 자세한 내용은 [법적 고지 사항](./ai-assistant/legal-disclaimer.md)을 참조하세요.
+
