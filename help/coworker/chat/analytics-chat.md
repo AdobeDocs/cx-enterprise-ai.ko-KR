@@ -29,13 +29,13 @@ Customer Journey Analytics 데이터로 Coworker Chat을 사용하기 전에 다
 * 스킬
 * 기타
 
-자세한 내용은 [동료 채팅 UI 안내서](./)를 참조하십시오.
+자세한 내용은 [동료 채팅 UI 안내서] (./)를 참조하십시오.
 
 ### Customer Journey Analytics 사용 사례
 
 Adobe CX Enterprise Coworker Chat에서 실무자가 사용하는 Customer Journey Analytics 사용 사례와 샘플 프롬프트를 볼 수 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
 
-자세한 내용은 [사용 사례](./)를 참조하세요.
+자세한 내용은 [사용 사례] (./)를 참조하세요.
 
 ## 동료 채팅이 Customer Journey Analytics에 연결되어 있는지 확인합니다.
 
