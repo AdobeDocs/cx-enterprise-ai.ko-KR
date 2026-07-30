@@ -5,9 +5,9 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '237'
 ht-degree: 27%
 
 ---
@@ -55,9 +55,20 @@ ht-degree: 27%
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- 동료 도움말 {#coworker}
-  - [동료 도움말](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home)
+- 동료 {#coworker}
+  - [동료 기본 정보](./coworker/overview.md)
+  - 캠페인 {#campaigns}
+    - [개요](./coworker/campaigns/overview.md)
+    - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
+    - [사용 사례](./coworker/campaigns/use-cases.md)
+    - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
+    - [커넥터](./coworker/campaigns/connectors.md)
+    - [릴리스 정보](./coworker/campaigns/release-notes.md)
+  - 채팅 {#chat}
+    - [개요](./coworker/chat/overview.md)
+    - [사용 사례](./coworker/chat/use-cases.md)
+    - [UI 안내서](./coworker/chat/ui-guide.md)
+    - [CJA 데이터 분석](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[AA에서 CJA으로의 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
-  - [CJA 데이터 분석](./coworker/analytics-chat.md)
   - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)

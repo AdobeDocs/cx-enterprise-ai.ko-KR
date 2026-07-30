@@ -1,7 +1,7 @@
 ---
 title: 샌드박스 도구 에이전트 기술
 description: 샌드박스 도구 에이전트 기술을 사용하여 샌드박스 환경 간에 오브젝트 메타데이터를 복제하는 방법에 대해 알아봅니다.
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -42,23 +42,23 @@ ht-degree: 1%
 샌드박스 도구 에이전트 기술을 사용하려면 다음을 수행합니다.
 
 1. **[!UICONTROL CX 동료]**(으)로 이동합니다.
-2. 수행할 작업에 대한 명확한 설명을 입력합니다. 예:
+1. 수행할 작업에 대한 명확한 설명을 입력합니다. 예:
 
    *&quot;스키마 충성도 멤버 Platinum을 현재 샌드박스에서 Acme 데모 샌드박스로 이동합니다.&quot;*
 
-3. 소스 및 대상 샌드박스를 보여주는 결과 테이블을 검토합니다. 계속할 준비가 되면 **[!UICONTROL 진행]**&#x200B;을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택하여 확인하십시오.
+1. 소스 및 대상 샌드박스를 보여주는 결과 테이블을 검토합니다. 계속할 준비가 되면 **[!UICONTROL 진행]**&#x200B;을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택하여 확인하십시오.
 
-![계속을 선택하고 [제출]을 강조 표시한 요청 결과.](./assets/sandbox-tooling/results-proceed.png)
+   ![계속을 선택하고 [제출]을 강조 표시한 요청 결과.](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. 마이그레이션하려는 개체를 하나 이상 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
+1. 마이그레이션하려는 개체를 하나 이상 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
-![제출을 강조 표시하는 개체 선택 페이지](./assets/sandbox-tooling/object-selection.png)
+   ![제출을 강조 표시하는 개체 선택 페이지](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. 에이전트가 식별하는 개체 및 종속성을 검토하고 작업 동작(*새로 만들기* 또는 *기존 항목 사용*)을 확인합니다. 마이그레이션을 시작할 준비가 되면 **[!UICONTROL 계속]**&#x200B;을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택하여 확인하십시오. 마이그레이션이 완료되는 데 몇 분 정도 걸릴 수 있습니다.
+1. 에이전트가 식별하는 개체 및 종속성을 검토하고 작업 동작(*새로 만들기* 또는 *기존 항목 사용*)을 확인합니다. 마이그레이션을 시작할 준비가 되면 **[!UICONTROL 계속]**&#x200B;을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택하여 확인하십시오. 마이그레이션이 완료되는 데 몇 분 정도 걸릴 수 있습니다.
 
-![제출을 강조 표시하는 실행 계획 확인 페이지입니다.](./assets/sandbox-tooling/action-plan.png)
+   ![제출을 강조 표시하는 실행 계획 확인 페이지입니다.](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. 마이그레이션이 완료되면 선택한 오브젝트를 타겟 샌드박스에서 사용할 수 있습니다.
+1. 마이그레이션이 완료되면 선택한 오브젝트를 타겟 샌드박스에서 사용할 수 있습니다.
 
 ![요청 상태를 표시하는 전송 완료 페이지입니다.](./assets/sandbox-tooling/transfer-complete.png)
 
