@@ -3,8 +3,8 @@ title: CX Coworker Gateway의 Adobe Experience Platform 툴
 description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Experience Platform 툴에 대해 알아봅니다.
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 7%
 
 ---
 
