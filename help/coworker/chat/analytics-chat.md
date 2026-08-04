@@ -1,16 +1,16 @@
 ---
 title: 동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석
-description: Adobe CX Enterprise Coworker Chat 을 사용하여 Customer Journey Analytics 데이터를 분석하고 단계를 구축하며 고객이 여정에서 드롭오프하는 위치를 찾는 방법에 대해 알아봅니다.
-source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
+description: Adobe Coworker Chat을 사용하여 Customer Journey Analytics 데이터를 분석하고 단계를 구축하며 여정에서 고객이 중단되는 위치를 찾는 방법에 대해 알아봅니다.
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2040'
 ht-degree: 4%
 
 ---
 
 # 동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석
 
-Adobe CX Enterprise Coworker Chat 은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. Coworker Chat은 Customer Journey Analytics 데이터 보기에서 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.
+Adobe Coworker Chat은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. Coworker Chat은 Customer Journey Analytics 데이터 보기에서 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.
 
 분석을 시작하기 전에 Coworker 채팅 인터페이스 및 구성 옵션에 대해 알아본 다음, Coworker가 Customer Journey Analytics 및 사용할 데이터가 포함된 데이터 보기에 연결되어 있는지 확인합니다.
 
@@ -29,13 +29,13 @@ Customer Journey Analytics 데이터로 Coworker Chat을 사용하기 전에 다
 * 스킬
 * 기타
 
-자세한 내용은 [동료 채팅 UI 안내서] (./)를 참조하십시오.
+자세한 내용은 [동료 채팅 UI 안내서](./)를 참조하십시오.
 
 ### Customer Journey Analytics 사용 사례
 
-Adobe CX Enterprise Coworker Chat에서 실무자가 사용하는 Customer Journey Analytics 사용 사례와 샘플 프롬프트를 볼 수 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
+동료가 채팅에서 사용하는 Customer Journey Analytics 사용 사례와 샘플 프롬프트를 볼 수 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
 
-자세한 내용은 [사용 사례] (./)를 참조하세요.
+자세한 내용은 [사용 사례](./)를 참조하세요.
 
 ## 동료 채팅이 Customer Journey Analytics에 연결되어 있는지 확인합니다.
 

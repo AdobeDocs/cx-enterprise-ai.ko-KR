@@ -1,16 +1,16 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 사용 사례
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1134'
 ht-degree: 3%
 
 ---
 
 # 사용 사례 {#use-cases}
 
-다음은 실무자가 Adobe CX Enterprise Coworker Chat에서 작업 영역별로 구성한 사용 사례와 샘플 프롬프트입니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
+다음은 실무자가 Adobe 동료의 채팅에서 사용하는 사용 사례와 샘플 프롬프트로, 작업 영역별로 정리되어 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
 
 ## 데이터 인사이트
 

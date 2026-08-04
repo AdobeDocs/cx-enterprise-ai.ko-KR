@@ -1,25 +1,18 @@
 ---
-title: CX Enterprise Coworker 평가판
-description: CX Enterprise Coworker에 대한 무료 평가판에 대해 알아보십시오.
+title: Adobe Coworker 체험판
+description: Adobe Coworker의 무료 체험판에 대해 알아보십시오.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 1%
 
 ---
 
-# CX Enterprise Coworker 평가판
+# Adobe Coworker 체험판
 
 >[!AVAILABILITY]
 >
@@ -42,7 +35,7 @@ Adobe의 재량에 따라 체험판의 고객은 AI Assistant 대화 환경의 �
 - 동료 채팅: 동료 채팅에 입력된 입력입니다. 제한된 입문 기간 동안 투입물은 투입물 당 25개의 AI 크레딧의 비율로 AI 크레딧을 소비합니다. 이 요금은 제한된 시간 동안만 사용할 수 있으며 변경될 수 있습니다.
 - Experience Platform 에이전트: [AI 신용 소비 테이블](../overview/ai-credit-consumption.md)에 나열된 Experience Platform 에이전트(CX 엔터프라이즈 애플리케이션에 대한 기존 라이선스에 따라 다름)를 사용하여 수행되는 모든 작업 조합입니다.
 
-Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
+Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
 
 Agentic AI 모니터링 대시보드는 조직 전체에서 Agentic AI가 채택되고 사용되는 방식을 명확하게 볼 수 있도록 합니다. 승인된 사용자는 참여를 쉽게 추적하고, 피드백을 수집하고, AI 크레딧 사용을 모니터링하고, 주요 지표를 검토할 수 있습니다. 이러한 통찰력을 사용하여 최적화 기회를 포착하고 거버넌스 및 채택 노력을 지원합니다. 자세한 내용은 [Agentic AI 사용 모니터링 안내서](../overview/monitoring.md)를 참조하세요.
 
@@ -78,7 +71,7 @@ Agentic AI 모니터링 대시보드는 조직 전체에서 Agentic AI가 채택
 
 Coworker, Agent Orchestrator 및 AI Assistant에 대한 자세한 내용은 다음 안내서를 참조하십시오.
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home)
+- [동료](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator 개요](agent-orchestrator.md)
 - [AI Assistant UI 안내서](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant 프롬프트 라이브러리](../ai-assistant/prompt-library.md)
@@ -110,7 +103,7 @@ Adobe에서 적절한 지원을 제공할 수 있도록 특정 적격 Adobe CX E
 
 ### 누가 어떻게 사용법을 볼 수 있습니까?
 
-Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요. 대시보드를 사용하여 AI 크레딧 사용 및 보고를 봅니다. 적절한 권한이 있는 관리자 및 사용자만 사용 정보를 볼 수 있습니다.
+Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요. 대시보드를 사용하여 AI 크레딧 사용 및 보고를 봅니다. 적절한 권한이 있는 관리자 및 사용자만 사용 정보를 볼 수 있습니다.
 
 고객은 사용 및 보고를 볼 수 있는 사용자를 계속 제어합니다. 적절한 권한이 있는 관리자 및 사용자만 이 정보를 볼 수 있습니다.
 

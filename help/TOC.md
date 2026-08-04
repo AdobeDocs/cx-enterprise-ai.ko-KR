@@ -5,9 +5,9 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 28%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 28%
   - [제품 지원 에이전트](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [알림 에이전트](./agents/notifications.md)
-  - [CX Enterprise Coworker 평가판](./agents/trial.md)
+  - [동료 시험](./agents/trial.md)
   - [데이터 유효성 검사](./agents/data-validation.md)
   - 데이터 엔지니어링 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 동료 {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}

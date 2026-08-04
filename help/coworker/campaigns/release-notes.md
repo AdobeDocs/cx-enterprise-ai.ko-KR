@@ -1,16 +1,16 @@
 ---
-description: Adobe CX Enterprise Coworker Campaigns 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
-title: Adobe CX Enterprise Coworker Campaigns 릴리스 정보
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Adobe Coworker Campaigns 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
+title: Adobe Coworker Campaigns 릴리스 정보
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise Coworker Campaigns 릴리스 정보 {#release-notes}
+# Adobe Coworker Campaigns 릴리스 정보 {#release-notes}
 
-Adobe CX Enterprise Coworker 캠페인 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델에서 작동합니다.
+동료 캠페인 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델에서 작동합니다.
 
 ## 2026년 7월 {#july-2026}
 
@@ -130,7 +130,7 @@ Adobe CX Enterprise Coworker 캠페인 릴리스는 기능 배포에 대한 보�
 
 **릴리스 날짜: 2026년 6월 10일**
 
-* 이 앱은 이제 CX Enterprise Coworker Campaign으로 이름이 업데이트됩니다
+* 이제 앱은 전체 이름을 업데이트하여 공동 작업자 캠페인이 됩니다
 * 처음 온보딩 투어는 데모 브랜드를 구축하는 과정을 안내합니다
 * 플랜이 준비되면 전용 대화 상자에서 캠페인 실행
 * 통합 카탈로그의 API 키와 HubSpot 연결
