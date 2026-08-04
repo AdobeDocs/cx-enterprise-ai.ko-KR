@@ -44,7 +44,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 
 [Adobe CX Enterprise의 Agentic AI](agentic-ai.md) 설명서는 기존 CX Enterprise 앱의 [AI 에이전트](agentic-ai.md#existing-apps-table) 표에 사용 모니터링을 위한 범위 내의 에이전트를 나열합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491873?captions=kor&learn=on)
 
 ## 대시보드 권한 활성화 {#permissions}
 
@@ -99,7 +99,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **대화당 평균 프롬프트 수:** 대화당 참여 깊이.
 * **피드백:** 사용자로부터의 엄지 손가락 위로 및 엄지 손가락 아래로 피드백 분포([!DNL AI Assistant] 상호 작용에만 해당).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491883?captions=kor&learn=on)
 
 ### 대화 재생
 
@@ -108,7 +108,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **프롬프트 및 응답 기록:** 사용자의 프롬프트 및 전달된 응답
 * **피드백 신호:** 사용자가 마찰, 차단기 또는 사용 요구 사항을 식별하기 위해 엄지 손가락을 위로 또는 아래로 표시했습니다. 이 정보는 조직에서 신속한 관련성을 개선하는 데 도움이 되며 Adobe에서 시간이 지남에 따라 응답 품질을 개선하는 데 도움이 됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491892?captions=kor&learn=on)
 
 ## 사용자 대시보드
 
@@ -125,7 +125,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **대화 활동:** 사용자당 대화 및 프롬프트 수입니다.
 * **상위 활성 사용자:** 참여도가 높은 사용자 및 팀이 에이전트 채택을 유도합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491925?captions=kor&learn=on)
 
 ## 피드백 대시보드
 
@@ -139,7 +139,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **프롬프트 및 응답 기록:** 사용자 프롬프트 및 제출된 피드백과 관련된 응답.
 * **피드백 세부 정보 및 메모:** 피드백을 제출하는 동안 사용자의 추가 컨텍스트 및 댓글입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491916?captions=kor&learn=on)
 
 ## AI 크레딧 대시보드
 
@@ -151,7 +151,7 @@ AI 크레딧 대시보드는 조직에서 [!DNL Experience Platform Agents]을(�
 * **일별 및 월별 트렌드:** 증가, 감소 및 소비 패턴의 변경.
 * **남아 있는 AI 점수:** 잔액이 남아서 미리 계획을 세우고 초과 사용을 방지할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491907?captions=kor&learn=on)
 
 ## 이 항목에 대한 추가 도움말
 
