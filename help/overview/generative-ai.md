@@ -95,16 +95,16 @@ CX Enterprise의 Generative AI(genAI)는 창의적 및 인지적 작업을 자�
 | [Adobe Experience Manager as a Cloud Service(AEM CS)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**AEM Sites**&#x200B;에서 변형 생성([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>**Sites Optimizer**&#x200B;의 GenAI([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>**Content Hub**&#x200B;의 [AEM Assets](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) 및 [스마트 태그](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
 | [Adobe Experience Manager 6.5 LTS](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
-| [LLM Optimizer](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home) | AI 에이전트를 사용하여 가시성 차이를 자동으로 식별하고, 개선 사항을 자동으로 제안하고, 경우에 따라 사이트 경험을 자동으로 최적화하는 생성 가능한 AI 우선 애플리케이션입니다. | 아니오 |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/landing) | 제품 지식 및 운영 통찰력을 위한 AI 지원. | 아니오 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-assistant) | 제품 지식 및 운영 통찰력을 위한 AI 지원. | 아니오 |
-| | _AJO Prime_ 및 _Ultimate_&#x200B;은(는) 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 가져올 수 있도록 [콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)을 제공합니다. | 예 |
-| [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 제품 지식에 대한 AI 지원. | 아니오 |
+| [LLM Optimizer](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home) | AI 에이전트를 사용하여 가시성 차이를 자동으로 식별하고, 개선 사항을 자동으로 제안하고, 경우에 따라 사이트 경험을 자동으로 최적화하는 생성 가능한 AI 우선 애플리케이션입니다. | 아니요 |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/landing) | 제품 지식 및 운영 통찰력을 위한 AI 지원. | 아니요 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-assistant) | 제품 지식 및 운영 통찰력을 위한 AI 지원. | 아니요 |
+| | _AJO Prime_ 및 _Ultimate_&#x200B;은(는) 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 가져올 수 있도록 [콘텐츠 생성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)을 제공합니다. | 예 |
+| [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 제품 지식에 대한 AI 지원. | 아니요 |
 | [[!DNL Campaign] 관리 클라우드 서비스](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/ai-assistant/generative-gs) | 이메일, SMS 및 푸시와 같은 채널 전반의 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성하는 Content Accelerator용 AI Assistant입니다. | 예 |
-| **[!DNL Customer Journey Analytics]** | GenAI는 다음과 함께 사용됩니다.<ul><li> [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): 가장 자주 사용되는 Workspace 시각화에 대한 통찰력을 제공합니다.</li><li>[Content Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): 에셋 메타데이터를 자동으로 할당합니다.</li></ul> AI Assistant for:<ul><li>[제품 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[제품 지원 에이전트](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 아니오 |
+| **[!DNL Customer Journey Analytics]** | GenAI는 다음과 함께 사용됩니다.<ul><li> [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): 가장 자주 사용되는 Workspace 시각화에 대한 통찰력을 제공합니다.</li><li>[Content Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): 에셋 메타데이터를 자동으로 할당합니다.</li></ul> AI Assistant for:<ul><li>[제품 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[제품 지원 에이전트](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 아니요 |
 | [Real-Time CDP](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home) | Experience League의 제품 지식을 위한 AI 지원 . 또한 운영상의 통찰력을 제공합니다. | 아니오 |
 | **[!DNL Marketo]** | GenAI는 이메일 Designer(Firefly 포함), [Dynamic Chat](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) 및 [대화형 웨비나](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)에서 사용할 수 있습니다. <br> Marketo Engage용 AI 지원 [이메일 Designer](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | 예 |
-| [Adobe Target](https://experienceleague.adobe.com/ko/docs/target/using/introduction/assistant-ai/ai-assistant) | 제품 지식에 대한 AI 지원. | 아니오 |
+| [Adobe Target](https://experienceleague.adobe.com/ko/docs/target/using/introduction/assistant-ai/ai-assistant) | 제품 지식에 대한 AI 지원. | 아니요 |
 | [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | 인앱 정보 및 제안에 대한 AI 지원. | 예 |
 
 **참고:** [!DNL Experience Platform Agents]은(는) CX Enterprise의 [AI 에이전트에 설명되어 있습니다](agentic-ai.md).
@@ -251,11 +251,11 @@ AI Assistant는 Experience Platform, Real-Time Customer Data Platform, Adobe Jou
 
 #### 콘텐츠 생성을 위한 AI 지원(AJO Prime 및 Ultimate)
 
-AJO _Prime_ 및 _Ultimate_&#x200B;에서 콘텐츠 생성에 [콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)을 사용하여 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 가져올 수 있습니다.
+AJO _Prime_ 및 _Ultimate_&#x200B;에서 콘텐츠 생성에 [콘텐츠 생성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)을 사용하여 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 가져올 수 있습니다.
 
 이 기능은 이메일, 푸시 알림, 웹 페이지, 콘텐츠 및 SMS 채널에 사용할 수 있습니다. 프롬프트 기반 텍스트 및 이미지 생성을 제공합니다. AJO Prime 및 Ultimate의 콘텐츠 생성 출력은 손실됩니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="AJO의 AI Assistant에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="AJO의 AI Assistant에 대해 알아보기"}
 
 +++
 
@@ -378,7 +378,7 @@ Marketo은 GenStudio for Performance Marketing과 통합됩니다
 
 +++세부 사항
 
-[!DNL Workfront]의 [!UICONTROL AI 길잡이]를 사용하면 인앱 정보와 제안을 제공하여 작업을 완수할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
+[!DNL Workfront]의 [!UICONTROL AI 길잡이]를 사용하면 인앱 정보와 제안을 제공하여 작업을 완수할 수 있습니다. 다음을 수행할 수 있습니다.
 
 * 일부 객체의 요약을 가져와 객체의 의도 또는 세부 사항을 개략적으로 볼 수 있습니다.
 * 질문하고 [!UICONTROL AI 길잡이]에게 Experience League에서 답을 찾도록 하세요.
