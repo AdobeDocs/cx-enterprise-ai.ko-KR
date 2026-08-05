@@ -75,4 +75,4 @@ AI 크레딧 사용은 실행된 작업의 복잡성과 가치에 따라 달라�
 
 * [CX Enterprise의 GenAI](generative-ai.md)
 * [CX Enterprise의 에이전트 AI](agentic-ai.md)
-* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
