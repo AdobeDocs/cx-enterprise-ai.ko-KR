@@ -1,40 +1,42 @@
 ---
-title: 에이전트 작업 및 AI 크레딧 사용량
-description: CX Enterprise 애플리케이션의 에이전트 작업 및 AI 크레딧 사용률에 대해 알아봅니다.
+title: AI 크레딧 사용량
+description: CX 엔터프라이즈 애플리케이션의 AI 크레딧 사용량에 대해 알아봅니다.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 8%
+source-wordcount: 966
+ht-degree: 5%
 
 ---
 
-# Adobe Experience Platform 에이전트 작업 및 AI 크레딧 소비
+# AI 크레딧 소비
 
-CX 엔터프라이즈 애플리케이션의 에이전트 AI 작업 및 AI 크레딧 사용량에 대해 알아봅니다. 기존 CX 엔터프라이즈 애플리케이션에서 Agentic AI 기능을 활성화하는 방법에 대한 자세한 내용은 [CX Enterprise의 Agentic AI](agentic-ai.md#existing-apps)를 참조하십시오.
-
-## 새로운 기능
-
-| 기능 | 설명 |
-| --- | --- |
-| [CX 엔터프라이즈 에이전트 AI 기능 카탈로그](https://agentic-capability-explorer.entapp.adproto.com/) | 라이선스가 부여된 CX Enterprise 앱에서 사용할 수 있는 에이전틱 AI 작업을 알아보십시오. |
-
-## 에이전트 작업
-
-_에이전트 작업_&#x200B;은(는) 고객 입력의 지시에 따라 특정 결과를 얻기 위해 에이전트가 실행하는 일련의 작업 및 작업입니다.
-
-AI Assistant를 통해 자연어 프롬프트를 사용하면 에이전트에게 특정 작업을 수행하도록 요청할 수 있습니다. 이러한 정보를 바탕으로 Agent Orchestrator은 관련 CX 엔터프라이즈 애플리케이션에서 각 단계를 실행하도록 적절한 에이전트를 조정합니다.
+CX 엔터프라이즈 애플리케이션의 AI 크레딧 사용량에 대해 알아봅니다.
 
 ## AI 크레딧
 
-_AI 크레딧_&#x200B;은 에이전트 작업의 실행을 수량화하는 사용 기반 지표입니다. AI 크레딧이 [AI 우선 애플리케이션](agentic-ai.md)에 적용되지 않습니다.
+_AI 크레딧_&#x200B;은(는) 작업 또는 작업 실행을 수량화하는 사용 기반 지표입니다.
 
-## AI 신용 소비
+## AI 크레딧을 사용하는 적격 서비스
+
+* CX Enterprise Coworker
+* AEP 에이전트
+
+### CX Enterprise Coworker 크레딧 비율
+
+제한된 도입 기간 동안, 동료 입력은 입력당 25개의 AI 크레딧의 비율로 AI 크레딧을 소비합니다. 이 요금은 제한된 시간 동안만 사용할 수 있으며 변경될 수 있습니다.
+
+### AEP 에이전트 크레딧 비율
+
+_에이전트 작업_&#x200B;은(는) 고객 입력의 지시에 따라 특정 결과를 얻기 위해 AEP 에이전트가 실행하는 일련의 작업 및 작업입니다.
+
+AI Assistant를 통해 자연어 프롬프트를 사용하면 에이전트에게 특정 작업을 수행하도록 요청할 수 있습니다. 이러한 정보를 바탕으로 Agent Orchestrator은 관련 CX 엔터프라이즈 애플리케이션에서 각 단계를 실행하도록 적절한 에이전트를 조정합니다.
 
 AI 크레딧 사용은 실행된 작업의 복잡성과 가치에 따라 달라질 수 있습니다.
 
@@ -42,9 +44,9 @@ AI 크레딧 사용은 실행된 작업의 복잡성과 가치에 따라 달라�
 * 복잡한(종종 여러 단계) 작업이 더 많은 크레딧을 소비함
 * 고급 추론, 유효성 검사, 다중 에이전트 조정 또는 통합과 관련된 작업은 더 많은 크레딧을 사용합니다.
 
-**참고:** [CX Enterprise Agentic AI 기능 카탈로그](https://agentic-capability-explorer.entapp.adproto.com/)를 사용하여 라이선스가 부여된 CX Enterprise 앱에서 사용 가능한 Agentic AI 작업을 확인할 수도 있습니다.
+라이선스가 부여된 CX 엔터프라이즈 앱에서 사용 가능한 AEP 에이전트 및 에이전트 작업을 보려면 [CX 엔터프라이즈 에이전트 AI 기능 카탈로그](https://agentic-capability-explorer.entapp.adproto.com/)를 참조하십시오.
 
-### 예상 AI 크레딧 소비율
+#### 예상 에이전트 작업 크레딧 비율
 
 | 에이전트 | 작업 | 지원되는 애플리케이션 | 예상 AI 점수 | 샘플 프롬프트 |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
@@ -72,4 +74,4 @@ AI 크레딧 사용은 실행된 작업의 복잡성과 가치에 따라 달라�
 
 * [CX Enterprise의 GenAI](generative-ai.md)
 * [CX Enterprise의 에이전트 AI](agentic-ai.md)
-* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
