@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
 workflow-type: tm+mt
-source-wordcount: 3283
+source-wordcount: 3287
 ht-degree: 13%
 
 ---
@@ -90,7 +90,7 @@ GenAI는 사용자의 프롬프트 또는 질문에 대해 원본 콘텐츠를 _
 
 | **제품 이름** | **주요 GenAI 기능** | **Firefly 호환성** |
 | ------------------ | ------------------------- | ------------------- |
-| [Adobe 동료](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**[채팅](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/overview)**: 목표를 자연어로 설명하고 genAI가 작업을 계획하고 Adobe 및 연결된 시스템에서 실행하고, 결과를 확인하고, 완료된 작업을 사용자의 승인을 위해 반환하는 대화 인터페이스입니다.</li><li>**[캠페인](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. GenAI는 캠페인 플랜을 생성하고, 여정을 작성하고, 반복적으로 구체화할 수 있는 개인화된 콘텐츠를 초안합니다.</li></ul> | 아니오 |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**[채팅](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 목표를 자연어로 설명하고 genAI가 작업을 계획하고 Adobe 및 연결된 시스템에서 실행하고, 결과를 확인하고, 완료된 작업을 사용자의 승인을 위해 반환하는 대화 인터페이스입니다.</li><li>**[캠페인](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. GenAI는 캠페인 플랜을 생성하고, 여정을 작성하고, 반복적으로 구체화할 수 있는 개인화된 콘텐츠를 초안합니다.</li></ul> | 아니오 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home) | genAI를 사용하여 개인화된 브랜드 내 콘텐츠를 만듭니다. | 예 |
 | [Adobe Experience Manager as a Cloud Service(AEM CS)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**AEM Sites**&#x200B;에서 변형 생성([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>**Sites Optimizer**&#x200B;의 GenAI([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>**Content Hub**&#x200B;의 [AEM Assets](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) 및 [스마트 태그](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |

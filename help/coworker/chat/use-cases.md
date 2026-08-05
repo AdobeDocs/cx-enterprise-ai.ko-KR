@@ -1,16 +1,16 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 사용 사례
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
 # 사용 사례 {#use-cases}
 
-다음은 실무자가 Adobe 동료의 채팅에서 사용하는 사용 사례와 샘플 프롬프트로, 작업 영역별로 정리되어 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
+다음은 실무자가 Adobe CX Enterprise Coworker Chat에서 작업 영역별로 구성한 사용 사례와 샘플 프롬프트입니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
 
 ## 데이터 인사이트
 
@@ -33,10 +33,10 @@ ht-degree: 3%
 | 자연어로 대상자 만들기 | 각 단계에서 사용자 승인을 통해 단계별 대상 만들기 오케스트레이션 | `audience-creation-flow` | Real-Time CDP(RTCDP) | &quot;지난 30일 동안 구매한 사용자 대상 만들기&quot; · &quot;캘리포니아에서 가치가 높은 충성도 구성원을 위한 세그먼트 만들기&quot; |
 | PQL 정의 작성 | XDM 속성, 동작 이벤트 또는 기존 대상에서 대상 정의를 조합하고 집계 및 시간 창을 지원합니다. | `segment-definition-assembly` | Real-Time CDP(RTCDP) | &quot;3개 이상의 제품을 보았지만 구매하지 않은 사용자를 위한 PQL 만들기&quot; · &quot;내 이벤트 상태에 7일 기간 추가&quot; |
 | 대상자 검색 및 찾기 | ID, 이름, 의미 체계 검색으로 대상 찾기, 중복 감지 및 중복 분석 | `audience-search` | Real-Time CDP(RTCDP) | &quot;모든 충성도 대상 찾기&quot; · &quot;내 &#39;휴일 쇼핑객&#39; 세그먼트가 중복됩니까?&quot; |
-| 대상 크기 예상 | 폴링과 함께 AEP 미리보기 API를 사용하여 PQL 표현식에 대한 프로필 도달 예상 | `audience-size-estimate` | Real-Time CDP(RTCDP) | &quot;이 대상자의 크기는 얼마나 됩니까?&quot; · &quot;이 PQL 표현식에 대한 도달 범위 예상&quot; |
+| 대상 크기 예상 | 폴링과 함께 Adobe Experience Platform 미리보기 API를 사용하여 PQL 표현식에 대한 프로필 도달 예상 | `audience-size-estimate` | Real-Time CDP(RTCDP) | &quot;이 대상자의 크기는 얼마나 됩니까?&quot; · &quot;이 PQL 표현식에 대한 도달 범위 예상&quot; |
 | 대상자 크기 폭포 | PQL을 하위 술어로 분해하고 각 조건이 최종 대상 크기에 기여하는 방식을 표시합니다 | `audience-size-waterfall` | Real-Time CDP(RTCDP) | &quot;이 PQL의 폭포를 보여 주십시오.&quot; · &quot;각 조건이 대상자를 어떻게 감소시키는지 분류하십시오.&quot; |
 | 타깃팅할 XDM 필드 검색 | 이름, 설명 또는 데이터 값으로 필드를 검색합니다. 해당 필드가 있는 위치와 이미 사용 중인 위치를 확인하세요. | `field-discovery` | Real-Time CDP(RTCDP) | &quot;충성도 고객을 타깃팅하는 데 사용할 수 있는 필드는 무엇입니까?&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
-| 대상자 게시/저장 | 이름 지정 규칙 및 준수 확인을 사용하여 AEP 세그멘테이션 서비스에 대상 정의 유지 | `audience-publish` | Real-Time CDP(RTCDP) | &quot;초안으로 저장&quot; · &quot;봄 판매 구매자&quot; 이름으로 대상자 게시&quot; |
+| 대상자 게시/저장 | 이름 지정 규칙 및 준수 확인을 사용하여 Experience Platform 세그멘테이션 서비스에 대상 정의 유지 | `audience-publish` | Real-Time CDP(RTCDP) | &quot;초안으로 저장&quot; · &quot;봄 판매 구매자&quot; 이름으로 대상자 게시&quot; |
 
 ## 여정
 
@@ -52,17 +52,14 @@ ht-degree: 3%
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 제품 지식 및 설명서 | 공식 Adobe 문서에서 방법, 개념, 문제 해결 및 모범 사례 질문에 답변합니다 | `product-knowledge` | 모든 적격 지원 | &quot;스트리밍 대상을 설정하려면 어떻게 해야 합니까?&quot; · &quot;일괄 처리와 스트리밍 세분화 간의 차이점은 무엇입니까?&quot; |
-| AEP/AJO 엔티티 쿼리 | 플랫폼 엔터티에 대한 질문을 위한 기본 진입점 역할을 합니다. 필요에 따라 KG, 필드 검색 또는 API로 라우팅합니다. | `operational-insights` | 모든 적격 지원 | &quot;보유한 데이터 세트가 몇 개입니까?&quot; · &quot;모든 활성 여정 표시&quot; · &quot;대상 나열&quot; |
+| Experience Platform/Journey Optimizer 엔티티 쿼리 | 플랫폼 엔터티에 대한 질문을 위한 기본 진입점 역할을 합니다. 필요에 따라 KG, 필드 검색 또는 API로 라우팅합니다. | `operational-insights` | 모든 적격 지원 | &quot;보유한 데이터 세트가 몇 개입니까?&quot; · &quot;모든 활성 여정 표시&quot; · &quot;대상 나열&quot; |
 | 지식 그래프 쿼리 | 단일 SQL 쿼리를 통한 집계 카운트, 교차 엔티티 조인, 관계 조회 및 메타데이터 탐색 | `knowledge-graph` | 모든 적격 지원 | &quot;어느 대상자가 이 데이터 세트를 사용합니까?&quot; · &quot;스키마와 데이터 세트 간의 관계 표시&quot; |
-| AEP/AJO/CJA API 작업 | 지식 그래프에 없는 돌연변이, 실시간 상태 확인 및 엔티티 유형에 대한 직접 API 게이트웨이 제공 | `cxo-api` | 모든 적격 지원 | &quot;데이터 세트 삭제 X&quot; · &quot;내 일괄 처리 수집 작업의 상태 확인&quot; |
-| 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 AEP 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform(AEP) | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
-| 개인 컨텍스트 작성 | AEP, CJA 및/또는 Workfront 활동 로그에서 개인화된 사용자 프로필을 생성합니다 | `build-my-context` | 모든 적격 지원 | &quot;AEP 및 CJA 활동에서 내 컨텍스트 작성&quot; · &quot;이 조직에 있는 내가 누구입니까?&quot; |
-| 조직 컨텍스트 판매 | 문서에서 공유된 조직 컨텍스트 위키로 조직 전체 지식 추출 | `distill-org-context` | 모든 적격 지원 | &quot;이 문서를 조직 wiki에 디스틸링&quot; · &quot;이 파일을 조직 컨텍스트에 추가&quot; |
-| 사용자 컨텍스트 판매 | 문서에서 사용자 컨텍스트 위키로 개인 작업 컨텍스트 추출 | `distill-user-context` | 모든 적격 지원 | &quot;이 파일을 내 사용자 컨텍스트에 추가&quot; · &quot;이 문서에서 내 작업 컨텍스트 추출&quot; |
+| Experience Platform / Journey Optimizer / Customer Journey Analytics API 작업 | 지식 그래프에 없는 돌연변이, 실시간 상태 확인 및 엔티티 유형에 대한 직접 API 게이트웨이 제공 | `cxo-api` | 모든 적격 지원 | &quot;데이터 세트 삭제 X&quot; · &quot;내 일괄 처리 수집 작업의 상태 확인&quot; |
+| 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; · &quot;내 주간 보고서 스킬 삭제&quot; · &quot;재사용 가능한 스킬로 전환&quot; |
 
 ## 샌드박스 도구
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| 샌드박스 간 개체 메타데이터 이동 | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform(AEP) | &quot;스키마 Luma 충성도 멤버 플래티넘을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; · &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
+| 샌드박스 간 개체 메타데이터 이동 | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 플래티넘을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; · &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |

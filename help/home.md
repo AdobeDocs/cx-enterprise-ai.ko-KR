@@ -1,6 +1,6 @@
 ---
 title: CX Enterprise 애플리케이션의 AI
-description: CX 엔터프라이즈 애플리케이션이 생성 AI(GenAI), AI Assistant, Agentic AI, Adobe Coworker 및 MCP 도구를 사용하는 방법을 알아봅니다.
+description: CX 엔터프라이즈 애플리케이션이 생성 AI(GenAI), AI Assistant, Agentic AI, CX Enterprise Coworker 및 MCP 도구를 사용하는 방법을 알아봅니다.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 864
 ht-degree: 3%
 
 ---
 
 # CX Enterprise의 AI
 
-이 안내서에서는 Adobe CX Enterprise의 AI 기능인 생성 AI, AI Assistant, Agent Orchestrator, Experience Platform Agents, Adobe Coworker 및 MCP를 다룹니다.
+이 안내서에서는 Adobe CX Enterprise의 AI 기능인 생성 AI, AI Assistant, Agent Orchestrator, Experience Platform Agents, CX Enterprise Coworker 및 MCP를 다룹니다.
 
 ## AI 기능 개요
 

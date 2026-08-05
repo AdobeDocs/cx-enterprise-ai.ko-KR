@@ -1,14 +1,14 @@
 ---
-description: Adobe Coworker Campaigns 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
-title: Adobe Coworker Campaigns 릴리스 정보
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Adobe CX Enterprise Coworker Campaigns 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
+title: Adobe CX Enterprise Coworker Campaigns 릴리스 정보
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Adobe Coworker Campaigns 릴리스 정보 {#release-notes}
+# Adobe CX Enterprise Coworker Campaigns 릴리스 정보 {#release-notes}
 
 동료 캠페인 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델에서 작동합니다.
 

@@ -1,14 +1,14 @@
 ---
-title: Adobe 동료
-description: Adobe Coworker를 사용하여 마케팅을 한 단계 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Adobe CX Enterprise Coworker
+description: Adobe CX Enterprise Coworker를 사용하여 마케팅을 한 단계 업그레이드하는 방법에 대해 알아봅니다.
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 4%
 
 ---
 
-# Adobe Coworker 정보
+# Adobe CX Enterprise Coworker 정보
 
 동료는 AI가 지원하는 팀 동료로 조직, 팀, 개인의 업무 성격을 재구상한다. Coworker는 고객 경험과 마케팅 워크플로우를 우아하게 자동화하여 조직에서 작업을 조정하지 않고 비즈니스 목표를 실현하고 결과를 전환하는 데 집중할 수 있도록 합니다. Coworker는 에이전시 엔진으로서 비즈니스 프로세스를 자동화하는 혁신적인 새로운 접근 방식을 채택하고 있습니다. 엔터프라이즈 컨텍스트, 거버넌스 및 인적 감독이 내장된 데이터, 인텔리전스, 협업 및 에이전트 기술 실행을 통합함으로써 AI 모델 성능과 정확성을 향상시킵니다.
 
