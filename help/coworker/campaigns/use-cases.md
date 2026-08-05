@@ -1,16 +1,16 @@
 ---
-description: 획득, 참여, 이벤트, 전환 및 유지 캠페인 전반에 걸쳐 사용 사례별로 구성된 Adobe CX Enterprise Coworker 캠페인에 대한 실제 프롬프트 패턴을 살펴봅니다.
+description: 획득, 참여, 이벤트, 전환 및 유지 캠페인 전반에 걸쳐 사용 사례별로 구성된 Adobe Coworker 캠페인에 대한 실제 프롬프트 패턴을 찾아봅니다.
 title: 사용 사례
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # 사용 사례 {#use-cases}
 
-다음은 라이프사이클 및 성장 마케터가 Adobe CX Enterprise Coworker 캠페인에서 사용하는 실제 프롬프트 패턴입니다. 각 콘텐츠는 복사, 자체 대상자 및 브랜드 세부 사항과 교체 및 대화에서 구체화되도록 빌드되어 있습니다.
+다음은 라이프사이클 및 성장 마케터가 Adobe Coworker 캠페인에서 사용하는 실제 프롬프트 패턴입니다. 각 콘텐츠는 복사, 자체 대상자 및 브랜드 세부 사항과 교체 및 대화에서 구체화되도록 빌드되어 있습니다.
 
 ## 사용 방법
 

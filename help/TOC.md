@@ -5,10 +5,10 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 27%
+source-wordcount: '235'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 - CX Enterprise의 AI 정보 {#overview}
   - [생성형 AI](./overview/generative-ai.md)
   - [에이전틱 AI](./overview/agentic-ai.md)
-  - [아젠틱 AI 모니터링](./overview/monitoring.md)
+  - [에이전틱 AI 모니터링](./overview/monitoring.md)
   - [에이전트 작업 및 AI 신용 소비](./overview/ai-credit-consumption.md)
   - [에이전틱 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 어시스턴트 {#ai-assistant}
@@ -37,7 +37,7 @@ ht-degree: 27%
   - [제품 지원 에이전트](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [알림 에이전트](./agents/notifications.md)
-  - [CX Enterprise Coworker 평가판](./agents/trial.md)
+  - [동료 시험](./agents/trial.md)
   - [데이터 유효성 검사](./agents/data-validation.md)
   - 데이터 엔지니어링 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -70,5 +70,5 @@ ht-degree: 27%
     - [UI 안내서](./coworker/chat/ui-guide.md)
     - [CJA 데이터 분석](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[AA에서 CJA으로의 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
+  - [AA에서 CJA으로 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
   - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)

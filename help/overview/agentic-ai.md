@@ -12,20 +12,20 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: 1142
 ht-degree: 12%
 
 ---
 
 # Adobe CX Enterprise의 Agentic AI
 
-Adobe Experience Platform 에이전트는 CX 엔터프라이즈 애플리케이션에서 에이전트 AI 기능을 활성화하기 위해 [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/home)에서 제공합니다.
+Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/home)은(는) CX 엔터프라이즈 애플리케이션에서 Agentic AI 기능을 지원합니다.
 
-이러한 에이전트는 작업을 자동화하고 통찰력을 신속하게 제공하며 워크플로를 간소화하는 데 도움이 됩니다. 따라서 CX Enterprise에서 보다 효율적으로 작업하고 더 많은 가치를 얻을 수 있습니다.
+에이전트는 작업을 자동화하고 통찰력을 신속하게 제공하며 워크플로를 간소화합니다. 따라서 CX Enterprise에서 보다 효율적으로 작업하고 더 많은 가치를 얻을 수 있습니다.
 
-CX Enterprise의 AI 에이전트에 대한 액세스 권한은 다음 중 하나에서 제공됩니다.
+CX Enterprise AI 에이전트는 다음 중 하나에서 사용할 수 있습니다.
 
 * [기존 CX 엔터프라이즈 애플리케이션](#existing-apps)
 * [AI 최초 CX 엔터프라이즈 애플리케이션](#ai-first-apps)
@@ -34,7 +34,7 @@ CX Enterprise의 AI 에이전트에 대한 액세스 권한은 다음 중 하나
 
 ## 기존 CX 엔터프라이즈 애플리케이션 {#existing-apps}
 
-기존 응용 프로그램에서는 자연어를 사용하여 [AI Assistant](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/home) 대화 인터페이스를 통해 Adobe Experience Platform 에이전트에 지시할 수 있습니다. AI Assistant는 전체 화면 및 오른쪽 레일 보기에서 모두 사용할 수 있습니다.
+기존 응용 프로그램에서는 자연어를 사용하여 [AI Assistant](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/home)의 대화 인터페이스를 통해 Adobe Experience Platform 에이전트를 지시할 수 있습니다. AI Assistant는 전체 화면 및 오른쪽 레일 보기에서 모두 사용할 수 있습니다.
 
 에이전트는 다음 범주 중 하나에 해당하는 고객을 위한 기존 CX 엔터프라이즈 앱에서 활성화할 수 있습니다.
 
@@ -44,7 +44,7 @@ CX Enterprise의 AI 에이전트에 대한 액세스 권한은 다음 중 하나
 
 AI 에이전트를 사용하여 _에이전트 작업_&#x200B;을 수행하면 AI 크레딧이 사용됩니다. _[에이전트 작업 및 AI 크레딧 사용](ai-credit-consumption.md)_&#x200B;에서 에이전트 작업 및 AI 크레딧에 대해 자세히 알아보세요.
 
-AI 에이전트는 _사용자_ 입력, 감독을 따르며 제품 수준의 액세스 제어를 준수합니다. 기본 CX 엔터프라이즈 애플리케이션에서 사용할 수 있는 권한이 있는 작업이나 데이터에 액세스할 수만 있습니다.
+AI 에이전트는 _귀하의_ 입력 및 감독을 따르며 제품 수준의 액세스 제어를 준수합니다. 기본 CX 엔터프라이즈 애플리케이션에서 사용할 수 있는 권한이 있는 작업이나 데이터에 액세스할 수만 있습니다.
 
 ### 기존 CX 엔터프라이즈 앱의 AI 에이전트 {#existing-apps-table}
 
@@ -63,9 +63,9 @@ AI 에이전트는 _사용자_ 입력, 감독을 따르며 제품 수준의 액�
 
 ## AI 최초 CX 엔터프라이즈 애플리케이션 {#ai-first-apps}
 
-AI 우선 애플리케이션은 발생 또는 무발생 Al을 핵심으로 하여 구축된다. 이들은 주요 작업에 생성 또는 무관 Al을 사용하며 무관 기능은 이미 Al-first 애플리케이션 라이선스에 포함되어 있습니다. 따라서 Experience Platform Agent Orchestrator 라이선스가 필요하지 않습니다.
+AI 우선 애플리케이션은 생성 또는 아젠틱 AI를 주요 구성 요소로 하여 구축됩니다. 이들은 핵심 업무에 생성 또는 agentic AI를 사용하며, 아젠틱 기능은 이미 AI 우선 애플리케이션 라이선스에 포함되어 있다. 따라서 Experience Platform Agent Orchestrator 라이선스가 필요하지 않습니다.
 
-다음 표에는 Al-first 애플리케이션으로 사용할 수 있는 Experience Platform 에이전트가 나열되어 있습니다. 이러한 Al-First 애플리케이션에 라이센스를 부여하여 사용할 수 있습니다.
+다음 표에는 AI 우선 애플리케이션으로 사용할 수 있는 Experience Platform 에이전트가 나열되어 있습니다. 이러한 AI 기반 애플리케이션은 다음과 같은 라이센스를 통해 사용할 수 있습니다.
 
 | 에이전트 이름 | 기능 | 지원되는 애플리케이션 |
 |---|----------|----------|

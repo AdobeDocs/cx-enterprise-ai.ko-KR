@@ -1,16 +1,16 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 사용 사례
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
 
 # 사용 사례 {#use-cases}
 
-다음은 실무자가 Adobe CX Enterprise Coworker Chat에서 작업 영역별로 구성한 사용 사례와 샘플 프롬프트입니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
+다음은 실무자가 Adobe 동료의 채팅에서 사용하는 사용 사례와 샘플 프롬프트로, 작업 영역별로 정리되어 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
 
 ## 데이터 인사이트
 
@@ -44,6 +44,8 @@ ht-degree: 3%
 | --- | --- | --- | --- | --- |
 | 자연어로 여정 만들기 | 텍스트 프롬프트 또는 업로드된 이미지/흐름도에서 AJO의 여정 생성 오케스트레이션 | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;등록 후 이메일을 보내고 3일을 기다린 후 후속 작업을 보내는 시작 여정 만들기&quot; · &quot;이 업로드된 순서도 이미지에서 여정 작성&quot; |
 | 여정 충돌 분석 | 활성 여정 간 대상 중복 감지, 충돌 예약 및 중복 제거 문제 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;장바구니 포기 여정이 다른 여정과 충돌합니까?&quot; · &quot;내 활성 여정 간 대상 겹침 확인&quot; |
+| 여정 폴아웃 분석 | 여정 중 고객이 중단되는 위치와 이유를 파악하고, 이탈로 이어지는 행동 패턴을 감지합니다 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;내 재참여 여정에서 사람들이 어디에 드롭하고 있습니까?&quot; · &quot;여정 X에서 폴아웃이 가장 높은 노드를 선택하십시오.&quot; |
+| 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; · &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
 
 ## 기본 요소
 

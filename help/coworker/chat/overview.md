@@ -1,14 +1,14 @@
 ---
 description: Coworker Chat이 대화형 인터페이스를 사용하여 몇 분 만에 Adobe 및 연결된 시스템 전반에서 고객 경험 작업을 계획, 실행 및 완료하는 방법을 알아봅니다.
-title: Adobe CX Enterprise Coworker 채팅 개요
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Adobe 동료 채팅 개요
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise Coworker 채팅 개요 {#overview}
+# Adobe 동료 채팅 개요 {#overview}
 
 동료 채팅은 고객 경험 작업을 완료하기 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명합니다(예: &quot;봄 요가 프로모션을 위한 대상 구축&quot; 또는 &quot;지난주 이 대상이 왜 줄어들었는지 알려 주십시오&quot;). Coworker Chat은 작업을 계획하고, Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 확인하고, 완료된 작업을 다시 승인을 위해 가져옵니다.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Coworker Chat 은 Adobe CX Enterprise Coworker 의 한 모듈입니다. 두 개의 다른 모듈은 동일한 기반을 확장합니다. Coworker 캠페인(한 번의 대화로 전체 캠페인을 시작하고 실행) 및 Coworker 프로젝트(엔드 투 엔드, 멀티팀 워크플로우를 위한 항상 제공되는 작업 공간). 이 페이지에서는 동료 채팅을 다룹니다.
+>Coworker Chat 은 Adobe Coworker 의 한 모듈입니다. 두 개의 다른 모듈은 동일한 기반을 확장합니다. Coworker 캠페인(한 번의 대화로 전체 캠페인을 시작하고 실행) 및 Coworker 프로젝트(엔드 투 엔드, 멀티팀 워크플로우를 위한 항상 제공되는 작업 공간). 이 페이지에서는 동료 채팅을 다룹니다.
 
 ## AI Assistant의 발전
 

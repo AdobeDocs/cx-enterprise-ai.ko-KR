@@ -17,16 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 2%
+source-wordcount: 996
+ht-degree: 1%
 
 ---
 
 # Agentic AI 모니터링 대시보드
 
-Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기타 거버넌스 관련자들에게 agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
+Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) 구성원 및 기타 거버넌스 관련자들에게 Agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
 
 **가용성**
 
@@ -42,7 +42,7 @@ Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기
 | **피드백** | 응답 품질 및 사용자 만족도에 대한 신호 |
 | **AI 점수** | 신용 소비 추세 및 잔액 |
 
-[Adobe CX Enterprise의 Agentic AI](agentic-ai.md) 설명서에는 기존 CX Enterprise 앱의 [AI 에이전트](agentic-ai.md#existing-apps-table)에서 사용 모니터링 범위의 에이전트가 나열됩니다.
+[Adobe CX Enterprise의 Agentic AI](agentic-ai.md) 설명서는 기존 CX Enterprise 앱의 [AI 에이전트](agentic-ai.md#existing-apps-table) 표에 사용 모니터링을 위한 범위 내의 에이전트를 나열합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491873?captions=kor&learn=on)
 
@@ -90,7 +90,7 @@ Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기
 
 ## 개요 대시보드
 
-개요 대시보드는 조직 전체의 채택 및 참여 지표를 위한 중앙 위치입니다. 이는 고도의 트렌드를 심층적인 분석으로 연결한다. 수치를 유도하는 요소를 확인하려면 모든 지표에서 개별 대화를 자세히 살펴보십시오.
+개요 대시보드는 조직 전체의 채택 및 참여 지표를 위한 중앙 위치입니다. 이는 고도의 트렌드를 심층적인 분석으로 연결한다. 지표에 영향을 주는 요인을 보려면 모든 지표에서 개별 대화를 검토하십시오.
 
 ### 개요 대시보드의 지표
 

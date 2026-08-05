@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise Coworker 평가판
-description: CX Enterprise Coworker에 대한 무료 평가판에 대해 알아보십시오.
+title: Adobe Coworker 체험판
+description: Adobe Coworker의 무료 체험판에 대해 알아보십시오.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 1%
 
 ---
 
-# CX Enterprise Coworker 평가판
+# Adobe Coworker 체험판
 
 >[!AVAILABILITY]
 >
@@ -78,7 +78,7 @@ Agentic AI 모니터링 대시보드는 조직 전체에서 Agentic AI가 채택
 
 Coworker, Agent Orchestrator 및 AI Assistant에 대한 자세한 내용은 다음 안내서를 참조하십시오.
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home)
+- [동료](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator 개요](agent-orchestrator.md)
 - [AI Assistant UI 안내서](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant 프롬프트 라이브러리](../ai-assistant/prompt-library.md)
