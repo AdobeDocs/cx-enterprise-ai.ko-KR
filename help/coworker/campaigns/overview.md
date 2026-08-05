@@ -1,18 +1,18 @@
 ---
-description: 단일 프롬프트를 검토 준비 캠페인으로 변환하는 AI 기반 마케팅 애플리케이션인 Adobe Coworker 캠페인에 대해 알아봅니다.
-title: Adobe Coworker 개요
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: 단일 프롬프트를 리뷰 준비 캠페인으로 만드는 AI 기반 마케팅 애플리케이션인 Adobe CX Enterprise Coworker 캠페인에 대해 알아봅니다.
+title: Adobe CX Enterprise Coworker 개요
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# Adobe Coworker 캠페인 개요 {#overview}
+# Adobe CX Enterprise Coworker 캠페인 개요 {#overview}
 
 Coworker Campaigns는 단일 프롬프트에서 검토 준비가 완료된 전체 캠페인으로 안내하는 AI 기반 마케팅 애플리케이션입니다.
 
-현재 AI와의 모든 상호 작용은 [캠페인 생성] (./)을 안내합니다. 더 많은 기능이 곧 제공될 예정입니다.
+현재 AI와의 모든 상호 작용은 [캠페인 생성](./)을 안내합니다. 더 많은 기능이 곧 제공될 예정입니다.
 
 ## 액세스 방법
 
@@ -110,7 +110,7 @@ Coworker Campaigns 인터페이스는 왼쪽 탐색을 중심으로 구성됩니
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3492812?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 새로운 기능은 평가판 중에 제공됩니다. 여러분의 피드백은 다음에 나올 것을 형성하는 데 도움이 됩니다. 헤더의 제품 내 피드백 아이콘을 통해 피드백을 제출합니다.

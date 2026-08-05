@@ -2,16 +2,16 @@
 description: 설명은 여기에 표시됩니다.
 title: 커넥터
 hide: true
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 13%
 
 ---
 
 # 커넥터 {#connectors}
 
-Adobe 동료 캠페인을 사용하면 연락처, 세그먼트 및 활동을 가져올 수 있도록 Marketo Engage 또는 Hubspot 계정을 연결할 수 있습니다.
+Adobe CX Enterprise Coworker Campaigns를 사용하면 Marketo Engage 또는 Hubspot 계정을 연결하여 연락처, 세그먼트 및 활동을 가져올 수 있습니다.
 
 >[!NOTE]
 >
