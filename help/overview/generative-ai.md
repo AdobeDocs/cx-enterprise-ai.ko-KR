@@ -303,7 +303,7 @@ Experience League에서 제품 지식을 살펴보십시오. 신규 사용자인
 
 * **입력:** CJA에서 지원되는 시각화(선, 영역, 막대 차트, 흐름 또는 폴아웃 포함)를 실행한 다음 **[!UICONTROL 지능형 캡션]**&#x200B;을 클릭합니다.
 
-* **출력:** 컨텍스트 및 키 변환을 보여 주는 자동 생성된 자연어 캡션을 봅니다. 그런 다음 생성된 데이터를 검토, 복사 및 조직과 공유하는 등의 작업을 수행할 수 있습니다. [방법 보기](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
+* **출력:** 컨텍스트 및 키 변환을 보여 주는 자동 생성된 자연어 캡션을 봅니다. 그런 다음 생성된 데이터를 검토, 복사 및 조직과 공유하는 등의 작업을 수행할 수 있습니다. [방법 보기](https://video.tv.adobe.com/v/3443145/?captions=kor&quality=12&learn=on#_blank)
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="지능형 캡션에 대해 알아보기"}
 
