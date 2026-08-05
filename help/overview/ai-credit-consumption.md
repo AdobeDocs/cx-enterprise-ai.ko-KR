@@ -7,9 +7,8 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 34a3227d726a6249a6dedea420828b84ad1547a7
 workflow-type: tm+mt
 source-wordcount: 966
 ht-degree: 5%
@@ -26,8 +25,8 @@ _AI 크레딧_&#x200B;은(는) 작업 또는 작업 실행을 수량화하는 �
 
 ## AI 크레딧을 사용하는 적격 서비스
 
-* CX Enterprise Coworker
-* AEP 에이전트
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [AEP 에이전트](#aep-agents-credit-rate)
 
 ### CX Enterprise Coworker 크레딧 비율
 
@@ -75,4 +74,4 @@ AI 크레딧 사용은 실행된 작업의 복잡성과 가치에 따라 달라�
 
 * [CX Enterprise의 GenAI](generative-ai.md)
 * [CX Enterprise의 에이전트 AI](agentic-ai.md)
-* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
