@@ -8,16 +8,11 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
 source-wordcount: 996
 ht-degree: 1%
@@ -26,7 +21,7 @@ ht-degree: 1%
 
 # Agentic AI 모니터링 대시보드
 
-Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) 구성원 및 기타 거버넌스 관련자들에게 Agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
+Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) 구성원 및 기타 거버넌스 관련자들에게 Agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
 
 **가용성**
 
@@ -44,7 +39,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 
 [Adobe CX Enterprise의 Agentic AI](agentic-ai.md) 설명서는 기존 CX Enterprise 앱의 [AI 에이전트](agentic-ai.md#existing-apps-table) 표에 사용 모니터링을 위한 범위 내의 에이전트를 나열합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491873?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## 대시보드 권한 활성화 {#permissions}
 
@@ -99,7 +94,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **대화당 평균 프롬프트 수:** 대화당 참여 깊이.
 * **피드백:** 사용자로부터의 엄지 손가락 위로 및 엄지 손가락 아래로 피드백 분포([!DNL AI Assistant] 상호 작용에만 해당).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491883?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 대화 재생
 
@@ -108,7 +103,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **프롬프트 및 응답 기록:** 사용자의 프롬프트 및 전달된 응답
 * **피드백 신호:** 사용자가 마찰, 차단기 또는 사용 요구 사항을 식별하기 위해 엄지 손가락을 위로 또는 아래로 표시했습니다. 이 정보는 조직에서 신속한 관련성을 개선하는 데 도움이 되며 Adobe에서 시간이 지남에 따라 응답 품질을 개선하는 데 도움이 됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491892?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## 사용자 대시보드
 
@@ -125,7 +120,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **대화 활동:** 사용자당 대화 및 프롬프트 수입니다.
 * **상위 활성 사용자:** 참여도가 높은 사용자 및 팀이 에이전트 채택을 유도합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491925?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## 피드백 대시보드
 
@@ -139,7 +134,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 * **프롬프트 및 응답 기록:** 사용자 프롬프트 및 제출된 피드백과 관련된 응답.
 * **피드백 세부 정보 및 메모:** 피드백을 제출하는 동안 사용자의 추가 컨텍스트 및 댓글입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491916?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI 크레딧 대시보드
 
@@ -151,11 +146,11 @@ AI 크레딧 대시보드는 조직에서 [!DNL Experience Platform Agents]을(�
 * **일별 및 월별 트렌드:** 증가, 감소 및 소비 패턴의 변경.
 * **남아 있는 AI 점수:** 잔액이 남아서 미리 계획을 세우고 초과 사용을 방지할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491907?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## 이 항목에 대한 추가 도움말
 
-* [!DNL Experience Platform]의 [라이선스 사용 대시보드](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)
+* [!DNL Experience Platform]의 [라이선스 사용 대시보드](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise의 Agentic AI](agentic-ai.md)
 * [에이전트 작업 및 AI 신용 소비](ai-credit-consumption.md)
-* [라이선스 사용 대시보드](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)&#x200B;(Experience Platform)
+* [라이선스 사용 대시보드](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)&#x200B;(Experience Platform)

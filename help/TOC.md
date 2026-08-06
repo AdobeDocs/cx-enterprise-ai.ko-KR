@@ -5,10 +5,10 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 28%
+source-wordcount: '236'
+ht-degree: 25%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 28%
 
 - [CX 엔터프라이즈 애플리케이션의 AI](home.md)
 - CX Enterprise의 AI 정보 {#overview}
-  - [생성형 AI](./overview/generative-ai.md)
-  - [에이전틱 AI](./overview/agentic-ai.md)
-  - [에이전틱 AI 모니터링](./overview/monitoring.md)
-  - [에이전트 작업 및 AI 신용 소비](./overview/ai-credit-consumption.md)
+  - [생성 AI 정보](./overview/generative-ai.md)
+  - [아젠틱 AI 정보](./overview/agentic-ai.md)
+  - [AI 크레딧 소비 정보](./overview/ai-credit-consumption.md)
+  - [Agentic AI 모니터링 대시보드](./overview/monitoring.md)
   - [에이전틱 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 어시스턴트 {#ai-assistant}
   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 동료 {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
