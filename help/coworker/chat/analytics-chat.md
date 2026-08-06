@@ -1,9 +1,9 @@
 ---
 title: 동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석
 description: Adobe CX Enterprise Coworker Chat 을 사용하여 Customer Journey Analytics 데이터를 분석하고 단계를 구축하며 고객이 여정에서 드롭오프하는 위치를 찾는 방법에 대해 알아봅니다.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
 workflow-type: tm+mt
-source-wordcount: '3243'
+source-wordcount: '3210'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Adobe CX Enterprise Coworker Chat 은 이전에 Analysis Workspace에서만 가�
 * **빠른 답변** - 간단한 언어를 직접 질문하고 즉시 답변을 받으십시오. 비즈니스 사용자들은 이러한 방식으로 동료 채팅을 사용하는 경우가 많으며, 분석가들은 이해 관계자를 위한 빠른 답변이 필요할 때도 이를 사용합니다.
 * **깊이 있는 생각 작업** - Coworker Chat과 여러 번 대화하여 비즈니스 문제를 조사하고, 원인을 배제하고, 권장 사항에 도달하십시오. 분석가는 일반적으로 이 접근 방식을 사용하여 권장 사항을 작성하기 전에 데이터를 심층적으로 탐색합니다.
 
-분석을 시작하기 전에 Coworker 채팅 인터페이스 및 구성 옵션에 대해 알아본 다음, Coworker가 Customer Journey Analytics 및 사용할 데이터가 포함된 데이터 보기에 연결되어 있는지 확인합니다.
+시작하기 전에 Coworker 채팅 인터페이스 및 구성 옵션을 학습한 다음 Coworker가 Customer Journey Analytics 및 관련 데이터 보기에 연결되어 있는지 확인합니다.
 
 ## 동료 채팅 시작
 
@@ -54,12 +54,14 @@ Customer Journey Analytics 데이터로 Coworker Chat을 사용하기 전에 다
 
 #### 사용자 수준 우수 사례
 
-* 계획 모드를 사용합니다. 이는 복잡한 작업에 특히 유용하지만, 동료가 행동하기 전에 후속 질문을 할 수 있으므로 간단한 작업에 대해 더 나은 결과를 얻을 수도 있습니다. 자세한 내용은 [플랜 모드](/help/coworker/chat/ui-guide.md#plan-mode)를 참조하세요.
+* 계획 모드를 사용합니다.
+
+  이 모드는 복잡한 작업에 특히 유용하지만, 동료가 행동하기 전에 후속 질문을 할 수 있기 때문에 간단한 작업에 대해 더 나은 결과를 얻을 수도 있습니다. 자세한 내용은 [플랜 모드](/help/coworker/chat/ui-guide.md#plan-mode)를 참조하세요.
 
 * 프롬프트를 만들 때 가능한 한 구체적이어야 합니다.
 
   * 분석할 차원, 지표 및 날짜 범위의 이름을 지정합니다.
-  * 차원, 지표 및 세그먼트와 같은 데이터 보기 구성 요소를 정확한 이름으로 참조합니다.
+  * 정확한 이름으로 데이터 보기 구성 요소를 참조합니다.
   * 포함, 제외 또는 비교하려는 세그먼트, 대상, 채널 또는 장치를 지정합니다.
   * funnel, 트렌드 또는 집단 테이블 등 특정 시각화 유형을 원하는지 여부를 기술합니다.
   * 동료 채팅에서 후속 질문을 제안하려면 권장되는 다음 단계를 요청하십시오.
@@ -90,7 +92,7 @@ Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있
 
 ### 사용할 데이터 보기 결정
 
-답변할 질문 유형을 동료에게 알려 주고 해당 정보를 제공하는 데 가장 적합한 액세스 권한을 가진 데이터 보기를 질문합니다. [데이터 보기를 메모리의 기본 설정으로 설정](#add-a-data-view-preference-in-memory)할 수도 있습니다.
+답변할 질문 유형을 동료에게 알려 주고 해당 정보를 제공하는 액세스 권한이 있는 데이터 보기를 질문합니다. [데이터 보기를 메모리의 기본 설정으로 설정](#add-a-data-view-preference-in-memory)할 수도 있습니다.
 
 **사용자:**
 
@@ -136,7 +138,7 @@ Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있
 
 ## Customer Journey Analytics에서 분석
 
-동료가 시각화를 만든 후 Customer Journey Analytics의 Analysis Workspace에서 시각화를 열어 보다 세분화된 제어를 통해 심층적인 분석을 수행할 수 있습니다. 시각화는 Customer Journey Analytics의 새 Analysis Workspace 프로젝트에서 열립니다.
+동료가 시각화를 만든 후 Analysis Workspace에서 열어 보다 심층적인 분석과 세분화된 제어를 수행할 수 있습니다. 시각화는 Customer Journey Analytics의 새 Analysis Workspace 프로젝트에서 열립니다.
 
 새 Analysis Workspace 프로젝트에서 시각화를 열려면 다음을 수행하십시오.
 
@@ -265,7 +267,7 @@ Customer Journey Analytics 데이터를 분석하는 데 다음 기술을 사용
 
 #### 필요한 권한
 
-* 스킬 관리, 재사용 가능한 스킬 저장
+* 기술 관리
 
 #### 주요 사용 사례
 
@@ -490,7 +492,7 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 
 >[!ENDSHADEBOX]
 
-### 방금 발생한 일
+### 무슨 일이 있었습니까
 
 4가지 일반적인 언어 질문에서 Coworker는 다음을 지원했습니다.
 
