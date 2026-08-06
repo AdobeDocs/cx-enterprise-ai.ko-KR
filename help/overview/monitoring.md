@@ -26,7 +26,7 @@ ht-degree: 1%
 
 # Agentic AI 모니터링 대시보드
 
-Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) 구성원 및 기타 거버넌스 관련자들에게 Agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
+Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) 구성원 및 기타 거버넌스 관련자들에게 Agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
 
 **가용성**
 
@@ -155,7 +155,7 @@ AI 크레딧 대시보드는 조직에서 [!DNL Experience Platform Agents]을(�
 
 ## 이 항목에 대한 추가 도움말
 
-* [!DNL Experience Platform]의 [라이선스 사용 대시보드](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
+* [!DNL Experience Platform]의 [라이선스 사용 대시보드](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise의 Agentic AI](agentic-ai.md)
 * [에이전트 작업 및 AI 신용 소비](ai-credit-consumption.md)
-* [라이선스 사용 대시보드](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)&#x200B;(Experience Platform)
+* [라이선스 사용 대시보드](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)&#x200B;(Experience Platform)
