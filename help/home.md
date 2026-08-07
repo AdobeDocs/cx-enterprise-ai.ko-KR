@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 3%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 3%
 
 여기에서 CX Enterprise에서 AI를 사용하는 위치와 방법에 대한 입문서를 시작하십시오.
 
-- [생성 AI](./overview/generative-ai.md)은(는) 생성 AI 및 AI Assistant를 지원하는 CX 엔터프라이즈 애플리케이션과 비교 방법을 설명합니다.
-- [Agentic AI](./overview/agentic-ai.md)에서는 Experience Platform 에이전트가 기존 CX 엔터프라이즈 응용 프로그램과 AI 우선 응용 프로그램 모두에서 작동하는 방식을 설명하고 각 응용 프로그램에서 사용할 수 있는 에이전트를 나열합니다.
-- [Agentic AI 모니터링](./overview/monitoring.md)은(는) 에이전트 채택, 사용, 피드백 및 AI 크레딧 소비를 추적하는 대시보드를 다룹니다.
-- [에이전트 작업 및 AI 크레딧 사용](./overview/ai-credit-consumption.md)에서는 에이전트 작업과 작업 유형별로 예상 소비율을 사용하여 에이전트 작업이 AI 크레딧을 사용하는 방법을 설명합니다.
+- [생성 AI 정보](./overview/generative-ai.md)에서는 생성 AI 및 AI Assistant를 지원하는 CX 엔터프라이즈 애플리케이션과 비교 방법에 대해 설명합니다.
+- [에이전트 AI 정보](./overview/agentic-ai.md)에서는 Experience Platform 에이전트가 기존 CX 엔터프라이즈 응용 프로그램과 AI 우선 응용 프로그램 모두에서 작동하는 방식을 설명하고 각 응용 프로그램에서 사용할 수 있는 에이전트를 나열합니다.
+- [AI 모니터링](./overview/monitoring.md)은(는) 에이전트 채택, 사용, 피드백 및 AI 크레딧 소비를 추적하는 대시보드를 다룹니다.
+- [AI 크레딧 사용량](./overview/ai-credit-consumption.md)에서는 에이전트 작업과 작업 유형별로 예상 소비율을 사용하여 에이전트 작업이 AI 크레딧을 사용하는 방법을 설명합니다.
 - [CX 엔터프라이즈 에이전트 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)에서는 CX 엔터프라이즈 에이전트를 확장하는 추가 에이전트 기술 및 도구를 다룹니다(비디오 튜토리얼).
 
 ## AI 어시스턴트
@@ -70,7 +70,7 @@ ht-degree: 3%
 
 적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다. 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [동료 평가판](./agents/trial.md)을 읽어 보십시오.
 
-동료 채팅을 실제로 보려면 [플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)을 살펴보거나 [CJA 마이그레이션 데이터에 대한 AA 유효성 검사](./coworker/data-validation-aa-cja.md) 및 [CJA 데이터 분석](./coworker/chat/analytics-chat.md)과 같은 실제 사용 사례를 읽어 보십시오.
+동료 채팅을 실제로 보려면 [플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)을 살펴보거나 [CJA 마이그레이션 데이터에 대한 AA 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) 및 [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)과 같은 실제 사용 사례를 읽어 보십시오.
 
 동료 채팅, 캠페인 및 프로젝트에 대한 전체 제품 설명서는 [동료](./coworker/overview.md)를 참조하세요. 샌드박스 간 개체 복제에 대해서는 [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)을 참조하십시오.
 

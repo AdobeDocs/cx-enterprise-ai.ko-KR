@@ -5,10 +5,10 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 28%
+source-wordcount: '241'
+ht-degree: 26%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 28%
 
 - [CX 엔터프라이즈 애플리케이션의 AI](home.md)
 - CX Enterprise의 AI 정보 {#overview}
-  - [생성형 AI](./overview/generative-ai.md)
-  - [에이전틱 AI](./overview/agentic-ai.md)
-  - [에이전틱 AI 모니터링](./overview/monitoring.md)
-  - [에이전트 작업 및 AI 신용 소비](./overview/ai-credit-consumption.md)
+  - [생성 AI 정보](./overview/generative-ai.md)
+  - [아젠틱 AI 정보](./overview/agentic-ai.md)
+  - [AI 크레딧 소비 정보](./overview/ai-credit-consumption.md)
+  - [Agentic AI 모니터링 대시보드](./overview/monitoring.md)
   - [에이전틱 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 어시스턴트 {#ai-assistant}
   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
@@ -66,9 +66,12 @@ ht-degree: 28%
     - [릴리스 정보](./coworker/campaigns/release-notes.md)
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
-    - [사용 사례](./coworker/chat/use-cases.md)
     - [UI 안내서](./coworker/chat/ui-guide.md)
-    - [CJA 데이터 분석](./coworker/chat/analytics-chat.md)
+    - 사용 사례 {#use-cases}
+      - [개요](./coworker/chat/use-cases/overview.md)
+      - 데이터 인사이트 {#data-insights}
+        - [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [AA에서 CJA으로 마이그레이션 데이터 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - 샌드박스 도구 {#sandbox-tooling}
+        - [샌드박스 간 개체 이동](./agents/sandbox-tooling.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
-  - [AA에서 CJA으로 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
-  - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)

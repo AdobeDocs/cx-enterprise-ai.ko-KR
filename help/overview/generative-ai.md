@@ -41,14 +41,14 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: 3287
+source-wordcount: 3288
 ht-degree: 13%
 
 ---
 
-# CX Enterprise의 생성형 AI
+# CX Enterprise의 생성 AI 정보
 
 CX Enterprise의 Generative AI(genAI)는 창의적 및 인지적 작업을 자동화하고 생산성을 향상시킬 수 있도록 지원합니다. 이 페이지에서는 [!DNL CX Enterprise] 응용 프로그램이 genAI 및 AI Assistant를 지원하는 위치를 파악할 수 있습니다. 이 비디오에서는 이러한 기능에 대해 자세히 알아볼 수 있는 링크를 제공합니다.
 
@@ -378,7 +378,7 @@ Marketo은 GenStudio for Performance Marketing과 통합됩니다
 
 +++세부 사항
 
-[!DNL Workfront]의 [!UICONTROL AI 길잡이]를 사용하면 인앱 정보와 제안을 제공하여 작업을 완수할 수 있습니다. 다음을 수행할 수 있습니다.
+[!DNL Workfront]의 [!UICONTROL AI 길잡이]를 사용하면 인앱 정보와 제안을 제공하여 작업을 완수할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
 * 일부 객체의 요약을 가져와 객체의 의도 또는 세부 사항을 개략적으로 볼 수 있습니다.
 * 질문하고 [!UICONTROL AI 길잡이]에게 Experience League에서 답을 찾도록 하세요.

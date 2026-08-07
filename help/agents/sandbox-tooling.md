@@ -1,7 +1,7 @@
 ---
 title: 샌드박스 도구 에이전트 기술
 description: 샌드박스 도구 에이전트 기술을 사용하여 샌드박스 환경 간에 오브젝트 메타데이터를 복제하는 방법에 대해 알아봅니다.
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >현재 샌드박스 도구 에이전트 기술을 사용하여 스키마 및 대상 객체를 검색, 패키지 및 마이그레이션할 수 있습니다. 추가 오브젝트 유형에 대한 지원은 향후 릴리스에 추가될 예정입니다.
 
 샌드박스 도구 에이전트 기술을 사용하여 자연어로 달성하고자 하는 작업을 설명함으로써 스키마 및 대상을 포함한 오브젝트 메타데이터를 Adobe Experience Platform 환경 간에 이동할 수 있습니다. CX Coworker를 사용하면 대화식 환경을 통해 필요한 메타데이터를 검색하고, 종속성을 자동으로 식별하며, 마이그레이션 패키지를 만들고, 개체를 마이그레이션할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496713?captions=kor&learn=on)
 
 ## 사전 요구 사항 {#prerequisites}
 

@@ -1,7 +1,7 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 사용 사례
-source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
+source-git-commit: 5a04f8fea57dcf6e50ca0040aaad904158c6edf7
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 4%

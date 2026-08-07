@@ -1,7 +1,7 @@
 ---
 title: 동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석
 description: Adobe CX Enterprise Coworker Chat 을 사용하여 Customer Journey Analytics 데이터를 분석하고 단계를 구축하며 고객이 여정에서 드롭오프하는 위치를 찾는 방법에 대해 알아봅니다.
-source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
+source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 3%
@@ -80,7 +80,7 @@ Coworker Chat에서 Coworker가 Customer Journey Analytics에 연결되어 있�
 
 1. 왼쪽 레일에서 MCP 아이콘을 선택한 다음 연결된 MCP 서버 목록에서 [!UICONTROL **cja-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오.
 
-   ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](./assets/coworker-mcp-cja.png)
+   ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](../../assets/coworker-mcp-cja.png)
 
 1. (조건부) [!UICONTROL **cja-mcp**]&#x200B;이(가) 아직 연결되지 않은 경우 [!UICONTROL **MCP 서버 추가**]&#x200B;를 선택하고 [!UICONTROL **서버 이름**] 필드에 cja를 지정한 다음 표시될 때 선택한 다음 [!UICONTROL **서버 추가**]&#x200B;를 선택합니다.
 
@@ -134,7 +134,7 @@ Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있
 
 1. 메모리 페이지의 [!UICONTROL **저장된 환경 설정**] 섹션에서 채팅에 사용할 Coworker Chat에 사용할 데이터 보기를 하나 이상 지정합니다.
 
-   ![왼쪽 레일의 메모리 섹션](./assets/coworker-memory.png)
+   ![왼쪽 레일의 메모리 섹션](../../assets/coworker-memory.png)
 
 ## Customer Journey Analytics에서 분석
 
@@ -152,7 +152,7 @@ Customer Journey Analytics의 다양한 데이터 보기에 액세스할 수 있
 
 빠른 답변부터 깊이 있는 사고 작업 조사에 이르기까지 Adobe CX Enterprise Coworker Chat에서 실무자가 사용하는 Customer Journey Analytics 사용 사례와 샘플 프롬프트를 볼 수 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
 
-자세한 내용은 [사용 사례](/help/coworker/chat/use-cases.md)를 참조하세요.
+자세한 내용은 [사용 사례](/help/coworker/chat/use-cases/overview.md)를 참조하세요.
 
 ## Analytics 기술
 
@@ -249,7 +249,7 @@ Customer Journey Analytics 데이터를 분석하는 데 다음 기술을 사용
 
 | 사용 사례 | 함수 | 샘플 프롬프트 |
 |---------|----------|---------|
-| **Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터 유효성 검사** | [!DNL Adobe Analytics]과(와) Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정합니다.<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사](/help/coworker/data-validation-aa-cja.md)를 참조하십시오.</p> | <ul><li>&quot;내 Adobe Analytics 보고서 세트를 내 Customer Journey Analytics 데이터 보기와 비교&quot;</li><li>&quot;Adobe Analytics과 Customer Journey Analytics 간 페이지 보기 횟수 유효성 검사&quot;</li></ul> |
+| **Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터 유효성 검사** | [!DNL Adobe Analytics]과(와) Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정합니다.<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사](data-validation-aa-cja.md)를 참조하십시오.</p> | <ul><li>&quot;내 Adobe Analytics 보고서 세트를 내 Customer Journey Analytics 데이터 보기와 비교&quot;</li><li>&quot;Adobe Analytics과 Customer Journey Analytics 간 페이지 보기 횟수 유효성 검사&quot;</li></ul> |
 
 #### 범위 내
 
@@ -323,7 +323,7 @@ Customer Journey Analytics 데이터를 분석하는 데 다음 기술을 사용
 
 >[!BEGINSHADEBOX]
 
-![세션부터 구매까지의 각 단계에서 세션 수, 전환율 및 드롭오프가 표시되는 Funnel 표](./assets/coworker-funnel-response.png)
+![세션부터 구매까지의 각 단계에서 세션 수, 전환율 및 드롭오프가 표시되는 Funnel 표](../../assets/coworker-funnel-response.png)
 
 funnel 질문입니다. 전환 funnel을 실행하여 구매 경로에서 드롭오프가 발생하는 위치를 확인할 수 있습니다.
 
@@ -372,7 +372,7 @@ funnel 질문입니다. 전환 funnel을 실행하여 구매 경로에서 드롭
 
 >[!BEGINSHADEBOX]
 
-![마케팅 채널별로 분류된 전환율 및 드롭오프를 보여 주는 Funnel 테이블](./assets/coworker-funnel-response2.png)
+![마케팅 채널별로 분류된 전환율 및 드롭오프를 보여 주는 Funnel 테이블](../../assets/coworker-funnel-response2.png)
 
 사용자 지정 **마케팅 채널** 차원이 있습니다. 이를 통해 funnel을 가져온 다음 채널별 전환율을 계산하고 각 채널이 누출되는 위치를 식별하겠습니다.
 
@@ -423,7 +423,7 @@ funnel 질문입니다. 전환 funnel을 실행하여 구매 경로에서 드롭
 
 >[!BEGINSHADEBOX]
 
-![장치 유형별로 분류된 전환율 및 드롭오프를 보여 주는 Funnel 테이블](./assets/coworker-funnel-response3.png)
+![장치 유형별로 분류된 전환율 및 드롭오프를 보여 주는 Funnel 테이블](../../assets/coworker-funnel-response3.png)
 
 **찾음: 모바일 체크 아웃이 끊어졌습니다**
 
