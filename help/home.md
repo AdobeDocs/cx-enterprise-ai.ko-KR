@@ -64,8 +64,8 @@ ht-degree: 3%
 
 동료는 고객 경험과 마케팅 워크플로를 자동화하는 AI 비서의 에이전트 우선 진화로, 팀이 일상적인 실행 대신 비즈니스 목표에 집중할 수 있도록 합니다. 한 번에 한 질문씩 던지는 대신 목표를 설명한다. 동료는 사용자의 승인을 위해 완료된 작업을 계획, 실행, 검증 및 반환합니다. 동료는 다음과 같습니다.
 
-- **[공동 작업자 채팅](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX 엔터프라이즈 애플리케이션에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
-- **[공동 작업자 캠페인](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다.
+- **[공동 작업자 채팅](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX 엔터프라이즈 애플리케이션에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
+- **[공동 작업자 캠페인](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다.
 - **공동 작업자 프로젝트**(준비 중): 엔드 투 엔드 고객 경험 오케스트레이션 워크플로우를 자동화하고, 팀이 작업, 승인 및 실행을 조정하여 전략에서 게재를 통한 결과를 도출하는 데 도움이 되는 통합 작업 영역입니다. 프로젝트 설명서가 곧 제공됩니다.
 
 적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다. 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [동료 평가판](./agents/trial.md)을 읽어 보십시오.
