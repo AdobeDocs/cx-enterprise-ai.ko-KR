@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Adobe CX Enterprise의 AI Assistant
-user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Platform 및 Real-Time Customer Data Platform을 통해 워크플로를 가속화하는 방법을 알아봅니다.
-description: CX Enterprise의 AI Assistant에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
+user-guide-title: 동료
+user-guide-description: 실용적인 설명서, 구현 지침 및 참조 자료를 통해 AI Assistant, Coworker, 에이전트 및 MCP를 구축, 구성, 통합 및 확장하는 방법을 알아봅니다.
+description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 26%
+source-wordcount: '238'
+ht-degree: 18%
 
 ---
 
