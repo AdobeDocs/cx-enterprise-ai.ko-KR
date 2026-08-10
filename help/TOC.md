@@ -5,10 +5,10 @@ user-guide-description: 실용적인 설명서, 구현 지침 및 참조 자료�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 18%
+source-wordcount: '253'
+ht-degree: 17%
 
 ---
 
@@ -71,7 +71,12 @@ ht-degree: 18%
       - [개요](./coworker/chat/use-cases/overview.md)
       - 데이터 인사이트 {#data-insights}
         - [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [근본 원인 분석](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [AA에서 CJA으로 마이그레이션 데이터 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - 대상자 {#audiences}
+        - [자연어를 사용하여 대상자 만들기](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - 여정 {#journeys}
+        - [자연어를 사용하여 여정 만들기](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - 샌드박스 도구 {#sandbox-tooling}
         - [샌드박스 간 개체 이동](./agents/sandbox-tooling.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)

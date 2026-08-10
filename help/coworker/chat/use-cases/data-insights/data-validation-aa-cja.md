@@ -1,7 +1,14 @@
 ---
 title: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사
 description: Analytics 관리자가 CX Enterprise Coworker 데이터 유효성 검사 기술을 사용하여 업그레이드 중에 Adobe Analytics 및 Customer Journey Analytics 데이터를 비교하는 방법에 대해 알아봅니다.
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -26,8 +33,6 @@ Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레�
 
 ## 시작하기에 앞서
 
-
-
 업그레이드의 일부로 데이터의 유효성을 검사하려면 다음을 수행해야 합니다.
 
 * 유효성을 검사할 Adobe Analytics 보고서 세트입니다.
@@ -35,6 +40,8 @@ Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레�
 * 동일한 데이터가 포함된 Customer Journey Analytics 데이터 보기.
 
 구현이 어떻게 설계되었는지 알 필요가 없습니다. 이 기술은 Customer Journey Analytics 구현에서 Analytics Source 커넥터를 사용하는지 또는 Experience Platform Web SDK의 새 구현을 사용하는지 자동으로 감지합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496862/?captions=kor&learn=on&enablevpops)
 
 ## 유효성 검사 세션 시작
 
