@@ -1,7 +1,14 @@
 ---
 title: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사
 description: Analytics 관리자가 CX Enterprise Coworker 데이터 유효성 검사 기술을 사용하여 업그레이드 중에 Adobe Analytics 및 Customer Journey Analytics 데이터를 비교하는 방법에 대해 알아봅니다.
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -12,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
 
 Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터의 유효성을 검사할 수 있는 유효성 검사 기술이 포함되어 있습니다. 데이터 유효성 검사는 단일 대화 내에서 완료됩니다.
 
@@ -26,8 +33,6 @@ Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레�
 
 ## 시작하기에 앞서
 
-
-
 업그레이드의 일부로 데이터의 유효성을 검사하려면 다음을 수행해야 합니다.
 
 * 유효성을 검사할 Adobe Analytics 보고서 세트입니다.
@@ -35,6 +40,8 @@ Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레�
 * 동일한 데이터가 포함된 Customer Journey Analytics 데이터 보기.
 
 구현이 어떻게 설계되었는지 알 필요가 없습니다. 이 기술은 Customer Journey Analytics 구현에서 Analytics Source 커넥터를 사용하는지 또는 Experience Platform Web SDK의 새 구현을 사용하는지 자동으로 감지합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496846/?learn=on&enablevpops)
 
 ## 유효성 검사 세션 시작
 
@@ -183,7 +190,7 @@ Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레�
 
    회사, 보고서 세트 및 데이터 보기 선택 사항이 대화 전체에서 수행되도록 설정 프로세스를 반복할 필요는 없습니다.
 
-1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
    Customer Journey Analytics에서 Customer Journey Analytics 업그레이드 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.
 
