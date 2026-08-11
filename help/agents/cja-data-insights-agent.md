@@ -1,30 +1,17 @@
 ---
 description: Customer Journey Analytics에서 Data Insights Agent을 사용하여 데이터를 시각화하는 방법 알아보기
-title: Customer Journey Analytics에서 Data Insights Agent을 사용하여 데이터 시각화
+title: Data Insights Agent을 사용하여 데이터 시각화
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2686
 ht-degree: 4%
 
 ---
@@ -49,7 +36,7 @@ AI Assistant의 ![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst
 | **Workspace 작업 및 에이전트 기능** | <ul><li>시각화 작성 및 업데이트<p>자유 형식 테이블 및 관련 시각화(예: 선, 막대, 도넛 등)를 생성합니다.</p><p>예를 들어, *2월부터 5월까지 SKU의 이익은 무엇입니까?*</p></li><li>후속 질문<p>이전 프롬프트에서 컨텍스트에 있는 프롬프트에 응답합니다. 예:</p> <ul><li>프롬프트 1: *3월의 트렌드 이벤트*</li><li>프롬프트 2: *대신 3월에서 4월까지의 데이터 표시*</li></ul> </li><li>범위를 벗어난 프롬프트 감지<p>*이 프로젝트 내보내기*&#x200B;와 같이 범위를 벗어난 프롬프트를 제출하는 경우 Data Insights Agent은 질문이 범위를 벗어났음을 알리는 방식으로 응답합니다.</p></li></ul> | <ul><li>공유</li><li>내보내기</li><li>다운로드</li><li>사용자 환경 설정 관리</li><li>데이터 보기 관리</li><li>Analytics 대시보드 앱</li><li>속성</li><li>인라인 요약 또는 응답<p>Data Insights Agent은 사용자 프롬프트의 요약 답변으로 채팅 레일에서 인라인으로 응답할 수 없습니다. 범위를 벗어나는 프롬프트의 예로는 *마지막 프롬프트에서 인사이트에 대한 요약을 제공합니다* 및 *선 시각화에서 하이라이트를 요약합니다*.</p></li></ul> |
 | **명확한 질문** | Data Insights Agent이 답변할 수 있는 충분한 컨텍스트가 없는 질문을 하거나 너무 일반적인 질문을 하는 경우 Data Insights Agent은 명확한 질문이나 제안된 옵션으로 응답합니다. <p>구성 요소 관련 질문의 예는 다음 명확화 질문입니다.</p><ul><li>지표: *어떤 &quot;매출&quot; 지표를 의미했습니까?*</li><li>Dimension: *아래 &quot;지역&quot; 중 어떤 것에 집중하시겠습니까?*</li><li>세그먼트: *어떤 &quot;계정&quot; 세그먼트를 적용하시겠습니까?*</li><li>날짜 범위: *지난 달, 마지막 전체 달 또는 마지막 30일을 의미합니까?*</li></ul><p>다음 명확화 질문은 차원 항목과 관련된 질문의 예입니다.</p> <ul><li>어떤 &quot;가게 이름&quot;을 말씀하시는 건가요? (예: 스토어 #5274, 스토어 #2949 등)</li></ul> | 질문을 명확히 하는 것은 구성 요소 및 차원 항목으로 제한됩니다. Data Insights Agent에서는 데이터 보기, 시각화, 데이터 세부기간, 비교 및 범위와 같은 항목을 명확하게 할 수 없습니다. 명확한 질문을 사용할 수 없는 경우, 에이전트는 사용자가 요청할 가능성이 가장 큰 질문을 기본값으로 설정합니다. 예기치 않은 시각화 또는 데이터 세부기간을 반환하는 경우 후속 질문을 하거나 시각화 및 데이터를 조정할 수 있습니다. |
 | **데이터 확인 및 수정** | 생성된 자유 형식 테이블 조회 및 데이터 시각화를 통해 데이터 검증성 및 정확성을 확인할 수 있다. <p>예를 들어 Data Insights Agent에 *지난 달의 트렌드 주문*&#x200B;을(를) 요청하면 새로 생성된 패널, 데이터 시각화 및 자유 형식 테이블에서 올바른 지표(&quot;주문&quot;) 및 날짜 범위(&quot;지난 달&quot;)가 선택되었는지 확인할 수 있습니다.</p> | Data Insights Agent은 추가된 구성 요소 또는 시각화를 알려 주지 않습니다. |
-| **피드백 메커니즘** | <ul><li>엄지 손가락 위로</li><li>엄지 손가락 아래로</li><li>플래그</li></ul> |  |
+| **피드백 메커니즘** | <ul><li>좋아요</li><li>싫어요</li><li>플래그</li></ul> |  |
 
 
 ## Data Insights 에이전트에 대한 액세스 관리 {#manage-access}
@@ -71,7 +58,7 @@ AI Assistant의 ![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst
 
 * **권한**: 사용자가 Data Insights Agent에 액세스하려면 [!UICONTROL Adobe Admin Console]에서 필요한 권한을 부여해야 합니다.
 
-  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 완료해야 합니다.
+  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 완료해야 합니다.
   1. **[!UICONTROL Admin Console]**&#x200B;에서 **[!UICONTROL 제품]** 탭을 선택하여 **[!UICONTROL 모든 제품 및 서비스]** 페이지를 봅니다.
   1. **[!UICONTROL Customer Journey Analytics]**&#x200B;을(를) 선택합니다.
   1. **[!UICONTROL 제품 프로필]** 탭에서 [!UICONTROL AI Assistant: 제품 기술 자료]에 대한 액세스 권한을 제공할 제품 프로필의 제목을 선택합니다.
@@ -89,7 +76,7 @@ AI Assistant의 ![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst
 
   1. **[!UICONTROL 저장]**&#x200B;을 선택하여 권한을 저장합니다.
 
-  액세스 제어에 대한 자세한 내용은 [액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#access-control)를 참조하십시오.
+  액세스 제어에 대한 자세한 내용은 [액세스 제어](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)를 참조하십시오.
 
 * **데이터 보기 액세스**: Data Insights Agent에 대해 데이터 보기를 사용하도록 설정해야 합니다.
 
@@ -97,7 +84,7 @@ AI Assistant의 ![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst
   >
   >데이터 보기를 활성화할 때 다음 사항을 고려하십시오.
   >* IMS 조직당 최대 50개의 데이터 보기를 활성화할 수 있습니다. 주어진 조직에 대해 모든 제품 프로필에서 50개 이상의 데이터 보기를 활성화하면 Data Insights Agent에서 가장 많이 사용되는 50개의 데이터 보기를 사용합니다.
-  >  데이터 보기의 Data Insights Agent 열에 있는 [정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)를 사용하여 IMS 조직의 Data Insights Agent에 대해 활성화된 데이터 보기 수를 볼 수 있습니다.
+  >  데이터 보기의 Data Insights Agent 열에 있는 [정보](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)를 사용하여 IMS 조직의 Data Insights Agent에 대해 활성화된 데이터 보기 수를 볼 수 있습니다.
   >* Data Insights Agent은 포함된 데이터 보기를 활성화한 같은 날 중에 참조할 수 있습니다.
 
   Data Insights Agent에 대한 데이터 보기를 활성화하려면 다음을 수행하십시오.
@@ -195,7 +182,7 @@ Adobe Experience Platform Agent Orchestrator을 사용하면 Adobe Journey Optim
 
 Agent Orchestrator은 요청을 해석하고 필요한 전문 에이전트를 결정하고 올바른 응답을 제공하도록 조정합니다. 다중 전환 상호 작용 간의 컨텍스트를 추적하므로 자연스럽게 이전 쿼리를 빌드할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/kr/products/experience-platform/agent-orchestrator.html)을 참조하세요.
+자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)을 참조하세요.
 
 ## 예제 데이터 시각화 프롬프트
 
@@ -285,8 +272,8 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[데이터 사전](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[계산된 지표 승인](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[세그먼트 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[데이터 사전](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[계산된 지표 승인](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[세그먼트 공유](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
 

@@ -1,7 +1,7 @@
 ---
 title: CX Coworker 게이트웨이 도구 액세스
 description: Adobe CX Coworker Gateway 도구를 사용하기 전에 제품 가용성, 조직 지원 및 권한을 확인하십시오.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Adobe CX Enterprise는 단일 MCP를 통해 제품 도구를 제공합니다. �
 | Journey Optimizer | Beta | 활성 Journey Optimizer 라이선스, Adobe 조직에 대한 Beta 지원, 캠페인 및 채널 구성을 볼 수 있는 권한. |
 | Customer Journey Analytics | 사용 가능 | Active Customer Journey Analytics 라이선스 및 Adobe Admin Console의 **MCP 액세스** 권한 항목을 포함하는 제품 프로필입니다. 제품 권한은 여전히 액세스하거나 수정할 수 있는 데이터 보기, 구성 요소, 보고서, 프로젝트 및 대상을 제어합니다. |
 | Adobe Analytics | 사용 가능 | Active Adobe Analytics 라이선스 및 Adobe Admin Console의 **MCP 액세스** 권한 항목을 포함하는 제품 프로필입니다. 제품 권한은 여전히 액세스하거나 수정할 수 있는 보고서 세트, 구성 요소, 보고서, 세그먼트, 날짜 범위 및 프로젝트를 제어합니다. |
-| Workfront | 미리 보기 | 활성 Workfront 라이선스 및 Workfront MCP 지원. [Workfront MCP 설명서](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)를 참조하세요. |
+| Workfront | 미리 보기 | 활성 Workfront 라이선스 및 Workfront MCP 지원. [Workfront MCP 설명서](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)를 참조하세요. |
 
 
 >[!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizer 및 동료 - 자연어로 여정 생성
+title: Journey Optimizer 및 동료 - 여정 생성
 description: 동료가 마케터가 간단한 자연어 프롬프트를 사용하여 Adobe Journey Optimizer 여정을 만드는 데 어떻게 도움이 되는지에 대해 알아봅니다.
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 102
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22081
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ ht-degree: 0%
  
 초기 설정 프로세스를 자동화함으로써, 팀은 처음부터 여정을 구축하는 데 더 적은 시간을 소비하고 고객 경험과 비즈니스 결과를 개선하는 데 더 많은 시간을 할애할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496881/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)

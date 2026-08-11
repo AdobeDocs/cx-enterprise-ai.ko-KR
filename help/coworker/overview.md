@@ -1,9 +1,9 @@
 ---
-title: Adobe CX Enterprise Coworker
+title: Adobe CX Enterprise Coworker 정보
 description: Adobe CX Enterprise Coworker를 사용하여 마케팅을 한 단계 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 05fc3688b9a3544884b5b121a43ff17a81c4df78
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 4%
 
 ---
