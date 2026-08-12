@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 동료 {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
@@ -63,6 +63,9 @@ ht-degree: 16%
     - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
     - [사용 사례](./coworker/campaigns/use-cases.md)
     - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
+    - 커넥터 {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [릴리스 정보](./coworker/campaigns/release-notes.md)
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
