@@ -1,10 +1,10 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 3%
+source-wordcount: '1219'
+ht-degree: 4%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 3%
 | 여정 충돌 분석 | 활성 여정 간 대상 중복 감지, 충돌 예약 및 중복 제거 문제 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;장바구니 포기 여정이 다른 여정과 충돌합니까?&quot; · &quot;내 활성 여정 간 대상 겹침 확인&quot; |
 | 여정 폴아웃 분석 | 여정 중 고객이 중단되는 위치와 이유를 파악하고, 이탈로 이어지는 행동 패턴을 감지합니다 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;내 재참여 여정에서 사람들이 어디에 드롭하고 있습니까?&quot; · &quot;여정 X에서 폴아웃이 가장 높은 노드를 선택하십시오.&quot; |
 | 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; · &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
+| [충성도 문제를 만들고, 편집하고, 관리합니다](journeys/create-loyalty-challenge.md) | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 격려하는 도전을 만드세요&quot; · &quot;가장 높은 회원 감소율로 충성도 도전을 보여줍니다.&quot; |
 
 ## 기본 요소
 
