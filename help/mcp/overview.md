@@ -1,9 +1,9 @@
 ---
-title: Adobe CX Coworker 게이트웨이
+title: Adobe CX Coworker 게이트웨이 개요
 description: Adobe CX Coworker Gateway는 Adobe CX Enterprise용 통합 MCP로, MCP 클라이언트에게 지원되는 제품 도구에 대한 단일 연결을 제공합니다.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics 및 동료 - 자연어로 트렌드 및 근본 원인 살펴보기
+title: Customer Journey Analytics 및 동료 - 근본 원인 분석
 description: Coworker가 자연어로 분석 질문에 답변하고 트렌드를 시각화하고 패턴을 파악하며 수동 쿼리 없이 근본 원인 분석을 수행하는 방법에 대해 알아봅니다.
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 186
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22082
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---

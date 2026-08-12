@@ -1,10 +1,10 @@
 ---
 description: CO-STAR 프레임워크, 실행 및 금지 사항, 지원되지 않는 콘텐츠 및 프롬프트에 대한 품질 검사 목록 등 동료가 캠페인 프롬프트를 표시하는 모범 사례에 대해 알아봅니다.
-title: 프롬프트 우수 사례
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: 프롬프트 모범 사례
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

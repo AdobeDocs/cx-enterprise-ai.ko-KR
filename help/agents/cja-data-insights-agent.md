@@ -1,6 +1,6 @@
 ---
 description: Customer Journey Analytics에서 Data Insights Agent을 사용하여 데이터를 시각화하는 방법 알아보기
-title: Customer Journey Analytics에서 Data Insights Agent을 사용하여 데이터 시각화
+title: Data Insights Agent을 사용하여 데이터 시각화
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2686
 ht-degree: 4%
 
 ---
@@ -49,7 +49,7 @@ AI Assistant의 ![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst
 | **Workspace 작업 및 에이전트 기능** | <ul><li>시각화 작성 및 업데이트<p>자유 형식 테이블 및 관련 시각화(예: 선, 막대, 도넛 등)를 생성합니다.</p><p>예를 들어, *2월부터 5월까지 SKU의 이익은 무엇입니까?*</p></li><li>후속 질문<p>이전 프롬프트에서 컨텍스트에 있는 프롬프트에 응답합니다. 예:</p> <ul><li>프롬프트 1: *3월의 트렌드 이벤트*</li><li>프롬프트 2: *대신 3월에서 4월까지의 데이터 표시*</li></ul> </li><li>범위를 벗어난 프롬프트 감지<p>*이 프로젝트 내보내기*&#x200B;와 같이 범위를 벗어난 프롬프트를 제출하는 경우 Data Insights Agent은 질문이 범위를 벗어났음을 알리는 방식으로 응답합니다.</p></li></ul> | <ul><li>공유</li><li>내보내기</li><li>다운로드</li><li>사용자 환경 설정 관리</li><li>데이터 보기 관리</li><li>Analytics 대시보드 앱</li><li>속성</li><li>인라인 요약 또는 응답<p>Data Insights Agent은 사용자 프롬프트의 요약 답변으로 채팅 레일에서 인라인으로 응답할 수 없습니다. 범위를 벗어나는 프롬프트의 예로는 *마지막 프롬프트에서 인사이트에 대한 요약을 제공합니다* 및 *선 시각화에서 하이라이트를 요약합니다*.</p></li></ul> |
 | **명확한 질문** | Data Insights Agent이 답변할 수 있는 충분한 컨텍스트가 없는 질문을 하거나 너무 일반적인 질문을 하는 경우 Data Insights Agent은 명확한 질문이나 제안된 옵션으로 응답합니다. <p>구성 요소 관련 질문의 예는 다음 명확화 질문입니다.</p><ul><li>지표: *어떤 &quot;매출&quot; 지표를 의미했습니까?*</li><li>Dimension: *아래 &quot;지역&quot; 중 어떤 것에 집중하시겠습니까?*</li><li>세그먼트: *어떤 &quot;계정&quot; 세그먼트를 적용하시겠습니까?*</li><li>날짜 범위: *지난 달, 마지막 전체 달 또는 마지막 30일을 의미합니까?*</li></ul><p>다음 명확화 질문은 차원 항목과 관련된 질문의 예입니다.</p> <ul><li>어떤 &quot;가게 이름&quot;을 말씀하시는 건가요? (예: 스토어 #5274, 스토어 #2949 등)</li></ul> | 질문을 명확히 하는 것은 구성 요소 및 차원 항목으로 제한됩니다. Data Insights Agent에서는 데이터 보기, 시각화, 데이터 세부기간, 비교 및 범위와 같은 항목을 명확하게 할 수 없습니다. 명확한 질문을 사용할 수 없는 경우, 에이전트는 사용자가 요청할 가능성이 가장 큰 질문을 기본값으로 설정합니다. 예기치 않은 시각화 또는 데이터 세부기간을 반환하는 경우 후속 질문을 하거나 시각화 및 데이터를 조정할 수 있습니다. |
 | **데이터 확인 및 수정** | 생성된 자유 형식 테이블 조회 및 데이터 시각화를 통해 데이터 검증성 및 정확성을 확인할 수 있다. <p>예를 들어 Data Insights Agent에 *지난 달의 트렌드 주문*&#x200B;을(를) 요청하면 새로 생성된 패널, 데이터 시각화 및 자유 형식 테이블에서 올바른 지표(&quot;주문&quot;) 및 날짜 범위(&quot;지난 달&quot;)가 선택되었는지 확인할 수 있습니다.</p> | Data Insights Agent은 추가된 구성 요소 또는 시각화를 알려 주지 않습니다. |
-| **피드백 메커니즘** | <ul><li>엄지 손가락 위로</li><li>엄지 손가락 아래로</li><li>플래그</li></ul> |  |
+| **피드백 메커니즘** | <ul><li>좋아요</li><li>싫어요</li><li>플래그</li></ul> |  |
 
 
 ## Data Insights 에이전트에 대한 액세스 관리 {#manage-access}
