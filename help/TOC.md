@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
+source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 16%
     - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
     - [사용 사례](./coworker/campaigns/use-cases.md)
     - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
+    - 커넥터 {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [릴리스 정보](./coworker/campaigns/release-notes.md)
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
@@ -77,6 +80,7 @@ ht-degree: 16%
         - [플랫폼 상태 평가 및 대상 구축](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 여정 {#journeys}
         - [자연어를 사용하여 여정 만들기](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [충성도 과제 및 잠재 고객 인사이트 만들기](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 샌드박스 도구 {#sandbox-tooling}
         - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)

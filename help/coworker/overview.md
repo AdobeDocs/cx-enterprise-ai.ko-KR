@@ -1,9 +1,9 @@
 ---
 title: Adobe CX Enterprise Coworker 정보
 description: Adobe CX Enterprise Coworker를 사용하여 마케팅을 한 단계 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 4%
 * [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
 * [사용 사례](./campaigns/use-cases.md)
 * [프롬프트 우수 사례](./campaigns/prompting-best-practices.md)
+<!--
+broken links
+* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
+-->
 
 ## 채팅
 
@@ -29,6 +34,6 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 * [사용 사례](./chat/use-cases/overview.md)
 * [UI 안내서](./chat/ui-guide.md)
 
-## 프로젝트(문서 준비 중)
+## 프로젝트(준비 중)
 
 Coworker Projects는 엔드 투 엔드 고객 경험 오케스트레이션 워크플로를 자동화하는 통합 작업 영역으로서, 팀이 작업, 승인 및 실행을 조정하여 전략에서 전달까지 성과를 얻을 수 있도록 지원합니다.
