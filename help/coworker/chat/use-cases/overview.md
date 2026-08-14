@@ -1,10 +1,10 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: a19e6a17796fbe8d00a6e5559fc664ae469481f2
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 7%
 
 ---
 
@@ -17,12 +17,13 @@ ht-degree: 4%
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [CJA 보고서 및 지표 가져오기](data-insights/analytics-chat.md) | 실시간으로 CJA을 쿼리하여 지표, 차원, 세그먼트 및 데이터 보기를 가져옵니다. | `cja` | Customer Journey Analytics(CJA) | &quot;지난 30일 동안의 페이지 보기 횟수 표시&quot; · &quot;마스터 데이터 보기에 상위 세그먼트 나열&quot; |
-| 비교 분석 | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교 | `cja` | Customer Journey Analytics(CJA) | &quot;월별 채널별 매출 비교&quot; · &quot;이번 분기에 모바일과 데스크탑 간 전환은 어떻게 보입니까?&quot; |
+| 비교 분석 | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교 | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics(CJA) | &quot;월별 채널별 매출 비교&quot; · &quot;이번 분기에 모바일과 데스크탑 간 전환은 어떻게 보입니까?&quot; |
+| 캠페인 성과 | 지정된 기간 동안 캠페인, 채널 및 웹 속성이 수행되는 방식을 측정합니다. | `cja`, `dx-api`, `knowledge-graph` | | &quot;Acrobat 웹 캠페인은 지난 달에 어떻게 수행되었습니까?&quot; |
 | Funnel 분석 | 각 단계에서 드롭오프로 여러 단계의 전환 단계를 거칩니다. | `cja` | Customer Journey Analytics(CJA) | &quot;체크아웃 funnel 안내&quot; · &quot;PDP에서 구매로 변환 funnel 표시&quot; |
 | 예측 | 내역 CJA 데이터를 기반으로 향후 지표 값 프로젝트 | `cja` | Customer Journey Analytics(CJA) | &quot;향후 30일 동안의 세션 예측&quot; · &quot;매출 목표를 달성할 수 있습니까?&quot; |
 | [근본 원인 분석](data-insights/root-cause-analysis.md) | 지표가 변경된 이유를 조사합니다. 드롭, 스파이크 및 예외 항목을 진단합니다. | `cja-root-cause-analysis` | Customer Journey Analytics(CJA) | &quot;지난 주에 전환율이 떨어진 이유는 무엇입니까?&quot; · &quot;1월 15일 매출 급증의 원인은 무엇입니까?&quot; |
-| 경영진 요약 및 KPI 다이제스트 | 이해 당사자에게 준비된 성능 요약, 규범적 권장 사항 및 슬라이드 데크 개요 작성 | `cja-executive-summary` | Customer Journey Analytics(CJA) | &quot;지난달 요약 제공&quot; · &quot;이번 분기 데이터를 활용하여 슬라이드 데크 개요 만들기&quot; |
-| [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | Adobe Analytics과 Customer Journey Analytics 간의 데이터 비교, 감사 및 조정 | `aa-cja-validation` | ADOBE ANALYTICS + CJA | &quot;AA 보고서 세트를 내 CJA 데이터 보기 비교&quot; · &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
+| 경영진 요약 및 KPI 다이제스트 | 이해 당사자에게 준비된 성능 요약, 규범적 권장 사항 및 슬라이드 데크 개요 작성 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics(CJA) | &quot;지난달 요약 제공&quot; · &quot;이번 분기 데이터를 활용하여 슬라이드 데크 개요 만들기&quot; |
+| [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | 특히 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics과 Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정할 수 있습니다 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;AA 보고서 세트를 내 CJA 데이터 보기 비교&quot; · &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
 | 운영 시계열 및 인과관계 분석 | 인과 관계 속성을 사용하여 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 분석합니다. | `operational-stats-causal-analysis` | 모든 적격 지원 | &quot;지난 90일 동안의 대상 크기 트렌드를 표시합니다.&quot; · &quot;3월 3일에 데이터 세트 행 수가 급증한 이유는 무엇입니까?&quot; |
 | 사용자 지정 CJA 스킬 만들기 | 분석 패턴을 세션 간에 지속되는 재사용 가능한 반복 가능한 스킬로 변환 | `cja-skill-creator` | Customer Journey Analytics(CJA) | &quot;이 주간 수익 분석을 재사용 가능한 스킬로 전환&quot; · &quot;월별 funnel 보고를 위한 스킬로 저장&quot; |
 
