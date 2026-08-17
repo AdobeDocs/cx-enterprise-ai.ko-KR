@@ -1,7 +1,8 @@
 ---
 description: 프롬프트 작성에서 캠페인 검토 및 내보내기에 이르기까지 Adobe CX Enterprise Coworker 캠페인에서 이메일 캠페인 생성에 대한 단계별 안내서입니다.
 title: 이메일 캠페인 만들기
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 976

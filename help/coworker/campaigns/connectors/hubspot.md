@@ -1,7 +1,8 @@
 ---
 description: 서비스 키를 사용하여 HubSpot 계정을 Coworker Campaigns에 연결하여 연락처 목록을 동기화한 다음 언제든지 통합을 관리하거나 연결을 끊습니다.
 title: HubSpot에 연결
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 258

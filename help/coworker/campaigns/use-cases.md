@@ -1,7 +1,8 @@
 ---
 description: 획득, 참여, 이벤트, 전환 및 유지 캠페인 전반에 걸쳐 사용 사례별로 구성된 Adobe CX Enterprise Coworker 캠페인에 대한 실제 프롬프트 패턴을 살펴봅니다.
 title: 동료 캠페인 사용 사례
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 508
@@ -159,4 +160,4 @@ ht-degree: 0%
 
 ## 빌드할 준비가 되셨습니까?
 
-위에서 사용 사례를 선택하고 [전자 메일 캠페인 만들기](./)를 방문하여 전체 단계별 캠페인을 시도하세요.
+위에서 사용 사례를 선택하고 [전자 메일 캠페인 만들기] (./)를 방문하여 전체 단계별 캠페인을 시도하세요.

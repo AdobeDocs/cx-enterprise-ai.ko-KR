@@ -2,7 +2,8 @@
 title: 플레이그라운드에서 동료 채팅 시작
 description: 플레이그라운드에서 동료 채팅을 사용하여 자연어 프롬프트가 작업을 학습, 조사 및 구체화하는 데 어떻게 도움이 되는지 살펴보는 방법에 대해 알아봅니다.
 hide: true
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 1671
