@@ -1,9 +1,10 @@
 ---
 description: Marketo 스마트 및 정적 목록을 동기화할 수 있도록 Marketo Engage 계정을 Coworker Campaigns에 연결하는 방법을 알아봅니다.
 title: Marketo Engage에 연결
-source-git-commit: 58764017fd2504a481be7ed9577cdcf4a1f107cd
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Adobe Coworker Campaigns를 사용하면 Marketo Engage 계정을 연결하여 �
 >
 >* 활성 Marketo Engage 계정
 >* Marketo **인스턴스 URL**
->* [클라이언트 ID 및 클라이언트 암호](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)를 통해 Marketo의 동료 캠페인에 대해 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)를 만들었습니다.
+>* [클라이언트 ID 및 클라이언트 암호](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)를 통해 Marketo의 동료 캠페인에 대해 [사용자 지정 서비스](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)를 만들었습니다.
 
 ## 연결 방법
 
