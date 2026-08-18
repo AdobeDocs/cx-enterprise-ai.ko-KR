@@ -2,7 +2,7 @@
 description: Coworker Campaigns에서 생성부터 이메일 게재에 이르기까지 이미지에 C2PA 메타데이터(Content Credentials)를 자동으로 첨부하고 유지하는 방법을 알아봅니다.
 title: 동료 캠페인의 C2PA 메타데이터
 hide: true
-source-git-commit: 9796ac7d3d55e7a278414d44a214bfdf5311d727
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
@@ -15,13 +15,9 @@ ht-degree: 6%
 
 C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 방식을 기록하는 보이지 않는 지속적인 메타데이터입니다. 동료 캠페인에서 생성 AI 도구를 사용하여 이미지를 생성하거나 편집하면 C2PA 메타데이터가 해당 이미지에 자동으로 첨부됩니다. 사용자 측에서는 아무 작업도 필요하지 않습니다.
 
->[!BEGINSHADEBOX]
-
 ## 이메일 캠페인의 Content Credentials {#content-credentials-email}
 
 이메일 캠페인에 전송된 이미지는 Content Credentials을 그대로 유지하므로 수신자는 전달된 이메일에서 직접 이미지의 출처와 신뢰성을 확인할 수 있습니다.
-
->[!ENDSHADEBOX]
 
 ## C2PA 메타데이터를 첨부하는 작업 {#cc-workflows}
 
@@ -44,8 +40,8 @@ C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 
 
 ## 추가 리소스
 
-* [C2PA 메타데이터에 대해 자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}
+* [C2PA 메타데이터에 대해 자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
 
 * [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [가드레일 및 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [가드레일 및 제한 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
