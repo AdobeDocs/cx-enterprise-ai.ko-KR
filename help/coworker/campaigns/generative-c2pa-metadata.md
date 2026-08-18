@@ -2,10 +2,10 @@
 description: Coworker Campaigns에서 AI가 생성하고 편집한 이미지에 대해 별도의 작업 없이 C2PA 메타데이터(Content Credentials)를 자동으로 첨부하고 보존하는 방법에 대해 알아봅니다.
 title: 동료 캠페인의 C2PA 메타데이터
 hide: true
-source-git-commit: cf96ff8bdb16708c6726854b92d0c2d6e681817a
+source-git-commit: c03bdd213d3e96de1bee022b98e4809d3100a195
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 5%
+source-wordcount: '374'
+ht-degree: 8%
 
 ---
 
@@ -30,10 +30,14 @@ C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 
 
 ## 콘텐츠가 이동할 때 수행되는 작업 {#cc-content-moves}
 
-동료 캠페인은 지원되는 이미지 자산과 연결된 Content Credentials을 유지합니다. 이미지가 Content Credentials 를 포함하고 동료가 Campaign으로 가져오는 경우 해당 자산이 생성된 캠페인 콘텐츠 및 아웃바운드 이메일 경험에 사용될 때 해당 자격 증명이 유지됩니다. [C2PA 메타데이터에 대해 자세히 알아보세요](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}.
+동료 캠페인은 지원되는 이미지 자산과 연결된 Content Credentials을 유지합니다. 이미지가 Content Credentials 를 포함하고 동료가 Campaign으로 가져오는 경우 해당 자산이 생성된 캠페인 콘텐츠 및 아웃바운드 이메일 경험에 사용될 때 해당 자격 증명이 유지됩니다. [C2PA 메타데이터에 대해 자세히 알아보세요](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
->[!MORELIKETHIS]
->
->[Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
+## 추가 리소스
+
+* [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
+
+* [Adobe 제품 간 Content Credentials 작동 방식](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
+
+* [가드레일 및 제한 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
