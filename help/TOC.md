@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
+source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 17%
+source-wordcount: '272'
+ht-degree: 18%
 
 ---
 
@@ -63,6 +63,7 @@ ht-degree: 17%
     - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
     - [사용 사례](./coworker/campaigns/use-cases.md)
     - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
+    - {hide-from-toc}[C2PA 메타데이터](./coworker/campaigns/generative-c2pa-metadata.md)
     - 커넥터 {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
