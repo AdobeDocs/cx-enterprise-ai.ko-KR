@@ -1,10 +1,10 @@
 ---
 title: Adobe CX Coworker 게이트웨이 개요
 description: Adobe CX Coworker Gateway는 Adobe CX Enterprise용 통합 MCP로, MCP 클라이언트에게 지원되는 제품 도구에 대한 단일 연결을 제공합니다.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 428291fab4c74bc49f62c65011c3336ff1609a38
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 4%
+source-wordcount: '454'
+ht-degree: 3%
 
 ---
 
@@ -40,11 +40,11 @@ CX Coworker Gateway 는 CX Coworker Gateway 제품 도구에 대한 관리 엔�
 | 제품 도구 | 엔드포인트를 통해 노출되는 항목 | 가용성 | 설명서 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | 대상, 대상, 소스, ID 네임스페이스 및 활성화 상태(읽기 전용) | Beta | [Real-Time CDP 도구](rtcdp-mcp.md) |
-| **Experience Platform** | 스키마, 데이터 세트, 데이터 거버넌스, 쿼리 서비스 및 감사 이벤트(읽기 전용) | Beta | [Experience Platform 도구](aep-mcp.md) |
+| **Experience Platform** | 스키마, 데이터 세트, 데이터 거버넌스, 쿼리 서비스, 감사 이벤트 및 샌드박스 상태 검사 평가(읽기 전용) | Beta | [Experience Platform 도구](aep-mcp.md) |
 | **Journey Optimizer** | 캠페인 및 채널 구성(읽기 전용) | Beta | [Journey Optimizer 도구](ajo-mcp.md) |
 | **Customer Journey Analytics** | 데이터 보기, 차원, 지표, 보고서, 세그먼트, 날짜 범위, 프로젝트 및 대상(읽기 및 쓰기) | 사용 가능 | [Customer Journey Analytics 도구](cja-mcp.md) |
 | **Adobe Analytics** | 보고서 세트, 차원, 지표, 보고서, 세그먼트, 날짜 범위 및 작업 영역 프로젝트 (지원되는 구성 요소의 경우 읽기 및 쓰기) | 사용 가능 | [Adobe Analytics 도구](analytics-mcp.md) |
-| **Workfront** | 프로젝트, 작업 및 승인 워크플로를 위한 작업 관리 도구 | 미리 보기 | [Workfront MCP 서버](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | 프로젝트, 작업 및 승인 워크플로를 위한 작업 관리 도구 | 미리 보기 | [Workfront MCP 서버](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]

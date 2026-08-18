@@ -1,10 +1,10 @@
 ---
 title: CX Coworker Gateway의 Experience Platform 툴
 description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Experience Platform 툴에 대해 알아봅니다.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1537'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,7 @@ Adobe Experience Platform 제품 도구를 사용하여 MCP 호환 클라이언�
 | `search_data_lake` | 데이터 세트 메타데이터 및 일괄 처리 상태 검사 | Data Lake API · 데이터 세트, 배치 | 가져오기, 크기 가져오기, 실패한 일괄 처리 나열 | 활성 |
 | `search_dule` | 쿼리 데이터 거버넌스 레이블, 정책, 작업 | 데이터 거버넌스 · 레이블, 정책, 마케팅 액션 | 목록, 가져오기, 목록 활성화, 평가 | 활성 |
 | `search_query_service` | SQL 쿼리, 템플릿, 일정, 경고 쿼리 | 쿼리 서비스 · 쿼리, 템플릿, 일정, 경고 | 목록, 가져오기, 필터링, 연결 매개 변수 가져오기 | 활성 |
+| `search_sandbox_health_assessment` | 현재 샌드박스에 대한 최신 실행 및 작업 상태 확인 평가 결과를 검색합니다. | 실행 및 운영 · 상태 점검 평가 | 목록, 확인 이름으로 가져오기 | 활성 |
 | `search_schema_registry` | XDM 스키마, 필드 그룹, 클래스, 유형 쿼리 | 스키마 레지스트리 · 스키마, 필드 그룹, 클래스, 데이터 유형, 설명자 | 목록, 가져오기, 컨테이너별 필터링 | 활성 |
 
 ## 도구 참조
@@ -197,3 +198,18 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 | --- | --- | --- |
 | `entity_type` | 예 | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | 예 | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_assessment
+
+**리소스:** 실행 및 운영 · 상태 검사 평가
+**상태:** 활성
+
+현재 샌드박스에 대한 최신 실행 및 작업 상태 검사 평가 결과를 검색합니다. 스키마 및 ID, 세분화, 수집 및 프로필을 포함하여 지원되는 모든 카테고리에 대한 결과를 반환합니다. 별도의 조회 없이 근본 원인을 식별하기 위해 각 결과에는 실패한 검사 뒤에 영향을 받는 자산이 포함됩니다. 사람이 읽을 수 있는 게시된 이름이 있는 검사만 반환됩니다. 모든 작업은 읽기 전용입니다.
+
+>[!NOTE]
+>
+>이 도구는 평가 결과만 검색합니다. 플래그가 지정된 문제를 수정하려면 [!DNL Experience Platform] UI의 상태 검사 세부 정보 패널을 사용하십시오. [상태 확인](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks)을 참조하세요. 지원되는 상태 검사에 대한 자동 수정 지침은 [CX 동료 채팅](../coworker/chat/overview.md)에서 기술로 사용할 수 있습니다.
+
+**기능:** 현재 샌드박스에 대한 모든 상태 검사 결과를 나열하고 명명된 검사 결과를 가져옵니다.
+
+매개 변수가 없습니다.
