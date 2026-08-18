@@ -33,7 +33,7 @@ C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 
 
 ## 콘텐츠가 이동할 때 수행되는 작업 {#cc-content-moves}
 
-동료 캠페인은 지원되는 이미지 자산과 연결된 Content Credentials을 유지합니다. 이미지가 Content Credentials 를 포함하고 동료가 Campaign으로 가져오는 경우 해당 자산이 생성된 캠페인 콘텐츠 및 아웃바운드 이메일 경험에 사용될 때 해당 자격 증명이 유지됩니다. [C2PA 메타데이터에 대해 자세히 알아보세요](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
+동료 캠페인은 지원되는 이미지 자산과 연결된 Content Credentials을 유지합니다. 이미지가 Content Credentials 를 포함하고 동료가 Campaign으로 가져오는 경우 해당 자산이 생성된 캠페인 콘텐츠 및 아웃바운드 이메일 경험에 사용될 때 해당 자격 증명이 유지됩니다. [C2PA 메타데이터에 대해 자세히 알아보세요](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
