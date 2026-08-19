@@ -1,11 +1,11 @@
 ---
-description: Coworker Campaigns에서 AI가 생성하고 편집한 이미지에 대해 별도의 작업 없이 C2PA 메타데이터(Content Credentials)를 자동으로 첨부하고 보존하는 방법에 대해 알아봅니다.
+description: Coworker Campaigns에서 생성부터 이메일 게재에 이르기까지 이미지에 C2PA 메타데이터(Content Credentials)를 자동으로 첨부하고 유지하는 방법을 알아봅니다.
 title: 동료 캠페인의 C2PA 메타데이터
 hide: true
-source-git-commit: c03bdd213d3e96de1bee022b98e4809d3100a195
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 8%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 8%
 생성 AI 투명성을 중심으로 새로운 법이 등장하고 있으며, Adobe은 관할권 전반에서 적용 가능한 요구 사항을 충족하기 위해 노력하고 있습니다. [C2PA 메타데이터](https://c2pa.org/)&#x200B;(Content Credentials이라고도 함)은 Adobe이 이러한 법률의 요구 사항을 충족하기 위해 사용하는 증명 도구입니다.
 
 C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 방식을 기록하는 보이지 않는 지속적인 메타데이터입니다. 동료 캠페인에서 생성 AI 도구를 사용하여 이미지를 생성하거나 편집하면 C2PA 메타데이터가 해당 이미지에 자동으로 첨부됩니다. 사용자 측에서는 아무 작업도 필요하지 않습니다.
+
+## 이메일 캠페인의 Content Credentials {#content-credentials-email}
+
+이메일 캠페인에 전송된 이미지는 Content Credentials을 그대로 유지하므로 수신자는 전달된 이메일에서 직접 이미지의 출처와 신뢰성을 확인할 수 있습니다.
 
 ## C2PA 메타데이터를 첨부하는 작업 {#cc-workflows}
 
@@ -30,14 +34,14 @@ C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 
 
 ## 콘텐츠가 이동할 때 수행되는 작업 {#cc-content-moves}
 
-동료 캠페인은 지원되는 이미지 자산과 연결된 Content Credentials을 유지합니다. 이미지가 Content Credentials 를 포함하고 동료가 Campaign으로 가져오는 경우 해당 자산이 생성된 캠페인 콘텐츠 및 아웃바운드 이메일 경험에 사용될 때 해당 자격 증명이 유지됩니다. [C2PA 메타데이터에 대해 자세히 알아보세요](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}.
+동료 캠페인은 지원되는 이미지 자산과 연결된 Content Credentials을 유지합니다. 이미지가 Content Credentials 를 포함하고 동료가 Campaign으로 가져오는 경우 해당 자산이 생성된 캠페인 콘텐츠 및 아웃바운드 이메일 경험에 사용될 때 해당 자격 증명이 유지됩니다.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## 추가 리소스
 
-* [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
+* [C2PA 메타데이터에 대해 자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}
 
-* [Adobe 제품 간 Content Credentials 작동 방식](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}
+* [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
 * [가드레일 및 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}

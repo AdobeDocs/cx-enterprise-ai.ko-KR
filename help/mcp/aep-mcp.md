@@ -1,10 +1,10 @@
 ---
 title: CX Coworker Gateway의 Experience Platform 툴
 description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Experience Platform 툴에 대해 알아봅니다.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,10 @@ Adobe Experience Platform 제품 도구를 사용하여 MCP 호환 클라이언�
 | `search_data_lake` | 데이터 세트 메타데이터 및 일괄 처리 상태 검사 | Data Lake API · 데이터 세트, 배치 | 가져오기, 크기 가져오기, 실패한 일괄 처리 나열 | 활성 |
 | `search_dule` | 쿼리 데이터 거버넌스 레이블, 정책, 작업 | 데이터 거버넌스 · 레이블, 정책, 마케팅 액션 | 목록, 가져오기, 목록 활성화, 평가 | 활성 |
 | `search_query_service` | SQL 쿼리, 템플릿, 일정, 경고 쿼리 | 쿼리 서비스 · 쿼리, 템플릿, 일정, 경고 | 목록, 가져오기, 필터링, 연결 매개 변수 가져오기 | 활성 |
+| `search_sandbox_health_assessment` | 현재 샌드박스에 대한 최신 실행 및 작업 상태 확인 평가 결과를 검색합니다. | 실행 및 운영 · 상태 점검 평가 | 목록, 확인 이름으로 가져오기 | 활성 |
 | `search_schema_registry` | XDM 스키마, 필드 그룹, 클래스, 유형 쿼리 | 스키마 레지스트리 · 스키마, 필드 그룹, 클래스, 데이터 유형, 설명자 | 목록, 가져오기, 컨테이너별 필터링 | 활성 |
+| `execute_observability_metrics_query` | 현재 샌드박스 또는 모든 샌드박스에 대해 [!DNL Observability Insights] 지표 쿼리 | 가시성 인사이트 · 지표 | 시계열 및 집계 쿼리, 다중 지표 요청, 태그 필터, groupBy/exclude, 지표별 다운샘플링 | 활성 |
+| `inspect_observability_breaches` | 지표가 구성된 기준선을 초과하는 [!DNL Observability Insights] 위반 간격 감지 | 가시성 통찰력 · 위반 | 시리즈, 조직 및 샌드박스 범위별 위반 간격 나열 | 활성 |
 
 ## 도구 참조
 
@@ -197,3 +200,64 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 | --- | --- | --- |
 | `entity_type` | 예 | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | 예 | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### execute_observability_metrics_query
+
+**리소스:** Observability Insights · 지표
+**상태:** 활성
+
+현재 샌드박스 또는 조직의 모든 샌드박스에 대해 [!DNL Observability Insights] 지표를 쿼리합니다. 단일 요청, 태그 기반 필터 및 지표별 다운샘플링에서 여러 지표를 지원합니다. `scope=org`의 경우 모든 지표에 하나 이상의 `groupBy` 필터를 포함하십시오. 모든 작업은 읽기 전용입니다.
+
+**기능:** 쿼리 지표 데이터 포인트, 시계열 또는 집계, 다중 지표 요청, 태그 필터, groupBy/exclude, 지표별 다운샘플링
+
+**매개 변수:**
+
+| 매개 변수 | 필수 여부 | 설명 |
+| --- | --- | --- |
+| `metrics` | 예 | 지표 사양의 배열입니다. 각각 `name`(정규화된 지표 이름), `aggregator`(`sum`, `avg`, `min`, `max`, `count`, `last`, `p50`, `p95`, `p99`, 히스토그램 변형 또는 `absent`), 선택적 `filters` 및 선택적 `downsample`을(를) 포함합니다. |
+| `start` | 예 | 창 시작, ISO 8601(예: `2026-01-15T00:00:00.000Z`). `end`보다 이전이어야 합니다. 최대 기간: 31일 |
+| `end` | 예 | 창 끝, ISO 8601. `start`보다 이후여야 합니다. |
+| `granularity` | 아니오 | 시간 버킷 크기: `MINUTE`, `FIVE_MINUTE`, `TEN_MINUTE`, `FIFTEEN_MINUTE`, `THIRTY_MINUTE`, `HOUR`, `FOUR_HOUR`, `TWELVE_HOUR`, `DAY`, `TWO_DAY`, `WEEK`, `MONTH` 또는 `ALL`(창을 단일 집계로 축소). 을 생략하여 서버가 선택하도록 합니다. |
+| `scope` | 아니오 | `sandbox`(기본값) 현재 샌드박스를 쿼리합니다. `org`에서 조직의 모든 샌드박스를 쿼리하고 모든 지표에 대해 `groupBy` 필터를 권장합니다. |
+
+`metrics[].filters`의 각 필터에는 `name`(태그 이름), `value`(완전 일치, 와일드카드 또는 정규 표현식 일치) 및 선택적 `groupBy` 및 `exclude` 부울이 포함됩니다.
+
+### inspect_observability_breaches
+
+**리소스:** 가시성 인사이트 · 위반
+**상태:** 활성
+
+현재 샌드박스 또는 조직의 모든 샌드박스에 대해 지표가 구성된 기준선을 초과하는 시간 범위인 [!DNL Observability Insights] 위반 간격을 감지합니다. 계열당 미리 일치된 간격을 반환합니다. 창 끝에 아직 진행 중인 끝이 열린 위반이 `end: null`과(와) 함께 반환됩니다. 모든 작업은 읽기 전용입니다.
+
+**기능:** 계열, 조직 및 샌드박스 범위별 위반 간격 나열
+
+**매개 변수:**
+
+| 매개 변수 | 필수 여부 | 설명 |
+| --- | --- | --- |
+| `metrics` | 예 | 위반 사양 배열. 여기에는 `name`(정규화된 지표 이름)과 선택적 `filters`이(가) 포함됩니다. |
+| `start` | 예 | 창 시작, ISO 8601. `end`보다 이전이어야 합니다. 최대 기간: 31일 |
+| `end` | 예 | 창 끝, ISO 8601 |
+| `granularity` | 아니오 | 시간 버킷 크기입니다. `ALL`을(를) 제외하고 `execute_observability_metrics_query`과(와) 동일한 값입니다. 각 버킷은 기준선에 대해 독립적으로 평가됩니다 |
+| `scope` | 아니오 | `sandbox`(기본값) 또는 `org`. 샌드박스 필터가 없는 `org`에서 지표당 `groupBy: true`이(가) 있는 필터를 하나 이상 포함하면 조직 전체에 걸쳐 축소되는 대신 해당 차원으로 결과가 분할됩니다 |
+
+`inspect_observability_breaches`이(가) `metrics[]`의 `aggregator` 또는 `downsample`을(를) 허용하지 않습니다. 도구는 위반 상태를 평가하기 위해 내부적으로 설정합니다.
+
+>[!NOTE]
+>
+>두 가시성 통찰력 도구 모두 요청당 예상 10,000개의 데이터 포인트로 제한됩니다. 이 제한을 초과하여 요청이 거부되면 시간 범위를 좁히거나 필터를 추가하거나 `granularity`을(를) 사용합니다.
+
+### search_sandbox_health_assessment
+
+**리소스:** 실행 및 운영 · 상태 검사 평가
+**상태:** 활성
+
+현재 샌드박스에 대한 최신 실행 및 작업 상태 검사 평가 결과를 검색합니다. 스키마 및 ID, 세분화, 수집 및 프로필을 포함하여 지원되는 모든 카테고리에 대한 결과를 반환합니다. 별도의 조회 없이 근본 원인을 식별하기 위해 각 결과에는 실패한 검사 뒤에 영향을 받는 자산이 포함됩니다. 사람이 읽을 수 있는 게시된 이름이 있는 검사만 반환됩니다. 모든 작업은 읽기 전용입니다.
+
+>[!NOTE]
+>
+>이 도구는 평가 결과만 검색합니다. 플래그가 지정된 문제를 수정하려면 [!DNL Experience Platform] UI의 상태 검사 세부 정보 패널을 사용하십시오. [상태 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks)을 참조하세요. 지원되는 상태 검사에 대한 자동 수정 지침은 [CX 동료 채팅](../coworker/chat/overview.md)에서 기술로 사용할 수 있습니다.
+
+**기능:** 현재 샌드박스에 대한 모든 상태 검사 결과를 나열하고 명명된 검사 결과를 가져옵니다.
+
+매개 변수가 없습니다.
