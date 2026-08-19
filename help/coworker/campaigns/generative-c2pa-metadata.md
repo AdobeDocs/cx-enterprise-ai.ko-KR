@@ -2,10 +2,10 @@
 description: Coworker Campaigns에서 생성부터 이메일 게재에 이르기까지 이미지에 C2PA 메타데이터(Content Credentials)를 자동으로 첨부하고 유지하는 방법을 알아봅니다.
 title: 동료 캠페인의 C2PA 메타데이터
 hide: true
-source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
+source-git-commit: 17acfbd783e1e70b965636b806c465be8cf73522
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 6%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -40,8 +40,6 @@ C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 
 
 ## 추가 리소스
 
-* [C2PA 메타데이터에 대해 자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}
-
 * [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [가드레일 및 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [가드레일 및 제한 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
