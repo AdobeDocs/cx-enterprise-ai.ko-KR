@@ -2,9 +2,9 @@
 description: Coworker Campaigns에서 생성부터 이메일 게재에 이르기까지 이미지에 C2PA 메타데이터를 자동으로 첨부하고 보존하는 방법에 대해 알아봅니다.
 title: 동료 캠페인의 C2PA 메타데이터
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -30,13 +30,11 @@ C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 
 ## 컨텐츠 유형 및 해당 범위 {#content-types}
 
 * **이미지**: 적용됨. C2PA 메타데이터는 생성 AI로 이미지가 생성될 때 첨부되며, 동료 캠페인에서 이미지 생성으로 수행된 자르기, 텍스트 오버레이 및 이미지 오버레이 작업을 통해 보존됩니다.
-* **텍스트**: 적용할 수 없습니다. 복사 생성, 번역 및 브랜드 정렬 제안과 같은 Coworker Campaign에서 이미지 생성의 텍스트 전용 출력에는 C2PA 메타데이터가 필요하지 않습니다.
+* **텍스트**: 적용할 수 없습니다. 복사 생성, 번역 및 브랜드 정렬 제안과 같은 Coworker Campaign의 텍스트 전용 출력에는 C2PA 메타데이터가 필요하지 않습니다.
 
 ## 콘텐츠가 이동할 때 수행되는 작업 {#content-moves}
 
 동료 캠페인은 지원되는 이미지 에셋과 연결된 C2PA 메타데이터를 보존합니다. 동료 캠페인으로 가져올 때 이미지에 C2PA 메타데이터가 포함된 경우, 자산이 생성된 캠페인 콘텐츠 및 아웃바운드 이메일 경험에 사용될 때 해당 자격 증명이 유지됩니다.
-
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## 추가 리소스 {#resources}
 

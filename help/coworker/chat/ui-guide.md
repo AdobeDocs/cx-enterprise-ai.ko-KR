@@ -3,7 +3,8 @@ description: 탐색, 입력란, 응답, 채팅 기록, 기술 구성, MCP 서버
 title: 동료 채팅 UI 안내서
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+jira: KT-22106
+source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
 workflow-type: tm+mt
 source-wordcount: 1577
 ht-degree: 3%
@@ -13,6 +14,8 @@ ht-degree: 3%
 # UI 안내서 {#ui-guide}
 
 Coworker Chat 인터페이스를 사용하여 환경을 최적화합니다. 이 안내서에서는 앱 액세스, 작업 영역 탐색부터 대화 최대화, 내역 관리, 설정 맞춤화에 이르기까지 모든 작업을 다룹니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 동료 채팅 액세스
 

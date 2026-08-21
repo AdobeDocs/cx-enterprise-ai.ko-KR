@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform
+solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform,CX Enterprise
 usetq: true
 product: experience cloud
 landing-page-name: ai
@@ -15,7 +15,7 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: 5bb7f208e57f0d65e64cb084ce5ad3d926b48c18
 workflow-type: tm+mt
 source-wordcount: 70
 ht-degree: 91%
