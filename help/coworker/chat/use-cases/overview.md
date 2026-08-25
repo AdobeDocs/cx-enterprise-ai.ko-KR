@@ -1,12 +1,11 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 39d2b564c2b95c1727806ee3478b8496bd1a0660
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
 workflow-type: tm+mt
-source-wordcount: 2835
-ht-degree: 8%
+source-wordcount: 3050
+ht-degree: 7%
 
 ---
 
@@ -22,11 +21,15 @@ ht-degree: 8%
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
->[AEM의 AI 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/overview)도 참조하세요.
+>AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
 
 ## 브랜드 경험
 
 ### Experience Production - 사이트 사용 사례
+
+>[!NOTE]
+>
+>AEM의 [Agentic 기능: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)도 참조하세요.
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -35,6 +38,10 @@ ht-degree: 8%
 | 조각에서 시각적 콘텐츠 조각으로 이동 | 자연어를 사용하여 Figma에서 Adobe Experience Manager으로 직접 디자인을 가져옵니다. 이 기술은 필요한 콘텐츠 모델, 콘텐츠 조각, 에셋 및 시각화 템플릿을 자동으로 만들어 비즈니스 사용자가 수동으로 설정하지 않고도 디자인에서 웹 준비가 된 콘텐츠로 몇 분 만에 이동할 수 있습니다. | `aem-sites-visualcontentfragments-create` | AEM(Adobe Experience Manager) | &lt;Figure_URL>에서 가져오기 |
 
 ### Experience Production - Forms 사용 사례
+
+>[!NOTE]
+>
+>AEM의 [Agentic 기능: Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)도 참조하세요.
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -45,6 +52,10 @@ ht-degree: 8%
 
 ### 개발
 
+>[!NOTE]
+>
+>AEM의 [Agentic 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)도 참조하세요.
+
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 실패한 Cloud Manager 파이프라인 진단 및 수정 | 실패한 파이프라인 실행을 조사하고 근본 원인을 식별한 다음 검토를 위해 수정 사항(차이 있음)을 생성합니다. | `cloud-manager-pipeline-troubleshooting` | AEM(Adobe Experience Manager) | &quot;빌드 파이프라인이 실패한 이유는 무엇입니까?&quot;<br><br>&quot;손상된 프로덕션 파이프라인에 대한 수정 제안&quot; |
@@ -54,6 +65,10 @@ ht-degree: 8%
 | AEM 릴리스 업데이트 일정 관리 | 자동 유지 관리를 위해 매일 자동 중지 시간 및 업데이트가 없는 기간을 구성하고 Adobe의 글로벌 코드 동결 창을 봅니다 | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 방해 금지 시간 기간은 무엇입니까?&quot;<br><br>&quot;12월 20일부터 1월 2일까지를 업데이트 금지 기간으로 예약합니다.&quot; |
 
 ### 온보딩 - AEM Assets 활용 사례
+
+>[!NOTE]
+>
+>AEM의 [에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)도 참조하세요.
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -66,6 +81,10 @@ ht-degree: 8%
 
 ### 컨텐츠 검색
 
+>[!NOTE]
+>
+>또한 [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)을 참조하십시오.
+
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 의미 체계 테마별 검색 | AI 기반의 의미 체계 일치를 사용하여 개념, 무드 또는 시각적 테마별로 에셋을 찾습니다. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;Find me morning coffee lifestyle images&quot; |
@@ -75,6 +94,10 @@ ht-degree: 8%
 
 ### 콘텐츠 최적화
 
+>[!NOTE]
+>
+>AEM의 [에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)도 참조하세요.
+
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 고해상도 렌디션 생성 및 채널 최적화 렌디션 | 지정된 해상도 및 품질 수준에서 에셋의 새 렌디션을 생성하여 수동으로 편집하지 않고도 채널 준비가 가능한 변형을 손쉽게 준비할 수 있습니다. 또한 Instagram 스토리와 같은 플랫폼별 요구 사항에 맞게 렌디션을 제작하여 에셋이 형식, 비율 및 품질 지침을 자동으로 충족하도록 할 수 있습니다. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;`80% quality`&quot;<br><br>을(를) 사용하여 `2000px` 렌디션을 `JPEG`(으)로 만들기&quot;Instagram 스토리에 대한 렌디션 만들기&quot; |
@@ -82,6 +105,10 @@ ht-degree: 8%
 | 이미지 개선 사항, 배경색 조정, 방향 변환 | 시각적 개선 사항 적용(이미지 선명하게 하기), 배경색 대체 및 방향 변환 수행 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;`PNG`의 배경색을 `#ff8932`(으)로 변경합니다.<br><br>&quot;이미지 선명하게 하기&quot;<br><br>&quot;이미지를 가로로 미러링합니다.&quot; |
 
 ## 브랜드 거버넌스
+
+>[!NOTE]
+>
+>AEM의 [에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)도 참조하세요.
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -137,7 +164,7 @@ ht-degree: 8%
 | 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; · &quot;내 주간 보고서 스킬 삭제&quot; · &quot;재사용 가능한 스킬로 전환&quot; |
 | 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; · &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
-| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
 | 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; · &quot;중복 병합 정책 이름 수정&quot; · &quot;감사 필드 그룹이 누락된 스키마 수정&quot; · &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 샌드박스 도구
