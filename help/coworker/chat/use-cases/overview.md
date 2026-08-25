@@ -3,10 +3,10 @@ description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 �
 title: 동료 채팅 사용 사례
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
+source-git-commit: 959d2a748bc99462a60f3ecf958db623db0ac941
 workflow-type: tm+mt
-source-wordcount: 1333
-ht-degree: 7%
+source-wordcount: 1466
+ht-degree: 9%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 7%
 | 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; · &quot;내 주간 보고서 스킬 삭제&quot; · &quot;재사용 가능한 스킬로 전환&quot; |
 | 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; · &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
+| 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; · &quot;중복 병합 정책 이름 수정&quot; · &quot;감사 필드 그룹이 누락된 스키마 수정&quot; · &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 샌드박스 도구
 

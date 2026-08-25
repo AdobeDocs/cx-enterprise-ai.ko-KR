@@ -12,9 +12,9 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1194
 ht-degree: 12%
 
 ---
@@ -69,6 +69,7 @@ AI 우선 애플리케이션은 생성 또는 아젠틱 AI를 주요 구성 요�
 
 | 에이전트 이름 | 기능 | 지원되는 애플리케이션 |
 |---|----------|----------|
+| [CX Enterprise Coworker](../coworker/overview.md) | 중요한 팀원 역할: 자연어 목표에서 여러 단계 작업을 계획하고, Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 검증하고, 완료된 작업을 사용자의 승인을 위해 반환하여 작업을 수동으로 조정할 필요가 줄어듭니다. | <ul><li>CX Enterprise Coworker(채팅)</li><li>CX Enterprise Coworker(캠페인)</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | 인사이트를 자동화, 분석 및 합성하므로 수작업 프로세스를 줄이면서 중앙 집중식 작업 공간에서 영향력이 큰 실험 및 성장 기회를 신속하게 식별할 수 있습니다. | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [LLM 최적화 에이전트](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home) | AI 기반 검색 환경에서 가시성, 정확성 및 영향력을 강화하고, AI가 생성한 답변의 브랜드 존재감에 대한 통찰력을 제공하고, 규범적인 콘텐츠 권장 사항을 제공하고, 최적화 수정 사항을 자동화합니다. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/home) | 향상된 웹 사이트를 자동으로 감지하고 배포하여 비즈니스 효과를 극대화합니다. 생성 AI와 여러 모니터링 기술을 사용하면 사이트 트래픽 획득, 참여 등을 향상시킬 수 있습니다 | <ul><li>AEM Sites Optimizer</li></ul> |

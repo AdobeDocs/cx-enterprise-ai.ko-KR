@@ -1,6 +1,6 @@
 ---
 title: CX 엔터프라이즈 애플리케이션의 생성 AI
-description: CX 엔터프라이즈 애플리케이션에서 AI 기반 기능을 활용할 수 있는 위치에 대해 자세히 살펴봅니다.
+description: CX 엔터프라이즈 애플리케이션에서 AI 기반의 genAI 기능을 활용할 수 있는 위치에 대해 자세히 살펴봅니다.
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -41,16 +41,16 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
 workflow-type: tm+mt
-source-wordcount: 3288
+source-wordcount: 3388
 ht-degree: 13%
 
 ---
 
 # CX Enterprise의 생성 AI 정보
 
-CX Enterprise의 Generative AI(genAI)는 창의적 및 인지적 작업을 자동화하고 생산성을 향상시킬 수 있도록 지원합니다. 이 페이지에서는 [!DNL CX Enterprise] 응용 프로그램이 genAI 및 AI Assistant를 지원하는 위치를 파악할 수 있습니다. 이 비디오에서는 이러한 기능에 대해 자세히 알아볼 수 있는 링크를 제공합니다.
+CX Enterprise의 Generative AI(genAI)는 창의적 및 인지적 작업을 자동화하고 생산성을 향상시킬 수 있도록 지원합니다. 이 페이지에서는 [!DNL CX Enterprise] 응용 프로그램에서 genAI를 지원하는 위치를 파악할 수 있습니다. 이 비디오에서는 이러한 기능에 대해 자세히 알아볼 수 있는 링크를 제공합니다.
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ GenAI는 사용자의 프롬프트 또는 질문에 대해 원본 콘텐츠를 _
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://business.adobe.com/ai/adobe-genai.html" tooltip="GenAI at Adobe"}
 
-**AI Assistant란[!UICONTROL 2&rbrace;입니다.**]
+## [!UICONTROL AI 길잡이]란?
 
 [!UICONTROL AI Assistant]은(는) 많은 CX 엔터프라이즈 애플리케이션에서 지원되는 대화형 genAI 도구입니다. 사용 중인 응용 프로그램에 따라 _제품 지식_ 및 _운영 통찰력_&#x200B;을 빠르게 얻을 수 있습니다.
 
@@ -82,6 +82,18 @@ GenAI는 사용자의 프롬프트 또는 질문에 대해 원본 콘텐츠를 _
 
 [!BADGE 개인 정보, 보안 및 거버넌스]{type=Informative url="https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI at Adobe"}
 
+## CX Enterprise Coworker 소개
+
+[!DNL CX Enterprise Coworker]은(는) 고객 경험 및 마케팅 워크플로를 자동화하는 AI 기반의 팀메이트입니다. Coworker는 에이전틱 엔진으로서 엔터프라이즈 컨텍스트, 거버넌스 및 인적 감독이 내장된 데이터, 인텔리전스, 협업 및 에이전틱 기술 실행을 통합하므로 작업을 조정하는 대신 결과에 집중할 수 있습니다.
+
+동료는 다음을 통해 사용할 수 있습니다.
+
+* **[채팅](../coworker/chat/overview.md)**: 자연어로 목표를 설명하고 동료가 작업을 계획하고 Adobe 및 연결된 시스템에서 실행하고, 결과를 확인하고, 완료된 작업을 사용자의 승인을 위해 반환하는 대화 인터페이스입니다.
+
+* **[캠페인](../coworker/campaigns/overview.md)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview" tooltip="CX Enterprise Coworker 로 이동"}
+
 ## 지원되는 genAI 기능은 무엇입니까?
 
 다음은 생성 AI 기능과 AI 도우미를 사용하는 [!DNL CX Enterprise]개 응용 프로그램을 정리한 것입니다. [Adobe Firefly](https://business.adobe.com/kr/products/firefly-business/firefly-ai-approach.html)과의 호환성은 생성 AI 기능에 대해 표시됩니다.
@@ -90,19 +102,19 @@ GenAI는 사용자의 프롬프트 또는 질문에 대해 원본 콘텐츠를 _
 
 | **제품 이름** | **주요 GenAI 기능** | **Firefly 호환성** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**[채팅](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 목표를 자연어로 설명하고 genAI가 작업을 계획하고 Adobe 및 연결된 시스템에서 실행하고, 결과를 확인하고, 완료된 작업을 사용자의 승인을 위해 반환하는 대화 인터페이스입니다.</li><li>**[캠페인](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. GenAI는 캠페인 플랜을 생성하고, 여정을 작성하고, 반복적으로 구체화할 수 있는 개인화된 콘텐츠를 초안합니다.</li></ul> | 아니오 |
+| [CX Enterprise Coworker](../coworker/overview.md) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**[채팅](../coworker/chat/overview.md)**: 자연어로 목표를 설명하고 genAI가 작업을 계획하고, Adobe 및 연결된 시스템에서 실행하고, 결과를 검증하고, 완료된 작업을 사용자의 승인을 위해 반환하는 대화 인터페이스입니다.</li><li>**[캠페인](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. GenAI는 캠페인 플랜을 생성하고, 여정을 작성하고, 반복적으로 구체화할 수 있는 개인화된 콘텐츠를 초안합니다.</li></ul> | 아니오 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home) | genAI를 사용하여 개인화된 브랜드 내 콘텐츠를 만듭니다. | 예 |
 | [Adobe Experience Manager as a Cloud Service(AEM CS)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**AEM Sites**&#x200B;에서 변형 생성([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>**Sites Optimizer**&#x200B;의 GenAI([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>**Content Hub**&#x200B;의 [AEM Assets](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) 및 [스마트 태그](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
 | [Adobe Experience Manager 6.5 LTS](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
 | [LLM Optimizer](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home) | AI 에이전트를 사용하여 가시성 차이를 자동으로 식별하고, 개선 사항을 자동으로 제안하고, 경우에 따라 사이트 경험을 자동으로 최적화하는 생성 가능한 AI 우선 애플리케이션입니다. | 아니요 |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/landing) | 제품 지식 및 운영 통찰력을 위한 AI 지원. | 아니요 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-assistant) | 제품 지식 및 운영 통찰력을 위한 AI 지원. | 아니요 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-assistant) | 제품 지식과 운영 통찰력을 위한 [!DNL AI Assistant]. | 아니오 |
 | | _AJO Prime_ 및 _Ultimate_&#x200B;은(는) 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 가져올 수 있도록 [콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)을 제공합니다. | 예 |
 | [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 제품 지식에 대한 AI 지원. | 아니요 |
 | [[!DNL Campaign] 관리 클라우드 서비스](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/ai-assistant/generative-gs) | 이메일, SMS 및 푸시와 같은 채널 전반의 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성하는 Content Accelerator용 AI Assistant입니다. | 예 |
 | **[!DNL Customer Journey Analytics]** | GenAI는 다음과 함께 사용됩니다.<ul><li> [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): 가장 자주 사용되는 Workspace 시각화에 대한 통찰력을 제공합니다.</li><li>[Content Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): 에셋 메타데이터를 자동으로 할당합니다.</li></ul> AI Assistant for:<ul><li>[제품 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[제품 지원 에이전트](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 아니요 |
-| [Real-Time CDP](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home) | Experience League의 제품 지식을 위한 AI 지원 . 또한 운영상의 통찰력을 제공합니다. | 아니오 |
+| [Real-Time CDP](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home) | Experience League의 제품 지식에 대한 [!DNL AI Assistant]. 또한 운영상의 통찰력을 제공합니다. | 아니오 |
 | **[!DNL Marketo]** | GenAI는 이메일 Designer(Firefly 포함), [Dynamic Chat](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) 및 [대화형 웨비나](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)에서 사용할 수 있습니다. <br> Marketo Engage용 AI 지원 [이메일 Designer](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | 예 |
 | [Adobe Target](https://experienceleague.adobe.com/ko/docs/target/using/introduction/assistant-ai/ai-assistant) | 제품 지식에 대한 AI 지원. | 아니요 |
 | [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | 인앱 정보 및 제안에 대한 AI 지원. | 예 |
@@ -378,7 +390,7 @@ Marketo은 GenStudio for Performance Marketing과 통합됩니다
 
 +++세부 사항
 
-[!DNL Workfront]의 [!UICONTROL AI 길잡이]를 사용하면 인앱 정보와 제안을 제공하여 작업을 완수할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
+[!DNL Workfront]의 [!UICONTROL AI 길잡이]를 사용하면 인앱 정보와 제안을 제공하여 작업을 완수할 수 있습니다. 다음을 수행할 수 있습니다.
 
 * 일부 객체의 요약을 가져와 객체의 의도 또는 세부 사항을 개략적으로 볼 수 있습니다.
 * 질문하고 [!UICONTROL AI 길잡이]에게 Experience League에서 답을 찾도록 하세요.
