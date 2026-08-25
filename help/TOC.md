@@ -6,7 +6,7 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: fb1f4ed99d7a7fe4338dc44c7922889e36c5ae76
+source-git-commit: 2adef3bad3a31beeedc6ae722327d7f875693584
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 17%
@@ -23,7 +23,7 @@ ht-degree: 17%
   - [AI 크레딧 소비 정보](./overview/ai-credit-consumption.md)
   - [Agentic AI 모니터링 대시보드](./overview/monitoring.md)
   - [에이전틱 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
-- [생성 AI 콘텐츠 투명도](content-transparency.md)
+  - [생성 AI 콘텐츠 투명도](content-transparency.md)
 - AI 어시스턴트 {#ai-assistant}
   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
   - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
@@ -56,7 +56,7 @@ ht-degree: 17%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
