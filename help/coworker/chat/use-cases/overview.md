@@ -1,9 +1,8 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
 workflow-type: tm+mt
 source-wordcount: 3050
 ht-degree: 7%
@@ -28,21 +27,17 @@ ht-degree: 7%
 
 ### Experience Production - 사이트 사용 사례
 
->[!NOTE]
->
->AEM의 [Agentic 기능: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)도 참조하세요.
-
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | AEM 페이지 업데이트 | 경험을 정확하고 최신 상태로 유지하기 위해 콘텐츠 요소 업데이트, 제거, 바꾸기 또는 추가와 같은 작업을 수행합니다. 입력은 자연어 또는 PDF나 스크린샷과 같은 시각적 주석일 수 있습니다. | `aem-sites-pages-update` | AEM(Adobe Experience Manager) | &lt;URL>에서 헤드라인을 Hello World로 업데이트<br><br>on &lt;URL>에서 &quot;Take our Coffee Quiz&quot; 단추를 더 매력적인 버전으로 변경<br><br>첨부된 내용을 기반으로 &lt;URL> 업데이트<br><br>On &lt;URL>에서 커피 머신을 구입하고 커피 2봉지를 무료로 제공하는 8월 프로모션에 대한 새로운 티저 섹션을 페이지 하단에 추가하려고 합니다. 또한 커피를 마시는 친구의 이미지를 찾아 티저에서 사용합니다 |
 | AEM 일괄 업데이트 | 경험을 정확하고 최신 상태로 유지하기 위해 콘텐츠 요소를 제거, 대체 또는 추가하는 것과 같이, 동시에 여러 페이지에서 대량 작업을 수행할 수 있습니다. | `aem-sites-pages-bulkreplace` | AEM(Adobe Experience Manager) | &lt;aem path>에서 &quot;MyBarista\&quot; 사본이 포함된 모든 페이지를 &quot;BrewPass&quot;로 업데이트합니다. |
 | 조각에서 시각적 콘텐츠 조각으로 이동 | 자연어를 사용하여 Figma에서 Adobe Experience Manager으로 직접 디자인을 가져옵니다. 이 기술은 필요한 콘텐츠 모델, 콘텐츠 조각, 에셋 및 시각화 템플릿을 자동으로 만들어 비즈니스 사용자가 수동으로 설정하지 않고도 디자인에서 웹 준비가 된 콘텐츠로 몇 분 만에 이동할 수 있습니다. | `aem-sites-visualcontentfragments-create` | AEM(Adobe Experience Manager) | &lt;Figure_URL>에서 가져오기 |
 
-### Experience Production - Forms 사용 사례
+**관련 정보**
 
->[!NOTE]
->
->AEM의 [Agentic 기능: Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)도 참조하세요.
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+
+### Experience Production - Forms 사용 사례
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -51,11 +46,11 @@ ht-degree: 7%
 | 비즈니스 논리 추가 | 다른 필드의 값을 기반으로 필드를 표시하거나 숨기는 것과 같은 간단한 규칙을 만듭니다 | `aem-forms-adaptiveform-edit` | AEM(Adobe Experience Manager) | &quot;직원 유형이 계약자인 경우에만 회사 필드 표시&quot;<br><br>&quot;다른 필드가 &lt;값>인 경우에만 &lt;필드> 필드 표시&quot; |
 | 양식 포함 | 기존 양식 또는 새로 만든 양식을 지정된 AEM Sites 페이지에 배치합니다(Edge Delivery Services 페이지에서만 지원됨) | `aem-forms-adaptiveform-embed` | AEM(Adobe Experience Manager) | &quot;이 양식을 사이트의 홈 페이지에 임베드&quot;<br><br>&quot;이 양식을 &lt;페이지 경로>에 임베드&quot; |
 
-### 개발
+**관련 정보**
 
->[!NOTE]
->
->AEM의 [Agentic 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)도 참조하세요.
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+
+### 개발
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -65,11 +60,11 @@ ht-degree: 7%
 | Cloud Manager 프로그램 관리 | 파이프라인 및 환경을 포함하여 AEM Cloud Manager 프로그램 나열, 검사 및 삭제 | `cloud-manager-program-management` | AEM(Adobe Experience Manager) | &quot;내 Cloud Manager 프로그램 나열&quot;<br><br>&quot;프로그램 12345 세부 정보 가져오기&quot; |
 | AEM 릴리스 업데이트 일정 관리 | 자동 유지 관리를 위해 매일 자동 중지 시간 및 업데이트가 없는 기간을 구성하고 Adobe의 글로벌 코드 동결 창을 봅니다 | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 방해 금지 시간 기간은 무엇입니까?&quot;<br><br>&quot;12월 20일부터 1월 2일까지를 업데이트 금지 기간으로 예약합니다.&quot; |
 
-### 온보딩 - AEM Assets 활용 사례
+**관련 정보**
 
->[!NOTE]
->
->AEM의 [에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)도 참조하세요.
+* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+
+### 온보딩 - AEM Assets 활용 사례
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -78,13 +73,13 @@ ht-degree: 7%
 | 태그 디자인 및 만들기 | 네임스페이스, 계층 태그 및 일괄 태그 작업과 같은 `/content/cq:tags` 아래에 제어된 태그 어휘를 디자인하고 만듭니다. | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) Assets | &quot;제품 범주에 대한 네임스페이스를 사용하여 태그 분류법을 디자인합니다.&quot;<br><br>&quot;이 CSV에서 태그 가져오기&quot;<br><br>&quot;AEM에서 이러한 계층 구조 태그를 만듭니다.&quot; |
 | 메타데이터 양식 만들기 및 할당 | 사용자 정의 메타데이터 양식을 디자인 및 만든 다음 필요한 경우 작성 UI 콘텐츠 작성자가 CSV, 테이블, 요구 사항 문서 또는 설명에서 사용하는 양식 을 폴더에 할당합니다. | `aem-metadata-form` | Adobe Experience Manager (AEM) Assets | &quot;이 필드 목록에서 메타데이터 양식을 만듭니다.&quot;<br><br>&quot;이 양식을 `campaigns` 폴더에 할당하십시오.&quot; |
 
+**관련 정보**
+
+* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+
 ## 콘텐츠 관리자 - AEM Assets 활용 사례
 
 ### 컨텐츠 검색
-
->[!NOTE]
->
->또한 [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)을 참조하십시오.
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -93,11 +88,11 @@ ht-degree: 7%
 | 승인 상태별 검색 | 승인 상태를 기반으로 에셋을 필터링합니다. 예를 들어 승인됨, 검토 중, 거부됨 또는 누락 상태가 있습니다. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;`Campaign` 폴더에 있는 승인된 모든 자산 표시&quot; |
 | 폴더/경로로 검색 | AEM의 폴더 이름을 참조하는 자연어 프롬프트를 해석하여 에셋을 식별합니다. 저장소를 수동으로 탐색하지 않고 프롬프트에서 폴더를 언급하기만 하면 되므로 적절한 콘텐츠를 찾는 데 필요한 클릭 수를 크게 줄일 수 있습니다. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;`WKND`&quot; 폴더에 svgs가 있습니까?<br><br>&quot;2025년 11월 1일 이후에 수정된 자산을 `WKND` 폴더에 표시합니다.&quot; |
 
-### 콘텐츠 최적화
+**관련 정보**
 
->[!NOTE]
->
->AEM의 [에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)도 참조하세요.
+* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+
+### 콘텐츠 최적화
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
@@ -105,17 +100,21 @@ ht-degree: 7%
 | 브랜드 오버레이 및 복합 생성 | 정확한 배치로 기존 에셋에 홍보 그래픽, 오버레이 또는 배지를 적용하여 캠페인 준비 조합을 신속하게 만들 수 있습니다. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;이미지 위에 `30%` 할인 그래픽을 적용하여 중앙에서 `100px`을(를) 배치합니다.&quot; |
 | 이미지 개선 사항, 배경색 조정, 방향 변환 | 시각적 개선 사항 적용(이미지 선명하게 하기), 배경색 대체 및 방향 변환 수행 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;`PNG`의 배경색을 `#ff8932`(으)로 변경합니다.<br><br>&quot;이미지 선명하게 하기&quot;<br><br>&quot;이미지를 가로로 미러링합니다.&quot; |
 
-## 브랜드 거버넌스
+**관련 정보**
 
->[!NOTE]
->
->AEM의 [에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)도 참조하세요.
+* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+
+## 브랜드 거버넌스
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 지침 및 세그먼트 조회 | 세그먼트, 시장 또는 카테고리별로 세부 브랜드 가이드라인 검색 | enterprise-context | AEM(Adobe Experience Manager) | &quot;이 브랜드에 대한 음성 톤 지침은 무엇입니까?&quot;<br>&quot;상태 범주에 사용되는 클레임 범주를 나열합니다.&quot; |
 | 브랜드 지침에 따라 콘텐츠 평가 | 구성된 브랜드 검사에 대해 게시/작성된 페이지, 텍스트 블록 또는 이미지 평가 | aem-governance | AEM(Adobe Experience Manager) | &quot;SecurBank 지침에 따라 이 랜딩 페이지를 평가하십시오.&quot;<br>&quot;이 태그가 음성 검사를 통과했습니까?&quot; |
 | AEM 권한 디버그 | 권한 정책, ACL 및 상속 규칙을 디버그/이해합니다. | aem-governance | AEM(Adobe Experience Manager) | &quot;사용자 관리자가 `https://author/`에 `/content/folder/us`을(를) 쓸 수 있는 이유는 무엇입니까?&quot;<br>&quot;`https://author`의 `/content/dam`에서 샘플 작성자 쓰기를 샘플링할 수 없는 이유는 무엇입니까?&quot; |
+
+**관련 정보**
+
+* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 데이터 인사이트
 
@@ -165,7 +164,7 @@ ht-degree: 7%
 | 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; · &quot;내 주간 보고서 스킬 삭제&quot; · &quot;재사용 가능한 스킬로 전환&quot; |
 | 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; · &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
-| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
 | 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; · &quot;중복 병합 정책 이름 수정&quot; · &quot;감사 필드 그룹이 누락된 스키마 수정&quot; · &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 샌드박스 도구
