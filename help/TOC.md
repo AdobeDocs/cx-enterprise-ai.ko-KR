@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: 동료
+user-guide-title: CX Enterprise의 AI
 user-guide-description: 실용적인 설명서, 구현 지침 및 참조 자료를 통해 AI Assistant, Coworker, 에이전트 및 MCP를 구축, 구성, 통합 및 확장하는 방법을 알아봅니다.
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 18%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 18%
   - [AI 크레딧 소비 정보](./overview/ai-credit-consumption.md)
   - [Agentic AI 모니터링 대시보드](./overview/monitoring.md)
   - [에이전틱 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
+  - [생성 AI 콘텐츠 투명도](content-transparency.md)
 - AI 어시스턴트 {#ai-assistant}
   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
   - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- 동료 {#coworker}
+- Coworker {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
     - [개요](./coworker/campaigns/overview.md)
