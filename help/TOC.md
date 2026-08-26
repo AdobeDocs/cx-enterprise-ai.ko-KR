@@ -6,7 +6,7 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
@@ -65,7 +65,7 @@ ht-degree: 17%
     - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
     - [사용 사례](./coworker/campaigns/use-cases.md)
     - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA 메타데이터](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [C2PA 메타데이터](./coworker/campaigns/c2pa-metadata.md)
     - 커넥터 {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
