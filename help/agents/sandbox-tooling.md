@@ -1,7 +1,7 @@
 ---
 title: 샌드박스 도구 에이전트 기술
 description: 샌드박스 도구 에이전트 기술을 사용하여 샌드박스 환경 간에 오브젝트 메타데이터를 복제하는 방법에 대해 알아봅니다.
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 마이그레이션이 완료되면 선택한 오브젝트를 타겟 샌드박스에서 사용할 수 있습니다.
 
-![요청 상태를 표시하는 전송 완료 페이지입니다.](./assets/sandbox-tooling/transfer-complete.png)
+   ![요청 상태를 표시하는 전송 완료 페이지입니다.](./assets/sandbox-tooling/transfer-complete.png)
 
 CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
 
@@ -78,7 +78,7 @@ CX Coworker를 사용하면 자연어로 마이그레이션을 설명함으로�
 
 예:
 
-> &quot;스키마 Luma 충성도 멤버 플래티넘을 현재 샌드박스에서 프로덕션 샌드박스로 이동합니다.&quot;
+- &quot;스키마 Luma 충성도 멤버 플래티넘을 현재 샌드박스에서 프로덕션 샌드박스로 이동합니다.&quot;
 
 ### 샌드박스 간 대상 프로모션
 
@@ -86,7 +86,7 @@ CX Coworker를 사용하면 자연어로 마이그레이션을 설명함으로�
 
 예:
 
-> &quot;대상 이름&quot; 대상을 스테이징 샌드박스로 홍보합니다.&quot;
+- &quot;대상 이름&quot; 대상을 스테이징 샌드박스로 홍보합니다.&quot;
 
 샌드박스 도구 에이전트 스킬은 지정된 대상자를 식별하고, 해당 종속성을 확인하고, 모든 필수 개체를 대상 샌드박스로 마이그레이션합니다.
 
@@ -111,3 +111,4 @@ CX Coworker를 사용하면 자연어로 마이그레이션을 설명함으로�
 이 안내서를 읽은 후에는 샌드박스 도구 에이전트 기술을 사용하여 샌드박스 간에 지원되는 객체를 검색, 패키지 및 마이그레이션하는 방법을 이해해야 합니다.
 
 샌드박스 도구에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하세요.
+

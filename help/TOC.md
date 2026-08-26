@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 18%
+source-wordcount: '284'
+ht-degree: 19%
 
 ---
 
@@ -64,11 +64,15 @@ ht-degree: 18%
     - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
     - [사용 사례](./coworker/campaigns/use-cases.md)
     - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA 메타데이터](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [C2PA 메타데이터](./coworker/campaigns/c2pa-metadata.md)
     - 커넥터 {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [릴리스 정보](./coworker/campaigns/release-notes.md)
+  - 사용자 지정 {#customizations}
+    - 스킬 {#skills}
+      - [기술이란?](./coworker/customizations/skills/what-are-skills.md)
+      - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
     - [UI 안내서](./coworker/chat/ui-guide.md)
@@ -85,4 +89,3 @@ ht-degree: 18%
         - [충성도 과제 및 잠재 고객 인사이트 만들기](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 샌드박스 도구 {#sandbox-tooling}
         - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
