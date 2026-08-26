@@ -64,7 +64,7 @@ Adobe은 컨텐츠가 Adobe 애플리케이션을 떠난 후 외부 서비스가
 
 일부 상황과 특정 지역에서 조직은 GenAI가 생성한 콘텐츠 또는 GenAI가 편집한 콘텐츠를 시각적으로 식별하도록 선택하거나 요구될 수 있습니다.
 
-Adobe은 Adobe 애플리케이션을 통해 지원되는 기존 워터마크 기능 사용에 대한 [지침](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)을 제공합니다. 가시적인 워터마크가 필요한지 여부는 조직의 비즈니스 요구 사항과 콘텐츠가 게시되는 관할권의 해당 법률 및 규정에 따라 다릅니다.
+Adobe은 Adobe 애플리케이션을 통해 지원되는 기존 워터마크 기능 사용에 대한 [지침](https://helpx.adobe.com/kr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)을 제공합니다. 가시적인 워터마크가 필요한지 여부는 조직의 비즈니스 요구 사항과 콘텐츠가 게시되는 관할권의 해당 법률 및 규정에 따라 다릅니다.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Adobe은 Adobe 애플리케이션을 통해 지원되는 기존 워터마크 기
 
 ### 워터마크 지침
 
-Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조직을 위해 지원되는 Adobe 애플리케이션에서 사용할 수 있는 기존 워터마크 기능을 사용하는 방법을 설명하는 [설명서](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)를 제공합니다.
+Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조직을 위해 지원되는 Adobe 애플리케이션에서 사용할 수 있는 기존 워터마크 기능을 사용하는 방법을 설명하는 [설명서](https://helpx.adobe.com/kr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)를 제공합니다.
 
 ## Adobe CX Enterprise에서 지원되는 애플리케이션 {#supported-applications}
 
@@ -100,24 +100,24 @@ Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조�
 
 | 애플리케이션/솔루션 | 릴리스 노트/지침 |
 |---|---|
-| Adobe Advertising Cloud | [설명서](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
-| AEM(Adobe Experience Manager) | [설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| 콘텐츠 생성을 위한 AI 지원(Adobe Journey Optimizer/Adobe Campaign의 기능) | [설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
-| Adobe Journey Optimizer Ultimate | [설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
+| Adobe Advertising Cloud | [설명서](https://experienceleague.adobe.com/ko/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| AEM(Adobe Experience Manager) | [설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
+| 콘텐츠 생성을 위한 AI 지원(Adobe Journey Optimizer/Adobe Campaign의 기능) | [설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
+| Adobe Journey Optimizer Ultimate | [설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2B Prime(Adobe Marketo Optimizer) | [설명서](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer | |
 | Adobe Campaign | |
-| Adobe Commerce | [설명서](https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
-| GenStudio for Performance Marketing | [설명서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
-| Adobe Marketo Engage | [설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
+| Adobe Commerce | [설명서](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
+| GenStudio for Performance Marketing | [설명서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
+| Adobe Marketo Engage | [설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
 | Adobe Workfront | [설명서](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Coworker 캠페인(이전 명칭 HALO) | [설명서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| CX Enterprise Coworker 캠페인(이전 명칭 HALO) | [설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## 관련 링크
 
-* [워터마크 가이드 표시](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [워터마크 가이드 표시](https://helpx.adobe.com/kr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
-* [Adobe GenAI Labeling Compliance Initiative 개요](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
+* [Adobe GenAI Labeling Compliance Initiative 개요](https://helpx.adobe.com/kr/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
 
 ## 자주 묻는 질문
 
