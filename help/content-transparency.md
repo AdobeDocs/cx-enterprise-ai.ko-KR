@@ -1,9 +1,10 @@
 ---
 title: 생성 AI 콘텐츠 투명도
 description: Adobe에서 Adobe CX 엔터프라이즈 애플리케이션 전반에 걸쳐 GenAI가 생성한 콘텐츠 및 GenAI가 편집한 콘텐츠에 C2PA 메타데이터를 자동으로 연결하는 방법에 대해 알아봅니다.
-source-git-commit: f6627af3f62ae3238b6a2bff665e8d1eabcdf3d1
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 02de82fd17bdf3f806ce120b93cbbd85b50f9b8a
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: 1539
 ht-degree: 1%
 
 ---
@@ -61,7 +62,7 @@ Adobe은 컨텐츠가 Adobe 애플리케이션을 떠난 후 외부 서비스가
 
 일부 상황과 특정 지역에서 조직은 GenAI가 생성한 콘텐츠 또는 GenAI가 편집한 콘텐츠를 시각적으로 식별하도록 선택하거나 요구될 수 있습니다.
 
-Adobe은 Adobe 애플리케이션을 통해 지원되는 기존 워터마크 기능 사용에 대한 [지침](https://helpx.adobe.com/kr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)을 제공합니다. 가시적인 워터마크가 필요한지 여부는 조직의 비즈니스 요구 사항과 콘텐츠가 게시되는 관할권의 해당 법률 및 규정에 따라 다릅니다.
+Adobe은 Adobe 애플리케이션을 통해 지원되는 기존 워터마크 기능 사용에 대한 [지침](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)을 제공합니다. 가시적인 워터마크가 필요한지 여부는 조직의 비즈니스 요구 사항과 콘텐츠가 게시되는 관할권의 해당 법률 및 규정에 따라 다릅니다.
 
 >[!NOTE]
 >
@@ -83,7 +84,7 @@ Adobe은 Adobe 애플리케이션을 통해 지원되는 기존 워터마크 기
 
 ### 워터마크 지침
 
-Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조직을 위해 지원되는 Adobe 애플리케이션에서 사용할 수 있는 기존 워터마크 기능을 사용하는 방법을 설명하는 [설명서](https://helpx.adobe.com/kr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)를 제공합니다.
+Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조직을 위해 지원되는 Adobe 애플리케이션에서 사용할 수 있는 기존 워터마크 기능을 사용하는 방법을 설명하는 [설명서](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)를 제공합니다.
 
 ## Adobe CX Enterprise에서 지원되는 애플리케이션 {#supported-applications}
 
@@ -99,7 +100,7 @@ Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조�
 |---|---|
 | Adobe Advertising Cloud | |
 | AEM(Adobe Experience Manager) | |
-| 콘텐츠 생성을 위한 AI 지원(Adobe Journey Optimizer/Adobe Campaign의 기능) | <!--[Documentation] (https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
+| 콘텐츠 생성을 위한 AI 지원(Adobe Journey Optimizer/Adobe Campaign의 기능) | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
 | Adobe Journey Optimizer B2B edition | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials)--> |
 | Adobe Journey Optimizer | |
 | Adobe Campaign | |
@@ -107,11 +108,11 @@ Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조�
 | GenStudio for Performance Marketing | |
 | Adobe Marketo Engage | |
 | Adobe Workfront | |
-| CX Enterprise Coworker 캠페인(이전 명칭 HALO) | <!--[Documentation](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
+| CX Enterprise Coworker 캠페인(이전 명칭 HALO) | <!--[Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
 
 ## 관련 링크
 
-* [워터마크 가이드 표시](https://helpx.adobe.com/kr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [워터마크 가이드 표시](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
 
 ## 자주 묻는 질문
