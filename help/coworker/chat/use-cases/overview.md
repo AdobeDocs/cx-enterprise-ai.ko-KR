@@ -1,11 +1,10 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: c5535d1d559f65b78ccc20a5b4c867f1bd2613e7
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
 workflow-type: tm+mt
-source-wordcount: 3344
+source-wordcount: 3050
 ht-degree: 7%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 7%
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
->AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
+>AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
 
 ## 브랜드 경험
 
@@ -36,7 +35,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
 ### Experience Production - Forms 사용 사례
 
@@ -49,7 +48,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 개발
 
@@ -63,7 +62,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 온보딩 - AEM Assets 활용 사례
 
@@ -76,7 +75,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 콘텐츠 관리자 - AEM Assets 활용 사례
 
@@ -91,7 +90,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 콘텐츠 최적화
 
@@ -103,7 +102,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 브랜드 거버넌스
 
@@ -115,7 +114,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 데이터 인사이트
 
@@ -165,7 +164,7 @@ ht-degree: 7%
 | 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; · &quot;내 주간 보고서 스킬 삭제&quot; · &quot;재사용 가능한 스킬로 전환&quot; |
 | 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; · &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
-| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
 | 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; · &quot;중복 병합 정책 이름 수정&quot; · &quot;감사 필드 그룹이 누락된 스키마 수정&quot; · &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 샌드박스 도구
@@ -173,15 +172,3 @@ ht-degree: 7%
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [샌드박스 간 개체 이동](/help/agents/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 플래티넘을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; · &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
-
-## 고객 경고
-
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
-| --- | --- | --- | --- | --- |
-| 경고 구독 관리 | 자연어 대화를 통해 경고 구독을 보고 관리합니다. | `alerts-subscribe` | Adobe Experience Platform | &quot;어떤 경고를 구독했습니까?&quot;<br><br>&quot;이 경고에 구독하십시오.&quot;<br><br>&quot;이 경고에 대한 내 구독을 제거하십시오.&quot; |
-| 경고 활동 검토 | 지정된 기간 동안 현재 경고 상태 및 내역 경고 활동을 검토합니다. | `alerts-list` | Adobe Experience Platform | &quot;지난 24시간 동안 무슨 일이 있었습니까?&quot;<br><br>&quot;지난 24시간 동안 어떤 경고가 트리거되었습니까?&quot;<br><br>&quot;지난 7일 동안의 활성 경고를 표시합니다.&quot; |
-| 반복 경고 패턴 식별 | 경고 내역을 분석하여 자주 트리거되는 경고 유형과 운영 트렌드를 식별합니다. | `alerts-list` | Adobe Experience Platform | &quot;트리거된 상위 3개의 경고 유형을 표시합니다.&quot;<br><br>&quot;이번 달에 가장 많이 발생한 경고 유형은 무엇입니까?&quot;<br><br>&quot;지난 7일 동안 어떤 경고 패턴이 표시됩니까?&quot; |
-| 우선 순위가 높은 문제에 집중 | 심각도별로 경고 활동을 필터링하여 조사 작업의 우선 순위를 지정합니다. | `alerts-list` | Adobe Experience Platform | &quot;심각도가 높은 경고만 표시합니다.&quot;<br><br>&quot;이번 주에 트리거된 중요한 경고는 무엇입니까?&quot;<br><br>&quot;지난 30일 동안의 중요한 경고를 표시합니다.&quot; |
-| 경고의 영향 반경 이해 | 경고의 영향을 가장 많이 받는 객체를 식별하고 조사가 시작되는 위치를 결정합니다. | `alerts-list` | Adobe Experience Platform | &quot;영향을 받는 상위 5개의 개체는 무엇입니까?&quot;<br><br>&quot;가장 심각도가 높은 경고와 관련된 개체는 무엇입니까?&quot; |
-| 영향을 받는 개체에 경고 유형 연결 | 경고 유형과 영향을 받는 리소스 간의 관계를 분석합니다. | `alerts-list` | Adobe Experience Platform | &quot;어떤 경고 유형이 이 데이터 세트에 가장 자주 영향을 미쳤습니까?&quot;<br><br>&quot;경고 유형과 영향을 받은 개체 간의 관계를 표시합니다.&quot;<br><br>&quot;영향을 가장 많이 받은 최상위 개체에 영향을 가장 많이 받은 경고 유형은 무엇입니까?&quot; |
-| 내 경고에 집중 | 구독하고 모니터링을 담당하는 경고를 분석합니다. | `alerts-list` | Adobe Experience Platform | &quot;내가 구독하는 심각도가 높은 경고를 표시합니다.&quot;<br><br>&quot;이번 주에 트리거된 내 경고에서 어떤 경고가 발생합니까?&quot;<br><br>&quot;구독된 경고 중 주의가 필요한 것이 있습니까?&quot; |
