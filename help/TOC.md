@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7b207cc5ff5f53df5bc0684fb48ac98186f23393
+source-git-commit: 1f51191d1f7a00c21d235b647c7e4b7777a9b728
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 17%
+source-wordcount: '292'
+ht-degree: 18%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 17%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
@@ -87,6 +87,8 @@ ht-degree: 17%
       - 여정 {#journeys}
         - [자연어를 사용하여 여정 만들기](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [충성도 과제 및 잠재 고객 인사이트 만들기](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - 샌드박스 도구 {#sandbox-tooling}
+        - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
+      - 경고 {alerts}
+        - [고객 경고 기술](./agents/customer-alert-skills.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
-    - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
-    - [고객 경고 기술](./agents/customer-alert-skills.md)
