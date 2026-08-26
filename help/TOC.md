@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 18%
+source-wordcount: '292'
+ht-degree: 17%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 18%
   - [필드 검색 에이전트](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [제품 지원 에이전트](./agents/product-support.md)
+  - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [알림 에이전트](./agents/notifications.md)
   - [동료 시험](./agents/trial.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
@@ -86,3 +87,5 @@ ht-degree: 18%
       - 샌드박스 도구 {#sandbox-tooling}
         - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[AA에서 CJA으로의 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
+  - [CJA 데이터 분석](./coworker/analytics-chat.md)
