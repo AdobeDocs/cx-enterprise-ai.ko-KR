@@ -1,13 +1,12 @@
 ---
 description: 탐색, 입력란, 응답, 채팅 기록, 기술 구성, MCP 서버 및 메모리를 다루는 Coworker Chat 인터페이스에 대한 참조 안내서입니다.
 title: 동료 채팅 UI 안내서
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1718
+ht-degree: 4%
 
 ---
 
@@ -15,9 +14,28 @@ ht-degree: 3%
 
 Coworker Chat 인터페이스를 사용하여 환경을 최적화합니다. 이 안내서에서는 앱 액세스, 작업 영역 탐색부터 대화 최대화, 내역 관리, 설정 맞춤화에 이르기까지 모든 작업을 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 동료 채팅 액세스
+
+조직에서 동료에 액세스할 수 있게 되면 몰입형 경험 또는 제품 내 경험을 통해 해당 기능을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>오른쪽 상단의 Coworker 아이콘 ![Coworker 아이콘](./assets/icon-coworker.png)을 통해 제품 내 환경에 액세스할 수 있습니다. 몰입형 환경 세부 정보는 [아래 요약됨](#immersive)입니다.
+
+다음 표에는 각 CX 엔터프라이즈 애플리케이션에서 이러한 환경을 사용할 수 있는 시기가 나와 있습니다.
+
+| CX 엔터프라이즈 애플리케이션 | 몰입형 경험 | 제품 내 경험 |
+|---|---|---|
+| RTCDP | 지금 사용 가능 | 곧 출시 예정 |
+| AJO | 지금 사용 가능 | 곧 출시 예정 |
+| CJA | 지금 사용 가능 | 곧 출시 예정 |
+| AEM | 2026년 9월 출시 | 곧 출시 예정 |
+| Workfront | 2026년 9월 출시 | 준비 중:<br><br>* 선택한 Workfront 시스템 관리자를 위한 미리 보기 모드에서 2026년 9월 초<br><br>* 적격 빠른 릴리스 Workfront 고객을 위한 프로덕션 모드에서 2026년 9월 중순<br><br>* 적격 분기별 릴리스 Workfront 고객을 위한 프로덕션 모드에서 2026년 10월 중순 |
+| 대상 | 2026년 9월 출시 | 곧 출시 예정 |
+
+### 몰입형 경험 {#immersive}
 
 [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)&#x200B;(으)로 이동한 다음 Adobe 자격 증명으로 로그인하여 동료 채팅에 액세스합니다.
 
