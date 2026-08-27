@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 18%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 19%
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
     - [UI 안내서](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
     - 사용 사례 {#use-cases}
       - [동료 채팅 사용 사례](./coworker/chat/use-cases/overview.md)
       - 데이터 인사이트 {#data-insights}
