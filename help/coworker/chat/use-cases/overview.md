@@ -3,9 +3,9 @@ description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 �
 title: 동료 채팅 사용 사례
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: 3050
+source-wordcount: 3344
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
->AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
+>AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
 
 ## 브랜드 경험
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
 ### Experience Production - Forms 사용 사례
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 개발
 
@@ -63,7 +63,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 온보딩 - AEM Assets 활용 사례
 
@@ -76,7 +76,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 콘텐츠 관리자 - AEM Assets 활용 사례
 
@@ -91,7 +91,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 콘텐츠 최적화
 
@@ -103,7 +103,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 브랜드 거버넌스
 
@@ -115,7 +115,7 @@ ht-degree: 7%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 데이터 인사이트
 
@@ -173,3 +173,15 @@ ht-degree: 7%
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [샌드박스 간 개체 이동](/help/agents/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 플래티넘을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; · &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
+
+## 고객 경고
+
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 경고 구독 관리 | 자연어 대화를 통해 경고 구독을 보고 관리합니다. | `alerts-subscribe` | Adobe Experience Platform | &quot;어떤 경고를 구독했습니까?&quot;<br><br>&quot;이 경고에 구독하십시오.&quot;<br><br>&quot;이 경고에 대한 내 구독을 제거하십시오.&quot; |
+| 경고 활동 검토 | 지정된 기간 동안 현재 경고 상태 및 내역 경고 활동을 검토합니다. | `alerts-list` | Adobe Experience Platform | &quot;지난 24시간 동안 무슨 일이 있었습니까?&quot;<br><br>&quot;지난 24시간 동안 어떤 경고가 트리거되었습니까?&quot;<br><br>&quot;지난 7일 동안의 활성 경고를 표시합니다.&quot; |
+| 반복 경고 패턴 식별 | 경고 내역을 분석하여 자주 트리거되는 경고 유형과 운영 트렌드를 식별합니다. | `alerts-list` | Adobe Experience Platform | &quot;트리거된 상위 3개의 경고 유형을 표시합니다.&quot;<br><br>&quot;이번 달에 가장 많이 발생한 경고 유형은 무엇입니까?&quot;<br><br>&quot;지난 7일 동안 어떤 경고 패턴이 표시됩니까?&quot; |
+| 우선 순위가 높은 문제에 집중 | 심각도별로 경고 활동을 필터링하여 조사 작업의 우선 순위를 지정합니다. | `alerts-list` | Adobe Experience Platform | &quot;심각도가 높은 경고만 표시합니다.&quot;<br><br>&quot;이번 주에 트리거된 중요한 경고는 무엇입니까?&quot;<br><br>&quot;지난 30일 동안의 중요한 경고를 표시합니다.&quot; |
+| 경고의 영향 반경 이해 | 경고의 영향을 가장 많이 받는 객체를 식별하고 조사가 시작되는 위치를 결정합니다. | `alerts-list` | Adobe Experience Platform | &quot;영향을 받는 상위 5개의 개체는 무엇입니까?&quot;<br><br>&quot;가장 심각도가 높은 경고와 관련된 개체는 무엇입니까?&quot; |
+| 영향을 받는 개체에 경고 유형 연결 | 경고 유형과 영향을 받는 리소스 간의 관계를 분석합니다. | `alerts-list` | Adobe Experience Platform | &quot;어떤 경고 유형이 이 데이터 세트에 가장 자주 영향을 미쳤습니까?&quot;<br><br>&quot;경고 유형과 영향을 받은 개체 간의 관계를 표시합니다.&quot;<br><br>&quot;영향을 가장 많이 받은 최상위 개체에 영향을 가장 많이 받은 경고 유형은 무엇입니까?&quot; |
+| 내 경고에 집중 | 구독하고 모니터링을 담당하는 경고를 분석합니다. | `alerts-list` | Adobe Experience Platform | &quot;내가 구독하는 심각도가 높은 경고를 표시합니다.&quot;<br><br>&quot;이번 주에 트리거된 내 경고에서 어떤 경고가 발생합니까?&quot;<br><br>&quot;구독된 경고 중 주의가 필요한 것이 있습니까?&quot; |

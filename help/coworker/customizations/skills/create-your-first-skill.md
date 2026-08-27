@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 155
 last-substantial-update: 2026-08-26T00:00:00Z
 jira: KT-22377
-source-git-commit: 638e01d8a9a6f8763e1197348360ffc13be77b4a
+source-git-commit: 25eef0f43755edf478eb7130aba470b43584d6ef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 동료에서 첫 번째 스킬을 만드시겠습니까?
+# 동료에서 첫 번째 스킬 만들기
 
 이 비디오에서는 소매 분석가가 Coworker 및 Customer Journey Analytics(CJA)를 사용하여 마감 기한이 촉박한 경영진 비즈니스 성과 브리핑을 준비하는 방법을 알아봅니다.
  
