@@ -1,28 +1,19 @@
 ---
 title: CX Enterprise의 AI 정보
 description: Adobe CX 엔터프라이즈 애플리케이션 전반에서 생성 및 agentic AI가 표시되는 위치, 사용 관리 및 측정 방법, 팀의 시작 방법에 대한 비즈니스 수준의 개요입니다.
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c5345fbf43da8f310c1b076618a615bf8bb8d998
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: aed11b3ad3450c80516d9cbd580cf983008ddbfd
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 3%
 
 ---
 
 # CX Enterprise의 AI 정보
 
-Adobe CX 엔터프라이즈 애플리케이션은 두 가지 상호 보완적인 방식으로 AI를 사용합니다. 즉, 콘텐츠를 직접 만들거나 답변을 얻으라는 메시지를 표시하는 **생성 AI**&#x200B;와 사용자를 대신하여 여러 단계 작업을 계획하고 수행하는 **아젠틱 AI**&#x200B;입니다. 이 페이지 그룹은 비즈니스 및 IT 리더에게 각 유형의 AI가 표시되는 위치, 관리 및 측정 방법, AI 생성 컨텐츠가 공개되는 방법에 대한 맵을 제공하므로 이해 당사자에게 AI를 팀에 전달하기 전에 도움을 주고 활성화를 계획할 수 있습니다.
-
->[!NOTE]
->
->이러한 페이지는 작업을 기반으로 하는 것이 아니라 개념적입니다. AI Assistant, Agent Orchestrator 또는 CX Enterprise Coworker 사용에 대한 단계별 지침은 [CX Enterprise 애플리케이션의 AI](../home.md)에서 시작하십시오.
+Adobe CX 엔터프라이즈 애플리케이션은 두 가지 상호 보완적인 방식으로 AI를 사용합니다. 즉, 콘텐츠를 직접 만들거나 답변을 얻으라는 메시지를 표시하는 **생성 AI**&#x200B;와 사용자를 대신하여 여러 단계 작업을 계획하고 수행하는 **아젠틱 AI**&#x200B;입니다. 다음 항목에서는 CX Enterprise에서 각 유형의 AI를 사용할 수 있는 위치를 광범위하게 설명합니다.
 
 ## 이 섹션에서 다루는 내용
 
@@ -36,7 +27,7 @@ Adobe CX 엔터프라이즈 애플리케이션은 두 가지 상호 보완적인
 ## 시작 위치
 
 1. 사용 가능한 두 가지 형태의 AI와 각 AI가 이미 사용 허가된 애플리케이션에 있는 위치를 이해하려면 **생성 AI 정보** 및 **무산소 AI 정보**&#x200B;를 읽어 보십시오.
-2. 사용이 비용으로 변환되는 방식을 이해하려면 **AI 크레딧 소비**&#x200B;를 읽어 보십시오. 이를 통해 금융 및 조달에서 기대치를 설정할 수 있습니다.
-3. 거버넌스 팀에 대한 **Agentic AI 모니터링** 대시보드 권한을 설정하여 첫 날부터 채택 및 사용을 볼 수 있도록 합니다.
-4. 팀이 게시하는 AI 생성 콘텐츠에 자동으로 적용되는 공개 내용을 이해하려면 **생성 AI 콘텐츠 투명도**&#x200B;를 읽어 보십시오.
-5. 조직에서 사용자를 온보딩할 준비가 되면 AI Assistant, Agent Orchestrator 및 CX Enterprise Coworker에 대한 실습 지침을 보려면 해당 사용자를 CX 엔터프라이즈 애플리케이션의 [AI](../home.md)로 안내합니다.
+1. 사용이 비용으로 변환되는 방식을 이해하려면 **AI 크레딧 소비**&#x200B;를 읽어 보십시오. 이를 통해 금융 및 조달에서 기대치를 설정할 수 있습니다.
+1. 거버넌스 팀에 대한 **Agentic AI 모니터링** 대시보드 권한을 설정하여 첫 날부터 채택 및 사용을 볼 수 있도록 합니다.
+1. 팀이 게시하는 AI 생성 콘텐츠에 자동으로 적용되는 공개 내용을 이해하려면 **생성 AI 콘텐츠 투명도**&#x200B;를 읽어 보십시오.
+1. 조직에서 사용자를 온보딩할 준비가 되면 AI Assistant, Agent Orchestrator 및 CX Enterprise Coworker에 대한 실습 지침을 보려면 해당 사용자를 CX 엔터프라이즈 애플리케이션의 [AI](../home.md)로 안내합니다.
