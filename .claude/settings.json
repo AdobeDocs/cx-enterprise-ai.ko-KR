@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(git status *)",
-      "Bash(grep '\\\\.md$')"
+      "Bash(grep '\\\\.md$')",
+      "Bash(ls \"C:\\\\Users\\\\mfrei\\\\.claude\\\\projects\\\\c--Users-mfrei-Documents-GitHub-cx-enterprise-ai-en\\\\memory\\\\\" 2>/dev/null || echo \"NO_DIR\")",
+      "Read(//c/Users/mfrei/.claude/projects/c--Users-mfrei-Documents-GitHub-cx-enterprise-ai-en/memory\" 2>/dev/**)"
     ]
   }
 }
