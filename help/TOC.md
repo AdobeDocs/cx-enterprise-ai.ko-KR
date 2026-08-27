@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
+source-git-commit: 2c7c8a8cd40bca2e1a3cdae08f24f56e3b00daa0
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '297'
 ht-degree: 18%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 18%
 
 - [CX 엔터프라이즈 애플리케이션의 AI](home.md)
 - CX Enterprise의 AI 정보 {#overview}
+  - [CX Enterprise의 AI 정보](./overview/overview-ai-cxe.md)
   - [생성 AI 정보](./overview/generative-ai.md)
   - [아젠틱 AI 정보](./overview/agentic-ai.md)
   - [AI 크레딧 소비 정보](./overview/ai-credit-consumption.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
   - 캠페인 {#campaigns}
