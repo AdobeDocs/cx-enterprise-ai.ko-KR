@@ -1,9 +1,14 @@
 ---
 title: CX Enterprise의 AI 정보
 description: Adobe CX 엔터프라이즈 애플리케이션 전반에서 생성 및 agentic AI가 표시되는 위치, 사용 관리 및 측정 방법, 팀의 시작 방법에 대한 비즈니스 수준의 개요입니다.
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c5345fbf43da8f310c1b076618a615bf8bb8d998
 workflow-type: tm+mt
 source-wordcount: 447
