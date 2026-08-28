@@ -1,7 +1,8 @@
 ---
 description: 탐색, 입력란, 응답, 채팅 기록, 기술 구성, MCP 서버 및 메모리를 다루는 Coworker Chat 인터페이스에 대한 참조 안내서입니다.
 title: 동료 채팅 UI 안내서
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
 source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
 workflow-type: tm+mt
