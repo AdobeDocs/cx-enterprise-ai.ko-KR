@@ -6,18 +6,19 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 18%
+source-wordcount: '296'
+ht-degree: 19%
 
 ---
 
 
 # CX Enterprise의 AI {#experience-cloud-ai}
 
-- [CX 엔터프라이즈 애플리케이션의 AI](home.md)
+- [CX Enterprise의 AI](home.md)
 - CX Enterprise의 AI 정보 {#overview}
+  - [CX Enterprise의 AI 정보](./overview/overview-ai-cxe.md)
   - [생성 AI 정보](./overview/generative-ai.md)
   - [아젠틱 AI 정보](./overview/agentic-ai.md)
   - [AI 크레딧 소비 정보](./overview/ai-credit-consumption.md)
