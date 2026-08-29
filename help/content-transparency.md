@@ -104,13 +104,13 @@ Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조�
 | AEM(Adobe Experience Manager) | [설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | 콘텐츠 생성을 위한 AI 지원(Adobe Journey Optimizer/Adobe Campaign의 기능) | [설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Adobe Journey Optimizer Ultimate | [설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime(Adobe Marketo Optimizer) | [설명서](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime(Adobe Marketo Optimizer) | [설명서](https://experienceleague.adobe.com/ko/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer | |
 | Adobe Campaign | |
 | Adobe Commerce | [설명서](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [설명서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [설명서](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| Adobe Workfront | [설명서](https://experienceleague.adobe.com/ko/docs/workfront/using/documents/c2pa-metadata-overview) |
 | CX Enterprise Coworker 캠페인(이전 명칭 HALO) | [설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## 관련 링크
