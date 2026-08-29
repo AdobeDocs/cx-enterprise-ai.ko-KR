@@ -1,7 +1,8 @@
 ---
 description: 설명.
 title: 이메일 편집기 이해
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: fb93fb7d8d183295c321efc40fe557225804e8c6
 workflow-type: tm+mt
 source-wordcount: 476
