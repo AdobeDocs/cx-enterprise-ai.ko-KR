@@ -4,10 +4,10 @@ description: Adobe에서 Adobe CX 엔터프라이즈 애플리케이션 전반�
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 4a9ab38cc3aa650dbb90639558d25f6acf707da5
+source-git-commit: 1ff44fcfab1a304b3640032d6c0985795f580e5e
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 1%
+source-wordcount: 1745
+ht-degree: 2%
 
 ---
 
@@ -102,11 +102,11 @@ Adobe은 시각적 레이블을 선택하거나 적용할 필요가 있는 조�
 |---|---|
 | Adobe Advertising Cloud | [설명서](https://experienceleague.adobe.com/ko/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
 | AEM(Adobe Experience Manager) | [설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| 콘텐츠 생성을 위한 AI 지원(Adobe Journey Optimizer/Adobe Campaign의 기능) | [설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
+| 콘텐츠 생성을 위한 AI 지원(Adobe Journey Optimizer/Adobe Campaign의 기능) | [설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Adobe Journey Optimizer Ultimate | [설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2B Prime(Adobe Marketo Optimizer) | [설명서](https://experienceleague.adobe.com/ko/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
-| Adobe Journey Optimizer | |
-| Adobe Campaign | |
+| Adobe Journey Optimizer | [설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Campaign | [설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [설명서](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [설명서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
