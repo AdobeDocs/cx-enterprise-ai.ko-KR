@@ -1,11 +1,10 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 9975595370bff328ea990f07ec3dbb85c17ee23b
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 261f478d3dec0845c0a5532201ef6ddc81808372
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3729
 ht-degree: 6%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 6%
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
->AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
+>AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
 
 ## 브랜드 경험
 
@@ -35,15 +34,15 @@ ht-degree: 6%
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 양식 만들기 | 일반 언어 설명, 첨부된 개요, 이미지 또는 PDF에서 새 적응형 양식을 생성합니다 | `aem-forms-adaptiveform-create` | Adobe Experience Manager(AEM) - AEM Forms | &quot;직원 온보딩 양식 만들기&quot;<br><br>&quot;첨부된 개요(이미지 또는 pdf)를 사용하여 양식 만들기&quot;<br><br>&quot;&lt;양식 유형> 적응형 양식 만들기&quot; |
-| 양식 편집/업데이트 | 기존 양식 수정 — 필드 추가/편집, 간단한 레이아웃 조정, 제출 작업 구성 또는 첨부된 지침 문서의 변경 내용 적용 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager(AEM) - AEM Forms | &quot;Add Middle Name field below First Name field&quot;<br><br>&quot;Put First Name and Last Name fields in a 2 column layout, 50/50&quot;<br><br>&quot;데이터를 REST 엔드포인트로 보내도록 양식을 구성&quot;<br><br>&quot;첨부된 지침 문서와 일치하도록 이 양식을 업데이트&quot;<br><br>&quot;Add &lt;existing field> field> field 아래에 &lt;field name> 필드 추가&quot; |
+| 양식 편집/업데이트 | 기존 양식 수정 - 필드 추가/편집, 간단한 레이아웃 조정, 제출 작업 구성 또는 첨부된 지침 문서의 변경 사항 적용 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager(AEM) - AEM Forms | &quot;Add Middle Name field below First Name field&quot;<br><br>&quot;Put First Name and Last Name fields in a 2 column layout, 50/50&quot;<br><br>&quot;데이터를 REST 엔드포인트로 보내도록 양식을 구성&quot;<br><br>&quot;첨부된 지침 문서와 일치하도록 이 양식을 업데이트&quot;<br><br>&quot;Add &lt;existing field> field> field 아래에 &lt;field name> 필드 추가&quot; |
 | 비즈니스 논리 추가 | 다른 필드의 값을 기반으로 필드를 표시하거나 숨기는 것과 같은 간단한 규칙을 만듭니다 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager(AEM) - AEM Forms | &quot;직원 유형이 계약자인 경우에만 회사 필드 표시&quot;<br><br>&quot;다른 필드가 &lt;값>인 경우에만 &lt;필드> 필드 표시&quot; |
 | 양식 포함 | 기존 양식 또는 새로 만든 양식을 지정된 AEM Sites 페이지에 배치합니다(Edge Delivery Services 페이지에서만 지원됨) | `aem-forms-adaptiveform-embed` | Adobe Experience Manager(AEM) - AEM Forms | &quot;이 양식을 사이트의 홈 페이지에 임베드&quot;<br><br>&quot;이 양식을 &lt;페이지 경로>에 임베드&quot; |
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 개발
 
@@ -56,7 +55,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 온보딩
 
@@ -69,7 +68,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 콘텐츠 관리자
 
@@ -84,7 +83,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 콘텐츠 최적화
 
@@ -96,7 +95,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 브랜드 거버넌스
 
@@ -108,64 +107,64 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 데이터 인사이트
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [CJA 보고서 및 지표 가져오기](data-insights/analytics-chat.md) | 실시간으로 CJA을 쿼리하여 지표, 차원, 세그먼트 및 데이터 보기를 가져옵니다. | `cja` | Customer Journey Analytics(CJA) | &quot;지난 30일 동안의 페이지 보기 횟수 표시&quot; · &quot;마스터 데이터 보기에 상위 세그먼트 나열&quot; |
-| 비교 분석 | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교 | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics(CJA) | &quot;월별 채널별 매출 비교&quot; · &quot;이번 분기에 모바일과 데스크탑 간 전환은 어떻게 보입니까?&quot; |
+| [CJA 보고서 및 지표 가져오기](data-insights/analytics-chat.md) | 실시간으로 CJA을 쿼리하여 지표, 차원, 세그먼트 및 데이터 보기를 가져옵니다. | `cja` | Customer Journey Analytics(CJA) | &quot;최근 30일 동안의 페이지 보기 수 표시&quot; <br> &quot;마스터 데이터 보기에 상위 세그먼트 나열&quot; |
+| 비교 분석 | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교 | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics(CJA) | &quot;월별 채널별 매출액 비교&quot; <br> &quot;이번 분기에 모바일과 데스크탑 간 전환은 어떻게 보입니까?&quot; |
 | 캠페인 성과 | 지정된 기간 동안 캠페인, 채널 및 웹 속성이 수행되는 방식을 측정합니다. | `cja`, `dx-api`, `knowledge-graph` | | &quot;Acrobat 웹 캠페인은 지난 달에 어떻게 수행되었습니까?&quot; |
-| Funnel 분석 | 각 단계에서 드롭오프로 여러 단계의 전환 단계를 거칩니다. | `cja` | Customer Journey Analytics(CJA) | &quot;체크아웃 funnel 안내&quot; · &quot;PDP에서 구매로 변환 funnel 표시&quot; |
-| 예측 | 내역 CJA 데이터를 기반으로 향후 지표 값 프로젝트 | `cja` | Customer Journey Analytics(CJA) | &quot;향후 30일 동안의 세션 예측&quot; · &quot;매출 목표를 달성할 수 있습니까?&quot; |
-| [근본 원인 분석](data-insights/root-cause-analysis.md) | 지표가 변경된 이유를 조사합니다. 드롭, 스파이크 및 예외 항목을 진단합니다. | `cja-root-cause-analysis` | Customer Journey Analytics(CJA) | &quot;지난 주에 전환율이 떨어진 이유는 무엇입니까?&quot; · &quot;1월 15일 매출 급증의 원인은 무엇입니까?&quot; |
-| 경영진 요약 및 KPI 다이제스트 | 이해 당사자에게 준비된 성능 요약, 규범적 권장 사항 및 슬라이드 데크 개요 작성 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics(CJA) | &quot;지난달 요약 제공&quot; · &quot;이번 분기 데이터를 활용하여 슬라이드 데크 개요 만들기&quot; |
-| [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | 특히 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics과 Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정할 수 있습니다 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;AA 보고서 세트를 내 CJA 데이터 보기 비교&quot; · &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
-| 운영 시계열 및 인과관계 분석 | 인과 관계 속성을 사용하여 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 분석합니다. | `operational-stats-causal-analysis` | 모든 적격 지원 | &quot;지난 90일 동안의 대상 크기 트렌드를 표시합니다.&quot; · &quot;3월 3일에 데이터 세트 행 수가 급증한 이유는 무엇입니까?&quot; |
-| 사용자 지정 CJA 스킬 만들기 | 분석 패턴을 세션 간에 지속되는 재사용 가능한 반복 가능한 스킬로 변환 | `cja-skill-creator` | Customer Journey Analytics(CJA) | &quot;이 주간 수익 분석을 재사용 가능한 스킬로 전환&quot; · &quot;월별 funnel 보고를 위한 스킬로 저장&quot; |
+| Funnel 분석 | 각 단계에서 드롭오프로 여러 단계의 전환 단계를 거칩니다. | `cja` | Customer Journey Analytics(CJA) | &quot;체크아웃 funnel 안내&quot; <br> &quot;PDP에서 구매로 변환 funnel 표시&quot; |
+| 예측 | 내역 CJA 데이터를 기반으로 향후 지표 값 프로젝트 | `cja` | Customer Journey Analytics(CJA) | &quot;다음 30일 동안의 세션 예측&quot; <br> &quot;매출 목표를 달성하는 데 도움이 됩니까?&quot; |
+| [근본 원인 분석](data-insights/root-cause-analysis.md) | 지표가 변경된 이유를 조사합니다. 드롭, 스파이크 및 예외 항목을 진단합니다. | `cja-root-cause-analysis` | Customer Journey Analytics(CJA) | &quot;지난 주에 전환율이 떨어진 이유는 무엇입니까?&quot; <br> &quot;1월 15일 매출 급증의 원인은 무엇입니까?&quot; |
+| 경영진 요약 및 KPI 다이제스트 | 이해 당사자에게 준비된 성능 요약, 규범적 권장 사항 및 슬라이드 데크 개요 작성 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics(CJA) | &quot;지난달 요약 정보 제공&quot; <br> &quot;이번 분기 데이터로 슬라이드 데크 개요 만들기&quot; |
+| [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | 특히 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics과 Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정할 수 있습니다 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;내 AA 보고서 세트를 내 CJA 데이터 보기와 비교&quot; <br> &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
+| 운영 시계열 및 인과관계 분석 | 인과 관계 속성을 사용하여 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 분석합니다. | `operational-stats-causal-analysis` | 모든 적격 지원 | &quot;지난 90일 동안의 대상 크기 트렌드를 표시합니다.&quot; <br> &quot;데이터 세트 행 수가 3월 3일에 급증한 이유는 무엇입니까?&quot; |
+| 사용자 지정 CJA 스킬 만들기 | 분석 패턴을 세션 간에 지속되는 재사용 가능한 반복 가능한 스킬로 변환 | `cja-skill-creator` | Customer Journey Analytics(CJA) | &quot;이 주별 수익 분석을 재사용 가능한 스킬로 변환&quot; <br> &quot;월별 funnel 보고를 위한 스킬로 저장&quot; |
 
 ## 대상자
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [자연어에서 대상 만들기](audiences/create-audience-from-natural-language.md) | 각 단계에서 사용자 승인을 통해 단계별 대상 만들기 오케스트레이션 | `audience-creation-flow` | Real-Time CDP(RTCDP) | &quot;지난 30일 동안 구매한 사용자 대상 만들기&quot; · &quot;캘리포니아에서 가치가 높은 충성도 구성원을 위한 세그먼트 만들기&quot; |
-| PQL 정의 작성 | XDM 속성, 동작 이벤트 또는 기존 대상에서 대상 정의를 조합하고 집계 및 시간 창을 지원합니다. | `segment-definition-assembly` | Real-Time CDP(RTCDP) | &quot;3개 이상의 제품을 보았지만 구매하지 않은 사용자를 위한 PQL 만들기&quot; · &quot;내 이벤트 상태에 7일 기간 추가&quot; |
-| 대상자 검색 및 찾기 | ID, 이름, 의미 체계 검색으로 대상 찾기, 중복 감지 및 중복 분석 | `audience-search` | Real-Time CDP(RTCDP) | &quot;모든 충성도 대상 찾기&quot; · &quot;내 &#39;휴일 쇼핑객&#39; 세그먼트가 중복됩니까?&quot; |
-| 대상 크기 예상 | 폴링과 함께 Adobe Experience Platform 미리보기 API를 사용하여 PQL 표현식에 대한 프로필 도달 예상 | `audience-size-estimate` | Real-Time CDP(RTCDP) | &quot;이 대상자의 크기는 얼마나 됩니까?&quot; · &quot;이 PQL 표현식에 대한 도달 범위 예상&quot; |
-| 대상자 크기 폭포 | PQL을 하위 술어로 분해하고 각 조건이 최종 대상 크기에 기여하는 방식을 표시합니다 | `audience-size-waterfall` | Real-Time CDP(RTCDP) | &quot;이 PQL의 폭포를 보여 주십시오.&quot; · &quot;각 조건이 대상자를 어떻게 감소시키는지 분류하십시오.&quot; |
-| 타깃팅할 XDM 필드 검색 | 이름, 설명 또는 데이터 값으로 필드를 검색합니다. 해당 필드가 있는 위치와 이미 사용 중인 위치를 확인하세요. | `field-discovery` | Real-Time CDP(RTCDP) | &quot;충성도 고객을 타깃팅하는 데 사용할 수 있는 필드는 무엇입니까?&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
-| 대상자 게시/저장 | 이름 지정 규칙 및 준수 확인을 사용하여 Experience Platform 세그멘테이션 서비스에 대상 정의 유지 | `audience-publish` | Real-Time CDP(RTCDP) | &quot;초안으로 저장&quot; · &quot;봄 판매 구매자&quot; 이름으로 대상자 게시&quot; |
+| [자연어에서 대상 만들기](audiences/create-audience-from-natural-language.md) | 각 단계에서 사용자 승인을 통해 단계별 대상 만들기 오케스트레이션 | `audience-creation-flow` | Real-Time CDP(RTCDP) | &quot;지난 30일 동안 구매한 사용자에 대한 대상 만들기&quot; <br> &quot;캘리포니아에서 고가치 충성도 구성원을 위한 세그먼트 만들기&quot; |
+| PQL 정의 작성 | XDM 속성, 동작 이벤트 또는 기존 대상에서 대상 정의를 조합하고 집계 및 시간 창을 지원합니다. | `segment-definition-assembly` | Real-Time CDP(RTCDP) | &quot;3개 이상의 제품을 보았지만 구매하지 않은 사용자를 위한 PQL 만들기&quot; <br> &quot;내 이벤트 조건에 7일 기간 추가&quot; |
+| 대상자 검색 및 찾기 | ID, 이름, 의미 체계 검색으로 대상 찾기, 중복 감지 및 중복 분석 | `audience-search` | Real-Time CDP(RTCDP) | &quot;모든 충성도 대상 찾기&quot; <br> &quot;내 &#39;휴일 쇼핑객&#39; 세그먼트가 중복됩니까?&quot; |
+| 대상 크기 예상 | 폴링과 함께 Adobe Experience Platform 미리보기 API를 사용하여 PQL 표현식에 대한 프로필 도달 예상 | `audience-size-estimate` | Real-Time CDP(RTCDP) | &quot;이 대상자의 크기는 얼마나 됩니까?&quot; <br> &quot;이 PQL 표현식에 대한 도달 범위 예상&quot; |
+| 대상자 크기 폭포 | PQL을 하위 술어로 분해하고 각 조건이 최종 대상 크기에 기여하는 방식을 표시합니다 | `audience-size-waterfall` | Real-Time CDP(RTCDP) | &quot;이 PQL의 폭포를 표시합니다.&quot; <br> &quot;각 조건에 따라 대상자가 줄어드는 방식을 분류합니다.&quot; |
+| 타깃팅할 XDM 필드 검색 | 이름, 설명 또는 데이터 값으로 필드를 검색합니다. 해당 필드가 있는 위치와 이미 사용 중인 위치를 확인하세요. | `field-discovery` | Real-Time CDP(RTCDP) | &quot;충성도 고객을 타깃팅하는 데 사용할 수 있는 필드는 무엇입니까?&quot; <br> &quot;구매 내역과 관련된 필드 찾기&quot; |
+| 대상자 게시/저장 | 이름 지정 규칙 및 준수 확인을 사용하여 Experience Platform 세그멘테이션 서비스에 대상 정의 유지 | `audience-publish` | Real-Time CDP(RTCDP) | &quot;초안으로 저장&quot; <br> &quot;이름이 &#39;봄 판매 구매자&#39;인 대상 게시&quot; |
 
 ## 여정
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [자연어에서 여정 만들기](journeys/create-journey-from-natural-language.md) | 텍스트 프롬프트 또는 업로드된 이미지/흐름도에서 AJO의 여정 생성 오케스트레이션 | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;등록 후 이메일을 보내고 3일을 기다린 후 후속 작업을 보내는 시작 여정 만들기&quot; · &quot;이 업로드된 순서도 이미지에서 여정 작성&quot; |
-| 여정 충돌 분석 | 활성 여정 간 대상 중복 감지, 충돌 예약 및 중복 제거 문제 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;장바구니 포기 여정이 다른 여정과 충돌합니까?&quot; · &quot;내 활성 여정 간 대상 겹침 확인&quot; |
-| 여정 폴아웃 분석 | 여정 중 고객이 중단되는 위치와 이유를 파악하고, 이탈로 이어지는 행동 패턴을 감지합니다 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;내 재참여 여정에서 사람들이 어디에 드롭하고 있습니까?&quot; · &quot;여정 X에서 폴아웃이 가장 높은 노드를 선택하십시오.&quot; |
-| 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; · &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
-| [충성도 문제를 만들고, 편집하고, 관리합니다](journeys/create-loyalty-challenge.md) | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 격려하는 도전을 만드세요&quot; · &quot;가장 높은 회원 감소율로 충성도 도전을 보여줍니다.&quot; |
+| [자연어에서 여정 만들기](journeys/create-journey-from-natural-language.md) | 텍스트 프롬프트 또는 업로드된 이미지/흐름도에서 AJO의 여정 생성 오케스트레이션 | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;등록 후 전자 메일을 보내고 3일을 기다린 다음 후속 작업을 보내는 시작 여정 만들기&quot; <br> &quot;이 업로드된 순서도 이미지에서 여정 작성&quot; |
+| 여정 충돌 분석 | 활성 여정 간 대상 중복 감지, 충돌 예약 및 중복 제거 문제 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;여정 포기 여정이 다른 장바구니와 충돌합니까?&quot; <br> &quot;내 활성 여정 간 대상 겹침 확인&quot; |
+| 여정 폴아웃 분석 | 여정 중 고객이 중단되는 위치와 이유를 파악하고, 이탈로 이어지는 행동 패턴을 감지합니다 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;내 재참여 여정에서 사람들이 어디에 드롭하고 있습니까?&quot; <br> &quot;여정 X에서 폴아웃이 가장 높은 노드는 무엇입니까?&quot; |
+| 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
+| [충성도 문제를 만들고, 편집하고, 관리합니다](journeys/create-loyalty-challenge.md) | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 유도하는 문제를 만드십시오.&quot; <br> &quot;회원 감소율이 가장 높은 충성도 문제를 보여 주십시오.&quot; |
 
 ## 기본 요소
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| 제품 지식 및 설명서 | 공식 Adobe 문서에서 방법, 개념, 문제 해결 및 모범 사례 질문에 답변합니다 | `product-knowledge` | 모든 적격 지원 | &quot;스트리밍 대상을 설정하려면 어떻게 해야 합니까?&quot; · &quot;일괄 처리와 스트리밍 세분화 간의 차이점은 무엇입니까?&quot; |
-| Experience Platform/Journey Optimizer 엔티티 쿼리 | 플랫폼 엔터티에 대한 질문을 위한 기본 진입점 역할을 합니다. 필요에 따라 KG, 필드 검색 또는 API로 라우팅합니다. | `operational-insights` | 모든 적격 지원 | &quot;보유한 데이터 세트가 몇 개입니까?&quot; · &quot;모든 활성 여정 표시&quot; · &quot;대상 나열&quot; |
-| 지식 그래프 쿼리 | 단일 SQL 쿼리를 통한 집계 카운트, 교차 엔티티 조인, 관계 조회 및 메타데이터 탐색 | `knowledge-graph` | 모든 적격 지원 | &quot;어느 대상자가 이 데이터 세트를 사용합니까?&quot; · &quot;스키마와 데이터 세트 간의 관계 표시&quot; |
-| Experience Platform / Journey Optimizer / Customer Journey Analytics API 작업 | 지식 그래프에 없는 돌연변이, 실시간 상태 확인 및 엔티티 유형에 대한 직접 API 게이트웨이 제공 | `cxo-api` | 모든 적격 지원 | &quot;데이터 세트 삭제 X&quot; · &quot;내 일괄 처리 수집 작업의 상태 확인&quot; |
-| 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; · &quot;구매 내역과 관련된 필드 찾기&quot; |
-| 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; · &quot;내 주간 보고서 스킬 삭제&quot; · &quot;재사용 가능한 스킬로 전환&quot; |
-| 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; · &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
-| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 무슨 문제가 있습니까?&quot; · &quot;최신 상태 확인 평가에 대해 알려주십시오.&quot; · &quot;사용자 정의 네임스페이스 설명 확인에 대한 문제는 무엇입니까?&quot; |
-| 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; · &quot;중복 병합 정책 이름 수정&quot; · &quot;감사 필드 그룹이 누락된 스키마 수정&quot; · &quot;기본 병합 정책 이름 수정&quot; |
+| 제품 지식 및 설명서 | 공식 Adobe 문서에서 방법, 개념, 문제 해결 및 모범 사례 질문에 답변합니다 | `product-knowledge` | 모든 적격 지원 | &quot;스트리밍 대상을 설정하려면 어떻게 해야 합니까?&quot; <br> &quot;일괄 처리와 스트리밍 세분화 간의 차이점은 무엇입니까?&quot; |
+| Experience Platform/Journey Optimizer 엔티티 쿼리 | 플랫폼 엔터티에 대한 질문을 위한 기본 진입점 역할을 합니다. 필요에 따라 KG, 필드 검색 또는 API로 라우팅합니다. | `operational-insights` | 모든 적격 지원 | &quot;보유한 데이터 세트가 몇 개입니까?&quot; <br> &quot;모든 활성 여정 표시&quot; <br> &quot;대상 나열&quot; |
+| 지식 그래프 쿼리 | 단일 SQL 쿼리를 통한 집계 카운트, 교차 엔티티 조인, 관계 조회 및 메타데이터 탐색 | `knowledge-graph` | 모든 적격 지원 | &quot;이 데이터 집합을 사용하는 대상자는 누구입니까?&quot; <br> &quot;스키마와 데이터 세트 간 관계 표시&quot; |
+| Experience Platform / Journey Optimizer / Customer Journey Analytics API 작업 | 지식 그래프에 없는 돌연변이, 실시간 상태 확인 및 엔티티 유형에 대한 직접 API 게이트웨이 제공 | `cxo-api` | 모든 적격 지원 | &quot;데이터 집합 X 삭제&quot; <br> &quot;내 일괄 처리 수집 작업의 상태 확인&quot; |
+| 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; <br> &quot;구매 내역과 관련된 필드 찾기&quot; |
+| 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; <br> &quot;내 주간 보고서 스킬 삭제&quot; <br> &quot;재사용 가능한 스킬로 전환&quot; |
+| 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; <br> &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 문제가 있습니까?&quot; <br> &quot;내 최신 상태 검사 평가에 대해 알려주세요.&quot; <br> &quot;사용자 지정 네임스페이스 설명 검사에 대한 문제는 무엇입니까?&quot; |
+| 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; <br> &quot;중복 병합 정책 이름 수정&quot; <br> &quot;감사 필드 그룹이 누락된 스키마 수정&quot; <br> &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 샌드박스 도구
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [샌드박스 간 개체 이동](/help/agents/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 플래티넘을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; · &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
+| [샌드박스 간 개체 이동](/help/agents/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 Platinum을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; <br> &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
 
 ## 고객 경고
 
@@ -178,3 +177,16 @@ ht-degree: 6%
 | 경고의 영향 반경 이해 | 경고의 영향을 가장 많이 받는 객체를 식별하고 조사가 시작되는 위치를 결정합니다. | `alerts-list` | Adobe Experience Platform | &quot;영향을 받는 상위 5개의 개체는 무엇입니까?&quot;<br><br>&quot;가장 심각도가 높은 경고와 관련된 개체는 무엇입니까?&quot; |
 | 영향을 받는 개체에 경고 유형 연결 | 경고 유형과 영향을 받는 리소스 간의 관계를 분석합니다. | `alerts-list` | Adobe Experience Platform | &quot;어떤 경고 유형이 이 데이터 세트에 가장 자주 영향을 미쳤습니까?&quot;<br><br>&quot;경고 유형과 영향을 받은 개체 간의 관계를 표시합니다.&quot;<br><br>&quot;영향을 가장 많이 받은 최상위 개체에 영향을 가장 많이 받은 경고 유형은 무엇입니까?&quot; |
 | 내 경고에 집중 | 구독하고 모니터링을 담당하는 경고를 분석합니다. | `alerts-list` | Adobe Experience Platform | &quot;내가 구독하는 심각도가 높은 경고를 표시합니다.&quot;<br><br>&quot;이번 주에 트리거된 내 경고에서 어떤 경고가 발생합니까?&quot;<br><br>&quot;구독된 경고 중 주의가 필요한 것이 있습니까?&quot; |
+
+## 워크플로우 및 계획
+
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| Planning 작업 영역 관리 | Workfront Planning 작업 공간, 섹션, 레코드 유형 및 필드를 구축하고 발전시켜 프로그램을 구성하고 작업을 추적합니다. | `manage-workfront-planning`, `wf-planning-solution-architect` | Workfront 계획 | &quot;MKG Hub라는 작업 영역을 만들고 지역별 프로그램을 추적할 레코드 종류를 설정하십시오.&quot; <br> &quot;채널 및 지역 전반에 걸쳐 MKG 프로그램을 추적하는 데 필요한 레코드 종류 및 관계를 설정하십시오.&quot; |
+| 계획 레코드 관리 | 작업 공간 내에서 계획 레코드(캠페인, 브리프) 및 해당 필드 값을 생성하고 업데이트합니다. | `manage-workfront-planning` | Workfront 계획 | &quot;목표, 대상 및 주요 메시지를 사용하여 가을 Brand Launch 캠페인에 대한 간략한 만들기&quot; <br> &quot;예산 및 기본 채널을 사용하여 가을 Brand Launch 간략한 업데이트&quot; |
+| 프로젝트 만들기 및 관리 | 프로젝트 회전 및 구성 - 템플릿 적용, 우선 순위 및 예산 설정, 작업 순서 지정, 단계 및 종속성 추가, 사람 또는 역할 할당 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;봄 캠페인을 만들고, 2억 달러 예산으로 우선 순위를 설정하고, 작업의 순서를 지정하십시오.&quot; <br> &quot;[프로젝트 템플릿]에서 [프로젝트 이름]&#x200B;(이)라는 Workfront 프로젝트 계획을 만듭니다.&quot; <br> &quot;개념 지정, 디자인, 복사 및 검토를 위한 작업으로 가을 시작 - 소셜 캠페인에 대한 프로젝트 계획을 빌드합니다.&quot; <br> &quot;새 전자 메일 마케팅 작업을 추가하고, Rachel Smith에게 할당하십시오.&quot; |
+| 검토 및 승인 가속화 | 다단계 승인 설정, 승인 템플릿 적용, 승인자 추가/제거, 미리 알림 보내기 및 벌크 업데이트 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;복사, 디자인, 법률 등 여러 단계로 구성된 승인을 만들고 승인하지 않은 사용자에게 알림&quot; <br> &quot;모든 공개 승인에서 Chris Smith를 제거하고 Jane Francis로 바꾸기&quot; |
+| 작업 및 작업 상태 업데이트 | 작업 완료 표시, 완료율 업데이트 및 작업 종료 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;가을 실행에서 내 &#39;주요 아트 제작&#39; 작업을 완료로 표시&quot; <br> &quot;가을 실행 복사 작업을 100%로 닫기&quot; |
+| 표면 작업 인사이트 | 프로젝트 전반에 걸쳐 위험 상태의 작업, 미할당 작업, 진행 중 문제 및 상태를 찾기 위해 탐색적 질문 | `query-workfront` | Workfront 워크플로 | &quot;누구에게도 할당되지 않고 이번 주까지 예정된 현재 프로젝트에서 미완료 작업을 찾아보세요.&quot; <br> &quot;현재 프로젝트에서 진행 중인 문제는 몇 개입니까?&quot; |
+| 프로젝트 및 작업 요약 | 끌어오기 목록, 테이블 및 프로젝트, 작업, 문제 및 할당 수 | `query-workfront` | Workfront 워크플로 | &quot;프로젝트 이름, 작업 기한 및 할당된 사용자로 시작할 준비가 된 내 작업의 테이블을 표시합니다.&quot; <br> &quot;[사용자 이름]에 할당된 모든 작업 가져오기&quot; |
+| 승인 및 포트폴리오 상태 추적 | 승인 상태를 확인하고 포트폴리오별로 미완료 작업을 롤업합니다. | `query-workfront` | Workfront 워크플로 | &quot;내 승인 상태 표시&quot; <br> &quot;[Portfolio 이름] 포트폴리오에 포함된 불완전한 문제가 있는 테이블 표시&quot; |
