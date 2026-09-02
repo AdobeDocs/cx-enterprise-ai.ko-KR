@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
+source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -93,4 +93,6 @@ ht-degree: 19%
         - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
       - 경고 {#alerts}
         - [고객 경고 기술](./agents/customer-alerts.md)
-
+      - 콘텐츠 관리자 {#content-advisor}
+        - [마케팅 에셋 생성](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [브랜드 준수 검사](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
