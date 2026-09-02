@@ -5,11 +5,12 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 155
-last-substantial-update: 2026-08-26T00:00:00Z
+last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
-source-git-commit: 25eef0f43755edf478eb7130aba470b43584d6ef
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: 237
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 따라서 간단한 프롬프트로 필요할 때 실행할 수 있는 반복 가능한 워크플로우가 생성됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502337/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502323/?learn=on&enablevpops)
 
 ## 분석을 재사용 가능한 스킬로 전환
 
