@@ -4,9 +4,32 @@ description: 플레이그라운드에서 동료 채팅을 사용하여 자연어
 hide: true
 autotag-review: '2026-09-02T16:21:52.199Z'
 TQID: 'https://experienceleague.adobe.com/a-9nJwwe4TFdi0ljwyyHfVfz-VqHL5lQbtmkU5P1Axw'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8id: fdddec33-c9cb-4459-b8b6-2664395a6f10id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: 9c3a4e5f-6d7b-4c8a-8e9f-1b2c3d4e5f6aid: a4a9911c-3a92-4f17-a7f9-fe2eb3235fefid: a50ad69b-1331-40e9-b634-531a085a6a54id: a9eb38d5-9d89-492f-af4e-b968a07f2d91id: abc02dd6-664f-446a-9aaa-675bc0f2fe4aid: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ba929a52-9339-4154-9487-317dc875a3c7id: d21bd11d-08df-4cd6-ad8f-cb59a09de5c0id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0id: de9975b2-c43a-4287-9698-4f4cad92b83fid: ebefeaba-efa6-45e2-ae01-f6171cdb8d1eid: eec185bd-7d60-4193-ba3f-da427569936aid: f5a6b7c8-5003-4003-9003-500000000003
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: 9c3a4e5f-6d7b-4c8a-8e9f-1b2c3d4e5f6a
+  - id: a4a9911c-3a92-4f17-a7f9-fe2eb3235fef
+  - id: a50ad69b-1331-40e9-b634-531a085a6a54
+  - id: a9eb38d5-9d89-492f-af4e-b968a07f2d91
+  - id: abc02dd6-664f-446a-9aaa-675bc0f2fe4a
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+  - id: d21bd11d-08df-4cd6-ad8f-cb59a09de5c0
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+  - id: de9975b2-c43a-4287-9698-4f4cad92b83f
+  - id: ebefeaba-efa6-45e2-ae01-f6171cdb8d1e
+  - id: eec185bd-7d60-4193-ba3f-da427569936a
+  - id: f5a6b7c8-5003-4003-9003-500000000003
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1671

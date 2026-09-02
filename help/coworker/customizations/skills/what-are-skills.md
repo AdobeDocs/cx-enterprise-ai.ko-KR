@@ -7,7 +7,8 @@ doc-type: Feature Video
 duration: 223
 last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 220
@@ -45,6 +46,7 @@ ht-degree: 0%
 
 기술을 통해 팀은 매번 수동으로 프로세스를 다시 설명하지 않고도 이러한 모범 사례를 캡처하고 재사용할 수 있습니다.
  
+
 ## 스킬 및 데이터 거버넌스
 
 스킬은 고객 데이터를 저장하지 않습니다.
