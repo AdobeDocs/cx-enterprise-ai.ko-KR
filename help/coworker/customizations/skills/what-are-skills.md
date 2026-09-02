@@ -5,11 +5,13 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 223
-last-substantial-update: 2026-08-26T00:00:00Z
+last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
-source-git-commit: 638e01d8a9a6f8763e1197348360ffc13be77b4a
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: 220
 ht-degree: 0%
 
 ---
