@@ -2,14 +2,12 @@
 description: 탐색, 입력란, 응답, 채팅 기록, 기술 구성, MCP 서버 및 메모리를 다루는 Coworker Chat 인터페이스에 대한 참조 안내서입니다.
 title: 동료 채팅 UI 안내서
 jira: KT-22106
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +15,7 @@ ht-degree: 4%
 
 Coworker Chat 인터페이스를 사용하여 환경을 최적화합니다. 이 안내서에서는 앱 액세스, 작업 영역 탐색부터 대화 최대화, 내역 관리, 설정 맞춤화에 이르기까지 모든 작업을 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 동료 채팅 액세스
 
@@ -34,9 +32,9 @@ Coworker Chat 인터페이스를 사용하여 환경을 최적화합니다. 이 
 | RTCDP | 지금 사용 가능 | 곧 출시 예정 |
 | AJO | 지금 사용 가능 | 곧 출시 예정 |
 | CJA | 지금 사용 가능 | 곧 출시 예정 |
+| Workfront | 지금 사용 가능 | 준비 중:<br><br>* 적격한 Workfront 시스템 관리자를 위한 미리 보기 인스턴스에 2026년 9월 초<br><br>* 적격한 빠른 릴리스 Workfront 고객을 위한 프로덕션 인스턴스에 2026년 9월 중순<br><br>* 적격한 분기별 릴리스 Workfront 고객을 위한 프로덕션 인스턴스에 2026년 10월 중순 |
+| 대상 | 지금 사용 가능 | 지금 사용 가능 |
 | AEM | 2026년 9월 | 곧 출시 예정 |
-| Workfront | 2026년 9월 | 준비 중:<br><br>* 적격한 Workfront 시스템 관리자를 위한 미리 보기 인스턴스에 2026년 9월 초<br><br>* 적격한 빠른 릴리스 Workfront 고객을 위한 프로덕션 인스턴스에 2026년 9월 중순<br><br>* 적격한 분기별 릴리스 Workfront 고객을 위한 프로덕션 인스턴스에 2026년 10월 중순 |
-| 대상 | 2026년 9월 | 곧 출시 예정 |
 
 ### 몰입형 경험 {#immersive}
 
