@@ -1,13 +1,11 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: befb56a0afc6de347aa2481bc930d1e0fc812f09
 workflow-type: tm+mt
-source-wordcount: 3729
+source-wordcount: 4261
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ ht-degree: 6%
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
->AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
+>AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
 
 ## 브랜드 경험
 
@@ -43,9 +41,9 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 개발
 
@@ -58,7 +56,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 온보딩
 
@@ -71,7 +69,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 콘텐츠 관리자
 
@@ -86,7 +84,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 콘텐츠 최적화
 
@@ -98,7 +96,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 브랜드 거버넌스
 
@@ -110,7 +108,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 데이터 인사이트
 
@@ -160,7 +158,7 @@ ht-degree: 6%
 | 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; <br> &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; <br> &quot;내 주간 보고서 스킬 삭제&quot; <br> &quot;재사용 가능한 스킬로 전환&quot; |
 | 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; <br> &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
-| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 문제가 있습니까?&quot; <br> &quot;내 최신 상태 검사 평가에 대해 알려주세요.&quot; <br> &quot;사용자 지정 네임스페이스 설명 검사에 대한 문제는 무엇입니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 문제가 있습니까?&quot; <br> &quot;내 최신 상태 검사 평가에 대해 알려주세요.&quot; <br> &quot;사용자 지정 네임스페이스 설명 검사에 대한 문제는 무엇입니까?&quot; |
 | 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; <br> &quot;중복 병합 정책 이름 수정&quot; <br> &quot;감사 필드 그룹이 누락된 스키마 수정&quot; <br> &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 샌드박스 도구
@@ -187,9 +185,25 @@ ht-degree: 6%
 | --- | --- | --- | --- | --- |
 | Planning 작업 영역 관리 | Workfront Planning 작업 공간, 섹션, 레코드 유형 및 필드를 구축하고 발전시켜 프로그램을 구성하고 작업을 추적합니다. | `manage-workfront-planning`, `wf-planning-solution-architect` | Workfront 계획 | &quot;MKG Hub라는 작업 영역을 만들고 지역별 프로그램을 추적할 레코드 종류를 설정하십시오.&quot; <br> &quot;채널 및 지역 전반에 걸쳐 MKG 프로그램을 추적하는 데 필요한 레코드 종류 및 관계를 설정하십시오.&quot; |
 | 계획 레코드 관리 | 작업 공간 내에서 계획 레코드(캠페인, 브리프) 및 해당 필드 값을 생성하고 업데이트합니다. | `manage-workfront-planning` | Workfront 계획 | &quot;목표, 대상 및 주요 메시지를 사용하여 가을 Brand Launch 캠페인에 대한 간략한 만들기&quot; <br> &quot;예산 및 기본 채널을 사용하여 가을 Brand Launch 간략한 업데이트&quot; |
-| 프로젝트 만들기 및 관리 | 프로젝트 회전 및 구성 - 템플릿 적용, 우선 순위 및 예산 설정, 작업 순서 지정, 단계 및 종속성 추가, 사람 또는 역할 할당 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;봄 캠페인을 만들고, 2억 달러 예산으로 우선 순위를 설정하고, 작업의 순서를 지정하십시오.&quot; <br> &quot;[프로젝트 템플릿]에서 [프로젝트 이름]&#x200B;(이)라는 Workfront 프로젝트 계획을 만듭니다.&quot; <br> &quot;개념 지정, 디자인, 복사 및 검토를 위한 작업으로 가을 시작 - 소셜 캠페인에 대한 프로젝트 계획을 빌드합니다.&quot; <br> &quot;새 전자 메일 마케팅 작업을 추가하고, Rachel Smith에게 할당하십시오.&quot; |
-| 검토 및 승인 가속화 | 다단계 승인 설정, 승인 템플릿 적용, 승인자 추가/제거, 미리 알림 보내기 및 벌크 업데이트 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;복사, 디자인, 법률 등 여러 단계로 구성된 승인을 만들고 승인하지 않은 사용자에게 알림&quot; <br> &quot;모든 공개 승인에서 Chris Smith를 제거하고 Jane Francis로 바꾸기&quot; |
+| 프로젝트 만들기 및 관리 | 프로젝트 회전 및 구성: 템플릿 적용, 우선 순위 및 예산 설정, 작업 순서 지정, 단계 및 종속성 추가, 사람 또는 역할 할당 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;봄 캠페인을 만들고, 2억 달러 예산으로 우선 순위를 설정하고, 작업의 순서를 지정하십시오.&quot; <br> &quot;[프로젝트 템플릿]에서 [프로젝트 이름]&#x200B;(이)라는 Workfront 프로젝트 계획을 만듭니다.&quot; <br> &quot;Fall Launch에 대한 프로젝트 계획을 만듭니다. 개념, 디자인, 복사 및 검토를 위한 작업이 포함된 소셜 캠페인&quot; <br> &quot;새 이메일 마케팅 작업을 추가하고, Rachel Smith에게 할당하십시오.&quot; |
+| 검토 및 승인 가속화 | 다단계 승인 설정, 승인 템플릿 적용, 승인자 추가/제거, 미리 알림 보내기 및 벌크 업데이트 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;다단계 승인(복사, 디자인, 법적)을 만들고 승인하지 않은 사람에게 알림&quot; <br> &quot;모든 공개 승인에서 Chris Smith를 제거하고 Jane Francis로 바꾸기&quot; |
 | 작업 및 작업 상태 업데이트 | 작업 완료 표시, 완료율 업데이트 및 작업 종료 | `manage-workfront-workflow` | Workfront 워크플로 | &quot;가을 실행에서 내 &#39;주요 아트 제작&#39; 작업을 완료로 표시&quot; <br> &quot;가을 실행 복사 작업을 100%로 닫기&quot; |
 | 표면 작업 인사이트 | 프로젝트 전반에 걸쳐 위험 상태의 작업, 미할당 작업, 진행 중 문제 및 상태를 찾기 위해 탐색적 질문 | `query-workfront` | Workfront 워크플로 | &quot;누구에게도 할당되지 않고 이번 주까지 예정된 현재 프로젝트에서 미완료 작업을 찾아보세요.&quot; <br> &quot;현재 프로젝트에서 진행 중인 문제는 몇 개입니까?&quot; |
 | 프로젝트 및 작업 요약 | 끌어오기 목록, 테이블 및 프로젝트, 작업, 문제 및 할당 수 | `query-workfront` | Workfront 워크플로 | &quot;프로젝트 이름, 작업 기한 및 할당된 사용자로 시작할 준비가 된 내 작업의 테이블을 표시합니다.&quot; <br> &quot;[사용자 이름]에 할당된 모든 작업 가져오기&quot; |
 | 승인 및 포트폴리오 상태 추적 | 승인 상태를 확인하고 포트폴리오별로 미완료 작업을 롤업합니다. | `query-workfront` | Workfront 워크플로 | &quot;내 승인 상태 표시&quot; <br> &quot;[Portfolio 이름] 포트폴리오에 포함된 불완전한 문제가 있는 테이블 표시&quot; |
+
+## 실험 및 최적화
+
+| 도메인 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+|---|---|---|---|---|---|
+| **실험 및 최적화** | 대상 엔티티 찾아보기 및 찾기 | 타겟 엔티티(A/B, XT, AP, 자동 할당, MVT), 대상 및 오퍼)를 검색, 검사, 검색 및 나열합니다. 검색을 위해 여기에서 시작하십시오. | `target-browse` | Adobe Target | &quot;내 모든 활성 A/B 활동 표시&quot;<br>&quot;내게 있는 대상은 무엇입니까?&quot;<br>&quot;활동 찾기 \&lt;name 또는 ID>&quot; |
+| **실험 및 최적화, 대상 분석, 콘텐츠 성능 인텔리전스** | 활동 성능에 대한 보고서 | 모든 활동 유형(권장 사항 포함)에 대한 성과 및 주문 보고 - 전환 상승도, 매출 및 주문. | `target-analyze` | Adobe Target | &quot;\&lt;name/ID> 활동은 어떻게 수행됩니까?&quot;<br>&quot;\&lt;activity>&quot;<br>&quot;지난 달에 가장 많은 주문을 한 활동은 무엇입니까?&quot; |
+| **실험 및 최적화, 고객 관리** | 작성자 활동, 오퍼 및 대상자 | 활동, 오퍼(HTML/JSON/리디렉션), 대상 및 응답 토큰을 작성하고 구성합니다. 핵심 작성 스킬. | `target-design` | Adobe Target | &quot;A/B 활동 타깃팅 \&lt;audience>&quot;<br>&quot;에 대한 JSON 오퍼 작성 \&lt;use case>&quot;<br>&quot;에 대한 응답 토큰 추가 \&lt;attribute>&quot; |
+| **실험 및 최적화, 콘텐츠 만들기** | 시각적(WYSIWYG) 활동 빌드 | 시각적 경험 작성기 작성 — CSS 선택기 수정 사항을 사용하여 라이브 페이지 URL에 대해 시각적 A/B 및 XT 활동을 만들고 편집합니다. | `target-vec` | Adobe Target | &quot;\&lt;페이지 URL>&quot;<br>&quot;에 대한 시각적 A/B 테스트 만들기&quot;\&lt;페이지 URL>의 히어로 헤드라인을 \&lt;텍스트>&quot;<br>&quot;\&lt;페이지 URL>에 대한 시각적 편집으로 XT 활동 설정&quot; |
+| **실험 및 최적화** | 권장 사항 검색 및 검사 | 기준, 컬렉션, 디자인, 프로모션, 제외, 카탈로그 및 피드를 읽기 전용으로 찾아보고 검사합니다. 여기에는 정리 권고 사항 및 카탈로그 속성 인텔리전스가 포함됩니다. | `target-recs` | Adobe Target | &quot;내 권장 사항 기준 및 컬렉션 표시&quot;<br>&quot;디자인 검사 \&lt;recs 활동>&quot;<br>&quot;내 카탈로그 피드 및 제외 검토&quot; |
+| **실험 및 최적화** | 권장 사항 문제 해결 | &quot;결과가 준비되지 않음&quot;, 빈 결과 및 실패 recs와 같은 recs 문제에 대한 읽기 전용 문제 해결 | `target-recs-diagnose` | Adobe Target | &quot;권장 사항 결과가 준비되지 않은 이유는 무엇입니까?&quot;<br>&quot;내 Recs가 빈 상태로 반환되고 있습니다. 무슨 문제입니까?&quot;<br>&quot;\&lt;recs activity>가 실패한 이유 진단&quot; |
+| **실험 및 최적화** | Recommendations 작성 및 자동화 | Recs 작성 — 기준, 컬렉션, 디자인, 제외, 프로모션 및 피드를 만들고, 업데이트하고, 삭제합니다. 또한 recs 활동을 빌드하고, 여러 활동에 걸쳐 벌크/자동화를 수행합니다. | `target-recs-design` | Adobe Target | &quot;최근에 본 항목 기준 만들기&quot;<br>&quot;\&lt;criteria>&quot;<br>&quot;모든 recs 활동에서 디자인을 대량 업데이트하여 권장 사항 활동을 만듭니다.&quot; |
+| **실험 및 최적화** | 실험 검색 및 조회 | 실험에 대한 일반 탐색 및 조회 - 결과 및 통찰력을 나열, 보기 및 가져옵니다. | `experiment-explorer` | Experimentation Accelerator | &quot;내 실험 표시&quot;<br>&quot;활성 실험 나열&quot;<br>&quot;\&lt;experiment>&quot;<br>에 대한 결과 표시&quot; \&lt;experiment>에는 어떤 통찰력이 있습니까?&quot; |
+| **실험 및 최적화, 대상 분석, 콘텐츠 성능 인텔리전스** | 실험 분석 및 결정 | 실험 전반에 걸친 종합 및 의사 결정 지원 ( 상태 점검, 출하 결정, 실행 요약 등 ). | `experiment-analysis` | Experimentation Accelerator | &quot;내 실험은 어떻게 진행되고 있습니까?&quot;<br>&quot;\&lt;experiment>를 발송해야 합니까?&quot;<br>&quot;내 실험이 건강합니까?&quot;<br>&quot;실험에 대한 요약 작성&quot; |
+| **실험 및 최적화** | 설계 및 계획 실험 | 미래 지향적인 실험 설계 및 계획 — 다음 테스트, 테스트 설계, 로드맵 작성 방법. | `experiment-strategist` | Experimentation Accelerator | &quot;다음에 무엇을 테스트해야 합니까?&quot;<br>&quot;실험 설계 \&lt;goal>&quot;<br>&quot;내 실험이 실패했습니다. — 다음에 무엇을 합니까?&quot;<br>&quot;테스트 로드맵 작성&quot; |
+| **실험 및 최적화; 고객 및 계정 여정 인텔리전스** | 지식 검색 및 데이터 수집 | 실험 컨텍스트 지식을 검색 및 검색하거나 외부 CSV 데이터를 수집하여 분석합니다. | `experiment-knowledge-base` | Experimentation Accelerator | &quot;실험에 대해 무엇을 알고 있습니까? \&lt;name>?&quot;<br>&quot;이 가설을 이전에 테스트했습니까?&quot;<br>&quot;CSV를 업로드하고 이 파일을 분석하십시오.&quot; |
