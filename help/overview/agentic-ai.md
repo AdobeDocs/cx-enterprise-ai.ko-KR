@@ -12,10 +12,10 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
+source-git-commit: 4e10361b7df9786bd027e94d4be4a9dff2964f8a
 workflow-type: tm+mt
 source-wordcount: 1194
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -52,14 +52,14 @@ AI 에이전트는 _귀하의_ 입력 및 감독을 따르며 제품 수준의 �
 
 | 에이전트 이름 | 기능 | 지원되는 애플리케이션 | 상태 데이터/HIPAA 지원 |
 |---|----------|----------|----------|
-| [Audience Agent](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 자연어 프롬프트를 통해 보다 쉽고, 효율적이며, 시장 출시 속도를 높여 고객을 관리하고 최적화할 수 있습니다. | <ul><li>Real-Time CDP (B2B, B2C 및 B2P 에디션)</li><li>Adobe Journey Optimizer (B2B 및 B2C 에디션)</li></ul> | |
+| [Audience Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/audience) | 자연어 프롬프트를 통해 보다 쉽고, 효율적이며, 시장 출시 속도를 높여 고객을 관리하고 최적화할 수 있습니다. | <ul><li>Real-Time CDP (B2B, B2C 및 B2P 에디션)</li><li>Adobe Journey Optimizer (B2B 및 B2C 에디션)</li></ul> | |
 | [콘텐츠 어드바이저 에이전트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agents/content-advisor/overview) | <ul><li>자연어를 사용하여 팀이 기업 전체에서 가장 관련성이 높은 컨텐츠를 신속하게 찾을 수 있도록 지원하므로 검색 시간이 단축되고 의사 결정 및 실행 속도가 빨라집니다.</li><li>자연어 프롬프트를 사용하여 소스 에셋에서 시각적 콘텐츠 변형을 쉽게 만들 수 있습니다.</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul><ul><li>Dynamic Media(클라우드 서비스)</li></ul> | |
 | [Data Insights Agent](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 데이터에 대한 질문에 신속하게 답변할 수 있습니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다. | <ul><li>Customer Journey Analytics (B2B 및 B2C 에디션)</li></ul> | 예 |
 | [브랜드 경험 에이전트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/overview) | <ul><li>기존 사이트를 자동으로 재구성, 강화 및 검증하여 디지털 경험의 마이그레이션 및 현대화 속도를 높임으로써 팀이 위험과 수작업을 줄이면서 최신 AI 지원 경험으로 빠르게 이동할 수 있습니다.</li><li>대규모 환경 생성 및 업데이트를 통해 수작업과 주기 시간을 대폭 단축하여 품질이나 일관성을 유지하면서 팀을 더욱 빠르게 이동시킬 수 있습니다.</li><li>양식 경험을 자동으로 생성, 구성 및 검증하여 최적화된 온브랜드 양식을 신속하게 만들 수 있으므로 팀이 최소한의 수작업으로 더 높은 품질의 데이터를 빠르게 시작하고 캡처할 수 있습니다.</li><li>AEM CS 개발자와 기술 관리자가 근본 원인을 분석하고 수정 사항을 제시하여 Cloud Manager 파이프라인의 빌드 단계 오류를 해결할 수 있도록 지원합니다.</li></ul> | <ul><li>Adobe Experience Manager Sites Cloud Services(Experience 현대화)</li></ul><ul><li>Adobe Experience Manager Sites(Experience Production)</li></ul><ul><li>Adobe Experience Manager Forms(양식 만들기)</li></ul><ul><li>모든 클라우드 기반 Adobe Experience Manager 애플리케이션(개발 지원)</li></ul> | |
 | [브랜드 거버넌스 에이전트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview) | 실시간 거버넌스로 DRM을 지원하기 위해 자동화된 브랜드 정책 확인, 권한 및 인텔리전스를 통해 브랜드 무결성 및 규정 준수를 보호합니다. | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites(브랜드 정책)</li></ul> | |
-| [Journey Agent](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent) | 팀이 규모에 맞게 멀티 터치 고객 여정을 신속하게 분석하고 최적화할 수 있습니다. | <ul><li>Adobe Journey Optimizer (B2B 및 B2C 에디션)</li></ul> | |
-| [제품 지원 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | 워크플로우를 종료하지 않고 지원 문제를 해결하고, 고객 지원 티켓을 만들고, AI Assistant를 사용하여 사례 진행 상황을 추적합니다. | <ul><li>Real-Time CDP (B2B, B2C 및 B2P 에디션)</li><li>Adobe Journey Optimizer (B2B 및 B2C 에디션)</li><li>Customer Journey Analytics (B2B 및 B2C 에디션)</li><li>Adobe Experience Manager</li></ul> | |
-| [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | Experience Platform을 Microsoft 365 Copilot에 직접 연결합니다. Teams, Word, Powerpoint 및 Excel과 같은 Microsoft 365 애플리케이션 내에서 자연어 질문을 하면 워크플로를 중단하지 않고 Experience Platform에서 마케팅 인사이트를 즉시 검색할 수 있습니다. | <ul><li> Audience Agent, Journey Agent, Customer Journey Analytics Data Insights, Experience Platform Operational Insights를 지원하는 Adobe Agent Orchestrator</li></ul> | |
+| [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent) | 팀이 규모에 맞게 멀티 터치 고객 여정을 신속하게 분석하고 최적화할 수 있습니다. | <ul><li>Adobe Journey Optimizer (B2B 및 B2C 에디션)</li></ul> | |
+| [제품 지원 에이전트](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/product-support) | 워크플로우를 종료하지 않고 지원 문제를 해결하고, 고객 지원 티켓을 만들고, AI Assistant를 사용하여 사례 진행 상황을 추적합니다. | <ul><li>Real-Time CDP (B2B, B2C 및 B2P 에디션)</li><li>Adobe Journey Optimizer (B2B 및 B2C 에디션)</li><li>Customer Journey Analytics (B2B 및 B2C 에디션)</li><li>Adobe Experience Manager</li></ul> | |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms) | Experience Platform을 Microsoft 365 Copilot에 직접 연결합니다. Teams, Word, Powerpoint 및 Excel과 같은 Microsoft 365 애플리케이션 내에서 자연어 질문을 하면 워크플로를 중단하지 않고 Experience Platform에서 마케팅 인사이트를 즉시 검색할 수 있습니다. | <ul><li> Audience Agent, Journey Agent, Customer Journey Analytics Data Insights, Experience Platform Operational Insights를 지원하는 Adobe Agent Orchestrator</li></ul> | |
 
 ## AI 최초 CX 엔터프라이즈 애플리케이션 {#ai-first-apps}
 
