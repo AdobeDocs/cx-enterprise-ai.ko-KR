@@ -1,13 +1,11 @@
 ---
 description: Coworker Chat이 대화형 인터페이스를 사용하여 몇 분 만에 Adobe 및 연결된 시스템 전반에서 고객 경험 작업을 계획, 실행 및 완료하는 방법을 알아봅니다.
 title: Adobe CX Enterprise Coworker 채팅 개요
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
 workflow-type: tm+mt
-source-wordcount: 739
+source-wordcount: 741
 ht-degree: 0%
 
 ---
@@ -50,6 +48,7 @@ AI 어시스턴트와 Adobe Experience Platform Agent Orchestrator을 사용한 
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
 * Customer Journey Analytics 에디션
+* Adobe Target
 * AEM
 * Workfront
 * Marketo Engage
@@ -69,4 +68,4 @@ Coworker Chat은 Coworker 빌딩 블록을 통해 제공됩니다. 현재 사용
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3495972?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

@@ -1,13 +1,11 @@
 ---
 description: 데이터 인사이트, 대상, 여정 및 플랫폼 작업에서 영역별로 구성된 동료 채팅 사용 사례와 샘플 프롬프트를 찾아봅니다.
 title: 동료 채팅 사용 사례
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
 workflow-type: tm+mt
-source-wordcount: 4260
+source-wordcount: 4624
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ ht-degree: 6%
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
->AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
+>AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
 
 ## 브랜드 경험
 
@@ -43,9 +41,9 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 개발
 
@@ -58,7 +56,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 온보딩
 
@@ -71,7 +69,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 콘텐츠 관리자
 
@@ -86,7 +84,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 콘텐츠 최적화
 
@@ -98,11 +96,11 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 브랜드 거버넌스
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 지침 및 세그먼트 조회 | 세그먼트, 시장 또는 카테고리별로 세부 브랜드 가이드라인 검색 | enterprise-context | AEM(Adobe Experience Manager) | &quot;이 브랜드에 대한 음성 톤 지침은 무엇입니까?&quot;<br>&quot;상태 범주에 사용되는 클레임 범주를 나열합니다.&quot; |
 | 브랜드 지침에 따라 콘텐츠 평가 | 구성된 브랜드 검사에 대해 게시/작성된 페이지, 텍스트 블록 또는 이미지 평가 | aem-governance | AEM(Adobe Experience Manager) | &quot;SecurBank 지침에 따라 이 랜딩 페이지를 평가하십시오.&quot;<br>&quot;이 태그가 음성 검사를 통과했습니까?&quot; |
@@ -110,11 +108,11 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 데이터 인사이트
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [CJA 보고서 및 지표 가져오기](data-insights/analytics-chat.md) | 실시간으로 CJA을 쿼리하여 지표, 차원, 세그먼트 및 데이터 보기를 가져옵니다. | `cja` | Customer Journey Analytics(CJA) | &quot;최근 30일 동안의 페이지 보기 수 표시&quot; <br> &quot;마스터 데이터 보기에 상위 세그먼트 나열&quot; |
 | 비교 분석 | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교 | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics(CJA) | &quot;월별 채널별 매출액 비교&quot; <br> &quot;이번 분기에 모바일과 데스크탑 간 전환은 어떻게 보입니까?&quot; |
@@ -129,7 +127,7 @@ ht-degree: 6%
 
 ## 대상자
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [자연어에서 대상 만들기](audiences/create-audience-from-natural-language.md) | 각 단계에서 사용자 승인을 통해 단계별 대상 만들기 오케스트레이션 | `audience-creation-flow` | Real-Time CDP(RTCDP) | &quot;지난 30일 동안 구매한 사용자에 대한 대상 만들기&quot; <br> &quot;캘리포니아에서 고가치 충성도 구성원을 위한 세그먼트 만들기&quot; |
 | PQL 정의 작성 | XDM 속성, 동작 이벤트 또는 기존 대상에서 대상 정의를 조합하고 집계 및 시간 창을 지원합니다. | `segment-definition-assembly` | Real-Time CDP(RTCDP) | &quot;3개 이상의 제품을 보았지만 구매하지 않은 사용자를 위한 PQL 만들기&quot; <br> &quot;내 이벤트 조건에 7일 기간 추가&quot; |
@@ -141,7 +139,7 @@ ht-degree: 6%
 
 ## 여정
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [자연어에서 여정 만들기](journeys/create-journey-from-natural-language.md) | 텍스트 프롬프트 또는 업로드된 이미지/흐름도에서 AJO의 여정 생성 오케스트레이션 | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;등록 후 전자 메일을 보내고 3일을 기다린 다음 후속 작업을 보내는 시작 여정 만들기&quot; <br> &quot;이 업로드된 순서도 이미지에서 여정 작성&quot; |
 | 여정 충돌 분석 | 활성 여정 간 대상 중복 감지, 충돌 예약 및 중복 제거 문제 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;여정 포기 여정이 다른 장바구니와 충돌합니까?&quot; <br> &quot;내 활성 여정 간 대상 겹침 확인&quot; |
@@ -149,9 +147,46 @@ ht-degree: 6%
 | 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
 | [충성도 문제를 만들고, 편집하고, 관리합니다](journeys/create-loyalty-challenge.md) | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 유도하는 문제를 만드십시오.&quot; <br> &quot;회원 감소율이 가장 높은 충성도 문제를 보여 주십시오.&quot; |
 
+## 최적화
+
+동료 채팅을 사용하여 실험을 탐색, 분석 및 계획하고, Adobe Target 활동, 대상 및 권장 사항을 만들고, 실행하고, 문제를 해결할 수 있습니다.
+
+### 실험 분석 및 전략
+
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 실험 검색 및 탐색 | 실험 개요, 목록, 카운트, 원시 결과, 통찰력 및 기회 조회 | `experiment-explorer` | Experimentation Accelerator | &quot;내 실험 표시&quot; · &quot;활성 테스트 나열&quot; · &quot;얼마나 많은 실험이 실행되고 있습니까?&quot; |
+| 실험 성능 분석 | 포트폴리오 실행, 단일 실험 상태 점검, 경영진 브리프 및 지표를 통한 교차 실험 보고서를 가져올 수 있으며 선택적으로 CJA 데이터로 보강할 수 있습니다. | `experiment-analysis` | Experimentation Accelerator | &quot;A/B 테스트의 성과는 어떻습니까?&quot; · &quot;CJA 지표를 사용하여 내 활동에 대한 보고서를 생성합니다.&quot; · &quot;이 테스트가 정상입니까?&quot; |
+| 실험 계획 및 설계 | 실행할 다음 테스트, 지정된 주제에 대한 디자인, 목표-지표 변환, 실패한 테스트에 대한 복구 지침 또는 순차적 다중 실험 로드맵 | `experiment-strategist` | Experimentation Accelerator | &quot;다음에는 무엇을 테스트해야 합니까?&quot; · &quot;체크아웃 전환 개선을 위한 실험 설계 지원&quot; · &quot;3분기 테스트 로드맵 구축&quot; |
+| 실험 내역 검색 | 이전 실험에서 가설, 학습, 결과 및 처리를 검색하거나, 주제별로 이전 실험을 찾거나, 외부 CSV를 수집하여 결과를 보강합니다 | `experiment-knowledge-base` | Experimentation Accelerator | &quot;실험 X에 대해 우리가 아는 것은 무엇인가?&quot; · &quot;이 가설을 이전에 테스트했습니까?&quot; · &quot;이 CSV 수집&quot; |
+
+### Target 활동 및 대상
+
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 대상 엔티티 찾아보기 | 활동, 오퍼, 대상, mbox, 속성, 작업 공간, AT.js 구성, 응답 토큰 및 개정 내역을 검색, 검사 및 카운트합니다. 활동의 강제 경험 스크린샷도 캡처할 수 있습니다 | `target-browse` | Adobe Target | &quot;내 A/B 테스트 나열&quot; · &quot;이번 달에 시작된 활동은 몇 개입니까?&quot; · &quot;활동 12345 세부 정보 표시&quot; |
+| 활동 성능 분석 | 단일 활동에 대한 전환율, 상승도, 신뢰 구간, 매출 및 노출 수를 가져옵니다. 사실을 말하고 승자를 선언하지 않음 | `target-analyze` | Adobe Target | &quot;활동 X의 성과는 어떻습니까?&quot; · &quot;전환 상승도 표시&quot; · &quot;체크아웃 테스트를 위한 AOV는 무엇입니까?&quot; |
+| 선적을 받거나 판결을 중지하다 | 원시 카운트 및 구성 결함 검사에서 두 비율 중요도로 계산된 활동에 대한 SHIP, WAIT, STOP 또는 FIX 권장 사항 가져오기 | `target-activity-verdict` | Adobe Target | &quot;이 테스트를 배송해야 합니까?&quot; · &quot;어떤 변형이 이겼습니까?&quot; · &quot;이것이 아직 중요한가?&quot; |
+| 활동 만들기 및 구성 | 활동, 오퍼 및 응답 토큰을 생성, 업데이트 및 구성하고, QA 미리보기 URL을 생성하고, 오퍼 컨텐츠를 작성하거나 최적화합니다 | `target-design` | Adobe Target | &quot;홈 페이지에 대한 A/B 테스트 만들기&quot; · &quot;트래픽 분할 업데이트&quot; · &quot;이 오퍼의 JS 최적화&quot; |
+| 시각적 경험 작성기 활동 만들기 | 라이브 페이지 URL에 대해 DOM 수정 사항으로 변형을 작성하는 VEC(시각적 경험 작성기) 활동과 이를 확장하는 페이지 전달 대상을 만들고 편집합니다 | `target-vec` | Adobe Target | &quot;홈 페이지에 대한 VEC A/B 테스트 만들기&quot; · &quot;시각적 편집기에서 영웅 헤드라인 변경&quot; |
+| 처음부터 전체 테스트 설정 | A/B, XT 및 VEC 테스트에 대한 엔드투엔드 활동 만들기 안내서를 받아 요구 사항 수집, 사전 요구 사항, 만들기, 예약 및 우선 순위, QA 링크 및 선택적 활성화를 다룹니다 | `target-setup` | Adobe Target | &quot;전체 A/B 테스트 설정을 소개합니다.&quot; · &quot;Target을 처음 접했습니다. 첫 번째 테스트를 작성하는 데 도움을 주세요.&quot; |
+| 프로그램 상태 감사 | 위험 및 충돌 감지, 잘못된 구성 결과, 대상 및 제공 위생, 신속한 성공 권장 사항을 다루는 프로그램 전반의 상태 감사 받기 | `target-intelligence` | Adobe Target | &quot;내 Target 활동 감사&quot; · &quot;위험하거나 잘못 구성된 테스트 찾기&quot; · &quot;정리해야 할 사항&quot; |
+| 우승 패턴 찾기 | 우승 패턴, 효과적인 전략, 고성능 대상 또는 콘텐츠에 대한 Target 내역을 확인한 다음, 자신의 데이터에 기반을 두고 다음에 테스트할 항목에 대한 추천을 받습니다 | `target-strategist` | Adobe Target | &quot;우리에게 도움이 되는 것은 무엇입니까?&quot; · &quot;우승 패턴 표시&quot; · &quot;과거 결과를 기반으로 다음에 무엇을 테스트해야 합니까?&quot; |
+| 샘플 크기 및 기간 계산 | Bonferroni 수정을 통해 A/B/n 샘플 크기, 테스트 기간 및 전환율 및 방문자당 매출 지표에 대한 감지 가능한 상승도를 계획합니다. | `target-test-calculator` | Adobe Target | &quot;A/B 테스트를 얼마 동안 실행해야 합니까?&quot; · &quot;어떤 샘플 크기가 필요합니까?&quot; · &quot;내 테스트에 아직 전원이 공급됩니까?&quot; |
+| 프로그램 수준 성능 롤업 가져오기 | 개요 패널, 최근 실행 표, 모든 활동에 대한 총 승패/상승도 센서스, 단일 활동 트렌드 및 모멘텀 읽기를 확인하십시오 | `target-portfolio-report` | Adobe Target | &quot;내 Target 프로그램의 상태 검사를 제공합니다.&quot; · &quot;내 최고의 테스트와 최악의 테스트는 무엇입니까?&quot; · &quot;활동 X가 승리로 가는 트렌드입니까?&quot; |
+| 자연어로 대상자 만들기 | 자연어 설명, 명시적 규칙 조건 또는 인라인 또는 업로드된 값 목록에서 Target 네이티브 대상을 만들거나 편집합니다. 요청을 규칙 문법에 매핑하고 쓰기 전에 규칙 트리의 유효성을 검사합니다 | `target-audience-composer` | Adobe Target | &quot;캘리포니아에서 재방문자 대상 만들기&quot; · &quot;이러한 우편번호에서 대상 만들기&quot; · &quot;재방문자로 대상 X 좁히기&quot; |
+
+### 추천
+
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 권장 사항 엔티티 찾아보기 | 권장 사항 기준, 컬렉션, 디자인, 프로모션, 제외, 카탈로그 및 피드를 찾아보고 검사하며, 정리 권고 사항 및 카탈로그 속성 지침을 얻을 수 있습니다. | `target-recs` | Adobe Target | &quot;내 권장 사항 기준 나열&quot; · &quot;어떤 디자인이 있습니까?&quot; · &quot;어떤 recs를 정리할 수 있습니까?&quot; |
+| 권장 사항 문제 진단 | 활동, 기준, 피드, 컬렉션 및 디자인 체인을 추적하여 권장 사항이 비어 있거나 오래되었거나 표시되지 않는 이유를 설명합니다 | `target-recs-diagnose` | Adobe Target | &quot;내 권장 사항이 비어 있는 이유는 무엇입니까?&quot; · &quot;왜 recs 활동이 48시간 동안 &#39;결과가 준비되지 않음&#39;입니까?&quot; |
+| 작성자 권장 사항 | 한 번에 많은 활동에서 제어된 벌크 작업을 포함하여 권장 사항 기준, 컬렉션, 디자인, 제외, 프로모션, 피드 및 recs 활동을 만들고 업데이트합니다 | `target-recs-design` | Adobe Target | &quot;가장 많이 본 항목 기준 만들기&quot; · &quot;50달러 미만의 재고 제품 컬렉션 구축&quot; · &quot;모든 판매 활동에 블랙 프라이데이 날짜 적용&quot; |
+
 ## 기본 요소
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 제품 지식 및 설명서 | 공식 Adobe 문서에서 방법, 개념, 문제 해결 및 모범 사례 질문에 답변합니다 | `product-knowledge` | 모든 적격 지원 | &quot;스트리밍 대상을 설정하려면 어떻게 해야 합니까?&quot; <br> &quot;일괄 처리와 스트리밍 세분화 간의 차이점은 무엇입니까?&quot; |
 | Experience Platform/Journey Optimizer 엔티티 쿼리 | 플랫폼 엔터티에 대한 질문을 위한 기본 진입점 역할을 합니다. 필요에 따라 KG, 필드 검색 또는 API로 라우팅합니다. | `operational-insights` | 모든 적격 지원 | &quot;보유한 데이터 세트가 몇 개입니까?&quot; <br> &quot;모든 활성 여정 표시&quot; <br> &quot;대상 나열&quot; |
@@ -160,18 +195,18 @@ ht-degree: 6%
 | 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; <br> &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; <br> &quot;내 주간 보고서 스킬 삭제&quot; <br> &quot;재사용 가능한 스킬로 전환&quot; |
 | 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; <br> &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
-| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 문제가 있습니까?&quot; <br> &quot;내 최신 상태 검사 평가에 대해 알려주세요.&quot; <br> &quot;사용자 지정 네임스페이스 설명 검사에 대한 문제는 무엇입니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 문제가 있습니까?&quot; <br> &quot;내 최신 상태 검사 평가에 대해 알려주세요.&quot; <br> &quot;사용자 지정 네임스페이스 설명 검사에 대한 문제는 무엇입니까?&quot; |
 | 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; <br> &quot;중복 병합 정책 이름 수정&quot; <br> &quot;감사 필드 그룹이 누락된 스키마 수정&quot; <br> &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 샌드박스 도구
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [샌드박스 간 개체 이동](/help/agents/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 Platinum을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; <br> &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
 
 ## 고객 경고
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 경고 구독 관리 | 자연어 대화를 통해 경고 구독을 보고 관리합니다. | `alerts-subscribe` | Adobe Experience Platform | &quot;어떤 경고를 구독했습니까?&quot;<br><br>&quot;이 경고에 구독하십시오.&quot;<br><br>&quot;이 경고에 대한 내 구독을 제거하십시오.&quot; |
 | 경고 활동 검토 | 지정된 기간 동안 현재 경고 상태 및 내역 경고 활동을 검토합니다. | `alerts-list` | Adobe Experience Platform | &quot;지난 24시간 동안 무슨 일이 있었습니까?&quot;<br><br>&quot;지난 24시간 동안 어떤 경고가 트리거되었습니까?&quot;<br><br>&quot;지난 7일 동안의 활성 경고를 표시합니다.&quot; |
@@ -183,7 +218,7 @@ ht-degree: 6%
 
 ## 워크플로우 및 계획
 
-| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | Planning 작업 영역 관리 | Workfront Planning 작업 공간, 섹션, 레코드 유형 및 필드를 구축하고 발전시켜 프로그램을 구성하고 작업을 추적합니다. | `manage-workfront-planning`, `wf-planning-solution-architect` | Workfront 계획 | &quot;MKG Hub라는 작업 영역을 만들고 지역별 프로그램을 추적할 레코드 종류를 설정하십시오.&quot; <br> &quot;채널 및 지역 전반에 걸쳐 MKG 프로그램을 추적하는 데 필요한 레코드 종류 및 관계를 설정하십시오.&quot; |
 | 계획 레코드 관리 | 작업 공간 내에서 계획 레코드(캠페인, 브리프) 및 해당 필드 값을 생성하고 업데이트합니다. | `manage-workfront-planning` | Workfront 계획 | &quot;목표, 대상 및 주요 메시지를 사용하여 가을 Brand Launch 캠페인에 대한 간략한 만들기&quot; <br> &quot;예산 및 기본 채널을 사용하여 가을 Brand Launch 간략한 업데이트&quot; |
@@ -193,19 +228,3 @@ ht-degree: 6%
 | 표면 작업 인사이트 | 프로젝트 전반에 걸쳐 위험 상태의 작업, 미할당 작업, 진행 중 문제 및 상태를 찾기 위해 탐색적 질문 | `query-workfront` | Workfront 워크플로 | &quot;누구에게도 할당되지 않고 이번 주까지 예정된 현재 프로젝트에서 미완료 작업을 찾아보세요.&quot; <br> &quot;현재 프로젝트에서 진행 중인 문제는 몇 개입니까?&quot; |
 | 프로젝트 및 작업 요약 | 끌어오기 목록, 테이블 및 프로젝트, 작업, 문제 및 할당 수 | `query-workfront` | Workfront 워크플로 | &quot;프로젝트 이름, 작업 기한 및 할당된 사용자로 시작할 준비가 된 내 작업의 테이블을 표시합니다.&quot; <br> &quot;[사용자 이름]에 할당된 모든 작업 가져오기&quot; |
 | 승인 및 포트폴리오 상태 추적 | 승인 상태를 확인하고 포트폴리오별로 미완료 작업을 롤업합니다. | `query-workfront` | Workfront 워크플로 | &quot;내 승인 상태 표시&quot; <br> &quot;[Portfolio 이름] 포트폴리오에 포함된 불완전한 문제가 있는 테이블 표시&quot; |
-
-## 실험 및 최적화
-
-| 도메인 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
-| --- | --- | --- | --- | --- | --- |
-| **실험 및 최적화** | 대상 엔티티 찾아보기 및 찾기 | 활동(A/B, XT, AP, 자동 할당, MVT), 대상 및 오퍼와 같은 타겟 엔티티를 검색, 검사 및 검색할 수 있습니다. 검색을 위해 여기에서 시작하십시오. | `target-browse` | Adobe Target | &quot;내 모든 활성 A/B 활동 표시&quot;<br>&quot;내게 있는 대상은 무엇입니까?&quot;<br>&quot;활동 찾기 \&lt;name 또는 ID>&quot; |
-| **실험 및 최적화, 대상 분석, 콘텐츠 성능 인텔리전스** | 활동 성능에 대한 보고서 | 모든 활동 유형(권장 사항 포함)에 대한 성과 및 주문 보고: 전환 상승도, 매출 및 주문. | `target-analyze` | Adobe Target | &quot;\&lt;name/ID> 활동은 어떻게 수행됩니까?&quot;<br>&quot;\&lt;activity>&quot;<br>&quot;지난 달에 가장 많은 주문을 한 활동은 무엇입니까?&quot; |
-| **실험 및 최적화, 고객 관리** | 작성자 활동, 오퍼 및 대상자 | 활동, 오퍼(HTML/JSON/리디렉션), 대상 및 응답 토큰을 작성하고 구성합니다. 핵심 작성 스킬. | `target-design` | Adobe Target | &quot;A/B 활동 타깃팅 \&lt;audience>&quot;<br>&quot;에 대한 JSON 오퍼 작성 \&lt;use case>&quot;<br>&quot;에 대한 응답 토큰 추가 \&lt;attribute>&quot; |
-| **실험 및 최적화, 콘텐츠 만들기** | 시각적(WYSIWYG) 활동 빌드 | 시각적 경험 작성기 작성: CSS 선택기 수정 사항을 사용하여 라이브 페이지 URL에 대해 시각적 A/B 및 XT 활동을 만들고 편집합니다. | `target-vec` | Adobe Target | &quot;\&lt;페이지 URL>&quot;<br>&quot;에 대한 시각적 A/B 테스트 만들기&quot;\&lt;페이지 URL>의 히어로 헤드라인을 \&lt;텍스트>&quot;<br>&quot;\&lt;페이지 URL>에 대한 시각적 편집으로 XT 활동 설정&quot; |
-| **실험 및 최적화** | 권장 사항 검색 및 검사 | 기준, 컬렉션, 디자인, 프로모션, 제외, 카탈로그 및 피드를 읽기 전용으로 찾아보고 검사합니다. 여기에는 정리 권고 사항 및 카탈로그 속성 인텔리전스가 포함됩니다. | `target-recs` | Adobe Target | &quot;내 권장 사항 기준 및 컬렉션 표시&quot;<br>&quot;디자인 검사 \&lt;recs 활동>&quot;<br>&quot;내 카탈로그 피드 및 제외 검토&quot; |
-| **실험 및 최적화** | 권장 사항 문제 해결 | &quot;결과가 준비되지 않음&quot;, 빈 결과 및 실패 recs와 같은 recs 문제에 대한 읽기 전용 문제 해결 | `target-recs-diagnose` | Adobe Target | &quot;권장 사항 결과가 준비되지 않은 이유는 무엇입니까?&quot;<br>&quot;내 Recs가 비어 있는 상태로 반환되는데, 문제가 있습니까?&quot;<br>&quot;\&lt;recs activity>가 실패한 이유 진단&quot; |
-| **실험 및 최적화** | Recommendations 작성 및 자동화 | Recs 작성: 기준, 컬렉션, 디자인, 제외, 프로모션 및 피드를 만들고, 업데이트하고, 삭제합니다. 또한 recs 활동을 빌드하고, 여러 활동에 걸쳐 벌크/자동화를 수행합니다. | `target-recs-design` | Adobe Target | &quot;최근에 본 항목 기준 만들기&quot;<br>&quot;\&lt;criteria>&quot;<br>&quot;모든 recs 활동에서 디자인을 대량 업데이트하여 권장 사항 활동을 만듭니다.&quot; |
-| **실험 및 최적화** | 실험 검색 및 조회 | 실험에 대한 일반 탐색 및 조회: 결과 및 통찰력을 나열, 보기 및 가져오기. | `experiment-explorer` | Experimentation Accelerator | &quot;내 실험 표시&quot;<br>&quot;활성 실험 나열&quot;<br>&quot;\&lt;experiment>&quot;<br>에 대한 결과 표시&quot; \&lt;experiment>에는 어떤 통찰력이 있습니까?&quot; |
-| **실험 및 최적화, 대상 분석, 콘텐츠 성능 인텔리전스** | 실험 분석 및 결정 | 실험 전반에 걸친 종합 및 의사 결정 지원: 상태 확인, 출하 결정 및 실행 요약. | `experiment-analysis` | Experimentation Accelerator | &quot;내 실험은 어떻게 진행되고 있습니까?&quot;<br>&quot;\&lt;experiment>를 발송해야 합니까?&quot;<br>&quot;내 실험이 건강합니까?&quot;<br>&quot;실험에 대한 요약 작성&quot; |
-| **실험 및 최적화** | 설계 및 계획 실험 | 미래 지향적인 실험 설계 및 계획: 다음 테스트, 테스트 설계, 로드맵 작성 방법. | `experiment-strategist` | Experimentation Accelerator | &quot;다음에 무엇을 테스트해야 합니까?&quot;<br>&quot;실험 설계 \&lt;goal>&quot;<br>&quot;내 실험에 실패했으며, 그 다음에 무엇을 합니까?&quot;<br>&quot;테스트 로드맵 작성&quot; |
-| **실험 및 최적화; 고객 및 계정 여정 인텔리전스** | 지식 검색 및 데이터 수집 | 실험 컨텍스트 지식을 검색 및 검색하거나 외부 CSV 데이터를 수집하여 분석합니다. | `experiment-knowledge-base` | Experimentation Accelerator | &quot;실험에 대해 무엇을 알고 있습니까? \&lt;name>?&quot;<br>&quot;이 가설을 이전에 테스트했습니까?&quot;<br>&quot;CSV를 업로드하고 이 파일을 분석하십시오.&quot; |
