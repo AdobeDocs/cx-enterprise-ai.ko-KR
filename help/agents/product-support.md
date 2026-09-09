@@ -1,17 +1,10 @@
 ---
 title: 제품 지원 에이전트
 description: AI 어시스턴트의 제품 지원 에이전트를 사용해 문제 해결과 고객 지원 티켓 제출 프로세스를 간소화하는 방법에 대해 알아봅니다.
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +28,33 @@ AI Assistant의 제품 지원 에이전트를 사용하면 워크플로를 종�
 전문가가 엄선한 문서에서 제공하는 일반적인 지원 질문에 대한 즉각적인 답변을 받아 보십시오. 예를 들면 다음과 같습니다.
 
 * Adobe 지원 팀에서 선별한 **기술 자료 문서**.
-   * 질문 예:
-      * &quot;라이선스 사용 대시보드와 Experience Platform 홈 페이지에서 프로필 수가 다른 이유는 무엇입니까?&quot;
-      * &quot;여정이 트리거되지 않는 이유는 무엇입니까?&quot;
+  * 질문 예:
+    * &quot;라이선스 사용 대시보드와 Experience Platform 홈 페이지에서 프로필 수가 다른 이유는 무엇입니까?&quot;
+    * &quot;여정이 트리거되지 않는 이유는 무엇입니까?&quot;
 * 셀프 가이드 학습 및 스킬 빌드를 위한 **제품 튜토리얼**.
-   * 질문 예:
-      * &quot;Adobe Experience Platform은 어떻게 실시간 경험을 생성합니까?&quot;
-      * &quot;Adobe Experience Platform에서 경고를 구성하고 사용하려면 어떻게 합니까?&quot;
+  * 질문 예:
+    * &quot;Adobe Experience Platform은 어떻게 실시간 경험을 생성합니까?&quot;
+    * &quot;Adobe Experience Platform에서 경고를 구성하고 사용하려면 어떻게 합니까?&quot;
 * 정확하고 라이선싱 중심의 정보를 제공하는 **제품 법률 문서**.
-   * 질문 예:
-      * &quot;Adobe Experience Platform 활성화에서 배치 세분화 작업의 제한은 얼마입니까?&quot;
-      * &quot;Adobe Experience Platform 활성화의 평균 프로필 풍부성 제한은 얼마입니까?&quot;
+  * 질문 예:
+    * &quot;Adobe Experience Platform 활성화에서 배치 세분화 작업의 제한은 얼마입니까?&quot;
+    * &quot;Adobe Experience Platform 활성화의 평균 프로필 풍부성 제한은 얼마입니까?&quot;
 
 ## 지원 사례 만들기 {#support-case-creation}
 
 상황별 인사이트를 자동으로 캡처하여 사례 해결을 가속화하는 제품 지원 에이전트에서 바로 지원 사례를 시작합니다.
 
 * 질문 예:
-   * &quot;지원 티켓을 만듭니다.&quot;
-   * &quot;지원 티켓을 만드는 것을 도와줄 수 있습니까?&quot;
+  * &quot;지원 티켓을 만듭니다.&quot;
+  * &quot;지원 티켓을 만드는 것을 도와줄 수 있습니까?&quot;
 
 ## 사례 진행 추적 {#track-case-progress}
 
 지원 문제의 상태를 원활하게 추적합니다.
 
 * 예제 질문 및 명령:
-   * &quot;내 사건 E-12345에 대한 최신 소식은 무엇입니까?&quot;
-   * &quot;티켓 E-67890에 대한 최신 정보는 무엇입니까?&quot;
+  * &quot;내 사건 E-12345에 대한 최신 소식은 무엇입니까?&quot;
+  * &quot;티켓 E-67890에 대한 최신 정보는 무엇입니까?&quot;
 
 ## 제품 지원 에이전트 액세스
 
@@ -71,5 +64,5 @@ AI Assistant의 제품 지원 에이전트를 사용하면 워크플로를 종�
 
 자세한 내용은 다음 비디오를 통해 제품 지원 에이전트를 사용하여 워크플로를 종료하지 않고 문제를 원활하게 해결하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443190?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
