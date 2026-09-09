@@ -7,11 +7,9 @@ doc-type: Feature Video
 duration: 499
 last-substantial-update: 2026-08-12T00:00:00.000Z
 jira: KT-22312
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 90
 ht-degree: 0%
@@ -25,4 +23,4 @@ ht-degree: 0%
  
 이 비디오에서는 충성도 플러그인과 사용자 인터페이스의 모든 설정을 수동으로 구성하는 대신 자연어를 사용하여 충성도 문제를 만들고, 편집하고, 관리하는 마케터를 지원하는 AI 기반 기능인 과제 관리 기술을 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496543/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)

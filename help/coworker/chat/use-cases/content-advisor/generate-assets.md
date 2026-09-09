@@ -7,11 +7,9 @@ doc-type: Feature Video
 duration: 147
 last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 135
 ht-degree: 0%
@@ -27,4 +25,4 @@ ht-degree: 0%
 
 또한 Coworker는 추가 맞춤화를 위한 유연성도 제공합니다. 에셋을 수정하거나, 변형을 만들거나, Instagram 스토리와 같은 다양한 형식에 대한 콘텐츠를 조정할 수 있습니다. 이 접근 방식을 사용하면 동료가 기술 세부 사항을 관리하는 동안 목표에 집중할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502716/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)

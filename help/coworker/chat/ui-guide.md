@@ -2,11 +2,9 @@
 description: 탐색, 입력란, 응답, 채팅 기록, 기술 구성, MCP 서버 및 메모리를 다루는 Coworker Chat 인터페이스에 대한 참조 안내서입니다.
 title: 동료 채팅 UI 안내서
 jira: KT-22106
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 1719
 ht-degree: 4%
@@ -17,7 +15,7 @@ ht-degree: 4%
 
 Coworker Chat 인터페이스를 사용하여 환경을 최적화합니다. 이 안내서에서는 앱 액세스, 작업 영역 탐색부터 대화 최대화, 내역 관리, 설정 맞춤화에 이르기까지 모든 작업을 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 동료 채팅 액세스
 

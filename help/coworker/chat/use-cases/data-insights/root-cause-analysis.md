@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 186
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 106
 ht-degree: 0%
@@ -26,4 +24,4 @@ ht-degree: 0%
  
 분석가 및 마케터는 자연어를 사용하여 데이터에 대한 질문을 하고, 시각화된 결과를 받고, 의미 있는 트렌드를 식별하고, 성과를 이끄는 요인을 발견할 수 있습니다. 이 모든 것은 한 번의 대화로 이루어집니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496857/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
