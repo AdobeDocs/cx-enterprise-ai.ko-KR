@@ -1,7 +1,12 @@
 ---
 cloud: Experience Cloud
 solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform,CX Enterprise
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: fdddec33-c9cb-4459-b8b6-2664395a6f10id: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 usetq: true
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
