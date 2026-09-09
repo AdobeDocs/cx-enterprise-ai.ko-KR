@@ -1,8 +1,10 @@
 ---
 description: 단일 프롬프트를 리뷰 준비 캠페인으로 만드는 AI 기반 마케팅 애플리케이션인 Adobe CX Enterprise Coworker 캠페인에 대해 알아봅니다.
 title: Adobe CX Enterprise Coworker 개요
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 950
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Coworker Campaigns는 단일 프롬프트에서 검토 준비가 완료된 전체 캠페인으로 안내하는 AI 기반 마케팅 애플리케이션입니다.
 
-현재 AI와의 모든 상호 작용은 [캠페인 생성](./)을 안내합니다. 더 많은 기능이 곧 제공될 예정입니다.
+현재 AI와의 모든 상호 작용은 [캠페인 생성] (./)을 안내합니다. 더 많은 기능이 곧 제공될 예정입니다.
 
 ## 액세스 방법
 
