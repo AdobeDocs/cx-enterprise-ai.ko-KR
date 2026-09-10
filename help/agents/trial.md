@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 1433
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -78,7 +78,7 @@ Agentic AI 모니터링 대시보드는 조직 전체에서 Agentic AI가 채택
 
 Coworker, Agent Orchestrator 및 AI Assistant에 대한 자세한 내용은 다음 안내서를 참조하십시오.
 
-- [동료](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator 개요](agent-orchestrator.md)
 - [AI Assistant UI 안내서](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant 프롬프트 라이브러리](../ai-assistant/prompt-library.md)

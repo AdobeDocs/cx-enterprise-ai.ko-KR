@@ -14,7 +14,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 239
 ht-degree: 3%
@@ -30,7 +30,7 @@ AI Assistant에서 기대할 수 있는 고객 신뢰 중심 기능에 대해 �
 * 현재 AI Assistant는 교육 목적으로도 개인 데이터를 사용하지 않습니다.
 * AI 어시스턴트는 소비자 데이터를 인식하지 못합니다.
 * 기존의 모든 [액세스 제어](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) 정책은 AI Assistant에 의해 부여됩니다.
-   * 새로운 속성 기반 액세스 제어 정책은 최대 24시간 및 종료 후에 AI Assistant에 반영됩니다.
+  * 새로운 속성 기반 액세스 제어 정책은 최대 24시간 및 종료 후에 AI Assistant에 반영됩니다.
 * AI Assistant는 Adobe Experience Platform Healthcare Shield와 함께 사용할 때 HIPAA에 대비하는 기능입니다.
 * 30일 보존 정책으로 AI Assistant와의 이전 상호 작용 로그를 볼 수 있습니다.
 * AI Assistant는 사용자 프롬프트에 응답할 때 샌드박스 특정 데이터 및 공개 Adobe 설명서에 기반합니다. 데이터는 샌드박스 간에 공유되지 않습니다.
