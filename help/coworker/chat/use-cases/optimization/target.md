@@ -8,11 +8,10 @@ doc-type: Feature Video
 duration: 367
 last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-22598
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 32bc2403c8918fad46e390c5e93d8a33fd7edccb
+nudge: true
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 776bcb1a9cae877aa5ff22df2539d79c3a6998b7
 workflow-type: tm+mt
 source-wordcount: 76
 ht-degree: 0%
