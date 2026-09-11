@@ -8,8 +8,10 @@ doc-type: Feature Video
 duration: 367
 last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-22598
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 32bc2403c8918fad46e390c5e93d8a33fd7edccb
 workflow-type: tm+mt
 source-wordcount: 76
