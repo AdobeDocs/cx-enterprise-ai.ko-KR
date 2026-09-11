@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 19%
       - 여정 {#journeys}
         - [자연어를 사용하여 여정 만들기](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [충성도 과제 및 잠재 고객 인사이트 만들기](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - 최적화 {#optimization}
+        - [Target 활동 시작](./coworker/chat/use-cases/optimization/target.md)
       - 샌드박스 도구 {#sandbox-tooling}
         - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
       - 경고 {#alerts}
