@@ -9,8 +9,10 @@ duration: 367
 last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-22598
 nudge: true
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 776bcb1a9cae877aa5ff22df2539d79c3a6998b7
 workflow-type: tm+mt
 source-wordcount: 76
