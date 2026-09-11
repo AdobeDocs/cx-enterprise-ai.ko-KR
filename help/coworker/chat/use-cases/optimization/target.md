@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 367
 last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-22598
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: f80557ffc8db68073b11de8bad8be8423722a79c
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 32bc2403c8918fad46e390c5e93d8a33fd7edccb
 workflow-type: tm+mt
 source-wordcount: 76
 ht-degree: 0%
@@ -24,4 +22,4 @@ ht-degree: 0%
 
 CX Enterprise Coworker 가 최적화 프로그램에 제공하는 가치에 대해 알아보십시오. 동료는 비즈니스 목표를 이해하고 도구를 전환하지 않고 분석, 진단 및 론치를 수행하는 Adobe 애플리케이션 전반에 대한 작업을 조정합니다. 동료 직원을 사용하여 결과를 읽고, 손실된 변형을 진단하고, 테스트 기간 크기를 조정하여 서로 주고받는 일 수를 절약할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496881/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503343/?learn=on&enablevpops)
