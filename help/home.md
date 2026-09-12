@@ -1,6 +1,6 @@
 ---
 title: CX Enterprise 애플리케이션의 AI
-description: CX 엔터프라이즈 애플리케이션이 생성 AI(GenAI), CX 엔터프라이즈 Coworker, AI Assistant, Agentic AI 및 MCP 도구를 사용하는 방법을 알아봅니다.
+description: CX 엔터프라이즈 애플리케이션이 생성 AI(GenAI), CX Enterprise Coworker, AI Assistant, Agentic AI 및 MCP 도구를 사용하는 방법을 알아봅니다.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 3%
 
 ---
 
 # CX Enterprise의 AI
 
-이 안내서에서는 Adobe CX Enterprise의 AI 기능인 generative AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, Experience Platform Agents 및 MCP를 다룹니다.
+이 안내서에서는 Adobe CX Enterprise의 AI 기능인 생성 AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, Experience Platform 에이전트 및 MCP를 다룹니다.
 
 ## AI 기능 개요
 
@@ -85,8 +85,9 @@ ht-degree: 3%
 - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
 - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
 - [!DNL Workfront] 도구, [Workfront MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)에 문서화되어 있음
+- [!DNL Target] 도구, [Target MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)에 문서화되어 있습니다.
 
-CX Coworker Gateway를 처음 사용하십니까? 연결하려면 [CX Coworker Gateway 도구 액세스](./mcp/access.md) 및 [CX Coworker Gateway 설치](./mcp/install.md)를 참조하십시오. 연결되면 제품 도구를 호출하기 전에 [세션 컨텍스트 도구](./mcp/context-tools.md)를 사용하여 활성 조직, 샌드박스 및 데이터 보기를 설정합니다.
+CX Coworker Gateway를 처음 사용하십니까? 연결하려면 [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md) 및 [CX Coworker 게이트웨이 설치](./mcp/install.md)를 참조하십시오. 연결되면 제품 도구를 호출하기 전에 [세션 컨텍스트 도구](./mcp/context-tools.md)를 사용하여 활성 조직, 샌드박스 및 데이터 보기를 설정합니다.
 
 ## 시작하기
 

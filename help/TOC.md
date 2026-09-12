@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '327'
 ht-degree: 19%
 
 ---
@@ -99,3 +99,5 @@ ht-degree: 19%
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+
