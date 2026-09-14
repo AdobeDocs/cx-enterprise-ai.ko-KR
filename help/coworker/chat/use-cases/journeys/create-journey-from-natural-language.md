@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 0%
-
+source-wordcount: '117'
+ht-degree: 1%
 ---
-
 
 # 자연어 프롬프트에서 Adobe Journey Optimizer 여정을 생성하는 방법
 
@@ -27,3 +27,8 @@ ht-degree: 0%
 초기 설정 프로세스를 자동화함으로써, 팀은 처음부터 여정을 구축하는 데 더 적은 시간을 소비하고 고객 경험과 비즈니스 결과를 개선하는 데 더 많은 시간을 할애할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496881/?captions=kor&learn=on&enablevpops)
+
+## 참조 -
+
+- [Journey Agent](../../../../agents/ajo-agent.md#journey-create), Coworker Chat에서 여정 생성을 지원하는 기본 AI 기능입니다.
+- [더 많은 동료 채팅 사용 사례](../overview.md#journeys)

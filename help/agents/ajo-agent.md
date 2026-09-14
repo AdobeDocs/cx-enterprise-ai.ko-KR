@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3820'
+ht-degree: 9%
 ---
 
-
 # Journey Agent: 개요 및 사용 안내서
-
->[!AVAILABILITY]
->
->Journey Agent create AI 기능과 콘텐츠 생성 AI 기능은 Agent Orchestrator Explorer 프로그램의 일부인 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
 
 ## Adobe Journey Optimizer에서 Journey Agent 소개
 
@@ -53,21 +66,23 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 - **채널 콘텐츠 만들기**: AI 기반 콘텐츠 생성을 사용하여 여정에 대한 채널별 콘텐츠(이메일, 푸시, SMS)를 생성하고 편집하고 관리합니다.
 - **분석 여정**: 여정 분석, 문제 감지, 인사이트 발견 및 고객 참여 최적화
 
-또한 **여정 시뮬레이션**&#x200B;은(는) 다음 세 가지 하위 기능이 있는 제품 내 비대화형 AI 기능인 [여정 시뮬레이션](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)을 포함하는 Journey Optimizer 기능입니다.
+또한 **여정 시뮬레이션**&#x200B;은(는) 다음 세 가지 하위 기능이 있는 제품 내 비대화형 AI 기능인 [여정 시뮬레이션](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}을 포함하는 Journey Optimizer 기능입니다.
 
 - 시뮬레이션된 사용자 생성
 - 이벤트 값 생성
 - 빠른 시뮬레이션
 
-## 여정 만들기: 사용 사례, AI 기능 및 사용 안내서
+## 여정 만들기: 사용 사례, AI 기능 및 사용 안내서 {#journey-create}
 
 ## 개요
 
 여정 만들기 를 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 마케팅 여정을 구축하고 구성할 수 있습니다. 여정 만들기를 사용하면 전문가가 대화 프롬프트에서 요구 사항을 설명하여 여정을 빠르게 만들 수 있습니다. 에이전트가 여정 만들기를 간소화해 주므로 마케터는 기술적 구성보다 전략에 집중할 수 있습니다.
 
+자세한 내용은 Adobe Journey Optimizer 설명서에서 [여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}를 참조하십시오.
+
 >[!AVAILABILITY]
 >
->여정 만들기 는 Agent Orchestrator 탐색기 프로그램의 일부인 고객이 사용할 수 있습니다. 여정 만들기 기능을 완전히 사용하려면 다음 권한도 필요합니다.
+>여정 만들기 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
 >**여정 관리**: 이 권한을 사용하면 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
 >
@@ -109,6 +124,11 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
    - 고객 속성을 기반으로 의사 결정 분기를 만듭니다.
    - 고객 환경 설정에 맞게 분할된 경로 디자인
 
+1. **이미지에서 여정 만들기**
+
+   - 참조 이미지를 업로드하고 에이전트에게 이미지를 참조로 사용하여 여정을 생성하도록 요청합니다.
+   - 에이전트는 참조 이미지에서 편집 가능한 프롬프트를 추출합니다.
+
 이러한 각 사용 사례에 대해 에이전트는 자연어 요구 사항을 구조화된 여정 구성으로 변환합니다.
 
 ## 범위 내 및 범위 외 AI 기능
@@ -128,9 +148,14 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 현재 다음 기능은 지원되지 않습니다.
 
 - **고급 여정 분석**
-- **실시간 여정 수정**
 - **크로스 여정 오케스트레이션**
 - **A/B 테스트 구성**
+- **InAudience 식 생성**
+- **데이터 집합 조회 노드**
+- **웨이브 전송 설정**
+- **반복 예약 옵션**
+- **대상자를 위한 네임스페이스 선택**
+- **사용자 지정 작업 필드 매핑**
 - **복잡한 데이터 변환**
 
 ## 샘플 프롬프트
@@ -195,7 +220,7 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 - **메시지 콘텐츠 계획**: 여정을 만들기 전에 메시징 전략을 정의하십시오.
 - **고객 경험 고려**: 고객 환경 설정을 준수하고 과도한 커뮤니케이션을 방지하는 여정 흐름을 디자인합니다.
 
-## 채널 콘텐츠 만들기: 사용 사례, AI 기능 및 사용 안내서
+## 채널 콘텐츠 만들기: 사용 사례, AI 기능 및 사용 안내서 {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -204,6 +229,8 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 ## 개요
 
 채널 컨텐츠 만들기 를 사용하면 Journey Optimizer 사용자가 AI 기반 컨텐츠 생성을 사용하여 여정에 대한 채널별 컨텐츠를 생성, 편집 및 관리할 수 있습니다.
+
+자세한 내용은 Adobe Journey Optimizer 설명서에서 [채널 콘텐츠 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}를 참조하십시오.
 
 ## 사용 사례
 
@@ -277,13 +304,15 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 1. **톤 정의**: 원하는 톤(친숙한 톤, 정형적인 톤, 캐주얼한 톤, 긴급 톤)을 지정합니다.
 1. **반복 및 세분화**: 요구 사항을 충족할 때까지 재생성 작업을 사용하여 콘텐츠를 세분화합니다.
 
-## 여정 분석: 사용 사례, AI 기능 및 사용 안내서
+## 여정 분석: 사용 사례, AI 기능 및 사용 안내서 {#journey-analyze}
 
 ## 개요
 
-Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. Journey Agent을 통해 실무자는 신속하게 일정 및/또는 대상 충돌을 식별하고 해결하며 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 실무자는 데이터 기반의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
+여정 분석을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. 실무자는 여정 분석을 통해 신속하게 일정 및 대상 충돌을 식별하고 해결하며, 여정에서 사용자 포기 지점을 감지하고, 통찰력 또는 권장 사항을 제공하여 성과를 향상시킬 수 있습니다.
 
 자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/ko/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
+
+자세한 내용은 Adobe Journey Optimizer 설명서에서 [여정 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}을 참조하십시오.
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 
    - 프롬프트 기반 여정 인사이트 - 여정에 대한 운영적인 인사이트 표시 , 즉 &quot;모든 라이브 여정 표시&quot;
 
+1. **여정 사용자 지정 작업 오류 분석**
+
+   - 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별합니다.
+   - 오류가 더 광범위한 여정 중단으로 확대되기 전에 근본 원인을 진단합니다.
+   - 특정 교정 단계를 사용하여 사용자 지정 작업의 안정성을 신속하게 복원합니다.
+
+1. **여정 예외 항목 분석**
+
+   - 여정을 시작, 종료 또는 완료하는 여정 수에 대한 질문을 입력할 때 등 과거 기준선과 비교하여 프로필의 시작, 종료 또는 메시지 보내기 수에서 예상치 못한 급등, 하락 또는 평면화를 감지합니다.
+   - 원시 예외 항목 플래그에만 의존하지 않고 결정론적 통계 검사를 사용하여 플래그가 지정된 변경 사항이 실제 예외 항목인지 확인합니다.
+   - 여정 실행 데이터에 대해 제한적이고 읽기 전용 진단을 실행하여 가능한 근본 원인을 식별하고 각 검사가 권장 사항과 함께 찾고 발견한 내용을 표시합니다.
+   - 특정 여정 버전 및 타임스탬프를 참조하는 예외 항목 경고를 조사합니다.
+
 이러한 각 분석에 대해 에이전트는 문제를 감지할 뿐만 아니라 문제를 해결하기 위해 **실행 가능한 권장 사항을 제공**&#x200B;합니다.
 
 ## 범위 내 및 범위 외 AI 기능
@@ -338,13 +380,14 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 - **반응형 쿼리**: 사용자가 여정 성과, 대상자 사용, 일정 충돌에 대해 구체적인 질문을 할 수 있습니다.
 - **다른 에이전트와의 통합**: Audience 에이전트 및 Data Insights 에이전트와 협력하여 심층 분석을 수행합니다.
 - **에이전트 응답 구조**: 추론(논리 설명), 분석 요약(주요 사항 강조 표시), 문제 세부 정보(문제 설명) 및 권장 사항(다음 단계 제안).
+- **사용자 지정 작업 오류 분석**: 여정 내의 사용자 지정 작업 오류 및 오류 급증을 감지하고 진단합니다.
+- **예외 항목 탐지**: 여정의 시작, 종료 또는 전송 카운트에서 통계적으로 중요한 스파이크, 드롭 또는 플랫라인을 탐지하고 확인하며, 가능한 근본 원인을 표시합니다.
 
 ### **범위 외**
 
 현재 다음 기능은 지원되지 않습니다.
 
 - **여정 생성 자동화**
-- **실시간 예외 항목 탐지**
 - **채널 겹치기**
 - **여정 입력 분석**
 - **기술 문제 분석**
@@ -409,6 +452,22 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 - &quot;[여정 이름] 여정에 대한 충돌 위험을 분석합니다.&quot;
 - &quot;[여정 이름]에 대한 충돌 진단을 제공합니다.&quot;
 
+### 사용자 지정 작업 오류 분석
+
+- &quot;[여정 이름] 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot;
+- &quot;[여정 이름] 여정에서 사용자 지정 작업 [사용자 지정 작업 이름]의 오류율은 얼마입니까?&quot;
+- &quot;[여정 이름] 여정에서 사용자 지정 작업 실패의 근본 원인을 보여 줍니다.&quot;
+- &quot;[여정 이름] 여정에 영향을 주는 사용자 지정 작업 오류가 있습니까?&quot;
+
+### 여정 예외 항목 분석
+
+- &quot;어제 환영 여정에 대한 항목이 감소한 이유는 무엇입니까?&quot;
+- &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot;
+- &quot;오늘 업데이트 알림 여정에 대한 전송 빈도가 낮은 것 같습니다. 무슨 일이 발생했습니까?&quot;
+- &quot;지난 30일 동안 제 회원 기념일 감사 여정에 들어가는 프로필 수가 갑자기 감소한 이유는 무엇입니까?&quot;
+- &quot;평소보다 적은 수의 프로필이 이번 달에 내 갱신 알림 여정을 완료합니다. — 이유?&quot;
+- &quot;[timestamp]에서 여정 [여정 버전 ID]에 대한 예외 항목 경고가 트리거되었습니다. 조사하십시오.&quot;
+
 ## 모범 사례
 
 ### 프롬프트 모범 사례
@@ -425,7 +484,7 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 - **정기적 모니터링**: 여정 성과를 정기적으로 검토하여 트렌드 및 예외 항목을 파악합니다.
 - **세분화 최적화**: 피로를 막고 참여도를 극대화할 수 있도록 대상자 세분화를 균형 있게 조정합니다.
 
-## 여정 시뮬레이션: 사용 사례, AI 기능 및 사용 안내서
+## 여정 시뮬레이션: 사용 사례, AI 기능 및 사용 안내서 {#journey-simulate}
 
 ## 개요
 
@@ -441,7 +500,7 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 
 **[!UICONTROL 시뮬레이션]**&#x200B;에서 AI를 사용하려면(**[!UICONTROL 빠른 시뮬레이션]**, AI로 시뮬레이션된 사용자 생성 **[!UICONTROL 이벤트 값 생성]**) 사용자는 **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]** 권한이 필요합니다.
 
-[권한에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+[권한에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -503,4 +562,11 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 
 시뮬레이션은 테스트 모드나 라이브 여정이 지원하는 모든 활동, 채널 또는 통합을 지원하지 않을 수 있으며, 기능이 향상됨에 따라 동작이 변경될 수 있습니다.
 
-➡️ Journey Optimizer 설명서에서 [시뮬레이션 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)에 대해 자세히 알아보세요.
+➡️ Journey Optimizer 설명서에서 [시뮬레이션 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}에 대해 자세히 알아보세요.
+
+## 참조 -
+
+- [Agent Orchestrator](./agent-orchestrator.md), Journey Agent 및 기타 Experience Platform 에이전트를 구동하는 에이전트 계층.
+- [CX Coworker 게이트웨이의 Journey Optimizer 도구](../mcp/ajo-mcp.md), 캠페인 및 채널 구성 검토를 위한 읽기 전용 MCP 표면.
+- [자연어로 여정 만들기](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) 및 [충성도 문제를 만들고, 편집하고, 관리](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), 여정 만들기 기반의 공동 작업자 채팅 사용 사례.
+- AI Assistant를 통해 표면화된 Journey Optimizer 문제를 해결하기 위해 [제품 지원 에이전트](./product-support.md)

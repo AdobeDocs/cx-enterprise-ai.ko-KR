@@ -3,15 +3,15 @@ description: 설명은 여기에 표시됩니다.
 title: 캠페인 중지
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # 캠페인 중지 {#stop-campaign}
 
 이제 사용자는 캠페인 세부 정보 페이지에서 직접 활발하게 전송(&quot;라이브&quot; 캠페인)하는 캠페인을 중지할 수 있습니다. 캠페인 중지는 영구적입니다. 수신자는 즉시 캠페인 진행을 정지하며 이후에 캠페인을 다시 시작하거나 다시 시작할 수 없습니다.
@@ -33,13 +33,7 @@ ht-degree: 0%
 - 중지 후 캠페인의 상태 배지가 &quot;중지됨&quot;으로 업데이트됩니다.
 - 중지 요청이 실패하면 오류 메시지가 표시되고 캠페인이 활성 상태로 유지됩니다.
 
-## 사용 방법
 
-1. 현재 라이브(진행 중)인 캠페인을 엽니다.
-2. 캠페인 세부 정보 헤더에서 **캠페인 중지**&#x200B;를 클릭합니다.
-3. 확인 대화 상자에서 &quot;캠페인 중지는 영구적입니다. 모든 수신자가 진행을 중단하고 캠페인을 다시 시작할 수 없습니다.&quot;
-4. 확인하려면 **중지**&#x200B;를 클릭하세요.
-5. &quot;캠페인이 중지되었습니다.&quot; 확인 메시지가 나타나고 캠페인의 상태가 &quot;중지됨&quot;으로 업데이트됩니다.
 
 ### 입력 필드/매개 변수
 
