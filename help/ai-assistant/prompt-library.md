@@ -4,22 +4,28 @@ description: AI Assistant를 쿼리할 때 사용할 수 있는 다양한 종류
 TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Privacy
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: '841'
 ht-degree: 16%
-
 ---
-
 # AI Assistant 프롬프트 라이브러리
 
 AI Assistant에서 사용할 수 있는 다양한 유형의 프롬프트에 대해서는 이 안내서를 참조하십시오.
@@ -71,7 +77,9 @@ AI Assistant에서 사용할 수 있는 다양한 유형의 프롬프트에 대�
 
 ## Journey Agent
 
-다음 예제 프롬프트는 Journey Agent과 함께 사용하여 여정 라이프사이클을 분석하고, 여정 리소스를 관리하고, 대상 및 여정 관계에 대한 통찰력을 얻고, 여정 간의 충돌을 감지하는 데 도움이 될 수 있습니다. 이러한 프롬프트를 사용하여 여정 오케스트레이션을 최적화하고 문제를 효율적으로 해결하십시오.
+다음 예제 프롬프트는 [Journey Agent](../agents/ajo-agent.md)와 함께 사용하여 여정 주기를 분석하고, 여정 리소스를 관리하고, 대상 및 여정 관계에 대한 통찰력을 얻고, 여정 간의 충돌을 감지하는 데 도움이 될 수 있습니다. 이러한 프롬프트를 사용하여 여정 오케스트레이션을 최적화하고 문제를 효율적으로 해결하십시오.
+
+여정 만들기, 채널 콘텐츠 생성 및 폴아웃 분석에 대한 샘플 프롬프트에 대해서는 Journey Agent 안내서의 [여정 만들기](../agents/ajo-agent.md#journey-create), [채널 콘텐츠 만들기](../agents/ajo-agent.md#channel-content-create) 및 [여정 분석](../agents/ajo-agent.md#journey-analyze) 섹션을 참조하십시오.
 
 ### 여정 라이프사이클 질문
 

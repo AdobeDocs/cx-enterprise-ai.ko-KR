@@ -1,24 +1,22 @@
 ---
 title: Adobe CX Coworker 게이트웨이 개요
 description: Adobe CX Coworker Gateway는 Adobe CX Enterprise용 통합 MCP로, MCP 클라이언트에게 지원되는 제품 도구에 대한 단일 연결을 제공합니다.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '469'
 ht-degree: 3%
-
 ---
-
 # Adobe CX Coworker 게이트웨이 {#mcp-overview}
 
 Adobe CX Coworker Gateway는 Adobe CX Enterprise용 MCP(Unified Model Context Protocol)입니다. 하나의 연결로 MCP 호환 클라이언트는 조직 및 계정이 사용할 수 있는 Adobe 제품 도구에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
->**CX Coworker Gateway** 도구를 사용하려면 먼저 Adobe 조직을 활성화해야 합니다.
+>**Adobe 게이트웨이** 도구를 사용하려면 먼저 CX Coworker 조직을 활성화해야 합니다.
 >
 >조직에 아직 액세스 권한이 없는 경우 [cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com)에 전자 메일을 보내 조직에 대한 활성화를 요청하세요.
 
-모든 MCP 클라이언트 설치에 CX Coworker Gateway 엔드포인트 사용:
+모든 MCP 클라이언트 설정에 CX Coworker 게이트웨이 끝점 사용:
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
@@ -30,7 +28,7 @@ https://cx-coworker-gateway.adobe.io/mcp
 
 MCP(Model Context Protocol)는 AI 애플리케이션을 외부 시스템에 연결하기 위한 오픈 소스 표준입니다. [!DNL Claude], [!DNL ChatGPT], [!DNL Cursor], [!DNL Claude Code], [!DNL Codex] 및 [!DNL VS Code]과(와) 같은 MCP 호환 클라이언트는 이러한 도구를 사용하여 제품 컨텍스트를 검색하고 지원되는 작업을 실행하고 자연어로 답변을 반환할 수 있습니다.
 
-CX Coworker Gateway 는 CX Coworker Gateway 제품 도구에 대한 관리 엔드포인트를 제공합니다. 별도의 제품 서버를 추가하는 대신 엔드포인트에 한 번 연결하고 권한이 부여된 솔루션에 표시된 제품 도구를 사용합니다.
+CX Coworker Gateway는 CX Coworker Gateway 제품 도구에 대한 관리 끝점을 제공합니다. 별도의 제품 서버를 추가하는 대신 엔드포인트에 한 번 연결하고 권한이 부여된 솔루션에 표시된 제품 도구를 사용합니다.
 
 ## 사용 가능한 제품 도구 {#available-product-tools}
 
@@ -41,10 +39,10 @@ CX Coworker Gateway 는 CX Coworker Gateway 제품 도구에 대한 관리 엔�
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | 대상, 대상, 소스, ID 네임스페이스 및 활성화 상태(읽기 전용) | Beta | [Real-Time CDP 도구](rtcdp-mcp.md) |
 | **Experience Platform** | 스키마, 데이터 세트, 데이터 거버넌스, 쿼리 서비스, 감사 이벤트, 가시성 지표 및 샌드박스 상태 검사 평가(읽기 전용) | Beta | [Experience Platform 도구](aep-mcp.md) |
-| **Journey Optimizer** | 캠페인 및 채널 구성(읽기 전용) | Beta | [Journey Optimizer 도구](ajo-mcp.md) |
+| **Journey Optimizer** | 캠페인, 여정 및 채널 구성(읽기 전용), 콘텐츠 템플릿, 조각, 랜딩 페이지 및 인라인 메시지 콘텐츠(읽기 및 쓰기) | Beta | [Journey Optimizer 도구](ajo-mcp.md) |
 | **Customer Journey Analytics** | 데이터 보기, 차원, 지표, 보고서, 세그먼트, 날짜 범위, 프로젝트 및 대상(읽기 및 쓰기) | 사용 가능 | [Customer Journey Analytics 도구](cja-mcp.md) |
 | **Adobe Analytics** | 보고서 세트, 차원, 지표, 보고서, 세그먼트, 날짜 범위 및 작업 영역 프로젝트 (지원되는 구성 요소의 경우 읽기 및 쓰기) | 사용 가능 | [Adobe Analytics 도구](analytics-mcp.md) |
-| **Workfront** | 프로젝트, 작업 및 승인 워크플로를 위한 작업 관리 도구 | 미리 보기 | [Workfront MCP 서버](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | 프로젝트, 작업 및 승인 워크플로를 위한 작업 관리 도구 | 미리 보기 | [Workfront MCP 서버](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]

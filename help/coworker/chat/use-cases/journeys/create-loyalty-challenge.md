@@ -9,15 +9,15 @@ last-substantial-update: 2026-08-12T00:00:00.000Z
 jira: KT-22312
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 0%
-
+source-wordcount: '138'
+ht-degree: 1%
 ---
-
 
 # Adobe Journey Optimizer 및 Coworker - 충성도 문제 및 지표 통찰력 만들기
 
@@ -25,4 +25,10 @@ ht-degree: 0%
  
 이 비디오에서는 충성도 플러그인과 사용자 인터페이스의 모든 설정을 수동으로 구성하는 대신 자연어를 사용하여 충성도 문제를 만들고, 편집하고, 관리하는 마케터를 지원하는 AI 기반 기능인 과제 관리 기술을 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496543/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
+
+## 참조 -
+
+- [Journey Agent](../../../../agents/ajo-agent.md)(여정 만들기, 분석 및 시뮬레이션과 같은 동료 채팅을 통해 사용할 수 있는 기타 AJO AI 기능)
+- Adobe Journey Optimizer 설명서의 [충성도 과제 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#loyalty-challenge-management){target="_blank"}.
+- [더 많은 동료 채팅 사용 사례](../overview.md#journeys)
