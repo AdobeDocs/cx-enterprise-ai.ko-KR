@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 19%
+source-wordcount: '339'
+ht-degree: 18%
 ---
 
 # CX Enterprise의 AI {#experience-cloud-ai}
@@ -51,6 +51,7 @@ ht-degree: 19%
         - [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [트렌드 및 근본 원인 탐색](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - 대상자 {#audiences}
         - [플랫폼 상태 평가 및 대상 구축](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 여정 {#journeys}
@@ -98,6 +99,6 @@ ht-degree: 19%
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
