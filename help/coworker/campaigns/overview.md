@@ -1,28 +1,28 @@
 ---
-description: 단일 프롬프트를 리뷰 준비 캠페인으로 만드는 AI 기반 마케팅 애플리케이션인 Adobe CX Enterprise Coworker 캠페인에 대해 알아봅니다.
+description: 단일 프롬프트를 검토 준비 캠페인으로 변환하는 AI 기반 마케팅 애플리케이션인 Adobe CX Enterprise Coworker 캠페인에 대해 알아봅니다.
 title: Adobe CX Enterprise Coworker 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
 # Adobe CX Enterprise Coworker 캠페인 개요 {#overview}
 
 Coworker Campaigns는 단일 프롬프트에서 검토 준비가 완료된 전체 캠페인으로 안내하는 AI 기반 마케팅 애플리케이션입니다.
 
-현재 AI와의 모든 상호 작용은 [캠페인 생성] (./)을 안내합니다. 더 많은 기능이 곧 제공될 예정입니다.
+현재 AI와의 모든 상호 작용은 [캠페인 생성](/help/coworker/campaigns/create-an-email-campaign.md)을 안내합니다. 더 많은 기능이 곧 제공될 예정입니다.
 
 ## 액세스 방법
 
 >[!NOTE]
 >
->동료 캠페인은 2026년 10월 1일까지 무료 평가판을 통해 이용할 수 있습니다. 체험판 동안 모든 에셋 및 활동은 사용자에게만 해당됩니다.
+>동료 캠페인은 2026년 12월 31일까지 무료 평가판을 통해 이용할 수 있습니다. 체험판 동안 모든 에셋 및 활동은 사용자에게만 해당됩니다.
 
 1. coworker-campaigns.experience.adobe.com으로 이동합니다.
 
@@ -104,7 +104,7 @@ Coworker Campaigns 인터페이스는 왼쪽 탐색을 중심으로 구성됩니
 
 동료 캠페인 은 현재 개발 중인 제품입니다. 다음은 로그인하는 데 알아야 할 사항입니다.
 
-- **평가판 기간**: 이제 2026년 10월 1일까지.
+- **평가판 기간**: 2026년 12월 31일까지.
 - **수락 필요**: 제품에 액세스하기 전에 평가판을 검토하고 동의해야 합니다.
 - **지역**: 현재 무료 평가판은 북미의 사용자만 사용할 수 있습니다.
 - **대상**: 대상이 CSV를 통해 업로드됩니다. 모든 대상자는 각자의 캠페인에 따라 다릅니다(현재 환경의 다른 곳에는 저장되지 않음).
@@ -114,7 +114,7 @@ Coworker Campaigns 인터페이스는 왼쪽 탐색을 중심으로 구성됩니
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3492812?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 새로운 기능은 평가판 중에 제공됩니다. 여러분의 피드백은 다음에 나올 것을 형성하는 데 도움이 됩니다. 헤더의 제품 내 피드백 아이콘을 통해 피드백을 제출합니다.

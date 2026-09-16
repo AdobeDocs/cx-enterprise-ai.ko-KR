@@ -1,31 +1,20 @@
 ---
 title: Adobe CX Enterprise Coworker 정보
-description: Adobe CX Enterprise Coworker를 사용하여 마케팅을 한 단계 업그레이드하는 방법에 대해 알아봅니다.
+description: Adobe CX Enterprise Coworker을 사용하여 마케팅을 한 단계 업그레이드하는 방법에 대해 알아봅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
+    internal-label: CX Enterprise Coworker
+source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '202'
 ht-degree: 3%
-
 ---
-
 # Adobe CX Enterprise Coworker 정보
 
 동료는 AI가 지원하는 팀 동료로 조직, 팀, 개인의 업무 성격을 재구상한다. Coworker는 고객 경험과 마케팅 워크플로우를 우아하게 자동화하여 조직에서 작업을 조정하지 않고 비즈니스 목표를 실현하고 결과를 전환하는 데 집중할 수 있도록 합니다. Coworker는 에이전시 엔진으로서 비즈니스 프로세스를 자동화하는 혁신적인 새로운 접근 방식을 채택하고 있습니다. 엔터프라이즈 컨텍스트, 거버넌스 및 인적 감독이 내장된 데이터, 인텔리전스, 협업 및 에이전트 기술 실행을 통합함으로써 AI 모델 성능과 정확성을 향상시킵니다.
-
-## 캠페인
-
-동료 캠페인은 소규모 애자일 팀이 캠페인을 시작하고 실행할 수 있는 임시 기능입니다.
-
-* [개요](./campaigns/overview.md)
-* [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
-* [사용 사례](./campaigns/use-cases.md)
-* [프롬프트 우수 사례](./campaigns/prompting-best-practices.md)
-* [Marketo Engage에 연결](./campaigns/connectors/marketo.md)
-* [Hubspot에 연결](./campaigns/connectors/hubspot.md)
 
 ## 채팅
 
@@ -38,3 +27,14 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 ## 프로젝트(준비 중)
 
 Coworker Projects는 엔드 투 엔드 고객 경험 오케스트레이션 워크플로를 자동화하는 통합 작업 영역으로서, 팀이 작업, 승인 및 실행을 조정하여 전략에서 전달까지 성과를 얻을 수 있도록 지원합니다.
+
+## 캠페인
+
+동료 캠페인은 소규모 애자일 팀이 캠페인을 시작하고 실행할 수 있는 임시 기능입니다.
+
+* [개요](./campaigns/overview.md)
+* [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
+* [사용 사례](./campaigns/use-cases.md)
+* [프롬프트 우수 사례](./campaigns/prompting-best-practices.md)
+* [Marketo Engage에 연결](./campaigns/connectors/marketo.md)
+* [Hubspot에 연결](./campaigns/connectors/hubspot.md)
