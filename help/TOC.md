@@ -6,13 +6,11 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '333'
 ht-degree: 19%
-
 ---
-
 
 # CX Enterprise의 AI {#experience-cloud-ai}
 
@@ -42,6 +40,7 @@ ht-degree: 19%
       - [기술이란?](./coworker/customizations/skills/what-are-skills.md)
       - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
       - [품질 게이트 스킬 구축 및 실행](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [기술 관리 및 반복](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
     - [UI 안내서](./coworker/chat/ui-guide.md)
@@ -56,6 +55,7 @@ ht-degree: 19%
         - [플랫폼 상태 평가 및 대상 구축](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 여정 {#journeys}
         - [자연어를 사용하여 여정 만들기](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - 충성도 {#loyalty}
         - [충성도 과제 및 잠재 고객 인사이트 만들기](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 최적화 {#optimization}
         - [Target 활동 시작](./coworker/chat/use-cases/optimization/target.md)

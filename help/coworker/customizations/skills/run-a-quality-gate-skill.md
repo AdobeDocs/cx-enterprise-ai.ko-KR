@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # 사용자 정의 AI 스킬을 사용하여 품질 게이트 스킬 구축 및 실행
 
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## 게이트 1: 억제 / 동의
  
 > 조직의 비표시 및 동의 요구 사항과 일치하도록 이 섹션을 편집합니다.
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## 게이트 2: 주파수 상한
 
 > 조직의 배달 빈도 요구 사항과 일치하도록 이 섹션을 편집합니다.
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## 게이트 3: 명명 규칙
  
@@ -178,10 +168,6 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## 지침
 
 ### &#x200B;1. 괄호로 묶인 섹션만 사용자 정의
@@ -196,8 +182,6 @@ When blocked on naming, always propose a compliant replacement name.
 - 게이트 평가
 - 스코어카드 렌더링
 - 평결 논리
-
-&#x200B;---
 
 
 ### &#x200B;2. 사전 요구 사항 확인
@@ -214,8 +198,6 @@ When blocked on naming, always propose a compliant replacement name.
 - 데이터 테이블 렌더링
 
 고객 환경에서 이러한 기능을 사용할 수 없는 경우 스킬을 설계된 대로 실행할 수 없습니다.
-
-&#x200B;---
 
 ### &#x200B;3. 읽기 전용 스킬 유지
 
