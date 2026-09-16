@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '333'
 ht-degree: 19%
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 19%
       - [기술이란?](./coworker/customizations/skills/what-are-skills.md)
       - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
       - [품질 게이트 스킬 구축 및 실행](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [기술 관리 및 반복](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
     - [UI 안내서](./coworker/chat/ui-guide.md)
@@ -90,13 +91,13 @@ ht-degree: 19%
   - 시작하기 {#mcp-get-started}
     - [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md)
     - [CX Coworker Gateway 설치](./mcp/install.md)
-    - [CX Coworker 게이트웨이의 세션 컨텍스트 도구](./mcp/context-tools.md)
+    - [CX Coworker 게이트웨이의 세션 컨텍스트 툴](./mcp/context-tools.md)
   - 제품 도구 {#mcp-product-tools}
     - [Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
     - [Experience Platform 도구](./mcp/aep-mcp.md)
     - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
