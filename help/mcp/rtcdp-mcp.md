@@ -1,13 +1,12 @@
 ---
 title: CX Coworker Gateway의 Real-Time CDP 툴
 description: MCP 서버를 사용하여 Adobe Real-Time CDP을 MCP 클라이언트에 연결하는 방법에 대해 알아봅니다.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 3%
-
 ---
-
 # CX Coworker Gateway의 Real-Time CDP 툴 {#rtcdp-mcp}
 
 Real-Time CDP MCP 제품 도구를 사용하여 MCP 호환 클라이언트에서 대상, 대상, 소스, ID 네임스페이스 및 활성화 상태를 검사할 수 있습니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Real-Time CDP 권한이 있는 경우 통합 [CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.

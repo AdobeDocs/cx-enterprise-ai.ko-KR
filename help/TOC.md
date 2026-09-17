@@ -6,7 +6,7 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 18%
@@ -87,18 +87,18 @@ ht-degree: 18%
   - 데이터 엔지니어링 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Coworker 게이트웨이](./mcp/overview.md)
+  - {hide-from-toc}[Adobe CX Coworker 게이트웨이](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP 베타](./mcp/beta/rtcdp-mcp.md)
   - 시작하기 {#mcp-get-started}
-    - [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md)
-    - [CX Coworker Gateway 설치](./mcp/install.md)
-    - [CX Coworker 게이트웨이의 세션 컨텍스트 툴](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker 게이트웨이 도구 액세스](./mcp/access.md)
+    - {hide-from-toc}[CX Coworker 게이트웨이 설치](./mcp/install.md)
+    - {hide-from-toc}[CX Coworker 게이트웨이의 세션 컨텍스트 도구](./mcp/context-tools.md)
   - 제품 도구 {#mcp-product-tools}
-    - [Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
-    - [Experience Platform 도구](./mcp/aep-mcp.md)
-    - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
-    - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform 도구](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
