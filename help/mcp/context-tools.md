@@ -1,20 +1,19 @@
 ---
-title: CX Coworker 게이트웨이의 세션 컨텍스트 툴
-description: 모든 CX Coworker Gateway 툴 호출에 대한 조직, 샌드박스 및 데이터 보기 컨텍스트를 설정하는 핵심 도구에 대해 알아봅니다.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: CX Coworker 게이트웨이의 세션 컨텍스트 도구
+description: 모든 CX Coworker 게이트웨이 도구 호출에 대한 조직, 샌드박스 및 데이터 보기 컨텍스트를 설정하는 핵심 도구에 대해 알아봅니다.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
-
 ---
-
 # Adobe CX Coworker Gateway의 세션 컨텍스트 도구 {#mcp-core}
 
-Adobe CX Coworker Gateway에는 다른 모든 제품 도구가 내에서 작동하는 Adobe 조직, Adobe Experience Platform 샌드박스 및 Customer Journey Analytics 데이터 보기를 설정하는 세션 컨텍스트 도구 세트가 포함되어 있습니다. 추가 라이선스 또는 활성화가 필요하지 않습니다. 이러한 도구는 [CX Coworker Gateway 서버](overview.md)에 연결한 후 인증된 모든 사용자가 사용할 수 있습니다.
+Adobe CX Coworker 게이트웨이에는 다른 모든 제품 도구가 내에서 작동하는 Adobe 조직, Adobe Experience Platform 샌드박스 및 Customer Journey Analytics 데이터 보기를 설정하는 세션 컨텍스트 도구 세트가 포함되어 있습니다. 추가 라이선스 또는 활성화가 필요하지 않습니다. 이러한 도구는 [CX Coworker 게이트웨이 서버](overview.md)에 연결한 후 인증된 모든 사용자가 사용할 수 있습니다.
 
 ## 컨텍스트 작동 방식 {#mcp-core-how}
 
-CX Coworker Gateway는 모든 툴 호출을 하나의 활성 Adobe 조직에 연결합니다. 그 외에도 컨텍스트 요구 사항은 제품에 따라 다릅니다.
+CX Coworker 게이트웨이는 모든 도구 호출의 범위를 하나의 활성 Adobe 조직으로 지정합니다. 그 외에도 컨텍스트 요구 사항은 제품에 따라 다릅니다.
 
 - **Experience Platform 기반 제품** — [Real-Time CDP](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) 및 [Journey Optimizer](ajo-mcp.md) 도구는 Experience Platform 샌드박스 내에서 작동합니다. `core-set_sandbox`을(를) 사용하여 세션당 한 번씩 샌드박스를 설정합니다. 세 개 모두 샌드박스를 공유합니다.
 - **기타 제품** — Experience Platform에 빌드되지 않은 제품은 샌드박스 컨텍스트를 사용하지 않습니다. 예를 들어 [Customer Journey Analytics](cja-mcp.md) 도구는 데이터 보기에 대해 확인되며 [Adobe Analytics](analytics-mcp.md) 도구는 보고서 세트에 대해 확인됩니다.
@@ -65,4 +64,4 @@ MCP 클라이언트에게 단일 자연어 요청으로 이 설정을 완료하�
 ## 관련 페이지 {#mcp-core-related}
 
 - [Adobe CX Coworker Gateway 설치](install.md) - 제품 컨텍스트 설정 섹션을 포함하여 MCP 클라이언트를 연결하는 방법입니다.
-- [CX Coworker 게이트웨이 도구 액세스](access.md) — 제품별 액세스 요구 사항.
+- [CX Coworker 게이트웨이 도구 액세스](access.md) — 제품별 액세스 요구 사항입니다.

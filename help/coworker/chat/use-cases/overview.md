@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2f1f6aa3aa3eff13fa932bb8500476371e9be705
+source-git-commit: db8f6b723110d86fc3bd65f2e1f5ab3047157e8f
 workflow-type: tm+mt
-source-wordcount: '4802'
+source-wordcount: '4800'
 ht-degree: 6%
 ---
 # 동료 채팅 사용 사례{#use-cases}
@@ -149,7 +149,7 @@ ht-degree: 6%
 | 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
 | 여정 예외 항목 탐지 | 과거 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급감, 강하 또는 평면선을 감지하고 확인하여 가능한 근본 원인을 표시합니다 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;어제 환영 여정에 대한 항목이 왜 떨어졌습니까?&quot; <br> &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot; |
 
-여정을 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 여정 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}를 참조하세요.
+여정을 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 여정 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}를 참조하세요.
 
 ## 충성도
 
@@ -158,7 +158,7 @@ ht-degree: 6%
 | 충성도 문제 생성, 편집 및 관리 | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 유도하는 문제를 만드십시오.&quot; <br> &quot;회원 감소율이 가장 높은 충성도 문제를 보여 주십시오.&quot; |
 | 충성도 프로그램 성과 분석 | 자연어를 사용하여 충성도 포인트, 멤버 계층, 환급 및 매출 지표를 쿼리하고 분석합니다. | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;2026년 8월 중에 충성도 포인트를 몇 개나 부여받았습니까?&quot; <br> &quot;충성도 프로그램의 총 수입을 2026년 8월 중 일별로 분류하여 표시합니다.&quot; |
 
-충성도를 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 충성도 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}를 참조하세요.
+충성도를 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 충성도 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}를 참조하세요.
 
 ## 최적화
 

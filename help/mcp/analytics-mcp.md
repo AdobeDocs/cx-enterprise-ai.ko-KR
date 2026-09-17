@@ -1,16 +1,15 @@
 ---
-title: CX Coworker Gateway의 Adobe Analytics 툴
+title: CX Coworker 게이트웨이의 Adobe Analytics 도구
 description: Adobe CX Coworker Gateway를 통해 사용할 수 있는 Adobe Analytics 도구에 대해 알아봅니다.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
+# Adobe CX Coworker Gateway의 Adobe Analytics 도구 {#aa-mcp}
 
-# Adobe CX Coworker Gateway의 Adobe Analytics 툴 {#aa-mcp}
-
-Adobe Analytics 도구를 사용하여 보고서 세트를 탐색하고, 차원과 지표를 검색하고, 보고서를 실행하고, MCP 호환 클라이언트에서 선택한 Analytics 구성 요소를 관리할 수 있습니다. 이러한 도구는 계정에 필요한 Adobe Analytics 라이선스 및 권한이 있을 때 통합 [Adobe CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
+Adobe Analytics 도구를 사용하여 보고서 세트를 탐색하고, 차원과 지표를 검색하고, 보고서를 실행하고, MCP 호환 클라이언트에서 선택한 Analytics 구성 요소를 관리할 수 있습니다. 이러한 도구는 계정에 필요한 Adobe 라이선스 및 권한이 있을 때 통합 [Adobe Analytics CX Coworker 게이트웨이](overview.md)를 통해 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >

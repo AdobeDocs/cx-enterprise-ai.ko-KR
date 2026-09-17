@@ -1,14 +1,15 @@
 ---
-title: CX Coworker Gateway의 Journey Optimizer 툴
-description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Journey Optimizer 툴에 대해 알아봅니다.
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+title: CX Coworker 게이트웨이의 Journey Optimizer 도구
+description: CX Coworker 게이트웨이를 통해 사용 가능한 Adobe Journey Optimizer 도구를 알아봅니다.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 2%
 ---
-# CX Coworker Gateway의 Adobe Journey Optimizer 툴 {#ajo-mcp}
+# CX Coworker Gateway의 Adobe Journey Optimizer 도구 {#ajo-mcp}
 
-Adobe Journey Optimizer 제품 도구를 사용하여 MCP 호환 클라이언트에서 캠페인, 여정 및 채널 구성을 검사합니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Journey Optimizer 권한이 있는 경우 [CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
+Adobe Journey Optimizer 제품 도구를 사용하여 MCP 호환 클라이언트에서 캠페인, 여정 및 채널 구성을 검사합니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Journey Optimizer 권한이 있는 경우 [CX Coworker 게이트웨이](overview.md)를 통해 사용할 수 있습니다.
 
 자세한 내용은 Adobe Journey Optimizer 설명서에서 [MCP 클라이언트 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}을 참조하십시오.
 
@@ -66,7 +67,7 @@ Journey Optimizer 도구는 캠페인, 여정 및 채널 구성 검토를 위한
 
 위의 읽기 전용 제품 도구 외에도 Journey Optimizer 사용자는 자연어 프롬프트를 사용하여 CX Coworker에서 직접 콘텐츠 자산(콘텐츠 템플릿, 조각, 랜딩 페이지, 여정 또는 캠페인 인라인 메시지 콘텐츠)을 검색하고 관리할 수 있습니다. 이 기능은 Journey Optimizer 콘텐츠용 읽기 및 쓰기 가능한 별도의 MCP 도구 세트를 통해 제공되며 CX Coworker에 액세스할 수 있는 모든 고객이 사용할 수 있습니다.
 
-자세한 내용은 Adobe Journey Optimizer 설명서에서 [콘텐츠 관리 도구](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}를 참조하십시오.
+자세한 내용은 Adobe Journey Optimizer 설명서에서 [콘텐츠 관리 도구](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}를 참조하십시오.
 
 컨텐츠 관리 도구를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 

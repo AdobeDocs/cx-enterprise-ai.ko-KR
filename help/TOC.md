@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 19%
+source-wordcount: '339'
+ht-degree: 18%
 ---
 
 # CX Enterprise의 AI {#experience-cloud-ai}
@@ -25,22 +25,6 @@ ht-degree: 19%
   - [생성 AI 콘텐츠 투명도](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [동료 기본 정보](./coworker/overview.md)
-  - 캠페인 {#campaigns}
-    - [개요](./coworker/campaigns/overview.md)
-    - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
-    - [사용 사례](./coworker/campaigns/use-cases.md)
-    - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA 메타데이터](./coworker/campaigns/c2pa-metadata.md)
-    - 커넥터 {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [릴리스 정보](./coworker/campaigns/release-notes.md)
-  - 사용자 지정 {#customizations}
-    - 기술 {#skills}
-      - [기술이란?](./coworker/customizations/skills/what-are-skills.md)
-      - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
-      - [품질 게이트 스킬 구축 및 실행](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [기술 관리 및 반복](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 채팅 {#chat}
     - [개요](./coworker/chat/overview.md)
     - [UI 안내서](./coworker/chat/ui-guide.md)
@@ -51,6 +35,7 @@ ht-degree: 19%
         - [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [트렌드 및 근본 원인 탐색](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - 대상자 {#audiences}
         - [플랫폼 상태 평가 및 대상 구축](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 여정 {#journeys}
@@ -66,6 +51,22 @@ ht-degree: 19%
       - 콘텐츠 관리자 {#content-advisor}
         - [마케팅 에셋 생성](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [브랜드 준수 검사](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+  - 사용자 지정 {#customizations}
+    - 기술 {#skills}
+      - [기술이란?](./coworker/customizations/skills/what-are-skills.md)
+      - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
+      - [품질 게이트 스킬 구축 및 실행](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [기술 관리 및 반복](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+  - 캠페인 {#campaigns}
+    - [개요](./coworker/campaigns/overview.md)
+    - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
+    - [사용 사례](./coworker/campaigns/use-cases.md)
+    - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
+    - [C2PA 메타데이터](./coworker/campaigns/c2pa-metadata.md)
+    - 커넥터 {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
+    - [릴리스 정보](./coworker/campaigns/release-notes.md)
 - AI 어시스턴트 {#ai-assistant}
   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
   - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
@@ -86,18 +87,18 @@ ht-degree: 19%
   - 데이터 엔지니어링 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Coworker 게이트웨이](./mcp/overview.md)
+  - {hide-from-toc}[Adobe CX Coworker 게이트웨이](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP 베타](./mcp/beta/rtcdp-mcp.md)
   - 시작하기 {#mcp-get-started}
-    - [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md)
-    - [CX Coworker Gateway 설치](./mcp/install.md)
-    - [CX Coworker 게이트웨이의 세션 컨텍스트 툴](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker 게이트웨이 도구 액세스](./mcp/access.md)
+    - {hide-from-toc}[CX Coworker 게이트웨이 설치](./mcp/install.md)
+    - {hide-from-toc}[CX Coworker 게이트웨이의 세션 컨텍스트 도구](./mcp/context-tools.md)
   - 제품 도구 {#mcp-product-tools}
-    - [Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
-    - [Experience Platform 도구](./mcp/aep-mcp.md)
-    - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
-    - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
+    - {hide-from-toc}[Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform 도구](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
 

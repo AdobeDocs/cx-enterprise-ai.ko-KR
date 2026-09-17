@@ -1,7 +1,8 @@
 ---
 title: CX Coworker 게이트웨이 도구 액세스
 description: Adobe CX Coworker Gateway 도구를 사용하기 전에 제품 가용성, 조직 지원 및 권한을 확인하십시오.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 4%

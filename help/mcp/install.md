@@ -1,16 +1,15 @@
 ---
 title: Adobe CX Coworker Gateway 설치
 description: MCP 호환 클라이언트를 Adobe CX Coworker Gateway에 연결하는 방법에 대해 알아봅니다.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
-
 # Adobe CX Coworker Gateway 설치 {#mcp-install}
 
-MCP 호환 클라이언트를 Adobe CX Coworker Gateway에 연결하는 방법에 대해 알아보려면 이 안내서를 참조하십시오.  CX Coworker Gateway는 문서화된 모든 제품 툴에 하나의 엔드포인트를 사용합니다.
+MCP 호환 클라이언트를 Adobe CX Coworker Gateway에 연결하는 방법에 대해 알아보려면 이 안내서를 참조하십시오.  CX Coworker Gateway는 문서화된 모든 제품 도구에 대해 하나의 엔드포인트를 사용합니다.
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
@@ -20,7 +19,7 @@ https://cx-coworker-gateway.adobe.io/mcp
 
 ## 설치 작동 방식 {#mcp-install-how}
 
-CX Coworker Gateway는 브라우저 기반 Adobe 로그인 플로우와 함께 원격 HTTP 전송을 사용합니다. 지원되는 모든 클라이언트에서는 설정 패턴이 동일합니다.
+CX Coworker 게이트웨이는 브라우저 기반 Adobe 로그인 흐름으로 원격 HTTP 전송을 사용합니다. 지원되는 모든 클라이언트에서는 설정 패턴이 동일합니다.
 
 1. 끝점 URL `https://cx-coworker-gateway.adobe.io/mcp`을(를) 추가합니다.
 2. 연결을 저장하거나 활성화합니다.
@@ -104,7 +103,7 @@ CX Coworker Gateway는 브라우저 기반 Adobe 로그인 플로우와 함께 �
 3. 서버 URL로 `https://cx-coworker-gateway.adobe.io/mcp`을(를) 입력하십시오.
 4. **연결**&#x200B;을 선택하고 Adobe 로그인 흐름을 완료합니다.
 
-연결 후 Cursor&#39;s Composer 및 Agent 모드에서 Adobe for CX Coworker Gateway 도구라는 제목이 제공됩니다.
+연결 후 Cursor&#39;s Composer 및 Agent 모드에서 CX Coworker Gateway 도구용 Adobe 라는 제목을 사용할 수 있습니다.
 
 ### 클로드 코드 {#mcp-install-individual-claude-code}
 
