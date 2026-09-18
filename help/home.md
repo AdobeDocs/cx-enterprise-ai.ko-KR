@@ -2,6 +2,9 @@
 title: CX Enterprise 애플리케이션의 AI
 description: CX 엔터프라이즈 애플리케이션이 생성 AI(GenAI), CX Enterprise Coworker, AI Assistant, Agentic AI 및 MCP 도구를 사용하는 방법을 알아봅니다.
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
+source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 3%
+source-wordcount: '962'
+ht-degree: 2%
 ---
-# CX Enterprise의 AI
+# CX Enterprise 애플리케이션의 AI
 
-이 안내서에서는 Adobe CX Enterprise의 AI 기능인 생성 AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, Experience Platform 에이전트 및 MCP를 다룹니다.
+이 안내서에서는 Adobe CX Enterprise의 AI 기능인 생성 AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator 및 MCP를 다룹니다.
 
 ## AI 기능 개요
 
@@ -44,12 +47,12 @@ ht-degree: 3%
 
 ## Coworker
 
-동료는 고객 경험과 마케팅 워크플로를 자동화하는 AI 비서의 에이전트 우선 진화로, 팀이 일상적인 실행 대신 비즈니스 목표에 집중할 수 있도록 합니다. 한 번에 한 질문씩 던지는 대신 목표를 설명한다. 동료는 사용자의 승인을 위해 완료된 작업을 계획, 실행, 검증 및 반환합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
+동료는 고객 경험과 마케팅 워크플로를 자동화하는 AI 비서의 에이전트 우선 진화로, 팀이 일상적인 실행 대신 비즈니스 목표에 집중할 수 있도록 합니다. 한 번에 한 질문씩 던지는 대신 목표를 설명한다. 동료는 사용자의 승인을 위해 완료된 작업을 계획, 실행, 검증 및 반환합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
 
 동료는 다음과 같습니다.
 
-- **[공동 작업자 채팅](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX 엔터프라이즈 애플리케이션에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
-- **[팀용 Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**(이전 _Coworker 캠페인_): 캠페인 브리핑, 대상 구축, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
+- **[공동 작업자 채팅](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX 엔터프라이즈 애플리케이션에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
+- **[팀용 Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**(이전 _Coworker 캠페인_): 캠페인 브리핑, 대상 구축, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
 - **공동 작업자 프로젝트**(준비 중): 엔드 투 엔드 고객 경험 오케스트레이션 워크플로우를 자동화하고, 팀이 작업, 승인 및 실행을 조정하여 전략에서 게재를 통한 결과를 도출하는 데 도움이 되는 통합 작업 영역입니다. 프로젝트 설명서가 곧 제공됩니다.
 
 적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다. 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [동료 평가판](./agents/trial.md)을 읽어 보십시오.
@@ -91,20 +94,12 @@ ht-degree: 3%
 - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
 - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-- [!DNL Workfront] 도구, [Workfront MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)에 문서화되어 있음
-- [!DNL Target] 도구, [Target MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)에 문서화되어 있습니다.
+- [!DNL Workfront] 도구, [Workfront MCP 서버 안내서](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)에 문서화되어 있음
+- [!DNL Target] 도구, [Target MCP 서버 안내서](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)에 문서화되어 있습니다.
 
 CX Coworker Gateway를 처음 사용하십니까? 연결하려면 [CX Coworker Gateway 도구 액세스](./mcp/access.md) 및 [CX Coworker Gateway 설치](./mcp/install.md)를 참조하십시오. 연결되면 제품 도구를 호출하기 전에 [세션 컨텍스트 도구](./mcp/context-tools.md)를 사용하여 활성 조직, 샌드박스 및 데이터 보기를 설정합니다.
 
-## 시작하기
-
-### 액세스 요구 사항
-
-AI Assistant 및 Experience Platform 에이전트를 사용하려면 Adobe 관리자가 적절한 권한을 부여해야 합니다. 요구 사항은 애플리케이션에 따라 다릅니다. 자세한 내용은 Agent Orchestrator 안내서의 [액세스](./agents/agent-orchestrator.md#access)를 참조하십시오.
-
-### 개인정보보호 및 보안
-
-AI Assistant 및 Experience Platform 에이전트는 샌드박스별 데이터 격리와 기존 액세스 제어 정책을 포함하여 개인 정보, 보안 및 거버넌스의 우선순위를 지정합니다. 자세한 내용은 [AI Assistant의 개인 정보, 보안 및 거버넌스](./ai-assistant/privacy.md)를 참조하십시오.
+이러한 도구를 사용하기 전에 액세스 요구 사항 및 개인 정보 보호 및 보안 고려 사항에 대해서는 [시작하기 전에](./overview/overview-ai-cxe.md#before-you-begin)를 참조하십시오.
 
 ## 모범 사례
 
