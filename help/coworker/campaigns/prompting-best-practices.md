@@ -3,18 +3,22 @@ description: CO-STAR 프레임워크, 실행 및 금지 사항, 지원되지 않
 title: 프롬프트 모범 사례
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '687'
 ht-degree: 1%
-
 ---
-
 # 프롬프트 우수 사례 {#best-practices}
 
 동료 캠페인을 최대한 활용하는 방법은 메시지를 표시하는 방법에서부터 시작됩니다. 최상의 결과를 생성하는 사례, 즉 프롬프트를 구성하기 위한 CO-STAR 프레임워크, 무엇을 포함하고 무엇을 피해야 하는지, AI에게 적절한 온타겟 콘텐츠를 생성하는 데 필요한 컨텍스트를 제공하는 시나리오 기반 예제에 대해 알아봅니다.
+
+>[!NOTE]
+>
+>현재 Coworker Campaign에서 지원하는 통합에만 연결할 수 있습니다.  대상을 저장하거나 여정을 빌드하는 기존 Adobe 엔터프라이즈 응용 프로그램이 있는 경우 대신 [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)을 사용하는 것이 좋습니다.
 
 ## CO-STAR 프레임워크 사용 {#costar-framework}
 
@@ -56,9 +60,21 @@ ht-degree: 1%
 </tbody>
 </table>
 
+### 프롬프트에서 지원되는 콘텐츠
+
+시각적/이미지 수정에는 **전자 메일 편집기** 또는 **Adobe Express**&#x200B;을(를) 사용하십시오. 지원되는 요청 유형은 다음과 같습니다.
+
+- **캠페인의 빈도와 케이던스를 지정하십시오**: &quot;매주 전송되는 전자 메일 캠페인을 만듭니다...&quot;
+
+- **더 큰 목록에서 특정 대상을 타깃팅하세요**: &quot;공원에서 _짖기_ 이벤트를 위해 반려견을 가진 참석자만 &#39;all-expeditions.csv&#39;에서 캠페인을 만드세요.&quot;
+
+- **HTML 파일 업로드**: &quot;첨부된 HTML 파일을 기본으로 사용하여 이메일 캠페인을 만드십시오.&quot;
+
+- **대화 중간에 변경**: &quot;이 캠페인이 2일에서 3일로 끝나기 전 일 수를 변경합니다.&quot;
+
 ### 프롬프트에서 지원되지 않는 콘텐츠
 
-시각적/이미지 수정에는 **전자 메일 편집기** 또는 **Adobe Express**&#x200B;을(를) 사용하십시오. 이러한 요청은 지원되지 않으며 다른 도구를 통해 처리해야 합니다.
+이러한 요청은 **지원되지 않습니다** 다른 도구를 통해 처리되어야 합니다.
 
 <table style="table-layout: fixed; border: 0;">
 <thead style="border: 0; background-color: #FFFFFF">
@@ -114,6 +130,10 @@ ht-degree: 1%
 
 AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 제안을 제공하십시오.
 
+>[!NOTE]
+>
+>현재 이메일 캠페인만 생성하고 실행할 수 있지만 항상 Coworker에 소셜 미디어, WhatsApp 또는 SMS용 사본을 생성하도록 요청할 수 있습니다.
+
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
@@ -124,19 +144,19 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 <tbody>
 <tr>
 <td><strong>B2B 기술</strong></td>
-<td>"99.9%의 가동 시간 SLA, SOC 2 규정 준수 및 40%의 비용 절감을 강조하면서 IT 의사 결정자가 당사의 클라우드 인프라 솔루션을 평가하는 보안 문제를 해결하는 동시에 ROI 및 기술 사양을 입증하는 캠페인을 생성합니다."</td>
+<td>"ROI와 기술 사양을 보여 주는 4터치 이메일 캠페인을 생성하는 동시에 IT 의사 결정자가 당사의 클라우드 인프라 솔루션을 평가하는 보안 문제를 해결하고 99.9%의 가동 시간 SLA, SOC 2 규정 준수 및 40%의 비용 절감을 강조합니다."</td>
 </tr>
 <tr>
 <td><strong>전자 상거래 소매</strong></td>
-<td>"제한된 수량(남은 수량 50개 미만) 및 24시간 배송 컷오프를 강조하면서 막판 구매자를 위해 무료 배송 및 간편한 반품을 강조 표시하는 동시에 제한된 재고 휴일 항목에 대한 긴급성을 창출하는 캠페인을 생성합니다."</td>
+<td>"제한된 수량(50개 미만 남은 수량) 및 24시간 배송 차단을 강조하면서 막판 구매자를 위해 무료 배송 및 간편한 반품을 강조 표시하는 동시에 제한된 재고 휴일 항목에 대한 긴급성을 창출하기 위한 단일 터치 캠페인을 생성합니다."</td>
 </tr>
 <tr>
 <td><strong>교육 및 훈련</strong></td>
-<td>92%의 취업률을 강조하는 강사 전문성과 프로젝트 중심 커리큘럼을 선보이면서 진로 진학 성과와 산업 인증을 강조하는 캠페인을 만든다.</td>
+<td>92%의 취업률을 강조하는 강사 전문성과 프로젝트 중심 커리큘럼을 선보이면서 진로 진학 성과와 업계 인증을 강조하는 투터치 캠페인을 생성한다.</td>
 </tr>
 <tr>
 <td><strong>컨설팅</strong></td>
-<td>"직원 수 1000명 이상인 회사의 IT 책임자를 대상으로, 세 가지 고객 성공 사례와 세부 ROI 지표(IBM: 45% 비용 절감, Accenture: 200% 리드 증가, Microsoft: 60% 시간 절감)를 소개하여 기업 잠재 고객을 육성하는 캠페인을 생성합니다."</td>
+<td>"1000명 이상의 직원을 보유한 기업의 IT 책임자를 대상으로 세부 ROI 지표(IBM: 45% 비용 절감, Accenture: 200% 리드 증가, Microsoft: 60% 시간 절감)를 포함한 3가지 고객 성공 사례를 제시하여 기업 잠재 고객을 육성하기 위한 3터치 캠페인을 생성합니다."</td>
 </tr>
 </tbody>
 </table>

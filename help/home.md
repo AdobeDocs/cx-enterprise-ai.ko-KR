@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+source-git-commit: 81c51c896a10559db58c6389a08f9c84b96ef73c
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '960'
 ht-degree: 2%
 ---
 # CX Enterprise 애플리케이션의 AI
@@ -52,14 +52,14 @@ ht-degree: 2%
 동료는 다음과 같습니다.
 
 - **[공동 작업자 채팅](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX 엔터프라이즈 애플리케이션에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
-- **[팀용 Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**(이전 _Coworker 캠페인_): 캠페인 브리핑, 대상 구축, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
+- **[공동 작업자 캠페인](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
 - **공동 작업자 프로젝트**(준비 중): 엔드 투 엔드 고객 경험 오케스트레이션 워크플로우를 자동화하고, 팀이 작업, 승인 및 실행을 조정하여 전략에서 게재를 통한 결과를 도출하는 데 도움이 되는 통합 작업 영역입니다. 프로젝트 설명서가 곧 제공됩니다.
 
 적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다. 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [동료 평가판](./agents/trial.md)을 읽어 보십시오.
 
 동료 채팅을 실제로 보려면 [플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)을 살펴보거나 [CJA 마이그레이션 데이터에 대한 AA 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) 및 [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)과 같은 실제 사용 사례를 읽어 보십시오.
 
-동료 채팅, 팀용 동료 및 프로젝트에 대한 전체 제품 설명서는 [동료](./coworker/overview.md)를 참조하세요. 샌드박스 간 개체 복제에 대해서는 [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)을 참조하십시오.
+동료 채팅, 팀용 동료(동료 캠페인) 및 프로젝트에 대한 전체 제품 설명서는 [동료](./coworker/overview.md)을(를) 참조하십시오. 샌드박스 간 개체 복제에 대해서는 [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)을 참조하십시오.
 
 ## AI 어시스턴트
 
