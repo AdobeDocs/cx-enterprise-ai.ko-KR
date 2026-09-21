@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 18%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 18%
         - [트렌드 및 근본 원인 탐색](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - 데이터 관리 {#data-management}
+        - [데이터 레이크 보존 관리](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - 대상자 {#audiences}
         - [플랫폼 상태 평가 및 대상 구축](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 여정 {#journeys}
@@ -77,6 +79,7 @@ ht-degree: 18%
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience 에이전트](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [데이터 관리 에이전트](./agents/data-management.md)
   - [실험 에이전트](./agents/agent-experiment.md)
   - [필드 검색 에이전트](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
@@ -100,6 +103,6 @@ ht-degree: 18%
     - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
