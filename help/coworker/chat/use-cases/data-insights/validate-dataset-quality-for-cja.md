@@ -8,18 +8,18 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
 ---
-# [!DNL Coworker]의 데이터 유효성 검사 기술을 사용하여 Customer Journey Analytics 데이터의 유효성 검사
+# [!DNL Coworker]의 데이터 유효성 검사 스킬로 Customer Journey Analytics 데이터의 유효성 검사
 
 데이터 품질은 Adobe Customer Journey Analytics(CJA)에서 정확한 보고를 하는 기반입니다. 지표, 대시보드, 세그먼트 또는 고객 여정을 작성하기 전에 기본 Adobe Experience Platform(AEP) 데이터를 신뢰할 수 있는지 여부를 이해하는 것이 중요합니다.
 
 이 비디오에서는 쿼리를 작성하거나 수동으로 데이터를 검사하지 않고도 **Coworker의 데이터 유효성 검사 기술**&#x200B;을 사용하여 Customer Journey Analytics 구현을 지원하는 데이터 세트의 품질을 빠르게 평가하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503524/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
 
 ## CJA 보고 이면의 데이터 세트 살펴보기
 
@@ -110,3 +110,4 @@ Customer Journey Analytics은 그 뒤의 데이터만큼 신뢰할 수 있을 �
 - 예기치 않은 지표의 문제를 보다 효율적으로 해결
 
 Coworker를 사용하면 자연어 프롬프트를 사용하여 이러한 검사를 시작할 수 있으므로 기술 사용자와 비기술 사용자가 데이터 유효성 검사에 보다 쉽게 액세스할 수 있습니다.
+
