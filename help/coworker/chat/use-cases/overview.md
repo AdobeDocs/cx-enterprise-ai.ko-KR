@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a1954d0dfe6a0db091e69725676e1da23a509e03
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5256'
+ht-degree: 5%
 ---
 # 동료 채팅 사용 사례{#use-cases}
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
->AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
+>AEM의 [AI - AEM의 Agentic 기능 개요](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)도 참조하세요.
 
 ## 브랜드 경험
 
@@ -43,9 +43,9 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - 사이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM의 에이전트 기능: 브랜드 경험 - 경험 프로덕션 - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 개발
 
@@ -58,7 +58,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 개발](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 온보딩
 
@@ -71,7 +71,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM의 에이전트 기능: 브랜드 경험 - 온보딩](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 콘텐츠 관리자
 
@@ -86,7 +86,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM의 에이전트 기능: Content Advisor - 콘텐츠 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 콘텐츠 최적화
 
@@ -98,7 +98,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM의 에이전트 기능: 콘텐츠 관리자 - 콘텐츠 최적화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 브랜드 거버넌스
 
@@ -110,7 +110,7 @@ ht-degree: 6%
 
 **관련 정보**
 
-* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM의 에이전트 기능: 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 데이터 인사이트
 
@@ -149,13 +149,16 @@ ht-degree: 6%
 | 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
 | 여정 예외 항목 탐지 | 과거 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급감, 강하 또는 평면선을 감지하고 확인하여 가능한 근본 원인을 표시합니다 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;어제 환영 여정에 대한 항목이 왜 떨어졌습니까?&quot; <br> &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot; |
 
-여정을 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 여정 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}를 참조하세요.
+여정을 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 여정 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}를 참조하세요.
 
 ## 마케팅 프로그램
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
-|---|---|---|---|---|
-| 프로그램 빌드 | 기존 프로그램 템플릿을 새 프로그램으로 조정하여 일반 언어 캠페인 설명 또는 업로드된 캠페인 개요에서 스마트 캠페인, 예약 및 자리 표시자 이메일을 생성합니다 | `build-programs` | Adobe Marketo Engage | &quot;8월 제품 데모에 대한 웨비나 등록 프로그램을 만드십시오.&quot;<br><br>&quot;잠재 고객이 50점을 달성하면 트리거되는 프로그램을 만드십시오.<br><br>&quot;비활성 잠재 고객에 대한 3개의 이메일 재참여 시리즈를 만드십시오.&quot; |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 프로그램 빌드 | 일반 언어 설명 또는 업로드한 개요에서 생성된 스마트 캠페인, 예약 및 자리 표시자 이메일을 사용하여 기존 프로그램 템플릿을 새 프로그램으로 조정 | `build-programs` | Adobe Marketo Engage | &quot;8월 제품 데모에 대한 웨비나 등록 프로그램을 만드십시오.&quot;<br><br>&quot;잠재 고객이 50점을 달성하면 트리거되는 프로그램을 만드십시오.<br><br>&quot;비활성 잠재 고객에 대한 3개의 이메일 재참여 시리즈를 만드십시오.&quot; |
+| 간단한 것에서 프로그램을 시작하다 | 일반 언어 개요 또는 업로드된 캠페인 문서를 작업 프로그램으로 바꿉니다. 가장 일치하는 템플릿을 복제하고 스마트 캠페인과 토큰을 이월하고 이벤트 세부 정보를 업데이트합니다. 검토할 수 있도록 새 스마트 캠페인이 비활성화된 상태로 남음 | `build-programs` | Adobe Marketo Engage | &quot;저는 9월 10일 시카고에서 웨비나를 개최합니다. 나를 위해 프로그램을 설정합니다.&quot;<br><br>&quot;이 개요에서 다음 달의 로드쇼 프로그램을 설정하고 이벤트 토큰을 업데이트합니다.&quot; |
+| 기존 프로그램 복제 및 조정 | 새 도시, 분기 또는 지역에 대한 이전 프로그램을 복사하고 날짜, 토큰 및 이름을 업데이트합니다. 하위 스마트 캠페인은 활성화될 때까지 이월되고 비활성화된 상태로 유지됩니다 | `build-programs` | Adobe Marketo Engage | &quot;10월 17일에 뉴욕에서의 마지막 분기 이벤트 프로그램을 복제하고 날짜와 토큰을 업데이트하십시오.&quot;<br><br>&quot;영국 대상의 시카고 로드쇼 프로그램을 복제합니다.&quot; |
+| 자격 논리를 사용하여 스마트 캠페인 구축 | 트리거 또는 일괄 스마트 캠페인을 만들고, 양식 작성 또는 점수 도달과 같은 스마트 목록 규칙을 추가하고, 이메일 전송과 같은 흐름 단계를 구성합니다 | `build-programs` | Adobe Marketo Engage | &quot;잠재 고객이 연락처 양식을 작성할 때 환영 이메일을 보내는 트리거 캠페인을 만듭니다.&quot;<br><br>&quot;50점을 기록한 잠재 고객에 대한 일괄 캠페인을 작성하고 이메일 보내기 단계를 추가합니다.&quot; |
 
 ## 충성도
 
@@ -164,7 +167,7 @@ ht-degree: 6%
 | 충성도 문제 생성, 편집 및 관리 | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 유도하는 문제를 만드십시오.&quot; <br> &quot;회원 감소율이 가장 높은 충성도 문제를 보여 주십시오.&quot; |
 | 충성도 프로그램 성과 분석 | 자연어를 사용하여 충성도 포인트, 멤버 계층, 환급 및 매출 지표를 쿼리하고 분석합니다. | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;2026년 8월 중에 충성도 포인트를 몇 개나 부여받았습니까?&quot; <br> &quot;충성도 프로그램의 총 수입을 2026년 8월 중 일별로 분류하여 표시합니다.&quot; |
 
-충성도를 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 충성도 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}를 참조하세요.
+충성도를 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 충성도 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}를 참조하세요.
 
 ## 최적화
 
@@ -214,7 +217,7 @@ ht-degree: 6%
 | 엔티티 해결 및 연결 | 의미 체계 및 어휘 검색을 사용하여 실제 Experience Platform 엔티티에 대한 엔티티 언급을 해결하고 XDM 필드를 검색할 수 있습니다 | `entity-linking` | Adobe Experience Platform | &quot;실제 대상자로 &#39;휴일 쇼핑객&#39; 해결&quot; <br> &quot;구매 내역과 관련된 필드 찾기&quot; |
 | 사용자 정의 스킬 관리 | 세션 간에 지속되는 사용자 소유 재사용 가능한 스킬 저장, 수정 또는 삭제 | `manage-skill` | 모든 적격 지원 | &quot;해당 워크플로우를 스킬로 저장&quot; <br> &quot;내 주간 보고서 스킬 삭제&quot; <br> &quot;재사용 가능한 스킬로 전환&quot; |
 | 스트리밍 용량 및 위반 모니터링 | 샌드박스 전체에서 현재 및 과거 스트리밍 사용량, 용량 및 위반 상태 확인 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;현재 샌드박스의 현재 스트리밍 용량은 얼마입니까?&quot; <br> &quot;현재 샌드박스가 지난 주에 용량 제한을 위반했습니까?&quot; |
-| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 문제가 있습니까?&quot; <br> &quot;내 최신 상태 검사 평가에 대해 알려주세요.&quot; <br> &quot;사용자 지정 네임스페이스 설명 검사에 대한 문제는 무엇입니까?&quot; |
+| [상태 검사 평가 결과 보기](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 샌드박스에 대한 최신 상태 검사 평가를 보고 실패한 검사를 드릴다운한 다음 영향을 받는 엔티티를 확인합니다 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;내 샌드박스에 문제가 있습니까?&quot; <br> &quot;내 최신 상태 검사 평가에 대해 알려주세요.&quot; <br> &quot;사용자 지정 네임스페이스 설명 검사에 대한 문제는 무엇입니까?&quot; |
 | 상태 검사 문제 수정 | 플래그가 지정된 ID 네임스페이스, 병합 정책 및 스키마 문제를 변경하기 전에 승인과 함께 채팅에서 직접 수정합니다 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;ID 네임스페이스 설명 수정&quot; <br> &quot;중복 병합 정책 이름 수정&quot; <br> &quot;감사 필드 그룹이 누락된 스키마 수정&quot; <br> &quot;기본 병합 정책 이름 수정&quot; |
 
 ## 데이터 관리
