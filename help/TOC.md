@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 18%
 ---
 
@@ -59,8 +59,10 @@ ht-degree: 18%
       - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
       - [품질 게이트 스킬 구축 및 실행](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [기술 관리 및 반복](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - 통합 {#integrations}
+      - [통합이란 무엇입니까?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - 플러그인 {#plugins}
-      - [플러그인이란?](./coworker/customizations/plugins/what-are-plugins.md)
+      - [플러그인이란 무엇입니까?](./coworker/customizations/plugins/what-are-plugins.md)
     - 메모리 {#memory}
       - [메모리란 무엇입니까?](./coworker/customizations/memory/what-is-memory.md)
   - 캠페인 {#campaigns}
