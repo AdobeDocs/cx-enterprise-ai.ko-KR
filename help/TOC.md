@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 17%
 ---
 
 # CX Enterprise의 AI {#experience-cloud-ai}
@@ -55,6 +55,7 @@ ht-degree: 16%
         - [마케팅 에셋 생성](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [브랜드 준수 검사](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - 사용자 지정 {#customizations}
+    - [개요](./coworker/customizations/overview.md)
     - 기술 {#skills}
       - [기술이란?](./coworker/customizations/skills/what-are-skills.md)
       - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
@@ -110,5 +111,5 @@ ht-degree: 16%
     - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
