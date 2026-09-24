@@ -29,7 +29,7 @@ CX Coworker의 고객 경고 기술을 사용하여 경고 활동을 개인화�
 - 조직과 관련된 경고를 볼 수 있는 권한입니다.
 - CX Coworker에 설치된 Adobe CXO 플러그인입니다.
 
-플러그인 설치에 대한 지침은 https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide을 참조하십시오.
+플러그인 설치에 대한 지침은 https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/ui-guide을 참조하십시오.
 
 ## 고객 경고 기술 사용 {#use-customer-alert-skills}
 
