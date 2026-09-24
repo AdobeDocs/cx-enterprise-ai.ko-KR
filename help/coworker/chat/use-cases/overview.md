@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5301'
+ht-degree: 5%
 ---
 # 동료 채팅 사용 사례{#use-cases}
 
@@ -124,6 +124,7 @@ ht-degree: 6%
 | [근본 원인 분석](data-insights/root-cause-analysis.md) | 지표가 변경된 이유를 조사합니다. 드롭, 스파이크 및 예외 항목을 진단합니다. | `cja-root-cause-analysis` | Customer Journey Analytics(CJA) | &quot;지난 주에 전환율이 떨어진 이유는 무엇입니까?&quot; <br> &quot;1월 15일 매출 급증의 원인은 무엇입니까?&quot; |
 | 경영진 요약 및 KPI 다이제스트 | 이해 당사자에게 준비된 성능 요약, 규범적 권장 사항 및 슬라이드 데크 개요 작성 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics(CJA) | &quot;지난달 요약 정보 제공&quot; <br> &quot;이번 분기 데이터로 슬라이드 데크 개요 만들기&quot; |
 | [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | 특히 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics과 Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정할 수 있습니다 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;내 AA 보고서 세트를 내 CJA 데이터 보기와 비교&quot; <br> &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
+| [데이터 집합 및 필드 품질 확인](data-insights/data-validation-aep.md) | Experience Platform 데이터 세트 및 필드에서 통계 및 의미 체계 유효성 검사를 실행하여 구현 후 또는 지속적으로 데이터 품질 문제를 파악합니다. <!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | &quot;데이터 집합 Electronics 샘플 1000의 유효성 검사&quot; <br> &quot;Customers_2024 데이터 집합의 전자 메일 필드 유효성 검사&quot; |
 | 운영 시계열 및 인과관계 분석 | 인과 관계 속성을 사용하여 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 분석합니다. | `operational-stats-causal-analysis` | 모든 적격 지원 | &quot;지난 90일 동안의 대상 크기 트렌드를 표시합니다.&quot; <br> &quot;데이터 세트 행 수가 3월 3일에 급증한 이유는 무엇입니까?&quot; |
 | 사용자 지정 CJA 스킬 만들기 | 분석 패턴을 세션 간에 지속되는 재사용 가능한 반복 가능한 스킬로 변환 | `cja-skill-creator` | Customer Journey Analytics(CJA) | &quot;이 주별 수익 분석을 재사용 가능한 스킬로 변환&quot; <br> &quot;월별 funnel 보고를 위한 스킬로 저장&quot; |
 
@@ -153,9 +154,12 @@ ht-degree: 6%
 
 ## 마케팅 프로그램
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
-|---|---|---|---|---|
-| 프로그램 빌드 | 기존 프로그램 템플릿을 새 프로그램으로 조정하여 일반 언어 캠페인 설명 또는 업로드된 캠페인 개요에서 스마트 캠페인, 예약 및 자리 표시자 이메일을 생성합니다 | `build-programs` | Adobe Marketo Engage | &quot;8월 제품 데모에 대한 웨비나 등록 프로그램을 만드십시오.&quot;<br><br>&quot;잠재 고객이 50점을 달성하면 트리거되는 프로그램을 만드십시오.<br><br>&quot;비활성 잠재 고객에 대한 3개의 이메일 재참여 시리즈를 만드십시오.&quot; |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 프로그램 빌드 | 일반 언어 설명 또는 업로드한 개요에서 생성된 스마트 캠페인, 예약 및 자리 표시자 이메일을 사용하여 기존 프로그램 템플릿을 새 프로그램으로 조정 | `build-programs` | Adobe Marketo Engage | &quot;8월 제품 데모에 대한 웨비나 등록 프로그램을 만드십시오.&quot;<br><br>&quot;잠재 고객이 50점을 달성하면 트리거되는 프로그램을 만드십시오.<br><br>&quot;비활성 잠재 고객에 대한 3개의 이메일 재참여 시리즈를 만드십시오.&quot; |
+| 간단한 것에서 프로그램을 시작하다 | 일반 언어 개요 또는 업로드된 캠페인 문서를 작업 프로그램으로 바꿉니다. 가장 일치하는 템플릿을 복제하고 스마트 캠페인과 토큰을 이월하고 이벤트 세부 정보를 업데이트합니다. 검토할 수 있도록 새 스마트 캠페인이 비활성화된 상태로 남음 | `build-programs` | Adobe Marketo Engage | &quot;저는 9월 10일 시카고에서 웨비나를 개최합니다. 나를 위해 프로그램을 설정합니다.&quot;<br><br>&quot;이 개요에서 다음 달의 로드쇼 프로그램을 설정하고 이벤트 토큰을 업데이트합니다.&quot; |
+| 기존 프로그램 복제 및 조정 | 새 도시, 분기 또는 지역에 대한 이전 프로그램을 복사하고 날짜, 토큰 및 이름을 업데이트합니다. 하위 스마트 캠페인은 활성화될 때까지 이월되고 비활성화된 상태로 유지됩니다 | `build-programs` | Adobe Marketo Engage | &quot;10월 17일에 뉴욕에서의 마지막 분기 이벤트 프로그램을 복제하고 날짜와 토큰을 업데이트하십시오.&quot;<br><br>&quot;영국 대상의 시카고 로드쇼 프로그램을 복제합니다.&quot; |
+| 자격 논리를 사용하여 스마트 캠페인 구축 | 트리거 또는 일괄 스마트 캠페인을 만들고, 양식 작성 또는 점수 도달과 같은 스마트 목록 규칙을 추가하고, 이메일 전송과 같은 흐름 단계를 구성합니다 | `build-programs` | Adobe Marketo Engage | &quot;잠재 고객이 연락처 양식을 작성할 때 환영 이메일을 보내는 트리거 캠페인을 만듭니다.&quot;<br><br>&quot;50점을 기록한 잠재 고객에 대한 일괄 캠페인을 작성하고 이메일 보내기 단계를 추가합니다.&quot; |
 
 ## 충성도
 
