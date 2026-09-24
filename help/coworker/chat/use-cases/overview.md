@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 279e33861b08f5644678a3498acf0fd3e7bca1fc
 workflow-type: tm+mt
-source-wordcount: '5301'
-ht-degree: 5%
+source-wordcount: '5341'
+ht-degree: 6%
 ---
 # 동료 채팅 사용 사례{#use-cases}
 
@@ -149,6 +149,7 @@ ht-degree: 5%
 | 여정 폴아웃 분석 | 여정 중 고객이 중단되는 위치와 이유를 파악하고, 이탈로 이어지는 행동 패턴을 감지합니다 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;내 재참여 여정에서 사람들이 어디에 드롭하고 있습니까?&quot; <br> &quot;여정 X에서 폴아웃이 가장 높은 노드는 무엇입니까?&quot; |
 | 사용자 지정 작업 오류 분석 | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
 | 여정 예외 항목 탐지 | 과거 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급감, 강하 또는 평면선을 감지하고 확인하여 가능한 근본 원인을 표시합니다 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;어제 환영 여정에 대한 항목이 왜 떨어졌습니까?&quot; <br> &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot; |
+| 여정 버전 비교 | 두 여정 버전을 비교하고 노드, 연결 및 여정 수준 속성 변경의 구조적 차이를 검토합니다 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | &quot;시작 여정의 버전 2와 버전 3 비교&quot; <br> &quot;이 두 여정 버전 간의 변경 사항은 무엇입니까?&quot; |
 
 여정을 위한 CX Coworker 기술에 대한 자세한 내용은 [Adobe Journey Optimizer 여정 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}를 참조하세요.
 
