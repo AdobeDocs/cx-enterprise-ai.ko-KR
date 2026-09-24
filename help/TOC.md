@@ -110,5 +110,5 @@ ht-degree: 16%
     - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
