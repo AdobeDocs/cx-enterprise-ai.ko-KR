@@ -1,13 +1,11 @@
 ---
 title: 고객 경고 기술
-description: CX Coworker에서 고객 경고 기술을 사용하여 경고를 검토하고, 경고 활동을 분석하고, 구독을 관리하고, 자연어 대화를 통해 운영 문제의 우선 순위를 정하는 방법에 대해 알아봅니다.
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+description: CX Coworker에서 고객 경고 기술을 사용하여 자연어 대화를 통해 경고 활동을 검토, 분석 및 우선 순위를 지정하는 방법을 알아봅니다.
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1022'
 ht-degree: 4%
-
 ---
-
 
 # 고객 경고 기술
 
@@ -17,7 +15,7 @@ ht-degree: 4%
 >
 > 고객 경고 기술을 사용하려면 Adobe Experience Platform 경고 및 해당 경고와 관련된 리소스에 대한 액세스 권한이 있어야 합니다.
 
-CX Coworker 의 고객 경고 기술을 사용하여 경고 활동을 개인화된 운영 브리핑으로 전환할 수 있습니다. 최근 알림을 검토하고, 우선 순위가 높은 문제를 식별하고, 영향을 받는 리소스를 파악하고, 자연어 대화를 통해 조사 노력을 집중합니다.
+CX Coworker의 고객 경고 기술을 사용하여 경고 활동을 개인화된 운영 브리핑으로 전환합니다. 최근 알림을 검토하고, 우선 순위가 높은 문제를 식별하고, 영향을 받는 리소스를 파악하고, 자연어 대화를 통해 조사 노력을 집중합니다.
 
 고객 경고 기술은 경고 보기를 수동으로 검토하거나 여러 인터페이스에서 정보의 상관 관계를 확인하지 않고 경고 신호에서 실행 가능한 인사이트로 이동하는 데 도움이 됩니다. 최근 경고 활동에 대한 광범위한 질문으로 시작한 다음, 후속 질문을 사용하여 반복 경고 패턴을 식별하고, 영향을 받은 개체를 분석하고, 소유하고 있는 경고에 집중하십시오.
 
@@ -31,21 +29,21 @@ CX Coworker 의 고객 경고 기술을 사용하여 경고 활동을 개인화�
 - 조직과 관련된 경고를 볼 수 있는 권한입니다.
 - CX Coworker에 설치된 Adobe CXO 플러그인입니다.
 
-플러그인 설치에 대한 지침은 https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/ui-guide을 참조하십시오.
+플러그인 설치에 대한 지침은 https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide을 참조하십시오.
 
 ## 고객 경고 기술 사용 {#use-customer-alert-skills}
 
-자연어 요청을 사용하는 CX Coworker 를 통해 고객 경고 기술과 상호 작용할 수 있습니다. 경고 활동, 구독, 경고 트렌드 또는 영향을 받는 오브젝트에 대해 질문합니다. 후속 질문과 대화를 계속하여 결과를 구체화하고 분석에 집중합니다.
+자연어 요청을 사용하여 CX Coworker을 통해 고객 경고 기술과 상호 작용합니다. 경고 활동, 구독, 경고 트렌드 또는 영향을 받는 오브젝트에 대해 질문합니다. 후속 질문과 대화를 계속하여 결과를 구체화하고 분석에 집중합니다.
 
 고객 경고 기술을 사용하려면
 
-1. **[!UICONTROL CX 동료]**(으)로 이동합니다.
+1. **[!UICONTROL CX Coworker]**(으)로 이동합니다.
 
 1. 경고에 대한 질문이나 요청을 입력합니다. 예:
 
    *&quot;지난 24시간 동안 트리거된 모든 경고를 나열하시겠습니까?&quot;*
 
-   ![CX 동료의 첫 번째 질문](./assets/alerts/initial-question.png)
+   ![CX Coworker에서 처음 묻는 질문](./assets/alerts/initial-question.png)
 
 1. 고객 경고 스킬에서 반환된 결과를 검토합니다.
 

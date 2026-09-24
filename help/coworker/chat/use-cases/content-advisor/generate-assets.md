@@ -1,6 +1,6 @@
 ---
 title: 동료 마케팅 자산 생성
-description: Coworker가 소셜 미디어 채널에 대한 에셋 생성을 간소화하여 시간과 노력을 절약하는 방법을 살펴보십시오.
+description: 동료 채팅을 사용하여 소셜 채널에 대한 브랜드 내 마케팅 자산을 생성하여 시간과 노력을 절약하는 방법을 알아봅니다.
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -9,15 +9,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # 동료 채팅을 사용하여 마케팅 에셋 생성
 
@@ -27,4 +27,4 @@ ht-degree: 0%
 
 또한 Coworker는 추가 맞춤화를 위한 유연성도 제공합니다. 에셋을 수정하거나, 변형을 만들거나, Instagram 스토리와 같은 다양한 형식에 대한 콘텐츠를 조정할 수 있습니다. 이 접근 방식을 사용하면 동료가 기술 세부 사항을 관리하는 동안 목표에 집중할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502716/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)

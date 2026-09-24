@@ -1,6 +1,6 @@
 ---
 title: Coworker의 데이터 유효성 검사 스킬을 사용하여 Customer Journey Analytics 데이터 유효성 검사
-description: Coworker의 데이터 유효성 검사 스킬을 사용하여 Customer Journey Analytics 데이터의 유효성을 검사하는 방법을 알아봅니다. 대시보드, 세그먼트 및 고객 여정을 구축하기 전에 CJA 데이터 세트를 식별하고 데이터 문제를 발견합니다.
+description: Coworker의 데이터 유효성 검사 기술을 사용하여 Customer Journey Analytics 데이터의 유효성을 검사하고 대시보드를 빌드하기 전에 문제를 해결하는 방법에 대해 알아봅니다.
 feature: AI Tools
 role: User
 level: Beginner, Intermediate
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '625'
 ht-degree: 0%
 ---
 # [!DNL Coworker]의 데이터 유효성 검사 스킬로 Customer Journey Analytics 데이터의 유효성 검사
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 비디오에서는 쿼리를 작성하거나 수동으로 데이터를 검사하지 않고도 **Coworker의 데이터 유효성 검사 기술**&#x200B;을 사용하여 Customer Journey Analytics 구현을 지원하는 데이터 세트의 품질을 빠르게 평가하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503524/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
 
 ## CJA 보고 이면의 데이터 세트 살펴보기
 

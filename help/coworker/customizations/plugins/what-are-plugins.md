@@ -1,15 +1,15 @@
 ---
 title: 동료 플러그인 - 구성 요소, 작동 방법 및 설치 방법
-description: Adobe CX Coworker 플러그인이 스킬 및 MCP 서버를 통해 기능을 확장하는 방법을 알아봅니다.
+description: 특정 비즈니스 요구 사항에 맞게 기능을 확장하기 위해 기술과 MCP 서버를 번들로 제공하는 Adobe CX Coworker 플러그인, 설치 가능한 패키지에 대해 알아봅니다.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 210
 last-substantial-update: 2026-09-22
 jira: KT-22449
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 이 비디오에서는 플러그인을 소개하고 새로운 기능으로 [!DNL Coworker]을(를) 확장하는 방법을 설명합니다. 플러그인의 정의, 구성 요소, 플러그인이 스킬 및 MCP 서버와 관련되는 방법, 작업 영역에서 플러그인을 설치, 사용 및 제거하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503662/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503656/?learn=on&enablevpops)
 
 ## 플러그인이란?
 

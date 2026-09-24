@@ -1,6 +1,6 @@
 ---
 title: 동료 브랜드 확인
-description: 마케팅 워크플로우에서 자동 확인을 통해 Coworker가 브랜드를 유지하는 방법을 알아봅니다.
+description: 마케팅 워크플로우에 내장된 자동화된 검사를 사용하여 Coworker Chat의 브랜드 준수에 대한 콘텐츠를 확인하는 방법을 알아봅니다.
 version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
@@ -10,15 +10,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '137'
 ht-degree: 0%
-
 ---
-
 
 # Coworker Chat을 통한 브랜드 준수 콘텐츠 확인
 
@@ -28,4 +28,4 @@ Coworker를 사용하면 마케팅 워크플로우에서 브랜드 일관성을 
 
 동료는 문제를 식별하는 데 그치지 않고 실행 가능한 제안을 제공합니다. 예를 들어, 캡션이 너무 일반적이거나 call to action이 없는 경우 관련 태그가 포함된 브랜드 표준을 충족하는 수정된 버전을 제공합니다. 이 프로세스를 통해 콘텐츠 생성을 간소화하고 최소한의 노력으로 브랜드 준수를 보장할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502707/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502691/?learn=on&enablevpops)

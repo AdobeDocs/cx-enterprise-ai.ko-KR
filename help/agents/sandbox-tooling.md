@@ -1,19 +1,17 @@
 ---
 title: 샌드박스 도구 에이전트 기술
 description: 샌드박스 도구 에이전트 기술을 사용하여 샌드박스 환경 간에 오브젝트 메타데이터를 복제하는 방법에 대해 알아봅니다.
-source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
-
 ---
-
 
 # 샌드박스 도구 에이전트 기술
 
 >[!AVAILABILITY]
 >
->샌드박스 툴링 에이전트 기술 은 Adobe CX Enterprise Coworker에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 사용 가능한 모든 기능을 사용하려면 다음 권한이 필요합니다.
+>샌드박스 도구 에이전트 기술 은 Adobe CX Enterprise Coworker에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 사용 가능한 모든 기능을 사용하려면 다음 권한이 필요합니다.
 >
 >**Manage-sandbox** 또는 **View-sandbox**: 이 권한을 사용하면 샌드박스 도구 에이전트 기술을 사용하여 Coworker에서 직접 샌드박스를 볼 수 있습니다.
 >
@@ -25,7 +23,7 @@ ht-degree: 1%
 
 샌드박스 도구 에이전트 기술을 사용하여 자연어로 달성하고자 하는 작업을 설명함으로써 스키마 및 대상을 포함한 오브젝트 메타데이터를 Adobe Experience Platform 환경 간에 이동할 수 있습니다. CX Coworker를 사용하면 대화식 환경을 통해 필요한 메타데이터를 검색하고, 종속성을 자동으로 식별하며, 마이그레이션 패키지를 만들고, 개체를 마이그레이션할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496713?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -35,7 +33,7 @@ ht-degree: 1%
 - 검색하거나 마이그레이션하려는 개체에 액세스합니다.
 - CX Coworker에 설치된 Adobe CXO 플러그인입니다.
 
-플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
 
 ## 샌드박스 도구 에이전트 기술 사용 {#use-sandbox-tooling-agentic-skills}
 
@@ -43,7 +41,7 @@ ht-degree: 1%
 
 샌드박스 도구 에이전트 기술을 사용하려면 다음을 수행합니다.
 
-1. **[!UICONTROL CX 동료]**(으)로 이동합니다.
+1. **[!UICONTROL CX Coworker]**(으)로 이동합니다.
 1. 수행할 작업에 대한 명확한 설명을 입력합니다. 예:
 
    *&quot;스키마 충성도 멤버 Platinum을 현재 샌드박스에서 Acme 데모 샌드박스로 이동합니다.&quot;*
@@ -64,7 +62,7 @@ ht-degree: 1%
 
    ![요청 상태를 표시하는 전송 완료 페이지입니다.](./assets/sandbox-tooling/transfer-complete.png)
 
-CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
 
 ## 지원되는 사용 사례 {#supported-use-cases}
 
@@ -74,7 +72,7 @@ CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https:/
 
 여러 Adobe Experience Platform 샌드박스를 관리하는 샌드박스 관리자는 사용자 인터페이스를 수동으로 탐색하는 대신 자연어 요청을 사용하여 개체 메타데이터를 마이그레이션할 수 있습니다.
 
-CX Coworker를 사용하면 자연어로 마이그레이션을 설명함으로써 스키마, 대상 및 관련 구성 에셋을 포함한 객체 메타데이터를 한 샌드박스에서 다른 샌드박스로 마이그레이션할 수 있습니다. 샌드박스 툴 에이전트 스킬은 필요한 종속성을 자동으로 식별하고 패키지화하여 안정적인 마이그레이션을 보장합니다.
+CX Coworker을 사용하면 자연어로 마이그레이션을 설명함으로써 스키마, 대상 및 관련 구성 에셋을 포함한 개체 메타데이터를 한 샌드박스에서 다른 샌드박스로 마이그레이션할 수 있습니다. 샌드박스 툴 에이전트 스킬은 필요한 종속성을 자동으로 식별하고 패키지화하여 안정적인 마이그레이션을 보장합니다.
 
 예:
 
@@ -110,5 +108,5 @@ CX Coworker를 사용하면 자연어로 마이그레이션을 설명함으로�
 
 이 안내서를 읽은 후에는 샌드박스 도구 에이전트 기술을 사용하여 샌드박스 간에 지원되는 객체를 검색, 패키지 및 마이그레이션하는 방법을 이해해야 합니다.
 
-샌드박스 도구에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하세요.
+샌드박스 도구에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하세요.
 
