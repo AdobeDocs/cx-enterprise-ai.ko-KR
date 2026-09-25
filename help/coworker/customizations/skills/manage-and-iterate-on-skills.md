@@ -1,19 +1,19 @@
 ---
 title: 동료의 기술 관리 및 반복
-description: 검증된 거버넌스 워크플로우를 통해 재사용 가능한 AI 스킬을 관리하는 방법을 알아봅니다. 일관되고 신뢰할 수 있는 출력을 유지하면서 기준선을 설정하고, 제어된 스킬 업데이트를 수행하고, 결과를 비교하고, 향상된 기능을 검증하고, 오래된 스킬을 안전하게 폐기하는 방법에 대해 알아봅니다.
+description: 거버넌스 워크플로를 통해 재사용 가능한 AI 기술을 관리하고, 기준을 수립하고, 제어된 업데이트를 수행하고, 향상된 기능을 검증하고, 오래된 기술을 폐기하는 방법에 대해 알아봅니다.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
-# [!DNL Coworker]의 스킬 관리 및 반복
+# [!DNL Coworker]에서 스킬 관리 및 반복
 
 재사용 가능한 AI 기술을 통해 팀은 일관되고 반복 가능한 작업을 수행할 수 있습니다. 그러나 비즈니스 요구 사항이 발전함에 따라 이러한 기술도 발전해야 합니다. 이 비디오에서는 평가 및 개선에서 검증 및 폐기에 이르기까지 거버넌스에 중점을 둔 AI 기술의 전체 라이프사이클을 관리하는 실용적인 접근 방식을 보여줍니다.
 

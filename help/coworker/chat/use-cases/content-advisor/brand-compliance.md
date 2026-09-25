@@ -1,6 +1,6 @@
 ---
 title: 동료 브랜드 확인
-description: 마케팅 워크플로우에서 자동 확인을 통해 Coworker가 브랜드를 유지하는 방법을 알아봅니다.
+description: 마케팅 워크플로우에 내장된 자동화된 검사를 사용하여 Coworker Chat의 브랜드 준수에 대한 콘텐츠를 확인하는 방법을 알아봅니다.
 version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
@@ -10,15 +10,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '137'
 ht-degree: 0%
-
 ---
-
 
 # Coworker Chat을 통한 브랜드 준수 콘텐츠 확인
 

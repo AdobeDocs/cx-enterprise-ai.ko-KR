@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 240
 last-substantial-update: 2026-09-22
 jira: KT-22447
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 통합이 무엇인지, 통합을 사용해야 하는 이유, 인터페이스 사용 방법을 포함하여 Coworker의 통합에 대한 간략한 둘러보기 및 개요를 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503744/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503750/?captions=kor&learn=on&enablevpops)

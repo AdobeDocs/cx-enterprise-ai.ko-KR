@@ -1,6 +1,6 @@
 ---
 title: 동료 마케팅 자산 생성
-description: Coworker가 소셜 미디어 채널에 대한 에셋 생성을 간소화하여 시간과 노력을 절약하는 방법을 살펴보십시오.
+description: 동료 채팅을 사용하여 소셜 채널에 대한 브랜드 내 마케팅 자산을 생성하여 시간과 노력을 절약하는 방법을 알아봅니다.
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -9,15 +9,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # 동료 채팅을 사용하여 마케팅 에셋 생성
 

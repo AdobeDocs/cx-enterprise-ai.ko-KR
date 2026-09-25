@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics 및 동료 - 근본 원인 분석
-description: Coworker가 자연어로 분석 질문에 답변하고 트렌드를 시각화하고 패턴을 파악하며 수동 쿼리 없이 근본 원인 분석을 수행하는 방법에 대해 알아봅니다.
+description: 수동 쿼리를 작성하지 않고도 자연어 및 Coworker를 사용하여 분석 데이터의 트렌드와 근본 원인을 탐색하는 방법에 대해 알아봅니다.
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: '106'
 ht-degree: 0%
-
 ---
-
 
 # Customer Journey Analytics 및 동료 - 자연어로 트렌드 및 근본 원인 살펴보기
 

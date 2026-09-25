@@ -1,6 +1,6 @@
 ---
 title: 자연어에서 대상 만들기
-description: Coworker를 사용하여 자연어에서 대상을 만드는 방법을 알아봅니다.
+description: Coworker를 사용하여 자연어에서 대상을 만드는 방법을 알아봅니다. Experience Platform 상태를 평가하고 일반 언어 프롬프트를 사용 준비된 세그먼트로 전환합니다.
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22080
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: '98'
 ht-degree: 0%
-
 ---
-
 
 # Coworker를 사용하여 Experience Platform 상태 평가 및 자연어에서 대상 구축
 

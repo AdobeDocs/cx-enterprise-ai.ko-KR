@@ -1,6 +1,6 @@
 ---
 title: 기술이란?
-description: Adobe CX Coworker의 스킬을 통해 팀이 고객 경험 오케스트레이션을 표준화하고 반복 워크플로우를 자동화하며 재사용 가능한 AI 기반 플레이북을 사용하여 일관된 결과를 제공하는 방법에 대해 알아봅니다.
+description: 워크플로우를 표준화하고 대화 및 사용자 간에 일관된 결과를 제공하는 재사용 가능한 플레이북인 Adobe CX Coworker의 기술에 대해 알아봅니다.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -9,13 +9,12 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 
 # 동료의 기술이란 무엇입니까?
 

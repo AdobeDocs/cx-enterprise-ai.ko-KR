@@ -7,12 +7,12 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 279e33861b08f5644678a3498acf0fd3e7bca1fc
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
 ---
-# 동료 채팅 사용 사례{#use-cases}
+# 동료 채팅 사용 사례 {#use-cases}
 
 동료 채팅을 사용하면 여러 UI를 탐색하거나 쿼리를 수동으로 작성하는 대신 자연어를 사용하여 [!DNL Experience Platform] 데이터를 쿼리하고, 분석하고, 작업할 수 있습니다. 이 페이지에는 데이터 통찰력, 대상, 여정, 충성도, 기본 요소 및 샌드박스 툴과 같이 작업 영역별로 구성된 사용 사례 전문가가 가장 많이 사용하는 카탈로그가 포함되어 있습니다. 각 항목에는 호출하는 스킬, 함께 작동하는 애플리케이션, 복사, 자체 데이터에 맞게 조정 및 대화를 통해 구체화할 수 있는 샘플 프롬프트가 포함됩니다.
 

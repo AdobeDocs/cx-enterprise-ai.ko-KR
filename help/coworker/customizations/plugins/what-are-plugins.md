@@ -1,15 +1,15 @@
 ---
 title: 동료 플러그인 - 구성 요소, 작동 방법 및 설치 방법
-description: Adobe CX Coworker 플러그인이 스킬 및 MCP 서버를 통해 기능을 확장하는 방법을 알아봅니다.
+description: 특정 비즈니스 요구 사항에 맞게 기능을 확장하기 위해 기술과 MCP 서버를 번들로 제공하는 Adobe CX Coworker 플러그인, 설치 가능한 패키지에 대해 알아봅니다.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 210
 last-substantial-update: 2026-09-22
 jira: KT-22449
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 

@@ -1,15 +1,15 @@
 ---
 title: Adobe CX Enterprise Coworker 정보
-description: Adobe CX Enterprise Coworker을 사용하여 마케팅을 한 단계 업그레이드하는 방법에 대해 알아봅니다.
+description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 자동화하는 AI 기반의 팀원인 Adobe CX Enterprise Coworker에 대해 알아봅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '499'
 ht-degree: 17%
 ---
 # CX Enterprise Coworker 개요 {#overview}

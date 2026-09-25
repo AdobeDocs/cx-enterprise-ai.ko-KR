@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer 및 동료 - 여정 생성
-description: 동료가 마케터가 간단한 자연어 프롬프트를 사용하여 Adobe Journey Optimizer 여정을 만드는 데 어떻게 도움이 되는지에 대해 알아봅니다.
+description: Coworker를 사용하여 자연어 프롬프트에서 Adobe Journey Optimizer 여정을 만드는 방법을 알아봅니다.
 feature: AI Tools
 role: User
 level: Beginner
@@ -14,13 +14,13 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 1%
 ---
 
-# 자연어 프롬프트에서 Adobe Journey Optimizer 여정을 생성하는 방법
+# 자연어 프롬프트에서 Adobe Journey Optimizer 여정 생성
 
 고객 여정을 구축하려면 일반적으로 트리거, 시간 규칙, 채널, 의사 결정 논리 및 메시징 단계에 대한 광범위한 구성이 필요합니다. 이 비디오에서는 Coworker가 일반 언어 설명을 Adobe Journey Optimizer에서 완전히 초안 여정으로 변환하여 프로세스를 간소화하는 방법을 살펴볼 수 있습니다.
  
