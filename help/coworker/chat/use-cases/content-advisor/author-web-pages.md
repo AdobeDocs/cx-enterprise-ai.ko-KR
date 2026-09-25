@@ -13,16 +13,14 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 93cccf40d67507df59e07ed016253dbf1d6b3b2e
+source-git-commit: a599e1533e586b256ffc4d3253b51e3c3fafabce
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '103'
 ht-degree: 0%
 ---
 # 동료로 AEM Sites 페이지 작성
 
-Adobe의 대화형 AI인 [Coworker](./overview.md)을(를) 사용하여 페이지 편집기를 클릭하지 않고 원하는 내용을 일반 언어로 설명하여 AEM Sites 페이지를 작성하십시오.
-
-이 비디오에서 Coworker는 채팅 프롬프트를 사용하여 시각적 콘텐츠 조각으로 빌드된 WKND 홈 페이지에 새 프로모션을 추가합니다.
+Adobe CX Enterprise Coworker을 사용하여 원하는 내용을 일반 언어로 설명함으로써 AEM Sites 페이지를 작성할 수 있습니다. 이 비디오에서 Coworker는 채팅 프롬프트를 사용하여 시각적 콘텐츠 조각으로 빌드된 WKND 홈 페이지에 새 프로모션을 추가합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
 
@@ -30,4 +28,3 @@ Adobe의 대화형 AI인 [Coworker](./overview.md)을(를) 사용하여 페이�
 >
 >이 비디오는 Coworker가 페이지 편집기 기반 사이트에서 페이지를 작성하는 방법을 보여 줍니다. 동료는 Edge Delivery Services과 함께 제공되는 사이트에서도 동일한 방식으로 작동합니다.
 
-동료 채팅을 시작하려면 [동료 채팅 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)를 참조하세요.
