@@ -30,4 +30,4 @@ Adobe의 대화형 AI인 [Coworker](./overview.md)을(를) 사용하여 페이�
 >
 >이 비디오는 Coworker가 페이지 편집기 기반 사이트에서 페이지를 작성하는 방법을 보여 줍니다. 동료는 Edge Delivery Services과 함께 제공되는 사이트에서도 동일한 방식으로 작동합니다.
 
-동료 채팅을 시작하려면 [동료 채팅 개요](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)를 참조하세요.
+동료 채팅을 시작하려면 [동료 채팅 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)를 참조하세요.
