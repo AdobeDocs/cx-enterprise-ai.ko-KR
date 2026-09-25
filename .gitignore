@@ -1,3 +1,5 @@
 .DS_Store
 .cursor-agents
 .github/copilot-instructions.md
+.github/instructions/docs-style.instructions.md
+.github/prompts/status-report.prompt.md
