@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| AEM 페이지 업데이트 | 경험을 정확하고 최신 상태로 유지하기 위해 콘텐츠 요소 업데이트, 제거, 바꾸기 또는 추가와 같은 작업을 수행합니다. 입력은 자연어 또는 PDF나 스크린샷과 같은 시각적 주석일 수 있습니다. | `aem-sites-pages-update` | Adobe Experience Manager(AEM) - AEM Sites | &lt;URL>에서 헤드라인을 Hello World로 업데이트<br><br>on &lt;URL>에서 &quot;Take our Coffee Quiz&quot; 단추를 더 매력적인 버전으로 변경<br><br>첨부된 내용을 기반으로 &lt;URL> 업데이트<br><br>On &lt;URL>에서 커피 머신을 구입하고 커피 2봉지를 무료로 제공하는 8월 프로모션에 대한 새로운 티저 섹션을 페이지 하단에 추가하려고 합니다. 또한 커피를 마시는 친구의 이미지를 찾아 티저에서 사용합니다 |
+| [AEM 페이지 업데이트](content-advisor/author-web-pages.md) | 경험을 정확하고 최신 상태로 유지하기 위해 콘텐츠 요소 업데이트, 제거, 바꾸기 또는 추가와 같은 작업을 수행합니다. 입력은 자연어 또는 PDF나 스크린샷과 같은 시각적 주석일 수 있습니다. | `aem-sites-pages-update` | Adobe Experience Manager(AEM) - AEM Sites | &lt;URL>에서 헤드라인을 Hello World로 업데이트<br><br>on &lt;URL>에서 &quot;Take our Coffee Quiz&quot; 단추를 더 매력적인 버전으로 변경<br><br>첨부된 내용을 기반으로 &lt;URL> 업데이트<br><br>On &lt;URL>에서 커피 머신을 구입하고 커피 2봉지를 무료로 제공하는 8월 프로모션에 대한 새로운 티저 섹션을 페이지 하단에 추가하려고 합니다. 또한 커피를 마시는 친구의 이미지를 찾아 티저에서 사용합니다 |
 | AEM 일괄 업데이트 | 경험을 정확하고 최신 상태로 유지하기 위해 콘텐츠 요소를 제거, 대체 또는 추가하는 것과 같이, 동시에 여러 페이지에서 대량 작업을 수행할 수 있습니다. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager(AEM) - AEM Sites | &lt;aem path>에서 &quot;MyBarista\&quot; 사본이 포함된 모든 페이지를 &quot;BrewPass&quot;로 업데이트합니다. |
 | 조각에서 시각적 콘텐츠 조각으로 이동 | 자연어를 사용하여 Figma에서 Adobe Experience Manager으로 직접 디자인을 가져옵니다. 이 기술은 필요한 콘텐츠 모델, 콘텐츠 조각, 에셋 및 시각화 템플릿을 자동으로 만들어 비즈니스 사용자가 수동으로 설정하지 않고도 디자인에서 웹 준비가 된 콘텐츠로 몇 분 만에 이동할 수 있습니다. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager(AEM) - AEM Sites | &lt;Figure_URL>에서 가져오기 |
 

@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 17%
 ---
 
@@ -54,6 +54,9 @@ ht-degree: 17%
       - 콘텐츠 관리자 {#content-advisor}
         - [마케팅 에셋 생성](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [브랜드 준수 검사](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - 워크플로 및 계획 {#workflow-and-planning}
+        - [디지털 캠페인 시작 계획](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+        - [AEM Sites 페이지 작성](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - 사용자 지정 {#customizations}
     - [개요](./coworker/customizations/overview.md)
     - 기술 {#skills}
