@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '781'
 ht-degree: 1%
 ---
 # 프롬프트 우수 사례 {#best-practices}
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->현재 Coworker Campaign에서 지원하는 통합에만 연결할 수 있습니다.  대상을 저장하거나 여정을 빌드하는 기존 Adobe 엔터프라이즈 응용 프로그램이 있는 경우 대신 [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)을 사용하는 것이 좋습니다.
+>현재 Coworker Campaign 지원 통합에만 연결할 수 있습니다. 대상을 저장하거나 여정을 빌드하는 기존 Adobe 엔터프라이즈 응용 프로그램이 있는 경우 대신 [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)을 사용하는 것이 좋습니다.
 
-## CO-STAR 프레임워크 사용 {#costar-framework}
+## CO-STAR 프레임워크 사용
 
 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성하십시오. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 | **A - 대상** | 타깃팅하는 대상 | 메시지가 적합한 사람에게 공명하는지 확인합니다. |
 | **R - 요구 사항** | 특정 제한 또는 필수 포함 | 경계 및 한계 요소 정의 |
 
-## AI 프롬프트 기본 사항 {#key-takeaways}
+## AI 프롬프트 기본 사항
 
 ### 할 일과 하지 않을 일
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-### 품질 검사 목록 {#quality-checklist}
+### 품질 검사 목록
 
 컨텐츠를 생성하기 전에 다음 사항을 확인하십시오.
 
@@ -160,6 +160,22 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 </tr>
 </tbody>
 </table>
+
+## 일반 마케팅 프롬프트 아이디어
+
+### 콘텐츠 마케팅
+
+- &quot;처음 주택을 구입하는 사람들의 일반적인 질문에 답변하는 20개의 블로그 주제를 생성합니다.&quot;
+- &quot;Brainstorm LinkedIn은 B2B 사이버 보안 스타트업에 대한 아이디어를 게시합니다.&quot;
+- &quot;신규 고객 교육에 중점을 둔 3개월 콘텐츠 달력을 만듭니다.&quot;
+- 블로그, 비디오, 뉴스레터 및 소셜 게시물로 재활용할 수 있는 콘텐츠 테마를 제안합니다.
+
+### 이메일 마케팅
+
+- &quot;지속 가능한 패션에 관심이 있는 신규 가입자를 위한 환영 이메일 시퀀스를 생성합니다.&quot;
+- &quot;클릭미트처럼 들리지 않고 호기심을 유발하는 브레인스토밍 주제 라인.&quot;
+- &quot;비활성 고객을 위한 재참여 캠페인 아이디어 제안&quot;
+- &quot;온보딩을 완료한 사용자를 위한 라이프사이클 이메일 아이디어를 만듭니다.&quot;
 
 >[!MORELIKETHIS]
 >
