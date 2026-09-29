@@ -13,7 +13,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
