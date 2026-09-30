@@ -3,15 +3,15 @@ description: 프롬프트 작성에서 캠페인 검토 및 내보내기에 이�
 title: 이메일 캠페인 만들기
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # 이메일 캠페인 만들기 {#create-an-email-campaign}
 
 몇 분 내에 전체 이메일 캠페인을 생성하고 검토하는 방법을 알아봅니다.
