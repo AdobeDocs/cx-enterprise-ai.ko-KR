@@ -6,7 +6,7 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -48,9 +48,9 @@ ht-degree: 17%
       - 최적화 {#optimization}
         - [Target 활동 시작](./coworker/chat/use-cases/optimization/target.md)
       - 샌드박스 도구 {#sandbox-tooling}
-        - [샌드박스 도구 에이전트 기술](./agents/sandbox-tooling.md)
+        - [샌드박스 도구 에이전트 기술](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - 경고 {#alerts}
-        - [고객 경고 기술](./agents/customer-alerts.md)
+        - [고객 경고 기술](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
         - [마케팅 에셋 생성](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [브랜드 준수 검사](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
@@ -114,5 +114,5 @@ ht-degree: 17%
     - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
