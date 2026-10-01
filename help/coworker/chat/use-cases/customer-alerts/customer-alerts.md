@@ -1,7 +1,7 @@
 ---
 title: 고객 경고 기술
 description: CX Coworker에서 고객 경고 기술을 사용하여 자연어 대화를 통해 경고 활동을 검토, 분석 및 우선 순위를 지정하는 방법을 알아봅니다.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%

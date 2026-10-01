@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
-source-wordcount: '6113'
+source-wordcount: '7039'
 ht-degree: 6%
 ---
 # 동료 채팅 사용 사례 {#use-cases}
@@ -20,7 +20,7 @@ ht-degree: 6%
 >
 >준비 중:
 >
->CX Enterprise Coworker를 통해 더욱 빠르고 효율적으로 수행할 수 있는 새로운 AEM Agentic 기능입니다.
+>더 많은 작업을 더 빠르고 효율적으로 수행할 수 있도록 구축된 CX Enterprise Coworker을 통한 새로운 AEM 에이전트 기능입니다.
 >
 >자격이 있는 모든 고객은 순차적으로 Coworker의 Adobe Experience Manager 에이전트 기능에 액세스할 수 있습니다.
 >
@@ -196,6 +196,41 @@ ht-degree: 6%
 
 * [AI를 사용하여 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}에서는 Adobe Journey Optimizer의 동료 및 사용 가능한 기술에 대한 개요를 제공합니다.
 
+## Journey Optimizer에서의 콘텐츠 제작
+
+동료 채팅을 사용하여 캠페인 메시지 사본 및 이메일 HTML을 계획, 생성, 평가 및 세분화한 다음 승인된 콘텐츠를 Journey Optimizer에 직접 저장하거나 전달합니다.
+
+### 메시지 복사
+
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| [마케팅 개요 캡처](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 캠페인 전략을 캡처하고 크리에이티브 브리프를 진행합니다. | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | &quot;시즌 제품 출시에 대한 마케팅 개요를 만드세요&quot; <br> &quot;이 캠페인 전략을 마케팅 설명서로 바꾸세요&quot; |
+| [Creative Brief 캡처](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 복사 실행 사양을 구조화하고 컨텐츠 계획 행렬을 작성합니다. | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 마케팅 설명서에서 크리에이티브 개요 만들기&quot; <br> &quot;전자 메일 및 SMS 캠페인에 대한 콘텐츠 계획 매트릭스 작성&quot; |
+| [콘텐츠 전략 계획](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 복사 생성을 앞두고 메시지 맵, 이야기 호 및 채널 역할을 브레인스토밍 합니다. | `plan-content-strategy` | Adobe Journey Optimizer (AJO) | &quot;전자 메일 및 푸시에서 제품 출시에 대한 메시지 전략을 계획합니다.&quot; <br> &quot;환영 캠페인에 대한 설명 호 제안&quot; |
+| [복사본 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 이메일, SMS, 푸시, WhatsApp, 소셜 및 배너에 대한 순 새로운 브랜드 내 사본을 생성합니다. | `generate-copy` | Adobe Journey Optimizer (AJO) | &quot;새 시즌 컬렉션을 발표하는 온-브랜드 이메일 작성&quot; <br> &quot;장바구니를 포기한 고객을 위한 SMS 알림 초안 작성&quot; |
+| [이미지 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Firefly을 사용하여 캠페인 이미지를 생성, 자르기, 오버레이, 다양화 및 서명합니다. | `generate-image` | Adobe Journey Optimizer (AJO) | &quot;시즌 캠페인 전자 메일에 대한 영웅 이미지 생성&quot; <br> &quot;이 승인된 캠페인 이미지에서 배너 변형 만들기&quot; |
+| [복사본 평가](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 브랜드 및 채널 표준에 따라 기존 사본을 평가하고 점수를 매깁니다. | `evaluate-copy` | Adobe Journey Optimizer (AJO) | &quot;브랜드 지침에 따라 이 전자 메일 복사본을 평가하십시오.&quot; <br> &quot;이 푸시 메시지가 채널 표준을 충족하는지 확인하십시오.&quot; |
+| [복사본 편집](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 평가 수정, 구문 변경, 번역 및 지시된 수정 버전 등 기존 사본을 즉각적으로 편집합니다. | `edit-copy` | Adobe Journey Optimizer (AJO) | &quot;평가 피드백을 처리하기 위해 이 전자 메일 복사본을 수정하십시오.&quot; <br> &quot;이 승인된 SMS 복사본을 프랑스어로 번역&quot; |
+| [캠페인 콘텐츠 확장](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 승인된 콘텐츠 계획 매트릭스를 채널, 로케일, 대상자 및 변형 간에 있는 단위당 사본으로 팬합니다. | `expand-campaign` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 콘텐츠 플랜의 각 채널에 대한 복사본 생성&quot; <br> &quot;이 캠페인을 각 대상에 대한 영어 및 프랑스어 변형으로 확장&quot; |
+| [시각적 HTML 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 시각적 검사를 위해 HTML 사본을 스크린샷에 렌더링합니다. | `analyze-visual-html` | Adobe Journey Optimizer (AJO) | &quot;레이아웃을 검사할 수 있도록 이 전자 메일 HTML을 렌더링합니다.&quot; <br> &quot;이 Campaign HTML의 스크린샷 표시&quot; |
+| [콘텐츠 저장](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 승인된 컨텐츠를 다시 Adobe Journey Optimizer, Adobe Campaign v8 또는 Marketo에 저장합니다. | `save-content` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 이메일 콘텐츠를 Journey Optimizer에 저장&quot; <br> &quot;승인된 SMS 사본을 Journey Optimizer에 저장&quot; |
+
+### 이메일 디자인
+
+| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| [전자 메일 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 플랜은 마케팅 목표 및 브랜드 입력에서 구조 및 스타일을 차단합니다. | `compose-email` | Adobe Journey Optimizer (AJO) | &quot;브랜드 지침을 사용하여 제품 출시에 대한 이메일 레이아웃을 계획합니다.&quot; <br> &quot;영웅 섹션, 제품 하이라이트 및 call to action으로 시작 이메일 구성&quot; |
+| [전자 메일 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 레이아웃 계획, 스크린샷 또는 그림 디자인 링크에서 이메일 HTML을 작성, 조정, 편집 및 정교화합니다. | `build-email` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 레이아웃 계획에서 이메일 HTML 작성&quot; <br> &quot;이 그림 디자인 링크에서 이메일 만들기&quot; |
+| [디자인 시스템 유지](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 토큰, 레이아웃 패턴 및 브랜드 언어와 같은 브랜드의 재사용 가능한 이메일 디자인 시스템을 유지 관리합니다. | `maintain-design-system` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 브랜드 색상으로 이메일 디자인 시스템 업데이트&quot; <br> &quot;이 재사용 가능한 제품 레이아웃을 이메일 디자인 시스템에 추가&quot; |
+| [준수 검토](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 브랜드 및 채널 지침 및 전달성 표준에 따라 조립된 이메일을 감사합니다. | `review-compliance` | Adobe Journey Optimizer (AJO) | &quot;브랜드 및 채널 지침에 따라 이 전자 메일을 검토하십시오.&quot; <br> &quot;전달 전에 이 전자 메일에서 전달성 문제를 검토하십시오.&quot; |
+| [디자인 검토](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 계층, 간격, 이야기 흐름 및 브랜드 적합도에 대한 주관적인 디자인 피드백을 제공합니다. | `review-design` | Adobe Journey Optimizer (AJO) | &quot;이 전자 메일의 시각적 계층 구조 및 간격 검토&quot; <br> &quot;이 전자 메일 디자인이 브랜드에 맞는지 평가&quot; |
+| [접근성 검토](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | WCAG 2.1 AA 접근성 감사를 실행합니다. | `review-accessibility` | Adobe Journey Optimizer (AJO) | &quot;WCAG 2.1 AA 접근성 문제에 대해 이 전자 메일 감사&quot; <br> &quot;이 전자 메일의 색상 대비 및 이미지 대체 텍스트 확인&quot; |
+| [전자 메일 전달](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 승인된 HTML을 Adobe Journey Optimizer 또는 Adobe Campaign으로 내보내고 전달합니다. | `handoff-email` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 전자 메일 HTML을 Journey Optimizer으로 내보내기&quot; <br> &quot;승인된 전자 메일을 Journey Optimizer으로 전달&quot; |
+
+**관련 정보**
+
+* [콘텐츠 관리를 위한 동료](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}에서는 Adobe Journey Optimizer의 콘텐츠 관리 도구 및 사용 가능한 기술에 대한 세부 정보를 제공합니다.
+
 ## 최적화
 
 동료 채팅을 사용하여 실험을 탐색, 분석 및 계획하고, Adobe Target 활동, 대상 및 권장 사항을 만들고, 실행하고, 문제를 해결할 수 있습니다.
@@ -258,7 +293,7 @@ ht-degree: 6%
 
 | 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [샌드박스 간 개체 이동](/help/agents/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 Platinum을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; <br> &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
+| [샌드박스 간 개체 이동](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 Platinum을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; <br> &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
 
 ## 고객 경고
 
