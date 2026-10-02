@@ -29,7 +29,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
         <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker 채팅 시작" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker 채팅 시작" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE: Coworker의 Audience 및 여정 B2C 기능" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -37,10 +37,10 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 시작">CX Enterprise Coworker 채팅 시작</a>
+                        <a href="https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 시작">CX Enterprise Coworker 채팅 시작</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">재생 목록</span>
                 </a>
             </div>
@@ -58,10 +58,10 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
             </div>
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 사용자 지정">CX Enterprise Coworker 채팅 사용자 지정</a>
+                        <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 사용자 지정">CX Enterprise Coworker 채팅 사용자 지정</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">재생 목록</span>
                 </a>
             </div>
