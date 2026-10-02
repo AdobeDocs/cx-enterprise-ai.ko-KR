@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f3430820a49a690ef43b23347495653a41294ca9
+source-git-commit: eb5a6e3230c31d9938f5ebf40fb08bdaad169866
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 6%
+source-wordcount: '755'
+ht-degree: 5%
 ---
 # CX Enterprise Coworker 개요 {#overview}
 
@@ -20,7 +20,9 @@ ht-degree: 6%
 
 Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작업을 자동화하여 유연한 계획, 사용자 정의 기술 및 지능형 실행을 통해 아이디어를 작업으로 신속하게 전환할 수 있습니다.
 
-## 큐레이트된 동료 채팅 학습
+## 동료 채팅 기본 사항
+
+이제 막 시작했거나 전문성을 강화하려는 경우 이러한 플레이리스트에서는 CX Enterprise Coworker Chat에 대한 안내식 소개를 제공합니다. 주요 기능을 탐색하고 효과적인 프롬프트를 작성하며 Adobe Experience Cloud 제품 전반에서 팀이 보다 효율적으로 작동하도록 Coworker를 지원하는 방법에 대한 실용적인 예제를 살펴보십시오.
 
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Get started with CX Enterprise Coworker Chat">
@@ -28,7 +30,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
         <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker 채팅 시작" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498572?captions=kor&format=jpeg" alt="Experience League LIVE: Coworker의 Audience 및 여정 B2C 기능" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498572?captions=kor&format=jpeg" alt="동료 채팅 시작" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -49,17 +51,17 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="CX Enterprise Coworker 채팅 시작" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502328?captions=kor&format=jpeg" alt="Experience League LIVE: Coworker의 Audience 및 여정 B2C 기능" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" title="CX Enterprise Coworker 채팅 시작" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502328?captions=kor&format=jpeg" alt="CX Coworker 채팅 사용자 지정" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 사용자 지정">CX Enterprise Coworker 채팅 사용자 지정</a>
+                        <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 사용자 지정">CX Enterprise Coworker 채팅 사용자 지정</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">재생 목록</span>
                 </a>
             </div>
@@ -69,13 +71,15 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 
 ## Experience League LIVE: Coworker 잠금 해제 시리즈
 
+CX Enterprise Coworker Unlocked 시리즈에 참여하여 조직에서 AI 기반 지원을 사용하여 고객 경험 작업을 간소화하는 방법을 살펴보십시오. 각 세션에서는 팀이 워크플로를 가속화하고, 통찰력을 발견하고, Adobe Experience Cloud 애플리케이션 전반에서 작업을 자동화하는 데 도움이 되는 실용적인 사용 사례, 라이브 데모 및 전문가 지침을 살펴봅니다. 이전 에피소드를 찾아보거나 예정된 이벤트에 등록하여 생산성을 높이고 고객 경험 결과를 도출하는 새로운 방법을 알아보십시오.
+
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Transforming CX Workflows with Adobe CX Enterprise Coworker">
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="Adobe CX Enterprise Coworker을 사용하여 CX 워크플로 변환" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Experience League LIVE: Adobe CX Enterprise Coworker을 사용하여 CX 워크플로 전환" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Adobe CX Enterprise Coworker을 사용하여 CX 워크플로 변환" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -97,7 +101,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Coworker의 대상 및 여정 B2C 기능" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Experience League LIVE: Coworker의 Audience 및 여정 B2C 기능" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Coworker의 Audience 및 여정 B2C 기능" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
