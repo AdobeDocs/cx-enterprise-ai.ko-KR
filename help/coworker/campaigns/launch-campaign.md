@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -32,15 +32,15 @@ ht-degree: 0%
 
 1. 캠페인이 준비 검사를 통과하면 시작 대화 상자가 열리고 이메일 및 대상자의 미리 보기가 표시됩니다.
 
-스크린샷
+   스크린샷
 
 1. 대화 상자에 표시된 일정을 검토합니다. 변경하려면 [캠페인 시작 시기 예약](/help/coworker/campaigns/schedule-campaign.md)에 설명된 예약 옵션을 사용한 다음, **저장**&#x200B;을 클릭하세요.
 
-스크린샷
+   스크린샷
 
 1. 완료되면 **캠페인 시작**&#x200B;을 클릭하세요.
 
-스크린샷
+   스크린샷
 
 샘플(비실제) 대상자, 교정되지 않은 이메일 초안 또는 구성되지 않은 전송 설정으로 캠페인 시작을 허용하지 않습니다
 
