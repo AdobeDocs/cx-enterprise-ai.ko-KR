@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # Salesforce에 연결 {#salesforce}
 
-Adobe Coworker Campaigns를 사용하면 Salesforce 계정을 다음으로 연결할 수 있습니다.
+Adobe Coworker Campaigns를 사용하면 Salesforce 계정을 연결하여 리드 및 연락처에 액세스할 수 있습니다.
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ Adobe Coworker Campaigns를 사용하면 Salesforce 계정을 다음으로 연�
 
    ![](./assets/salesforce-4.png)
 
-연결 후 Salesforce이 커넥터 목록에 나타나고 다시 무엇을 합니까?
+연결 후 Salesforce이 커넥터 목록에 나타나며 Salesforce에서 동기화하기 위해 리드 또는 연락처 목록을 연결할 때 선택할 수 있습니다.
 
 **연결을 끊으려면:**
 

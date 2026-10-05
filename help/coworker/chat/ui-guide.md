@@ -4,20 +4,20 @@ title: 동료 채팅 UI 안내서
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: 1719
+source-wordcount: '1719'
 ht-degree: 4%
-
 ---
-
 # UI 안내서 {#ui-guide}
 
 Coworker Chat 인터페이스를 사용하여 환경을 최적화합니다. 이 안내서에서는 앱 액세스, 작업 영역 탐색부터 대화 최대화, 내역 관리, 설정 맞춤화에 이르기까지 모든 작업을 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 동료 채팅 액세스
 
@@ -27,25 +27,25 @@ Coworker Chat 인터페이스를 사용하여 환경을 최적화합니다. 이 
 >
 >오른쪽 상단의 Coworker 아이콘 ![Coworker 아이콘](./assets/icon-coworker.png)을 통해 제품 내 환경에 액세스할 수 있습니다. 몰입형 환경 세부 정보는 [아래 요약됨](#immersive)입니다.
 
-다음 표에는 각 CX 엔터프라이즈 애플리케이션에서 이러한 환경을 사용할 수 있는 시기가 나와 있습니다.
+다음 표는 각 CX Enterprise 애플리케이션에서 이러한 경험을 사용할 수 있는 시기를 캡처합니다.
 
-| CX 엔터프라이즈 애플리케이션 | 몰입형 경험 | 제품 내 경험 |
+| CX Enterprise 애플리케이션 | 몰입형 경험 | 제품 내 경험 |
 |---|---|---|
 | RTCDP | 지금 사용 가능 | 곧 출시 예정 |
 | AJO | 지금 사용 가능 | 곧 출시 예정 |
 | CJA | 지금 사용 가능 | 곧 출시 예정 |
 | Workfront | 지금 사용 가능 | 준비 중:<br><br>* 적격한 Workfront 시스템 관리자를 위한 미리 보기 인스턴스에 2026년 9월 초<br><br>* 적격한 빠른 릴리스 Workfront 고객을 위한 프로덕션 인스턴스에 2026년 9월 중순<br><br>* 적격한 분기별 릴리스 Workfront 고객을 위한 프로덕션 인스턴스에 2026년 10월 중순 |
 | 대상 | 지금 사용 가능 | 지금 사용 가능 |
-| AEM | 지금 사용 가능 | 곧 출시 예정 |
+| AEM | 지금 사용 가능 | 지금 사용 가능 |
 | Marketo Engage | 지금 사용 가능 | 곧 출시 예정 |
 
 ### 몰입형 경험 {#immersive}
 
 [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)&#x200B;(으)로 이동한 다음 Adobe 자격 증명으로 로그인하여 동료 채팅에 액세스합니다.
 
-CX Enterprise의 위쪽 헤더에 있는 응용 프로그램 선택기에서 **Coworker**&#x200B;을(를) 선택하여 액세스할 수도 있습니다.
+CX Enterprise의 맨 위 헤더에 있는 응용 프로그램 선택기에서 **동료**&#x200B;을 선택하여 액세스할 수도 있습니다.
 
-![CX 엔터프라이즈 응용 프로그램 선택기에서 Coworker 액세스](./assets/ui-guide-1.png)
+![CX Enterprise 응용 프로그램 선택기에서 Coworker 액세스](./assets/ui-guide-1.png)
 
 ## 조직 및 샌드박스 선택
 
@@ -59,7 +59,7 @@ CX Enterprise의 위쪽 헤더에 있는 응용 프로그램 선택기에서 **C
 | 설정 | 작업 영역 설정을 열어 계정 및 기타 설정에 대한 세부 정보를 확인합니다. |
 | 조직 선택기 | IMS 조직 동료 실행 전환 |
 | 샌드박스 선택기 | 활성 AEP 샌드박스를 전환합니다. |
-| CX 애플리케이션 | 계정에 연결된 다른 CX 엔터프라이즈 애플리케이션으로 이동합니다. |
+| CX 애플리케이션 | 계정에 연결된 다른 CX Enterprise 애플리케이션으로 이동합니다. |
 | 로그아웃 | Adobe 계정에서 로그아웃합니다. |
 
 ![조직 선택기가 열려 있는 계정 메뉴](./assets/ui-guide-2.png)
@@ -91,7 +91,7 @@ CX Coworker 인터페이스에는 왼쪽의 탐색 레일과 나머지 창을 �
 
 ### 추천 프롬프트
 
-제안 사항 아래에 CX Coworker에서 예제 작업을 나열합니다. 제안 사항을 선택하여 입력 상자에 로드한 다음 그대로 전송하거나 전송하기 전에 편집합니다. 제안은 샌드박스 간 스키마 이동, 여정에서 예외 항목 찾기, 데이터 세트 유효성 검사 등 동료가 지원하는 작업 종류를 빠르게 확인할 수 있는 방법입니다.
+CX Coworker의 추천 항목 아래에 예제 작업이 나열됩니다. 제안 사항을 선택하여 입력 상자에 로드한 다음 그대로 전송하거나 전송하기 전에 편집합니다. 제안은 샌드박스 간 스키마 이동, 여정에서 예외 항목 찾기, 데이터 세트 유효성 검사 등 동료가 지원하는 작업 종류를 빠르게 확인할 수 있는 방법입니다.
 
 ### 엔티티 언급
 
