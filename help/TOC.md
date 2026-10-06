@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 17%
 ---
 
@@ -95,6 +95,7 @@ ht-degree: 17%
   - [필드 검색 에이전트](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [제품 지원 에이전트](./agents/product-support.md)
+  - [SQL 데이터 준비](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [알림 에이전트](./agents/notifications.md)
   - [동료 시험](./agents/trial.md)
