@@ -6,17 +6,17 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 17%
+source-wordcount: '391'
+ht-degree: 19%
 ---
 
 # CX Enterprise의 AI {#experience-cloud-ai}
 
 - [CX Enterprise의 AI](home.md)
-- CX Enterprise의 AI 정보 {#overview}
-  - [CX Enterprise의 AI 정보](./overview/overview-ai-cxe.md)
+- CX Enterprise의 AI 소개 {#overview}
+  - [CX Enterprise의 AI 소개](./overview/overview-ai-cxe.md)
   - [생성 AI 정보](./overview/generative-ai.md)
   - [아젠틱 AI 정보](./overview/agentic-ai.md)
   - [AI 크레딧 소비 정보](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 17%
       - 경고 {#alerts}
         - [고객 경고 기술](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
-        - [마케팅 에셋 생성](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [브랜드 준수 검사](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [AEM Sites 페이지 작성](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [AEM Assets 온보드](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [마케팅 에셋 생성](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - 워크플로 및 계획 {#workflow-and-planning}
         - [디지털 캠페인 시작 계획](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - 사용자 지정 {#customizations}
@@ -115,5 +116,5 @@ ht-degree: 17%
     - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
