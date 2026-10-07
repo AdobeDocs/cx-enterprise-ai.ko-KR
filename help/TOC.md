@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '400'
 ht-degree: 20%
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 20%
     - 메모리 {#memory}
       - [메모리란 무엇입니까?](./coworker/customizations/memory/what-is-memory.md)
   - 캠페인 {#campaigns}
+    - {hide-from-toc}[새 팀 경험](./coworker/campaigns/new-teams-experience.md)
     - [개요](./coworker/campaigns/overview.md)
     - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
     - [캠페인 시작 및 관리](./coworker/campaigns/launch-manage-campaign.md)
@@ -119,5 +120,5 @@ ht-degree: 20%
     - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
