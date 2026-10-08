@@ -38,7 +38,7 @@ ht-degree: 2%
 
 여기에서 CX Enterprise에서 AI가 사용되는 위치와 방법에 대한 입문서를 시작하십시오.
 
-- [Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/home)은(는) 에이전트 우선 팀원으로, 승인을 위해 완료된 고객 경험 및 마케팅 작업을 계획, 실행, 확인 및 반환합니다.
+- [Coworker](https://experienceleague.adobe.com/ko/docs/coworker/content/home)은(는) 에이전트 우선 팀원으로, 승인을 위해 완료된 고객 경험 및 마케팅 작업을 계획, 실행, 확인 및 반환합니다.
 - [생성 AI 정보](./overview/generative-ai.md)에서는 생성 AI 및 AI 도우미를 지원하는 CX Enterprise 애플리케이션과 비교 방법에 대해 설명합니다.
 - [아젠틱 AI 정보](./overview/agentic-ai.md)에서는 아젠틱 AI가 기존 CX Enterprise 애플리케이션과 AI 우선 애플리케이션 모두에서 작동하는 방식을 설명하고 각 애플리케이션에서 사용할 수 있는 에이전트를 나열합니다.
 - [AI 모니터링](./overview/monitoring.md)은(는) 에이전트 채택, 사용, 피드백 및 AI 크레딧 소비를 추적하는 대시보드를 다룹니다.
@@ -48,12 +48,12 @@ ht-degree: 2%
 
 ## Coworker
 
-동료는 고객 경험과 마케팅 워크플로를 자동화하는 AI 비서의 에이전트 우선 진화로, 팀이 일상적인 실행 대신 비즈니스 목표에 집중할 수 있도록 합니다. 한 번에 한 질문씩 던지는 대신 목표를 설명한다. 동료는 사용자의 승인을 위해 완료된 작업을 계획, 실행, 검증 및 반환합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
+동료는 고객 경험과 마케팅 워크플로를 자동화하는 AI 비서의 에이전트 우선 진화로, 팀이 일상적인 실행 대신 비즈니스 목표에 집중할 수 있도록 합니다. 한 번에 한 질문씩 던지는 대신 목표를 설명한다. 동료는 사용자의 승인을 위해 완료된 작업을 계획, 실행, 검증 및 반환합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
 
 동료는 다음과 같습니다.
 
-- **[공동 작업자 채팅](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX Enterprise 응용 프로그램에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
-- **[공동 작업자 캠페인](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
+- **[공동 작업자 채팅](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX Enterprise 응용 프로그램에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
+- **[공동 작업자 캠페인](https://experienceleague.adobe.com/ko/docs/coworker/content/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
 - **공동 작업자 프로젝트**(준비 중): 엔드 투 엔드 고객 경험 오케스트레이션 워크플로우를 자동화하고, 팀이 작업, 승인 및 실행을 조정하여 전략에서 게재를 통한 결과를 도출하는 데 도움이 되는 통합 작업 영역입니다. 프로젝트 설명서가 곧 제공됩니다.
 
 적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다.
@@ -61,8 +61,8 @@ ht-degree: 2%
 ### 동료 리소스
 
 - 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [동료 평가판](./agents/trial.md)을 읽어 보십시오.
-- 모든 Coworker 콘텐츠에 대해서는 [Coworker 도움말 홈](https://experienceleague.adobe.com/en/docs/coworker/content/home)을 참조하십시오.
-- 샌드박스 간 개체 복제에 대해서는 [샌드박스 도구 에이전트 기술](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling)을 참조하십시오.
+- 모든 Coworker 콘텐츠에 대해서는 [Coworker 도움말 홈](https://experienceleague.adobe.com/ko/docs/coworker/content/home)을 참조하십시오.
+- 샌드박스 간 개체 복제에 대해서는 [샌드박스 도구 에이전트 기술](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling)을 참조하십시오.
 
 ## AI 어시스턴트
 
@@ -97,8 +97,8 @@ ht-degree: 2%
 - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
 - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-- [!DNL Workfront] 도구, [Workfront MCP 서버 안내서](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)에 문서화되어 있음
-- [!DNL Target] 도구, [Target MCP 서버 안내서](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)에 문서화되어 있습니다.
+- [!DNL Workfront] 도구, [Workfront MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)에 문서화되어 있음
+- [!DNL Target] 도구, [Target MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)에 문서화되어 있습니다.
 
 CX Coworker Gateway를 처음 사용하십니까? 연결하려면 [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md) 및 [CX Coworker 게이트웨이 설치](./mcp/install.md)를 참조하십시오. 연결되면 제품 도구를 호출하기 전에 [세션 컨텍스트 도구](./mcp/context-tools.md)를 사용하여 활성 조직, 샌드박스 및 데이터 보기를 설정합니다.
 
