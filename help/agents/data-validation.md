@@ -24,7 +24,7 @@ AI Assistant에서 데이터의 유효성을 검사하는 방법은 이 설명�
 
 >[!NOTE]
 >
->데이터 유효성 검사는 동료 스킬로도 사용할 수 있습니다. [Coworker를 사용하여 Experience Platform 데이터 유효성 검사](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)를 참조하십시오.
+>데이터 유효성 검사는 동료 스킬로도 사용할 수 있습니다. [Coworker를 사용하여 Experience Platform 데이터 유효성 검사](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)를 참조하십시오.
 
 ## 사용 사례
 

@@ -66,7 +66,7 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 - **채널 콘텐츠 만들기**: AI 기반 콘텐츠 생성을 사용하여 여정에 대한 채널별 콘텐츠(이메일, 푸시, SMS)를 생성하고 편집하고 관리합니다.
 - **분석 여정**: 여정 분석, 문제 감지, 인사이트 발견 및 고객 참여 최적화
 
-또한 **여정 시뮬레이션**&#x200B;은(는) 다음 세 가지 하위 기능이 있는 제품 내 비대화형 AI 기능인 [여정 시뮬레이션](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}을 포함하는 Journey Optimizer 기능입니다.
+또한 **여정 시뮬레이션**&#x200B;은(는) 다음 세 가지 하위 기능이 있는 제품 내 비대화형 AI 기능인 [여정 시뮬레이션](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}을 포함하는 Journey Optimizer 기능입니다.
 
 - 시뮬레이션된 사용자 생성
 - 이벤트 값 생성
@@ -310,7 +310,7 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 
 여정 분석을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. 실무자는 여정 분석을 통해 신속하게 일정 및 대상 충돌을 식별하고 해결하며, 여정에서 사용자 포기 지점을 감지하고, 통찰력 또는 권장 사항을 제공하여 성과를 향상시킬 수 있습니다.
 
-자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/en/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
+자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/ko/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
 
 자세한 내용은 Adobe Journey Optimizer 설명서에서 [여정 분석](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}을 참조하십시오.
 
@@ -500,7 +500,7 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 
 **[!UICONTROL 시뮬레이션]**&#x200B;에서 AI를 사용하려면(**[!UICONTROL 빠른 시뮬레이션]**, AI로 시뮬레이션된 사용자 생성 **[!UICONTROL 이벤트 값 생성]**) 사용자는 **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]** 권한이 필요합니다.
 
-[권한에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
+[권한에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -562,11 +562,11 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 
 시뮬레이션은 테스트 모드나 라이브 여정이 지원하는 모든 활동, 채널 또는 통합을 지원하지 않을 수 있으며, 기능이 향상됨에 따라 동작이 변경될 수 있습니다.
 
-➡️ Journey Optimizer 설명서에서 [시뮬레이션 제한 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}에 대해 자세히 알아보세요.
+➡️ Journey Optimizer 설명서에서 [시뮬레이션 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 참조 -
 
 - [Agent Orchestrator](./agent-orchestrator.md), Journey Agent 및 기타 Experience Platform 에이전트를 구동하는 에이전트 계층.
 - [CX Coworker 게이트웨이의 Journey Optimizer 도구](../mcp/ajo-mcp.md), 캠페인 및 채널 구성 검토를 위한 읽기 전용 MCP 표면.
-- [자연어로 여정 만들기](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) 및 [충성도 문제를 만들고, 편집하고, 관리](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), 여정 만들기 기반의 공동 작업자 채팅 사용 사례.
+- [자연어로 여정 만들기](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) 및 [충성도 문제를 만들고, 편집하고, 관리](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), 여정 만들기 기반의 공동 작업자 채팅 사용 사례.
 - AI Assistant를 통해 표면화된 Journey Optimizer 문제를 해결하기 위해 [제품 지원 에이전트](./product-support.md)

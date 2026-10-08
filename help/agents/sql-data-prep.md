@@ -8,7 +8,7 @@ ht-degree: 1%
 ---
 # Coworker의 SQL 데이터 준비
 
-Coworker의 SQL 데이터 준비를 사용하여 자연어 프롬프트로 일반적인 [데이터 Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) 작업을 수행합니다. SQL을 생성하고, 기존 쿼리의 문제를 해결하거나 최적화하고, 결과를 미리 보고, 반복 실행을 위한 쿼리를 예약할 수 있습니다.
+Coworker의 SQL 데이터 준비를 사용하여 자연어 프롬프트로 일반적인 [데이터 Distiller](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/overview) 작업을 수행합니다. SQL을 생성하고, 기존 쿼리의 문제를 해결하거나 최적화하고, 결과를 미리 보고, 반복 실행을 위한 쿼리를 예약할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -29,7 +29,7 @@ Coworker에서 SQL 데이터 준비를 사용하기 전에 다음을 확인합�
 
 Coworker가 SQL을 생성하거나 업데이트한 후 대화를 계속하여 결과를 미리 보거나, 쿼리를 구체화하거나, 저장하거나, 반복 실행을 예약할 수 있습니다.
 
-Coworker 인터페이스 사용에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide)를 참조하십시오.
+Coworker 인터페이스 사용에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide)를 참조하십시오.
 
 ## 지원되는 기능 {#supported-capabilities}
 
@@ -56,7 +56,7 @@ SQL 데이터 준비 기능을 별도의 워크플로우로 처리하는 대신 
 
 동료는 적절한 데이터 세트를 확인하거나 일정에 대한 시간대를 확인하는 등 추가 정보가 필요할 때 후속 질문을 할 수 있습니다.
 
-쿼리 미리 보기는 최대 5개의 행을 반환합니다. Experience Platform에서 직접 쿼리를 실행하고 작업하려면 [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)를 참조하세요.
+쿼리 미리 보기는 최대 5개의 행을 반환합니다. Experience Platform에서 직접 쿼리를 실행하고 작업하려면 [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/user-guide)를 참조하세요.
 
 ![쿼리를 템플릿으로 저장하거나 반복 실행을 예약하기 위한 SQL 쿼리 결과 및 옵션의 5행 미리 보기를 표시하는 Coworker 응답입니다.](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ Coworker는 생성된 SQL을 반환하며 쿼리를 실행하여 결과를 미�
 
 ![이벤트 유형별 고객 참여를 요약하기 위해 생성된 SQL을 보여 주는 동료 응답, 총 이벤트 및 고유 고객에 대한 테이블 미리 보기 및 결과 분석을 보여 줍니다.](./assets/sql-data-prep/authoring-result.png)
 
-Experience Platform에서 직접 쿼리를 만들고 실행하는 방법에 대한 자세한 내용은 [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)를 참조하십시오.
+Experience Platform에서 직접 쿼리를 만들고 실행하는 방법에 대한 자세한 내용은 [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/user-guide)를 참조하십시오.
 
 ### 기존 SQL 최적화 {#optimize-sql}
 
@@ -113,7 +113,7 @@ Coworker에 변경 내용을 설명하고 원본 및 최적화된 SQL을 비교�
 
 SQL 작성 기능을 통해 생성된 SQL은 이미 최적화되어 있습니다. 최적화를 위해 새로 생성된 SQL을 별도로 제출할 필요가 없습니다.
 
-SQL 구문 및 지원되는 명령에 대해서는 [Query Service SQL 참조](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)를 참조하십시오.
+SQL 구문 및 지원되는 명령에 대해서는 [Query Service SQL 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/query/sql/overview)를 참조하십시오.
 
 ### SQL 오류 진단 및 수정 {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Coworker는 쿼리를 분석하고 오류 원인을 식별하며 문제를 설�
 
 ![저장된 템플릿, 일정, 시간대, 종료 날짜, 일정 상태 및 실패 경고를 포함하여 예약된 SQL 쿼리를 확인하는 동료 응답입니다.](./assets/sql-data-prep/schedule-query.png)
 
-쿼리 일정, 되풀이 설정, 출력 데이터 세트 및 경고에 대한 자세한 내용은 [쿼리 일정](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)을 참조하세요.
+쿼리 일정, 되풀이 설정, 출력 데이터 세트 및 경고에 대한 자세한 내용은 [쿼리 일정](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/query-schedules)을 참조하세요.
 
 ## 다음 단계 {#next-steps}
 
 SQL 데이터 준비에서 사용하는 데이터 Distiller 및 쿼리 서비스 기능에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
-- [데이터 Distiller 개요](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
-- [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
-- [쿼리 일정](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
-- [쿼리 서비스 SQL 참조](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+- [데이터 Distiller 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/overview)
+- [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/user-guide)
+- [쿼리 일정](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/query-schedules)
+- [쿼리 서비스 SQL 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/query/sql/overview)
