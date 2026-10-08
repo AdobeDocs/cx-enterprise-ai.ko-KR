@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 19%
+source-wordcount: '400'
+ht-degree: 20%
 ---
 
 # CX Enterprise의 AI {#experience-cloud-ai}
@@ -32,7 +32,9 @@ ht-degree: 19%
     - 사용 사례 {#use-cases}
       - [동료 채팅 사용 사례](./coworker/chat/use-cases/overview.md)
       - 데이터 인사이트 {#data-insights}
-        - [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - {hide-from-toc}[개요](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[개요](./coworker/chat/use-cases/data-insights/analytics-overview.md)
+        - [시작하기](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [트렌드 및 근본 원인 탐색](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -73,6 +75,7 @@ ht-degree: 19%
     - 메모리 {#memory}
       - [메모리란 무엇입니까?](./coworker/customizations/memory/what-is-memory.md)
   - 캠페인 {#campaigns}
+    - {hide-from-toc}[새 팀 경험](./coworker/campaigns/new-teams-experience.md)
     - [개요](./coworker/campaigns/overview.md)
     - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
     - [캠페인 시작 및 관리](./coworker/campaigns/launch-manage-campaign.md)
