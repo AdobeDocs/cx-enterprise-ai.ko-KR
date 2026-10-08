@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
+source-git-commit: 2656c4673ad5dd9f960904898fb5b8a274410eda
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '218'
 ht-degree: 0%
 ---
 # 준비 중: 팀 간 캠페인 가시성이 있는 기본 작업 영역 {#new-teams-experience}
@@ -36,6 +36,6 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
 
-### 질문이 있습니까?
+## 질문이 있습니까?
 
-coworkerca@adobe.com으로 문의하십시오.
+<coworkerca@adobe.com>에 문의하세요.
