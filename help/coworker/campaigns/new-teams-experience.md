@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 ---
-# 새로운 팀 경험 {#new-teams-experience}
+# 준비 중: 팀 간 캠페인 가시성이 있는 기본 작업 영역 {#new-teams-experience}
 
-## 작업이 필요할 수 있습니다. 새로운 팀 경험은 10월 15일에 제공됩니다
+## 작업이 필요할 수 있음: 새로운 팀 경험은 2026년 10월 15일에 제공됩니다
 
 ### 변경 사항은 무엇이며 어떤 영향을 미칩니까?
 
@@ -32,4 +32,10 @@ ht-degree: 0%
 * **캠페인**: 캠페인의 오른쪽 상단에 있는 다운로드 아이콘을 사용하여 각 캠페인을 PDF 또는 Word 파일로 내보냅니다.
 * **전자 메일**: 전자 메일 편집기의 내보내기 아이콘을 사용하여 전자 메일을 HTML으로 다운로드합니다.
 
-질문? coworkerca@adobe.com으로 문의하십시오.
+**연습에 대해 아래 비디오를 시청하십시오**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
+
+### 질문이 있습니까?
+
+coworkerca@adobe.com으로 문의하십시오.
