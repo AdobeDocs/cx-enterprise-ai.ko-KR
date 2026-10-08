@@ -1,9 +1,9 @@
 ---
 title: AI Assistant에서 데이터 유효성 검사
 description: AI Assistant에서 Agent Orchestrator 기반 데이터 유효성 검사를 사용하여 데이터 세트에 대한 통계 및 시맨틱 유효성 검사를 수행하는 방법에 대해 알아봅니다.
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # AI Assistant에서 데이터 유효성 검사
@@ -24,7 +24,7 @@ AI Assistant에서 데이터의 유효성을 검사하는 방법은 이 설명�
 
 >[!NOTE]
 >
->데이터 유효성 검사는 동료 스킬로도 사용할 수 있습니다. [Coworker를 사용하여 Experience Platform 데이터 유효성 검사](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)를 참조하십시오.
+>데이터 유효성 검사는 동료 스킬로도 사용할 수 있습니다. [Coworker를 사용하여 Experience Platform 데이터 유효성 검사](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)를 참조하십시오.
 
 ## 사용 사례
 
@@ -36,7 +36,7 @@ AI Assistant에서 데이터의 유효성을 검사하는 방법은 이 설명�
 
 ## UI 안내서
 
-Adobe CX Enterprise의 **AI Assistant**&#x200B;을(를) 사용하여 데이터의 유효성을 검사하십시오. AI Assistant는 대화식 인터페이스이며 Agent Orchestrator은 유효성 검사 워크플로를 백그라운드에서 조정합니다. 다음 단계는 표시되는 기본 화면을 따릅니다.
+Adobe CX Enterprise의 **AI Assistant**&#x200B;를 사용하여 데이터의 유효성을 검사하십시오. AI Assistant는 대화식 인터페이스이며 Agent Orchestrator은 유효성 검사 워크플로를 백그라운드에서 조정합니다. 다음 단계는 표시되는 기본 화면을 따릅니다.
 
 ### 유효성 검사 시작
 

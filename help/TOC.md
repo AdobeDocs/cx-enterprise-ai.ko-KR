@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '222'
 ht-degree: 20%
 ---
 
@@ -23,69 +23,6 @@ ht-degree: 20%
   - [Agentic AI 모니터링 대시보드](./overview/monitoring.md)
   - [에이전틱 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
   - [생성 AI 콘텐츠 투명도](content-transparency.md)
-- CX Enterprise Coworker 안내서 {#coworker}
-  - [동료 개요](./coworker/overview.md)
-  - 채팅 {#chat}
-    - [개요](./coworker/chat/overview.md)
-    - [UI 안내서](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
-    - 사용 사례 {#use-cases}
-      - [동료 채팅 사용 사례](./coworker/chat/use-cases/overview.md)
-      - 데이터 인사이트 {#data-insights}
-        - {hide-from-toc}[개요](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
-        - {hide-from-toc}[개요](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [시작하기](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [트렌드 및 근본 원인 탐색](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-        - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-        - [Experience Platform 데이터 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
-      - 데이터 관리 {#data-management}
-        - [데이터 레이크 보존 관리](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
-      - 대상자 {#audiences}
-        - [플랫폼 상태 평가 및 대상 구축](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
-      - 여정 {#journeys}
-        - [자연어를 사용하여 여정 만들기](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
-      - 충성도 {#loyalty}
-        - [충성도 과제 및 잠재 고객 인사이트 만들기](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - 최적화 {#optimization}
-        - [Target 활동 시작](./coworker/chat/use-cases/optimization/target.md)
-      - 샌드박스 도구 {#sandbox-tooling}
-        - [샌드박스 도구 에이전트 기술](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
-      - 경고 {#alerts}
-        - [고객 경고 기술](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
-      - Brand Visibility {#brand-visibility}
-        - [브랜드 준수 검사](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
-        - [AEM Sites 페이지 작성](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
-        - [AEM Assets 온보드](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
-        - [마케팅 에셋 생성](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
-      - 워크플로 및 계획 {#workflow-and-planning}
-        - [디지털 캠페인 시작 계획](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-  - 사용자 지정 {#customizations}
-    - [개요](./coworker/customizations/overview.md)
-    - 기술 {#skills}
-      - [기술이란?](./coworker/customizations/skills/what-are-skills.md)
-      - [첫 번째 스킬 만들기](./coworker/customizations/skills/create-your-first-skill.md)
-      - [품질 게이트 스킬 구축 및 실행](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [기술 관리 및 반복](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
-    - 통합 {#integrations}
-      - [통합이란 무엇입니까?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
-    - 플러그인 {#plugins}
-      - [플러그인이란 무엇입니까?](./coworker/customizations/plugins/what-are-plugins.md)
-      - [조직의 플러그인 관리](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
-    - 메모리 {#memory}
-      - [메모리란 무엇입니까?](./coworker/customizations/memory/what-is-memory.md)
-  - 캠페인 {#campaigns}
-    - {hide-from-toc}[새 팀 경험](./coworker/campaigns/new-teams-experience.md)
-    - [개요](./coworker/campaigns/overview.md)
-    - [이메일 캠페인 만들기](./coworker/campaigns/create-an-email-campaign.md)
-    - [캠페인 시작 및 관리](./coworker/campaigns/launch-manage-campaign.md)
-    - [사용 사례](./coworker/campaigns/use-cases.md)
-    - [프롬프트 우수 사례](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA 메타데이터](./coworker/campaigns/c2pa-metadata.md)
-    - 커넥터 {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [릴리스 정보](./coworker/campaigns/release-notes.md)
 - AI Assistant 안내서 {#ai-assistant}
   - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
   - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
@@ -103,7 +40,7 @@ ht-degree: 20%
   - [SQL 데이터 준비](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [알림 에이전트](./agents/notifications.md)
-  - [동료 시험](./agents/trial.md)
+  - [동료 재판](./agents/trial.md)
   - [데이터 유효성 검사](./agents/data-validation.md)
   - 데이터 엔지니어링 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -120,5 +57,5 @@ ht-degree: 20%
     - {hide-from-toc}[Journey Optimizer 도구](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics 도구](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics 도구](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [대상](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
