@@ -1,9 +1,9 @@
 ---
 title: Adobe Experience Platform용 데이터 관리 에이전트
 description: CX Coworker에서 데이터 관리 에이전트를 사용하여 Adobe Experience Platform 데이터 세트를 검색 및 분석하고 데이터 레이크 보존 정책을 관리하는 방법을 알아봅니다.
-source-git-commit: 40f144c7a06592c78dccc6c17f19554b62f667c9
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1036'
 ht-degree: 3%
 ---
 # 데이터 관리 에이전트
@@ -50,7 +50,7 @@ ht-degree: 3%
 - 사용하려는 데이터 세트 및 보존 작업에 필요한 Adobe Experience Platform 권한입니다. 데이터 관리 에이전트는 기존 Experience Platform 권한을 사용하며 추가 액세스 권한을 부여하지 않습니다. Adobe Experience Platform 권한 및 역할의 작동 방식에 대한 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)를 참조하세요.
 - CX Coworker에 설치된 Adobe CXO 플러그인입니다.
 
-플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide)를 참조하십시오.
 
 ## 데이터 관리 에이전트 사용 {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ ht-degree: 3%
 
 데이터 관리 에이전트를 사용하려면:
 
-1. **[!UICONTROL CX Coworker]**(으)로 이동합니다. 액세스 세부 정보는 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+1. **[!UICONTROL CX Coworker]**(으)로 이동합니다. 액세스 세부 정보는 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide)를 참조하십시오.
 1. 수행할 작업을 설명하는 요청을 입력합니다.
 1. 결과를 검토하고 후속 질문을 사용하여 조사를 계속합니다.
 
 요청이 데이터 레이크 보존 정책을 변경하는 경우 데이터 관리 에이전트에는 제안된 영향이 표시되며 변경 사항을 적용하기 전에 확인해야 합니다.
 
-데이터 세트를 식별하고, 사용 및 보존 영향을 분석하고, 데이터 레이크 보존 정책을 관리하는 전체 워크플로에 대해서는 [데이터 레이크 보존 관리](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md)를 참조하십시오.
+데이터 세트를 식별하고, 사용 및 보존 영향을 분석하고, 데이터 레이크 보존 정책을 관리하는 전체 워크플로에 대해서는 [데이터 레이크 보존 관리](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)를 참조하십시오.
 
 ## 데이터 관리 에이전트 작동 방식 {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ ht-degree: 3%
 
 ## 다음 단계 {#next-steps}
 
-각 스킬을 사용하여 경험 이벤트 데이터 세트에서 데이터 레이크 보존을 검색, 분석 및 관리하는 방법에 대한 지침은 [데이터 레이크 보존 관리](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md)를 참조하십시오.
+각 스킬을 사용하여 경험 이벤트 데이터 세트에서 데이터 레이크 보존을 검색, 분석 및 관리하는 방법에 대한 지침은 [데이터 레이크 보존 관리](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)를 참조하십시오.
 
 보존 동작 및 구성을 포함하여 Adobe Experience Platform에서 데이터 레이크 보존 정책이 작동하는 방법에 대한 자세한 내용은 [경험 이벤트 TTL(데이터 세트 보존) 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)를 참조하십시오.

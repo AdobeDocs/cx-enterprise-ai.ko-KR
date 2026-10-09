@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '962'
 ht-degree: 2%
 ---
 # CX Enterprise 애플리케이션의 AI
@@ -38,6 +38,7 @@ ht-degree: 2%
 
 여기에서 CX Enterprise에서 AI가 사용되는 위치와 방법에 대한 입문서를 시작하십시오.
 
+- [Coworker](https://experienceleague.adobe.com/ko/docs/coworker/content/home)은(는) 에이전트 우선 팀원으로, 승인을 위해 완료된 고객 경험 및 마케팅 작업을 계획, 실행, 확인 및 반환합니다.
 - [생성 AI 정보](./overview/generative-ai.md)에서는 생성 AI 및 AI 도우미를 지원하는 CX Enterprise 애플리케이션과 비교 방법에 대해 설명합니다.
 - [아젠틱 AI 정보](./overview/agentic-ai.md)에서는 아젠틱 AI가 기존 CX Enterprise 애플리케이션과 AI 우선 애플리케이션 모두에서 작동하는 방식을 설명하고 각 애플리케이션에서 사용할 수 있는 에이전트를 나열합니다.
 - [AI 모니터링](./overview/monitoring.md)은(는) 에이전트 채택, 사용, 피드백 및 AI 크레딧 소비를 추적하는 대시보드를 다룹니다.
@@ -51,15 +52,17 @@ ht-degree: 2%
 
 동료는 다음과 같습니다.
 
-- **[공동 작업자 채팅](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX Enterprise 응용 프로그램에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
-- **[공동 작업자 캠페인](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
+- **[공동 작업자 채팅](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)**: 데이터를 탐색하고, 대상자와 여정의 유효성을 검사하고, CX Enterprise 응용 프로그램에서 여러 단계 작업을 완료할 수 있는 대화형 인터페이스입니다.
+- **[공동 작업자 캠페인](https://experienceleague.adobe.com/ko/docs/coworker/content/campaigns/overview)**: 캠페인 브리핑, 대상자 작성, 콘텐츠 생성, 여정 디자인 및 증명을 하나의 대화 경험으로 통합하는 AI 기반 애플리케이션입니다. 내장된 템플릿, 모범 사례 및 안내 메시지를 활용하여 민첩한 소규모 팀이 신속하게 캠페인을 시작할 수 있도록 지원합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker/teams.html)에서 자세히 알아보세요.
 - **공동 작업자 프로젝트**(준비 중): 엔드 투 엔드 고객 경험 오케스트레이션 워크플로우를 자동화하고, 팀이 작업, 승인 및 실행을 조정하여 전략에서 게재를 통한 결과를 도출하는 데 도움이 되는 통합 작업 영역입니다. 프로젝트 설명서가 곧 제공됩니다.
 
-적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다. 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [동료 평가판](./agents/trial.md)을 읽어 보십시오.
+적격 고객이 점차 AI 비서 및 Experience Platform 에이전트에서 동료채팅으로 전환되고 있습니다.
 
-동료 채팅을 실제로 보려면 [플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)을 살펴보거나 [AA에서 CJA 마이그레이션 데이터로의 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [Experience Platform 데이터의 유효성 검사](./coworker/chat/use-cases/data-insights/data-validation-aep.md) 및 [CJA 데이터 분석](./coworker/chat/use-cases/data-insights/analytics-chat.md)과 같은 실제 사용 사례를 읽어 보십시오.
+### 동료 리소스
 
-동료 채팅, 팀용 동료(동료 캠페인) 및 프로젝트에 대한 전체 제품 설명서는 [동료](./coworker/overview.md)을(를) 참조하십시오. 샌드박스 간 개체 복제에 대해서는 [샌드박스 도구 에이전트 기술](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)을 참조하십시오.
+- 평가판 자격, AI 크레딧 사용 방법 및 액세스 방법에 대해 알아보려면 [동료 평가판](./agents/trial.md)을 읽어 보십시오.
+- 모든 Coworker 콘텐츠에 대해서는 [Coworker 도움말 홈](https://experienceleague.adobe.com/ko/docs/coworker/content/home)을 참조하십시오.
+- 샌드박스 간 개체 복제에 대해서는 [샌드박스 도구 에이전트 기술](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling)을 참조하십시오.
 
 ## AI 어시스턴트
 

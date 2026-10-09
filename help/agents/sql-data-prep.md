@@ -1,9 +1,9 @@
 ---
 title: Coworker의 SQL 데이터 준비
 description: Coworker에서 SQL 데이터 준비를 사용하여 SQL 쿼리를 생성, 최적화, 문제 해결 및 예약하는 방법에 대해 알아봅니다.
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 1%
 ---
 # Coworker의 SQL 데이터 준비
@@ -29,7 +29,7 @@ Coworker에서 SQL 데이터 준비를 사용하기 전에 다음을 확인합�
 
 Coworker가 SQL을 생성하거나 업데이트한 후 대화를 계속하여 결과를 미리 보거나, 쿼리를 구체화하거나, 저장하거나, 반복 실행을 예약할 수 있습니다.
 
-Coworker 인터페이스 사용에 대한 지침은 [Coworker UI 안내서](../coworker/chat/ui-guide.md)를 참조하십시오.
+Coworker 인터페이스 사용에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide)를 참조하십시오.
 
 ## 지원되는 기능 {#supported-capabilities}
 

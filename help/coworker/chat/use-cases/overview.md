@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
+source-git-commit: 29be6d986ce52cd14e4b1829d6558a4c981c8f9a
 workflow-type: tm+mt
-source-wordcount: '7086'
+source-wordcount: '7168'
 ht-degree: 6%
 ---
 # 동료 채팅 사용 사례 {#use-cases}
@@ -52,6 +52,7 @@ ht-degree: 6%
 | 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | Cloud Manager 파이프라인 관리 | 로그, 아티팩트, 변수 및 설정을 포함한 AEM Cloud Manager 파이프라인 생성, 실행 및 모니터링 | `cloud-manager-pipeline-management` | AEM(Adobe Experience Manager) | &quot;프로그램 12345&quot;<br><br>&quot;에 대한 파이프라인을 나열합니다. 가장 최근 파이프라인의 상태는 무엇입니까?&quot; |
+| 실패한 Cloud Manager 파이프라인 문제 해결 | 실패한 AEM Cloud Manager 파이프라인 실행을 분석하고 실패한 이유를 일반 언어로 설명합니다. 전체 스택 파이프라인(배포 및 코드 품질), 웹 계층 구성 파이프라인 및 구성 파이프라인(예: 잘못된 CDN 구성으로 인한 배포 오류)을 지원합니다 | 전문 Cloud Manager 파이프라인 문제 해결 에이전트로 구현되었습니다. | AEM(Adobe Experience Manager) | &quot;실패한 내 파이프라인 문제 해결&quot;<br><br>&quot;프로그램 &lt;프로그램 이름>에 대해 실패한 내 파이프라인을 나열&quot;<br><br>&quot;프로그램 &lt;프로그램 이름>에서 &lt;파이프라인 이름>의 최근 실행 실패 분석&quot; |
 | Cloud Manager 환경 관리 | RDE, 환경 변수, 로그 및 백업을 포함한 AEM Cloud Manager 환경을 생성, 구성 및 유지 관리합니다. | `cloud-manager-environment-management` | AEM(Adobe Experience Manager) | &quot;프로그램 12345&quot;<br><br>&quot;내 RDE 다시 설정에 대한 환경 나열&quot; |
 | Cloud Manager 프로그램 관리 | 파이프라인 및 환경을 포함하여 AEM Cloud Manager 프로그램 나열, 검사 및 삭제 | `cloud-manager-program-management` | AEM(Adobe Experience Manager) | &quot;내 Cloud Manager 프로그램 나열&quot;<br><br>&quot;프로그램 12345 세부 정보 가져오기&quot; |
 | AEM 릴리스 업데이트 일정 관리 | 자동 유지 관리를 위해 매일 자동 중지 시간 및 업데이트가 없는 기간을 구성하고 Adobe의 글로벌 코드 동결 창을 봅니다 | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 방해 금지 시간 기간은 무엇입니까?&quot;<br><br>&quot;12월 20일부터 1월 2일까지를 업데이트 금지 기간으로 예약합니다.&quot; |
@@ -102,7 +103,7 @@ ht-degree: 6%
 
 ## 브랜드 거버넌스
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 지침 및 세그먼트 조회 | 세그먼트, 시장 또는 카테고리별로 세부 브랜드 가이드라인 검색 | enterprise-context | AEM(Adobe Experience Manager) | &quot;이 브랜드에 대한 음성 톤 지침은 무엇입니까?&quot;<br>&quot;상태 범주에 사용되는 클레임 범주를 나열합니다.&quot; |
 | 브랜드 지침에 따라 콘텐츠 평가 | 구성된 브랜드 검사에 대해 게시/작성된 페이지, 텍스트 블록 또는 이미지 평가 | aem-governance | AEM(Adobe Experience Manager) | &quot;SecurBank 지침에 따라 이 랜딩 페이지를 평가하십시오.&quot;<br>&quot;이 태그가 음성 검사를 통과했습니까?&quot; |
@@ -114,7 +115,7 @@ ht-degree: 6%
 
 ## 데이터 인사이트
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [CJA 및 AA 보고서 및 지표 가져오기](data-insights/analytics-chat.md) | 실시간으로 CJA 또는 AA를 쿼리하여 지표, 차원, 세그먼트, 데이터 보기 및 보고서 세트를 가져옵니다 | `cja`, `aa` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;최근 30일 동안의 페이지 보기 수 표시&quot; <br> &quot;마스터 데이터 보기에 상위 세그먼트 나열&quot; |
 | 비교 분석 | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교 | `cja-root-cause-analysis`, `cja`, `aa-root-cause-analysis`, `aa`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;월별 채널별 매출액 비교&quot; <br> &quot;이번 분기에 모바일과 데스크탑 간 전환은 어떻게 보입니까?&quot; |
@@ -130,7 +131,7 @@ ht-degree: 6%
 
 ## 대상자
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [자연어에서 대상 만들기](audiences/create-audience-from-natural-language.md) | 각 단계에서 사용자 승인을 통해 단계별 대상 만들기 오케스트레이션 | `audience-creation-flow` | Real-Time CDP(RTCDP) | &quot;지난 30일 동안 구매한 사용자에 대한 대상 만들기&quot; <br> &quot;캘리포니아에서 고가치 충성도 구성원을 위한 세그먼트 만들기&quot; |
 | PQL 정의 작성 | XDM 속성, 동작 이벤트 또는 기존 대상에서 대상 정의를 조합하고 집계 및 시간 창을 지원합니다. | `segment-definition-assembly` | Real-Time CDP(RTCDP) | &quot;3개 이상의 제품을 보았지만 구매하지 않은 사용자를 위한 PQL 만들기&quot; <br> &quot;내 이벤트 조건에 7일 기간 추가&quot; |
@@ -142,7 +143,7 @@ ht-degree: 6%
 
 ## 여정
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [자연어에서 여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | 텍스트 프롬프트 또는 업로드된 이미지/흐름도에서 AJO의 여정 생성 오케스트레이션 | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;등록 후 전자 메일을 보내고 3일을 기다린 다음 후속 작업을 보내는 시작 여정 만들기&quot; <br> &quot;이 업로드된 순서도 이미지에서 여정 작성&quot; |
 | [여정 충돌 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 활성 여정 간 대상 중복 감지, 충돌 예약 및 중복 제거 문제 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;여정 포기 여정이 다른 장바구니와 충돌합니까?&quot; <br> &quot;내 활성 여정 간 대상 겹침 확인&quot; |
@@ -158,7 +159,7 @@ ht-degree: 6%
 ## Journey Optimizer 컨텐츠 관리
 
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [브랜드 지침 적용](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 캠페인 음성, 쓰기, 이미지, 용어 및 법적 지침을 위한 승인된 브랜드 지침을 찾아 선택하고 적용합니다. | `brand-lookup` | Adobe Journey Optimizer (AJO) | &quot;Acme 브랜드에 대한 작성 및 시각적 지침을 가져옵니다.&quot; |
 | [콘텐츠 준비 확인](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 브랜드 음성, 편집 품질, 참여, 명확성 및 준비성에 대한 캠페인 콘텐츠를 검토합니다. | `check-content-readiness` | Adobe Journey Optimizer (AJO) | &quot;이 이메일 복사본을 보낼 준비가 되셨습니까? 브랜드 음성, 명확성, 접근성 및 규정 준수를 확인합니다.&quot; |
@@ -187,7 +188,7 @@ ht-degree: 6%
 
 ## 충성도
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [충성도 문제를 만들고, 편집하고, 관리합니다](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 유도하는 문제를 만드십시오.&quot; <br> &quot;회원 감소율이 가장 높은 충성도 문제를 보여 주십시오.&quot; |
 | [충성도 프로그램 성과 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 자연어를 사용하여 충성도 포인트, 멤버 계층, 환급 및 매출 지표를 쿼리하고 분석합니다. | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;2026년 8월 중에 충성도 포인트를 몇 개나 부여받았습니까?&quot; <br> &quot;충성도 프로그램의 총 수입을 2026년 8월 중 일별로 분류하여 표시합니다.&quot; |
@@ -202,7 +203,7 @@ ht-degree: 6%
 
 ### 메시지 복사
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [마케팅 개요 캡처](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 캠페인 전략을 캡처하고 크리에이티브 브리프를 진행합니다. | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | &quot;시즌 제품 출시에 대한 마케팅 개요를 만드세요&quot; <br> &quot;이 캠페인 전략을 마케팅 설명서로 바꾸세요&quot; |
 | [Creative Brief 캡처](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 복사 실행 사양을 구조화하고 컨텐츠 계획 행렬을 작성합니다. | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 마케팅 설명서에서 크리에이티브 개요 만들기&quot; <br> &quot;전자 메일 및 SMS 캠페인에 대한 콘텐츠 계획 매트릭스 작성&quot; |
@@ -217,7 +218,7 @@ ht-degree: 6%
 
 ### 이메일 디자인
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [전자 메일 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 플랜은 마케팅 목표 및 브랜드 입력에서 구조 및 스타일을 차단합니다. | `compose-email` | Adobe Journey Optimizer (AJO) | &quot;브랜드 지침을 사용하여 제품 출시에 대한 이메일 레이아웃을 계획합니다.&quot; <br> &quot;영웅 섹션, 제품 하이라이트 및 call to action으로 시작 이메일 구성&quot; |
 | [전자 메일 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 레이아웃 계획, 스크린샷 또는 그림 디자인 링크에서 이메일 HTML을 작성, 조정, 편집 및 정교화합니다. | `build-email` | Adobe Journey Optimizer (AJO) | &quot;이 승인된 레이아웃 계획에서 이메일 HTML 작성&quot; <br> &quot;이 그림 디자인 링크에서 이메일 만들기&quot; |
@@ -237,7 +238,7 @@ ht-degree: 6%
 
 ### 실험 분석 및 전략
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 실험 검색 및 탐색 | 실험 개요, 목록, 카운트, 원시 결과, 통찰력 및 기회 조회 | `experiment-explorer` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | &quot;내 실험 표시&quot; · &quot;활성 테스트 나열&quot; · &quot;얼마나 많은 실험이 실행되고 있습니까?&quot; |
 | 실험 성능 분석 | 포트폴리오 실행, 단일 실험 상태 점검, 경영진 브리프 및 지표를 통한 교차 실험 보고서를 가져올 수 있으며 선택적으로 CJA 데이터로 보강할 수 있습니다. | `experiment-analysis` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | &quot;A/B 테스트의 성과는 어떻습니까?&quot; · &quot;CJA 지표를 사용하여 내 활동에 대한 보고서를 생성합니다.&quot; · &quot;이 테스트가 정상입니까?&quot; |
@@ -246,7 +247,7 @@ ht-degree: 6%
 
 ### Target 활동 및 대상
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 대상 엔티티 찾아보기 | 활동, 오퍼, 대상, mbox, 속성, 작업 공간, AT.js 구성, 응답 토큰 및 개정 내역을 검색, 검사 및 카운트합니다. 활동의 강제 경험 스크린샷도 캡처할 수 있습니다 | `target-browse` | Adobe Target | &quot;내 A/B 테스트 나열&quot; · &quot;이번 달에 시작된 활동은 몇 개입니까?&quot; · &quot;활동 12345 세부 정보 표시&quot; |
 | 활동 성능 분석 | 단일 활동에 대한 전환율, 상승도, 신뢰 구간, 매출 및 노출 수를 가져옵니다. 사실을 말하고 승자를 선언하지 않음 | `target-analyze` | Adobe Target | &quot;활동 X의 성과는 어떻습니까?&quot; · &quot;전환 상승도 표시&quot; · &quot;체크아웃 테스트를 위한 AOV는 무엇입니까?&quot; |
@@ -262,7 +263,7 @@ ht-degree: 6%
 
 ### 추천
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 권장 사항 엔티티 찾아보기 | 권장 사항 기준, 컬렉션, 디자인, 프로모션, 제외, 카탈로그 및 피드를 찾아보고 검사하며, 정리 권고 사항 및 카탈로그 속성 지침을 얻을 수 있습니다. | `target-recs` | Adobe Target | &quot;내 권장 사항 기준 나열&quot; · &quot;어떤 디자인이 있습니까?&quot; · &quot;어떤 recs를 정리할 수 있습니까?&quot; |
 | 권장 사항 문제 진단 | 활동, 기준, 피드, 컬렉션 및 디자인 체인을 추적하여 권장 사항이 비어 있거나 오래되었거나 표시되지 않는 이유를 설명합니다 | `target-recs-diagnose` | Adobe Target | &quot;내 권장 사항이 비어 있는 이유는 무엇입니까?&quot; · &quot;왜 recs 활동이 48시간 동안 &#39;결과가 준비되지 않음&#39;입니까?&quot; |
@@ -270,7 +271,7 @@ ht-degree: 6%
 
 ## 기본 요소
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 제품 지식 및 설명서 | 공식 Adobe 문서에서 방법, 개념, 문제 해결 및 모범 사례 질문에 답변합니다 | `product-knowledge` | 모든 적격 지원 | &quot;스트리밍 대상을 설정하려면 어떻게 해야 합니까?&quot; <br> &quot;일괄 처리와 스트리밍 세분화 간의 차이점은 무엇입니까?&quot; |
 | Experience Platform/Journey Optimizer 엔티티 쿼리 | 플랫폼 엔터티에 대한 질문을 위한 기본 진입점 역할을 합니다. 필요에 따라 KG, 필드 검색 또는 API로 라우팅합니다. | `operational-insights` | 모든 적격 지원 | &quot;보유한 데이터 세트가 몇 개입니까?&quot; <br> &quot;모든 활성 여정 표시&quot; <br> &quot;대상 나열&quot; |
@@ -284,20 +285,20 @@ ht-degree: 6%
 
 ## 데이터 관리
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [최적화 또는 정리할 가치가 있는 데이터 찾기](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | 가장 크거나, 가장 적게 사용되거나, 잊어버린 데이터 세트를 정리 후보 또는 데이터 레이크 보존 정책으로 표시하여 경험 이벤트 데이터를 최적화할 수 있는지 여부를 파악합니다 | `List datasets` | Adobe Experience Platform | &quot;내 데이터가 최적화될 수 있다고 생각합니다.&quot; <br> &quot;내 데이터의 가치를 이해할 수 있도록 도와줍니다.&quot; <br> &quot;내 샌드박스 데이터 최적화&quot; <br> &quot;내 샌드박스 데이터 세트 정리&quot; |
 | [데이터 집합에 대한 사용 조사 및 유지 관리](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | 자세히 살펴볼 가치가 있는 데이터 세트를 찾으면 데이터 세트가 얼마나 활발하게 사용되는지 확인하고, 잠재적인 데이터 레이크 보존 정책의 영향을 모델링하고, 변경 전 검토 및 승인을 통해 준비가 되면 해당 정책을 설정, 변경 또는 제거합니다 | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | &quot;웹 이벤트 데이터 세트가 얼마나 활발하게 사용되고 있습니까?&quot; <br> &quot;이 데이터 세트에 60일 보존 기간을 설정하면 어떤 영향이 있습니까?&quot; |
 
 ## 샌드박스 도구
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | [샌드박스 간 개체 이동](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | 종속성 자동 해결을 통해 샌드박스 간에 스키마, 대상 및 기타 오브젝트 구성을 원활하게 마이그레이션할 수 있습니다. | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;스키마 Luma 충성도 멤버 Platinum을 현재 샌드박스에서 프로덕션 샌드박스로 이동&quot; <br> &quot;미국 Gold 충성도 멤버 대상을 단계로 승격&quot; |
 
 ## 고객 경고
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | 경고 구독 관리 | 자연어 대화를 통해 경고 구독을 보고 관리합니다. | `alerts-subscribe` | Adobe Experience Platform | &quot;어떤 경고를 구독했습니까?&quot;<br><br>&quot;이 경고에 구독하십시오.&quot;<br><br>&quot;이 경고에 대한 내 구독을 제거하십시오.&quot; |
 | 경고 활동 검토 | 지정된 기간 동안 현재 경고 상태 및 내역 경고 활동을 검토합니다. | `alerts-list` | Adobe Experience Platform | &quot;지난 24시간 동안 무슨 일이 있었습니까?&quot;<br><br>&quot;지난 24시간 동안 어떤 경고가 트리거되었습니까?&quot;<br><br>&quot;지난 7일 동안의 활성 경고를 표시합니다.&quot; |
@@ -309,7 +310,7 @@ ht-degree: 6%
 
 ## 워크플로우 및 계획
 
-| 사용 사례 | 설명 | 기술 | 애플리케이션 | 샘플 프롬프트 |
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
 | Planning 작업 영역 관리 | Workfront Planning 작업 공간, 섹션, 레코드 유형 및 필드를 구축하고 발전시켜 프로그램을 구성하고 작업을 추적합니다. | `manage-workfront-planning`, `wf-planning-solution-architect` | Workfront 계획 | &quot;MKG Hub라는 작업 영역을 만들고 지역별 프로그램을 추적할 레코드 종류를 설정하십시오.&quot; <br> &quot;채널 및 지역 전반에 걸쳐 MKG 프로그램을 추적하는 데 필요한 레코드 종류 및 관계를 설정하십시오.&quot; |
 | 계획 레코드 관리 | 작업 공간 내에서 계획 레코드(캠페인, 브리프) 및 해당 필드 값을 생성하고 업데이트합니다. | `manage-workfront-planning` | Workfront 계획 | &quot;목표, 대상 및 주요 메시지를 사용하여 가을 Brand Launch 캠페인에 대한 간략한 만들기&quot; <br> &quot;예산 및 기본 채널을 사용하여 가을 Brand Launch 간략한 업데이트&quot; |

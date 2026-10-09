@@ -1,16 +1,16 @@
 ---
-title: CX Coworker Gateway의 Experience Platform 툴
-description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Experience Platform 툴에 대해 알아봅니다.
+title: CX Coworker 게이트웨이의 Experience Platform 도구
+description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Experience Platform 도구에 대해 알아봅니다.
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
-# Adobe CX Coworker Gateway의 Adobe Experience Platform 툴 {#aep-mcp}
+# Adobe CX Coworker Gateway의 Adobe Experience Platform 도구 {#aep-mcp}
 
-Adobe Experience Platform 제품 도구를 사용하여 MCP 호환 클라이언트에서 스키마, 데이터 세트, 데이터 거버넌스 구성, 쿼리 서비스 리소스 및 감사 이벤트를 검사할 수 있습니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Experience Platform 권한이 있는 경우 [Adobe CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
+Adobe Experience Platform 제품 도구를 사용하여 MCP 호환 클라이언트에서 스키마, 데이터 세트, 데이터 거버넌스 구성, 쿼리 서비스 리소스 및 감사 이벤트를 검사할 수 있습니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Experience Platform 권한이 있는 경우 [Adobe CX Coworker 게이트웨이](overview.md)를 통해 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -57,7 +57,7 @@ Experience Platform 서비스 전반에 걸쳐 사용자 활동에 대한 타임
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `action` | 아니오 | 작업 유형별로 필터링합니다. 공통 값(OR의 경우 쉼표로 구분): `Create`, `Delete`, `Update`, `Enable`, `Disable` |
 | `asset_type` | 아니오 | 자산 유형별로 필터링합니다. `Dataset`, `Schema`, `Segment`, `Destination`, `Source Data Flow`, `Merge Policy`, `Identity Namespace`, `Identity Graph`, `Sandbox`, `Role`, `Query`, `Scheduled Query`, `Datastream`, `Computed Attribute`, `Field Group`, `Class`, `Data Types`, `Account`, `Product Profile`, `Query Template`, `Work Order`, `Audit Logs`, `Access Control Policy` 중 하나여야 합니다. |
@@ -81,7 +81,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `entity_type` | 예 | `dataset` 또는 `batch` |
 | `operation` | 예 | `list`, `get`, `list_last`, `list_files`, `get_meta_files`. 유효한 조합: 데이터 세트 → 목록, 가져오기, 5개 모두→ 일괄 처리 |
@@ -112,7 +112,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `query` | 예 | 검색할 비즈니스 클래스 이름 또는 개체 유형입니다. 부분 토큰 일치(`dat`개가 `dataset`, `data_type`개 등)를 지원합니다. 여러 클래스를 한 번에 검색하려면 쉼표로 구분된 여러 용어를 전달하십시오(예: `dataset, schema`). |
 | `n` | 아니오 | 반환할 일치하는 최대 결과 수(기본값 5, 최소 1) |
@@ -128,7 +128,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `entity_type` | 예 | `failed_batch` — 실패한 수집 배치의 파일 나열 |
 | `operation` | 예 | `list_failed` — 유일하게 지원되는 작업 |
@@ -149,7 +149,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `entity_type` | 예 | `dataset` 또는 `batch` |
 | `operation` | 예 | `get`, `get_size`, `list_failed`. `list_failed`은(는) `batch` 엔터티 형식만 지원합니다. |
@@ -170,7 +170,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `entity_type` | 예 | `label`, `policy` 또는 `marketing_action` |
 | `operation` | 예 | `list`, `get`, `list_enabled`(정책만), `evaluate`(marketing_action만). `list_enabled`에는 범위가 필요하지 않습니다. |
@@ -195,7 +195,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `entity_type` | 예 | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | 예 | `list`, `get`, `get_connection_params`, `list_by_u...` |
@@ -211,7 +211,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `metrics` | 예 | 지표 사양의 배열입니다. 각각 `name`(정규화된 지표 이름), `aggregator`(`sum`, `avg`, `min`, `max`, `count`, `last`, `p50`, `p95`, `p99`, 히스토그램 변형 또는 `absent`), 선택적 `filters` 및 선택적 `downsample`을(를) 포함합니다. |
 | `start` | 예 | 창 시작, ISO 8601(예: `2026-01-15T00:00:00.000Z`). `end`보다 이전이어야 합니다. 최대 기간: 31일 |
@@ -232,7 +232,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 **매개 변수:**
 
-| 매개 변수 | 필수 여부 | 설명 |
+| 매개 변수 | 필수 | 설명 |
 | --- | --- | --- |
 | `metrics` | 예 | 위반 사양 배열. 여기에는 `name`(정규화된 지표 이름)과 선택적 `filters`이(가) 포함됩니다. |
 | `start` | 예 | 창 시작, ISO 8601. `end`보다 이전이어야 합니다. 최대 기간: 31일 |
@@ -255,7 +255,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 >[!NOTE]
 >
->이 도구는 평가 결과만 검색합니다. 플래그가 지정된 문제를 수정하려면 [!DNL Experience Platform] UI의 상태 검사 세부 정보 패널을 사용하십시오. [상태 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks)을 참조하세요. 지원되는 상태 검사에 대한 자동 수정 지침은 [CX Coworker 채팅](../coworker/chat/overview.md)에서 기술로 사용할 수 있습니다.
+>이 도구는 평가 결과만 검색합니다. 플래그가 지정된 문제를 수정하려면 [!DNL Experience Platform] UI의 상태 검사 세부 정보 패널을 사용하십시오. [상태 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks)을 참조하세요. 지원되는 상태 검사에 대한 자동 수정 지침은 [CX Coworker 채팅](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)에서 기술로 사용할 수 있습니다.
 
 **기능:** 현재 샌드박스에 대한 모든 상태 검사 결과를 나열하고 명명된 검사 결과를 가져옵니다.
 
