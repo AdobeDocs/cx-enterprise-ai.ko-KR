@@ -4,10 +4,7 @@ description: Adobe CX Enterprise Coworker Chat을 사용하여 Customer Journey 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 4%
@@ -34,7 +31,7 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터와 함께 Coworker C
 * MCP 서버
 * 메모리
 * 플러그인
-* 기술
+* 스킬
 * 기타
 
 자세한 내용은 [동료 채팅 UI 안내서](/help/coworker/chat/ui-guide.md)를 참조하십시오.

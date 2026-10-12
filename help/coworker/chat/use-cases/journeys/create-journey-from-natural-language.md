@@ -11,10 +11,7 @@ jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 1%
@@ -26,7 +23,7 @@ ht-degree: 1%
  
 초기 설정 프로세스를 자동화함으로써, 팀은 처음부터 여정을 구축하는 데 더 적은 시간을 소비하고 고객 경험과 비즈니스 결과를 개선하는 데 더 많은 시간을 할애할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496881/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
 ## 참조 -
 

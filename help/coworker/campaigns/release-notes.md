@@ -1,13 +1,10 @@
 ---
-description: Adobe CX Enterprise Coworker Campaigns 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
-title: CX Enterprise Coworker Campaigns 릴리스 정보
+description: Adobe CX Enterprise Coworker 캠페인 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
+title: CX Enterprise Coworker Campaigns 릴리스 노트
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '3590'
 ht-degree: 0%

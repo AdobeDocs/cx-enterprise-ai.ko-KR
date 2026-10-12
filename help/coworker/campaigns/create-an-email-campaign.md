@@ -1,13 +1,10 @@
 ---
-description: 프롬프트 작성에서 캠페인 검토 및 내보내기에 이르기까지 Adobe CX Enterprise Coworker 캠페인에서 이메일 캠페인 생성에 대한 단계별 안내서입니다.
+description: 프롬프트 작성에서 캠페인 검토 및 내보내기에 이르기까지 Adobe CX Enterprise Coworker 캠페인에서 이메일 캠페인을 생성하는 방법에 대한 단계별 안내서입니다.
 title: 이메일 캠페인 만들기
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -24,7 +21,7 @@ ht-degree: 0%
 
 다음을 수행해야 합니다.
 
-* 활성 Adobe CX Enterprise Coworker 캠페인 계정([여기에서 등록](https://coworker-campaigns.experience.adobe.com/){target="_blank"} 아직 등록하지 않은 경우).
+* 활성 Adobe CX Enterprise Coworker Campaign 계정([여기에서 등록](https://coworker-campaigns.experience.adobe.com/){target="_blank"} 아직 등록하지 않은 경우).
 
 * 내 브랜드가 **내 제품** > **브랜드**&#x200B;에 추가되었습니다.
 
