@@ -4,10 +4,7 @@ description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 311ee225436219331d7561ec1aeb9a87311649e4
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 15%

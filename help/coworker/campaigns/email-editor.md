@@ -3,15 +3,12 @@ description: 설명.
 title: 이메일 편집기 이해
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # 이메일 편집기 이해 {#email-editor}
 
 이메일 편집기를 사용하면 캠페인 보드에서 직접 AI가 생성한 이메일을 개선할 수 있습니다. 제목 줄 및 사전 헤더를 편집하거나, 텍스트 및 이미지를 인라인으로 포맷하거나, 다른 템플릿에서 교체합니다.

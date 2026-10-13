@@ -4,7 +4,7 @@ description: 사용자가 Journey Agent의 자연어 인터페이스를 사용�
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+TQID: 'https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig'
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
     internal-label: Email
+  - id: d2971708-e780-44bb-9e2a-72f139796afd
+    internal-label: Customer
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
@@ -48,7 +50,7 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 9%

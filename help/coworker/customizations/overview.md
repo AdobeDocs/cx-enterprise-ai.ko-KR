@@ -4,10 +4,7 @@ description: 스킬, 통합, 플러그인 및 메모리를 포함한 Adobe CX En
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 28%

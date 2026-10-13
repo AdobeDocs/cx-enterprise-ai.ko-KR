@@ -5,10 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 4%
@@ -191,7 +188,7 @@ Coworker Chat 은 아티팩트 아래에 그 결과가 무엇을 의미하는지
 
 구성은 동료 채팅이 수행할 수 있는 작업을 사용자 지정하는 곳입니다. 여기에는 스킬, MCP 서버, 마켓플레이스, 플러그인, 메모리 등 5개의 탭이 있다.
 
-### 기술
+### 스킬
 
 스킬은 관련 있을 때 동료 채팅이 자동으로 호출하거나, 채팅에서 / 를 입력하여 트리거할 수 있는 전문 기능입니다. 스킬 탭에는 설치된 모든 스킬이 나열되며 더 추가할 수 있습니다.
 
