@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
+source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 2%
+source-wordcount: '809'
+ht-degree: 4%
 ---
 # CX Enterprise 애플리케이션의 AI
 
-이 안내서에서는 Adobe CX Enterprise의 AI 기능인 생성 AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator 및 MCP를 다룹니다.
+이 안내서에서는 Adobe CX Enterprise의 AI 기능인 생성 AI, CX Enterprise Coworker, AI Assistant 및 Agent Orchestrator을 다룹니다.
 
 ## AI 기능 개요
 
@@ -88,21 +88,23 @@ ht-degree: 2%
 
 에이전트, 각 에이전트가 지원하는 응용 프로그램 및 자격 요구 사항에 대한 전체 목록은 [CX Enterprise의 Agentic AI](./overview/agentic-ai.md)를 참조하십시오.
 
+<!--
 ## MCP
 
-[Adobe CX Coworker 게이트웨이](./mcp/overview.md)는 CX Enterprise의 MCP(Unified Model Context Protocol) 종단점입니다. 이 서비스는 [!DNL Claude], [!DNL ChatGPT] 및 [!DNL Cursor]과(와) 같은 MCP 호환 클라이언트에게 조직에서 사용할 수 있는 제품 도구에 대한 단일 관리 연결을 제공합니다.
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
-- [Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
-- [Experience Platform 도구](./mcp/aep-mcp.md)
-- [Journey Optimizer 도구](./mcp/ajo-mcp.md)
-- [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
-- [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-- [!DNL Workfront] 도구, [Workfront MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)에 문서화되어 있음
-- [!DNL Target] 도구, [Target MCP 서버 안내서](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)에 문서화되어 있습니다.
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)
 
-CX Coworker Gateway를 처음 사용하십니까? 연결하려면 [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md) 및 [CX Coworker 게이트웨이 설치](./mcp/install.md)를 참조하십시오. 연결되면 제품 도구를 호출하기 전에 [세션 컨텍스트 도구](./mcp/context-tools.md)를 사용하여 활성 조직, 샌드박스 및 데이터 보기를 설정합니다.
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-이러한 도구를 사용하기 전에 액세스 요구 사항 및 개인 정보 보호 및 보안 고려 사항에 대해서는 [시작하기 전에](./overview/overview-ai-cxe.md#before-you-begin)를 참조하십시오.
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## 모범 사례
 
