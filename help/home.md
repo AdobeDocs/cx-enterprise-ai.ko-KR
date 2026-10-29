@@ -4,7 +4,7 @@ description: CX Enterprise 애플리케이션이 생성 AI(GenAI), CX Enterprise
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 4%

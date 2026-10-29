@@ -20,8 +20,8 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+    internal-label: Coworker
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%

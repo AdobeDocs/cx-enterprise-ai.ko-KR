@@ -1,11 +1,11 @@
 ---
-title: CX Enterprise의 AI 정보
+title: CX Enterprise의 AI 소개
 description: CX Enterprise 애플리케이션에서 생성 및 agentic AI를 사용할 수 있는 위치를 알아보고 시작하기 전에 액세스, 개인 정보 및 보안 요구 사항을 검토하십시오.
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
@@ -16,23 +16,23 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 3%
+ht-degree: 5%
 ---
-# CX Enterprise의 AI 정보
+# CX Enterprise의 AI 소개
 
-Adobe CX 엔터프라이즈 애플리케이션은 두 가지 상호 보완적인 방식으로 AI를 사용합니다. 즉, 콘텐츠를 직접 만들거나 답변을 얻으라는 메시지를 표시하는 **생성 AI**&#x200B;와 사용자를 대신하여 여러 단계 작업을 계획하고 수행하는 **아젠틱 AI**&#x200B;입니다. 다음 항목에서는 CX Enterprise에서 각 유형의 AI를 사용할 수 있는 위치를 광범위하게 설명합니다.
+Adobe CX Enterprise 애플리케이션은 두 가지 상호 보완적인 방식으로 AI를 사용합니다. 콘텐츠를 직접 만들거나 답변을 얻으라는 메시지를 보내는 **생성 AI** 및 감독을 통해 사용자를 대신하여 다단계 작업을 계획하고 수행하는 **아젠틱 AI**. 다음 항목에서는 CX Enterprise에서 각 종류의 AI를 사용할 수 있는 위치를 광범위하게 설명합니다.
 
 ## 이 섹션에서 다루는 내용
 
-- **[생성 AI 정보](./generative-ai.md)** CX 엔터프라이즈 애플리케이션에서 현재 생성 AI 및 AI Assistant 기능을 제공하는 카탈로그로, 이를 통해 제품 포트폴리오에서 genAI의 범위를 한눈에 확인할 수 있습니다.
-- **[에이전트 AI 정보](./agentic-ai.md)**&#x200B;에서는 Experience Platform 에이전트와 Agent Orchestrator의 작동 방식, 기존 CX 엔터프라이즈 응용 프로그램과 AI 우선 응용 프로그램의 에이전트 간의 차이점 및 각 에이전트에서 사용 가능한 에이전트를 설명합니다.
+- **[생성 AI 정보](./generative-ai.md)** CX Enterprise 애플리케이션에서 현재 생성 AI 및 AI 도우미 기능을 제공하는 카탈로그로, 제품 포트폴리오에서 genAI의 범위를 한 눈에 볼 수 있습니다.
+- **[에이전트 AI 정보](./agentic-ai.md)**&#x200B;에서는 Experience Platform 에이전트와 Agent Orchestrator의 작동 방식, 기존 CX Enterprise 응용 프로그램의 에이전트와 AI 우선 응용 프로그램의 차이점 및 각 응용 프로그램에서 사용할 수 있는 에이전트를 설명합니다.
 - **[Agentic AI 모니터링](./monitoring.md)**&#x200B;은(는) 조직 전반에서 에이전트 채택, 사용 및 피드백을 추적하는 데 사용하는 Center of Excellence 팀과 기타 거버넌스 이해 당사자를 다룹니다.
 - **[AI 크레딧 사용량](./ai-credit-consumption.md)**&#x200B;에서는 에이전트 작업 및 동료 입력이 AI 크레딧을 사용하는 방법을 설명하며, 에이전트 및 작업 유형별 예상 비율을 설명합니다. 따라서 사용을 계획하고 예산을 편성할 수 있습니다.
 - **[생성 AI 콘텐츠 투명도](../content-transparency.md)**&#x200B;는 Adobe이 GenAI가 생성한 콘텐츠 및 GenAI가 편집한 콘텐츠에 C2PA 메타데이터를 자동으로 첨부하는 방법을 설명하여 조직의 공개 의무를 이해할 수 있도록 지원합니다.
-- **[CX 엔터프라이즈 에이전트 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)**&#x200B;는 CX 엔터프라이즈 에이전트를 확장하는 추가 에이전트 기술 및 도구에 대한 비디오 튜토리얼입니다.
+- **[CX Enterprise 에이전트 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)**&#x200B;은(는) CX Enterprise 에이전트를 확장하는 추가 에이전트 기술 및 도구에 대한 비디오 튜토리얼입니다.
 
 ## 시작하기에 앞서 {#before-you-begin}
 
