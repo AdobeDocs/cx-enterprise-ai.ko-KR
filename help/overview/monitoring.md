@@ -22,21 +22,24 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: aba8260fc0aa8e2df892a985704ae56d4fc62b9a
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1036'
 ht-degree: 1%
-
 ---
-
 # Agentic AI 모니터링 대시보드
 
 Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) 구성원 및 기타 거버넌스 관련자들에게 Agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>이 대시보드의 지표가 [!DNL Coworker] 사용을 반영하지 않습니다. [!DNL Coworker] 모니터링 대시보드가 개발 중이며 사용 가능한 경우 문서화됩니다.
 
 **가용성**
 
 * 현재 하나 이상의 Experience Platform 기본 애플리케이션(Customer Journey Analytics, Journey Optimizer 또는 Real-Time CDP)에 대한 라이센스가 있는 모든 계정은 이 대시보드에 액세스할 수 있습니다
 * Experimentation Accelerator, LLM Optimizer 및 Sites Optimizer과 같은 [AI 기반 응용 프로그램](agentic-ai.md#ai-first-cx-enterprise-applications)의 사용 및 채택 지표는 이 대시보드의 범위에 포함되지 않습니다.
+* [!DNL Coworker] 대시보드가 곧 제공됩니다.
 
 [!UICONTROL 모니터링] 대시보드에는 다음 보기가 포함되어 있습니다.
 
@@ -53,7 +56,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
 
 ## 대시보드 권한 활성화 {#permissions}
 
-승인된 각 사용자에 대한 제품 프로필 또는 역할을 업데이트하여 [!DNL Adobe Experience Platform]의 대시보드 액세스 권한을 부여합니다. [!UICONTROL 모니터링] 기능은 권한이 활성화된 후에 CX 엔터프라이즈 홈 페이지의 사용자에게 표시됩니다.
+승인된 각 사용자에 대한 제품 프로필 또는 역할을 업데이트하여 [!DNL Adobe Experience Platform]의 대시보드 액세스 권한을 부여합니다. [!UICONTROL 모니터링] 기능은 사용 권한이 활성화된 후 CX Enterprise 홈 페이지의 사용자에게 표시됩니다.
 
 >[!IMPORTANT]
 >
@@ -89,7 +92,7 @@ Agentic AI [!UICONTROL 모니터링] 대시보드는 COE(Center of Excellence) �
    * **[!UICONTROL 사용자 지정 대시보드 보기]**
    * **[!UICONTROL 표준 대시보드 관리]**
 
-1. 대시보드를 보려면 CX 엔터프라이즈 홈으로 돌아간 다음 **[!UICONTROL 모니터링]**&#x200B;을 클릭합니다.
+1. 대시보드를 보려면 CX Enterprise 홈으로 돌아가서 **[!UICONTROL 모니터링]**&#x200B;을 클릭하세요.
 
    ![에이전트 AI 모니터링 대시보드](assets/monitoring.png)
 
@@ -161,6 +164,6 @@ AI 크레딧 대시보드는 조직에서 [!DNL Experience Platform Agents]을(�
 ## 이 항목에 대한 추가 도움말
 
 * [!DNL Experience Platform]의 [라이선스 사용 대시보드](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)
-* [Adobe CX Enterprise의 Agentic AI](agentic-ai.md)
+* [Adobe CX Enterprise의 아젠틱 AI](agentic-ai.md)
 * [에이전트 작업 및 AI 신용 소비](ai-credit-consumption.md)
 * [라이선스 사용 대시보드](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)&#x200B;(Experience Platform)
