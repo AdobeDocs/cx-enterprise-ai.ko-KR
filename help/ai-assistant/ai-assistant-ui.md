@@ -17,18 +17,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+source-git-commit: 88ac5904cbf810a32d3cfde06c8ab18ae5f53746
 workflow-type: tm+mt
-source-wordcount: 2162
+source-wordcount: '2219'
 ht-degree: 2%
-
 ---
-
 # AI 어시스턴트
+
+이 문서는 AI Assistant(Next-Gen)에 적용됩니다. AI Assistant(기존)에 대한 자세한 내용은 Adobe Experience Platform 설명서의 [AI Assistant UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->이 문서는 AI Assistant(Next-Gen)에 적용됩니다. AI Assistant(기존)에 대한 자세한 내용은 Adobe Experience Platform 설명서의 [AI Assistant UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)를 참조하십시오.
+>Adobe CX Enterprise Coworker은 사용자가 더 많은 작업을 더 빠르고 신속하게 수행할 수 있도록 구축된 AI Assistant의 보다 강력하고 강력한 진화입니다. Coworker는 현재 팀이 AI Assistant를 활용하고 있는 모든 것을 가져와 확장함으로써 일상적인 작업을 자동화하고 생산성을 향상시키며 보다 스마트하고 통찰력 있는 의사 결정을 내릴 수 있도록 지원합니다. [자세히 알아보기](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)
 
 AI Assistant(기존) 및 AI Assistant(차세대) 비교는 다음 표를 참조하십시오.
 
@@ -37,7 +37,7 @@ AI Assistant(기존) 및 AI Assistant(차세대) 비교는 다음 표를 참조�
 | 사용자 경험 | AI Assistant(기존)는 오른쪽 레일 패널에서만 사용할 수 있습니다. | AI Assistant(Next-Gen)는 오른쪽 레일 패널과 몰입형 전체 화면 경험 모두에서 사용할 수 있습니다. |
 | 기능 범위 | 제품 지식과 운영 통찰력 모두에 AI Assistant(기존)를 사용할 수 있습니다. | 제품 지식, 운영 통찰력은 물론 고급 에이전트 기술 및 여러 단계의 작업 실행에 AI Assistant(차세대)를 사용할 수 있습니다. |
 | 플랫폼 아키텍처 | AI Assistant(기존)는 Agent Orchestrator 스택에 빌드되지 않습니다. | AI Assistant(Next-Gen)는 [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator)을 통해 작동하며, 여러 기능에 대한 확장성 및 고급 조정을 지원합니다. |
-| 애플리케이션 범위 | AI Assistant(기존)는 애플리케이션별 구현입니다. | 모든 Adobe CX 엔터프라이즈 애플리케이션에서 통합 AI Assistant 환경을 구축하려면 AI Assistant(Next-Gen)를 사용할 수 있습니다. |
+| 애플리케이션 범위 | AI Assistant(기존)는 애플리케이션별 구현입니다. | 모든 Adobe CX Enterprise 애플리케이션에서 통합 AI Assistant 경험을 위해 AI Assistant(Next-Gen)를 사용할 수 있습니다. |
 | 액세스 및 권한 모델 | 개별 제품 경계에 맞게 조정된 애플리케이션 범위 액세스 모델. | 모든 사용자는 AI Assistant(차세대) 및 관련 Experience Platform 에이전트에 액세스할 수 있습니다. **참고**: <ul><li>**Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을(를) 통해 AI Assistant(Next-Gen)에 액세스할 수 있는 권한을 부여해야 합니다.</li><li>**Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control?lang=en)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다. |
 
 AI Assistant는 Adobe Experience Platform 기반 애플리케이션에서 생산성을 높이고 작업을 재정의할 수 있는 지능형 대화식 생성 AI 도구입니다. AI Assistant를 사용하여 Adobe Experience Platform 에이전트 및 기타 AI 기능에 액세스할 수 있습니다.
@@ -52,7 +52,7 @@ AI Assistant를 사용하는 방법을 알려면 이 안내서를 참조하십�
 
 AI Assistant에 액세스하는 방법에는 여러 가지가 있습니다.
 
-CX 엔터프라이즈 홈 인터페이스의 왼쪽 탐색 메뉴에서 **[!UICONTROL AI Assistant]**&#x200B;를 선택하여 AI Assistant의 전체 화면 보기를 시작합니다.
+CX Enterprise 홈 인터페이스의 왼쪽 탐색에서 **[!UICONTROL AI Assistant]**&#x200B;을(를) 선택하여 AI Assistant의 전체 화면 보기를 시작합니다.
 
 +++보려면 선택
 
@@ -60,7 +60,7 @@ CX 엔터프라이즈 홈 인터페이스의 왼쪽 탐색 메뉴에서 **[!UICO
 
 +++
 
-Experience Platform, Adobe Journey Optimizer 및 Customer Journey Analytics과 같은 CX 엔터프라이즈 애플리케이션의 홈페이지에서 AI Assistant를 시작할 수도 있습니다. 제품 홈 페이지로 이동한 다음 상단 헤더에서 **AI Assistant 아이콘**&#x200B;을 선택하여 오른쪽 레일에서 AI Assistant 채팅 패널을 시작합니다.
+Experience Platform, Adobe Journey Optimizer 및 Customer Journey Analytics과 같은 CX Enterprise 애플리케이션의 홈페이지에서 AI Assistant를 실행할 수도 있습니다. 제품 홈 페이지로 이동한 다음 상단 헤더에서 **AI Assistant 아이콘**&#x200B;을 선택하여 오른쪽 레일에서 AI Assistant 채팅 패널을 시작합니다.
 
 +++보려면 선택
 
@@ -224,7 +224,7 @@ AI Assistant의 컨텍스트 설정 기능을 사용하여 AI Assistant가 쿼�
 
 | 정보 소스 | 설명 | 예시 |
 | --- | --- | --- |
-| 앱 | 쿼리와 관련된 CX 엔터프라이즈 애플리케이션입니다. | Experience Platform, Journey Optimizer, Customer Journey Analytics 등 |
+| 앱 | 쿼리와 관련된 CX Enterprise 애플리케이션. | Experience Platform, Journey Optimizer, Customer Journey Analytics 등 |
 | 샌드박스 | 쿼리와 관련된 데이터 세트 또는 정보가 포함된 샌드박스. | 프로덕션(VA7), 개발 |
 | 데이터 보기 | Customer Journey Analytics에서 AI Assistant를 사용할 때 데이터 보기 설정은 Data Insights Agent이 다음을 이해하는 데 도움이 됩니다. <ul><li>쿼리할 데이터 세트</li><li>사용 가능한 데이터 구성 요소</li><li>데이터에 대한 응답을 구성하는 방법</li><li>Analysis Workspace에서 만들 시각화</li></ul> | |
 
