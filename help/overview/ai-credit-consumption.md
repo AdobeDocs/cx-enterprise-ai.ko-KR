@@ -38,7 +38,7 @@ _AI 크레딧_&#x200B;은(는) 작업 또는 작업 실행을 수량화하는 �
 
 | 기능 | 설명 | 지원되는 애플리케이션 | AI 크레딧 |
 | --- | --- | --- | --- |
-| [브랜드 인식 메타데이터](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 온-브랜드 사용자 지정 메타데이터 생성 | Adobe Experience Manager [!DNL Assets] | AI 크레딧 1개(메타데이터 세대 10개당) |
+| [브랜드 인식 메타데이터](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 온-브랜드 사용자 지정 메타데이터 생성 | Adobe Experience Manager [!DNL Assets] | AI 크레딧 1개(메타데이터 세대 10개당) |
 | Digital Rights Management | 사용 권한 추출 및 관리 | Adobe Experience Manager [!DNL Assets] | AI 크레딧 6개(처리된 문서당) |
 
 ### AEP 에이전트 크레딧 비율
@@ -83,4 +83,4 @@ AI 크레딧 사용은 실행된 작업의 복잡성과 가치에 따라 달라�
 
 * [CX Enterprise의 GenAI](generative-ai.md)
 * [CX Enterprise의 에이전트 AI](agentic-ai.md)
-* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents 사용 바인딩된 체험판](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
