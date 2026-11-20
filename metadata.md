@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform,CX Enterprise
+solution: Experience Platform,Real-Time Customer Data Platform,CX Enterprise
 usetq: true
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -21,7 +21,7 @@ product_v2:
     internal-label: Experience Manager
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
+source-git-commit: e37384909f970135bf01575808b27d0283b6e951
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%

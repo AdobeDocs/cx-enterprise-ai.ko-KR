@@ -3,12 +3,11 @@ audience: user
 user-guide-title: CX Enterprise의 AI
 user-guide-description: 실용적인 설명서, 구현 지침 및 참조 자료를 통해 AI Assistant, Coworker, 에이전트 및 MCP를 구축, 구성, 통합 및 확장하는 방법을 알아봅니다.
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
-solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: e37384909f970135bf01575808b27d0283b6e951
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '221'
 ht-degree: 20%
 ---
 
